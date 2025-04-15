@@ -5,7 +5,7 @@ from: Lamorlaye
 to: Chantilly
 description: La ligne 1 des voies de l'Oise relie Lamorlaye à Chantilly
 trafic: inconnu vélos/jour
-cover: https://cyclopolisoise.netlify.app/voies-oise/images/Lamorlaye-Chantilly.jpg
+cover: https://cyclopolisoise.netlify.app/voies-oise/lamorlaye-chantilly.jpg
 ---
 
 ## Les tronçons (du Nord au Sud)
