@@ -9,7 +9,7 @@
         "name": "Liaison Lamorlaye Chantilly",
         "status": "done",
         "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#vaulx-en-velin-gabriel-péri-à-la-doua-croix-luizet",
+        "link": "/voie-oise-1#lamorlaye-chantilly-entree",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -105,6 +105,61 @@
           ]
         ]
       }
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chantilly-rdp-sylvie",
+        "line": 1,
+        "name": "Chantilly-Rond Point de Sylvie",
+        "status": "scheduled",
+        "type": "bidirectionnelle",
+        "link": "/voie-oise-1#chantilly-rdp-sylvie",
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.458490690433649,
+            49.18240319174029
+          ],
+          [
+            2.4589724397674217,
+            49.183113953988254
+          ],
+          [
+            2.4596055960360275,
+            49.18392367069163
+          ],
+          [
+            2.4597982957696445,
+            49.184130596167904
+          ],
+          [
+            2.460059816836747,
+            49.18430153395215
+          ],
+          [
+            2.4604176877709847,
+            49.18456243785329
+          ],
+          [
+            2.4606379160376832,
+            49.18484133360491
+          ],
+          [
+            2.4605966232381036,
+            49.18547109242448
+          ],
+          [
+            2.4606929724892836,
+            49.18589862468065
+          ],
+          [
+            2.460885672222929,
+            49.185952603169
+          ]
+        ]
     }
   ]
   }

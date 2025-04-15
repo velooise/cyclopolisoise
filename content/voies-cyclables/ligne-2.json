@@ -8,8 +8,8 @@
         "line": 2,
         "name": "La Chapelle-en-Serval - Fosses",
         "status": "wip",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-2#fontaines-sur-saône-à-lîle-barbe",
+        "type": "voie-verte",
+        "link": "/voie-oise-3#lces-fosses",
         "quality": "satisfactory"
       },
       "geometry": {
