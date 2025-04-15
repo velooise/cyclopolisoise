@@ -4,152 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Canal de Jonage",
+        "id": "lamorlaye-chantilly",
         "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/croix-luizet.jpeg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.893801991148365, 45.78325660243033]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Avenue Einstein (Villeurbanne)",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/vaulx-en-velin.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.88567054271698, 45.784153953910014]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Boulevard du 11 Novembre",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/bd-11-novembre.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.862077627597955, 45.77940680177315]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Avenue de Grande-Bretagne",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/av-grande-bretagne.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.842989394523215, 45.77551430270552]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Quai Augagneur",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/VL1_Augagneur.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.8407715, 45.7573504]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Quai Claude Bernard",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/VL1_ClaudeBernard.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.8356748, 45.7502784]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Quai Claude Bernard (Lyon 7)",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/quai-claude-bernard-2.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.835268799786462, 45.74996686975683]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Avenue Tony Garnier",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/av-tony-garnier.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.824461549207683, 45.72733739783587]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Boulevard Sampaix",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/bvd-sampaix.png"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.844865239014865, 45.71314321772542]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Rue Charles Plasse",
-        "line": 1,
-        "imgUrl": "https://cyclopolis.lavilleavelo.org/vl1/rue-charles-plasse.jpeg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.852309922091081, 45.7093372766968]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "danger",
-        "name": "Station T10 - Quatre Chemins",
-        "description": "Espace étroit très fréquenté avec des commerces",
-        "danger": "Risque de gêne fréquente entre piétons et cyclistes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [4.854443, 45.708644]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "PeriCanal-commun",
-        "line": 1,
-        "name": "Vaulx-en-Velin Ouest",
+        "name": "Liaison Lamorlaye Chantilly",
         "status": "planned",
         "type": "bidirectionnelle",
         "link": "/voie-lyonnaise-1#vaulx-en-velin-gabriel-péri-à-la-doua-croix-luizet",
@@ -158,718 +15,96 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [4.894448531281512, 45.78333945223204],
-          [4.895014014244481, 45.78364453225464],
-          [4.896476172851237, 45.78405114484224],
-          [4.896980903356578, 45.78405651186962],
-          [4.8974095353130735, 45.783922574150864],
-          [4.897800881777783, 45.78369514980449],
-          [4.898232200622033, 45.78345530599199],
-          [4.899009651586653, 45.78298280637114],
-          [4.899357022261512, 45.781925811647966],
-          [4.899848093469416, 45.78017603053269],
-          [4.899984582584807, 45.780044513841716],
-          [4.900169326180844, 45.77998836620864],
-          [4.90144678139194, 45.7799919673331],
-          [4.901834562091352, 45.779991141714305],
-          [4.902106203670883, 45.77997469155591],
-          [4.9056280623638315, 45.78018782514292],
-          [4.9060952362217165, 45.780264420197966],
-          [4.906686085763653, 45.78054062987982],
-          [4.90702548958231, 45.780615851910056],
-          [4.9076721683965445, 45.780687125327205],
-          [4.908014924090594, 45.7806856054259],
-          [4.908261885393458, 45.78067402166687],
-          [4.908367284662752, 45.78059034370054],
-          [4.908692069607753, 45.780471233817735],
-          [4.909467850663077, 45.78023930800501],
-          [4.910120125316297, 45.77995610411409],
-          [4.91082780065355, 45.7795659423725],
-          [4.912053808808338, 45.779982051466476],
-          [4.913911978794175, 45.780578216259016],
-          [4.914876977891964, 45.77901650743905],
-          [4.9151805474296, 45.77880014382043],
-          [4.916418096752352, 45.77838787253418]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "CroixLuizet-commun",
-        "line": 1,
-        "name": "Croix Luizet",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#vaulx-en-velin-gabriel-péri-à-la-doua-croix-luizet",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.883788881098923, 45.783762268603745],
-          [4.888932725403208, 45.78494009339719],
-          [4.889159377824143, 45.78492911730571],
-          [4.8893353534989785, 45.78483862704073],
-          [4.890404584508644, 45.78293769902279],
-          [4.890525212130854, 45.78272799679101],
-          [4.890865245811284, 45.78254806780768],
-          [4.891210993795738, 45.782521353874785],
-          [4.892082889095519, 45.782542811397576],
-          [4.893128578324536, 45.782659518356525],
-          [4.89381665708018, 45.78289653811697],
-          [4.894448531281512, 45.78333945223204]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EinsteinE-commun",
-        "line": 1,
-        "name": "Einstein Est",
-        "status": "postponed",
-        "type": "aucun",
-        "link": "/voie-lyonnaise-1#sud-du-campus-de-la-doua",
-        "quality": "unsatisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.879090196028102, 45.782714075198534],
-          [4.883788881098923, 45.783762268603745]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EinsteinE-commun",
-        "line": 1,
-        "name": "Variante Jean Capelle Est",
-        "status": "variante",
-        "text": "variante temporaire",
-        "type": "bandes-cyclables",
-        "link": "/voie-lyonnaise-1#sud-du-campus-de-la-doua",
-        "quality": "unsatisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.87922082232771, 45.78288539135124],
-          [4.880563373515827, 45.78317094959934],
-          [4.882679387118259, 45.78363917766046],
-          [4.883614216726187, 45.783845993887525],
-          [4.883788881098923, 45.783762268603745]
-        ]
-      }
-    },    
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EinsteinI-commun",
-        "line": 1,
-        "name": "Einstein INSA",
-        "status": "postponed",
-        "type": "aucun",
-        "link": "/voie-lyonnaise-1#sud-du-campus-de-la-doua",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.879090196028102, 45.782714075198534],
-          [4.877317297826664, 45.7822875659929]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EinsteinI-commun",
-        "line": 1,
-        "name": "Variante Jean Capelle Ouest",
-        "status": "variante",
-        "text": "variante temporaire",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#sud-du-campus-de-la-doua",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.877199044805195, 45.78255851628476],
-          [4.87814998610304, 45.78276779779068],
-          [4.878445509087072, 45.7827823454611],
-          [4.879149549137622, 45.78287144983638],
-          [4.87922082232771, 45.78288539135124]
-        ]
-      }
-    },    
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EinsteinO-commun",
-        "line": 1,
-        "name": "Einstein Ouest",
-        "status": "done",
-        "doneAt": "08/07/2005",
-        "type": "voie-verte",
-        "link": "/voie-lyonnaise-1#sud-du-campus-de-la-doua",
-        "quality": "unsatisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.874989986419678, 45.77951873039668],
-          [4.875227924376929, 45.77979763455063],
-          [4.876051881952407, 45.781256337692874],
-          [4.8765352455943685, 45.781927056167746],
-          [4.8769091834691665, 45.782169280324155],
-          [4.877317297826664, 45.7822875659929]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "11NovE-commun",
-        "line": 1,
-        "name": "Boulevard du 11 Nov. 1918 - Est",
-        "status": "done",
-        "doneAt": "08/07/2005",
-        "type": "voie-verte",
-        "link": "/voie-lyonnaise-1#stalingrad-nord",
-        "quality": "unsatisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.872357861980078, 45.77917511969466],
-          [4.872564428917258, 45.779137534396924],
-          [4.8745715618133545, 45.77942145756348],
-          [4.874989986419678, 45.77951873039668]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "11NovO-commun",
-        "line": 1,
-        "name": "Boulevard du 11 Nov. 1918 - Ouest",
-        "status": "done",
-        "doneAt": "08/07/2005",
-        "type": "voie-verte",
-        "quality": "unsatisfactory",
-        "link": "/voie-lyonnaise-1#stalingrad-nord"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.859792515712513, 45.77961927680201],
-          [4.865049645331964, 45.77923004935559],
-          [4.866986727097043, 45.77905300150903],
-          [4.868712381189823, 45.77897136593668],
-          [4.869829003693219, 45.77896980845371],
-          [4.870995373882764, 45.77902896798581],
-          [4.872357861980078, 45.77917511969466]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "StalingradNord-commun",
-        "line": 1,
-        "name": "Stalingrad Nord",
-        "status": "planned",
-        "type": "voie-verte",
-        "link": "/voie-lyonnaise-1#stalingrad-nord",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.862144082681112, 45.78452557526816],
-          [4.862200896628934, 45.784338011196866],
-          [4.862114945344814, 45.784134927910856],
-          [4.861955079016923, 45.7840097089655],
-          [4.861681987226291, 45.783793985076784],
-          [4.861420310705796, 45.783546137065855],
-          [4.8611263593755325, 45.78323860628828],
-          [4.86081294095942, 45.78292184709244],
-          [4.860506826041387, 45.782641670652225],
-          [4.860342527530207, 45.78247494102024],
-          [4.860157493643499, 45.782233216710694],
-          [4.860157493643499, 45.782233216710694],
-          [4.860057753276379, 45.782042205762906],
-          [4.859792515712513, 45.77961927680201]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "Bonnevay127-commun",
-        "line": 1,
-        "name": "Transbordeur Nord",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-2#boulevard-stalingrad-nord",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.859096014315483, 45.78473198447127],
-          [4.85915263804057, 45.78461590794164],
-          [4.860028376055567, 45.784614639552274],
-          [4.861193194938238, 45.78457073986618],
-          [4.862144082681112, 45.78452557526816]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "LignonEst-commun",
-        "line": 1,
-        "name": "Allée Achille Lignon Est",
-        "status": "done",
-        "doneAt": "10/04/2006",
-        "type": "voie-verte",
-        "quality": "unsatisfactory",
-        "link": "/voie-lyonnaise-1#allée-achille-lignon"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.849266126070745, 45.78226816613436],
-          [4.850961154784386, 45.783196366336966],
-          [4.852661479131257, 45.78398918179912],
-          [4.853406402641298, 45.78427696077616],
-          [4.854195702687832, 45.78449046813501],
-          [4.855454862190783, 45.78473927933935],
-          [4.856637115177477, 45.784844661480605],
-          [4.856752612404414, 45.784786059421634],
-          [4.857331455967188, 45.78480310116562],
-          [4.859096014315483, 45.78473198447127]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "LignonOuest-commun",
-        "line": 1,
-        "name": "Allée Achille Lignon Ouest",
-        "status": "planned",
-        "type": "voie-verte",
-        "quality": "unsatisfactory",
-        "link": "/voie-lyonnaise-1#allée-achille-lignon"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.844412592569228, 45.777762691580115],
-          [4.844719844387626, 45.77795453037274],
-          [4.8446877621506985, 45.778057506440994],
-          [4.845387720620039, 45.77898641220453],
-          [4.846216086863052, 45.77991322665901],
-          [4.8475005303031935, 45.78104618865868],
-          [4.849266126070745, 45.78226816613436]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "TetedOr157-commun",
-        "line": 1,
-        "name": "Tête d'Or",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-de-grande-bretagne-et-quai-de-serbie",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.843852993825294, 45.776719236416454],
-          [4.843930845741625, 45.77687657680716],
-          [4.844379847603477, 45.77749822112442],
-          [4.844425581079889, 45.777660877559924],
-          [4.844412592569228, 45.777762691580115]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "GdeBretagne-commun",
-        "line": 1,
-        "name": "Avenue de Grande-Bretagne",
-        "status": "done",
-        "doneAt": "28/03/2023",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-de-grande-bretagne-et-quai-de-serbie",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.841352711202262, 45.77330847547324],
-          [4.841326627443834, 45.77341493800827],
-          [4.8418955076060115, 45.77396957351661],
-          [4.84251190557768, 45.77483569945392],
-          [4.843032865510793, 45.775578880425286],
-          [4.8435471564999375, 45.77633910075846],
-          [4.843743977413936, 45.776743834129604],
-          [4.843852993825294, 45.776719236416454]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Quai de Serbie",
-        "status": "done",
-        "doneAt": "28/03/2023",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-de-grande-bretagne-et-quai-de-serbie",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.841044050489387, 45.76867157286128],
-          [4.84095181494888, 45.769558532415914],
-          [4.840918757238143, 45.77127953200704],
-          [4.84099332737614, 45.77136093765529],
-          [4.840900393703208, 45.77180917892622],
-          [4.840923674684035, 45.772257961183016],
-          [4.841084790611944, 45.772901975747146],
-          [4.841352711202262, 45.77330847547324]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Pont Morand - Rue Cuvier",
-        "status": "done",
-        "doneAt": "31/12/2019",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-sarrail-et-quai-augagneur",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.841044050489387, 45.76867157286128],
-          [4.841165735343537, 45.76826317697626],
-          [4.84136735712606, 45.76668935122265]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Rue Cuvier - Rue de Bonnel",
-        "status": "done",
-        "doneAt": "26/04/2024",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-sarrail-et-quai-augagneur",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.84136735712606, 45.76668935122265],
-          [4.841507189601657, 45.76576207014247],
-          [4.841379206914013, 45.763213461120614],
-          [4.841182320042037, 45.76135658325788]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "QuaiAugagneur-commun",
-        "line": 1,
-        "name": "Rue de Bonnel - Pont Wilson",
-        "status": "done",
-        "doneAt": "28/06/2024",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-sarrail-et-quai-augagneur",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.841182320042037, 45.76135658325788],
-          [4.840999150690919, 45.76000667966187]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Pont Wilson - Pont de la Guillotière",
-        "status": "done",
-        "doneAt": "28/06/2024",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-sarrail-et-quai-augagneur",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.840999150690919, 45.76000667966187],
-          [4.840836906809642, 45.75838282314294],
-          [4.8407770746220535, 45.75765539371048],
-          [4.84072847166567, 45.75726498730101],
-          [4.840669866324049, 45.7569001693075],
-          [4.8405726698369165, 45.7566368374911],
-          [4.840507966893739, 45.7565194045921],
-          [4.840456914510696, 45.7564265519313],
-          [4.840254310473597, 45.756148386972995]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Quai Claude Bernard",
-        "status": "done",
-        "doneAt": "08/07/2022",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#quai-claude-bernard",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.840251102584432, 45.75614577679741],
-          [4.839655738110693, 45.755297813604486],
-          [4.839048943347251, 45.75450410029001],
-          [4.838288843926151, 45.75354375963934],
-          [4.837557077407837, 45.7525901270388],
-          [4.837369322776794, 45.752455376499626],
-          [4.836645126342773, 45.751538315577946],
-          [4.836167693138123, 45.75092069462905],
-          [4.835609793663025, 45.750216972733],
-          [4.835035800933838, 45.74956939102147],
-          [4.8344886302948, 45.74892928842009],
-          [4.83397364616394, 45.748311638600285],
-          [4.833595330426675, 45.7478595175764]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Avenue Leclerc Nord",
-        "status": "postponed",
-        "type": "voie-bus",
-        "link": "/voie-lyonnaise-1#avenue-général-leclerc",
-        "quality": "unsatisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.833595330426675, 45.7478595175764],
-          [4.832879513194115, 45.746932460474156],
-          [4.832498691591738, 45.74644074253335],
-          [4.832085371017456, 45.746001942044515],
-          [4.83149528503418, 45.745432925952116],
-          [4.830207824707031, 45.74431733809653],
-          [4.824421325110052, 45.73755776312275]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Avenue Leclerc Sud",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#avenue-général-leclerc",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.824421325110052, 45.73755776312275],
-          [4.824143041538093, 45.737111353511054],
-          [4.823813646723835, 45.73635776021279],
-          [4.823641985346825, 45.7355116475724],
-          [4.82367448431873, 45.7345847478553],
-          [4.82377320963198, 45.73361724487301],
-          [4.823708132401038, 45.732395987578705]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Carrefour Pasteur",
-        "status": "done",
-        "doneAt": "31/12/2019",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#avenue-général-leclerc",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.823708132401038, 45.732395987578705],
-          [4.82368017025442, 45.731730878514874]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Tony Garnier Ouest",
-        "status": "wip",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#halle-tony-garnier-à-st-fons-centre",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.82368017025442, 45.731730878514874],
-          [4.82368533198985, 45.73155750612287],
-          [4.823870872077151, 45.73152468209434],
-          [4.823868553129191, 45.73140916093321],
-          [4.8240424176866625, 45.7312819273793],
-          [4.823979051955362, 45.72992648728555],
-          [4.823873294717372, 45.72833414916349],
-          [4.824005650568125, 45.728043167865536],
-          [4.824246631418134, 45.72772690651356],
-          [4.824733288891963, 45.72718690223184],
-          [4.825071480697758, 45.72677990497567],
-          [4.825377068911365, 45.72661136082046],
-          [4.825721725446755, 45.726537391264635],
-          [4.82620250093035, 45.726538877025234],
-          [4.828677411695892, 45.72657700088125],
-          [4.830760255983364, 45.726596361327694]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Tony Garnier Est",
-        "status": "wip",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#halle-tony-garnier-à-st-fons-centre",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.830760255983364, 45.726596361327694],
-          [4.831469294572969, 45.726596361327694],
-          [4.833679826643873, 45.726456605544826],
-          [4.838951743224669, 45.72611886170267],
-          [4.840853634969534, 45.72596745829469],
-          [4.8429557258454565, 45.72583934739805],
-          [4.844265349353577, 45.725786939402724],
-          [4.844674089245871, 45.725711237299976],
-          [4.844974387943211, 45.72554818626932],
-          [4.845116195661092, 45.72531525539989]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "St-Jean-de-Dieu - Sampaix",
-        "status": "wip",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#halle-tony-garnier-à-st-fons-centre",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.845116195661092, 45.72531525539989],
-          [4.844982729573246, 45.72455822336647],
-          [4.844941021421533, 45.72413893967192],
-          [4.845207953595946, 45.72310236369907],
-          [4.845553672604723, 45.72188562880578],
-          [4.845603722387807, 45.721588622306314],
-          [4.845603722387807, 45.72111690285561],
-          [4.846299727306501, 45.715564493652835],
-          [4.846642520572033, 45.71522811531915],
-          [4.847077960664706, 45.71476235736037],
-          [4.84715207812846, 45.71447125666495],
-          [4.8465035503284355, 45.714193092361484],
-          [4.845555444434581, 45.71382432886682],
-          [4.844999563464626, 45.71348147102296],
-          [4.8448050051250675, 45.71314508015095],
-          [4.844860593222535, 45.71248523063613],
-          [4.844953240051041, 45.7118447810098],
-          [4.845195389829598, 45.71145573998746]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "Rue Marcel Sembat",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#halle-tony-garnier-à-st-fons-centre",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.845195389829598, 45.71145573998746],
-          [4.846038475967731, 45.71112580623145],
-          [4.8471872966403, 45.71050474917155],
-          [4.847780236342885, 45.71023303453731],
-          [4.849698025691254, 45.70985780739542],
-          [4.851226691184081, 45.70960550210171]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "line": 1,
-        "name": "St-Fons Ouest",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "/voie-lyonnaise-1#halle-tony-garnier-à-st-fons-centre",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [4.851226691184081, 45.70960550210171],
-          [4.851717719375614, 45.70950199025552],
-          [4.853385362287071, 45.7090167759207],
-          [4.855247553178799, 45.708473332269364]
+          [
+            2.448444446406569,
+            49.162670024115954
+          ],
+          [
+            2.448031353218937,
+            49.163408407392694
+          ],
+          [
+            2.447590759365795,
+            49.164344771662115
+          ],
+          [
+            2.447508198020188,
+            49.16497490913716
+          ],
+          [
+            2.4476734743738007,
+            49.16565888714763
+          ],
+          [
+            2.4480314151722666,
+            49.16610879965853
+          ],
+          [
+            2.448141020336095,
+            49.166099922994476
+          ],
+          [
+            2.4482245493881294,
+            49.166097192144605
+          ],
+          [
+            2.4482830197243857,
+            49.1662583120586
+          ],
+          [
+            2.448212020030695,
+            49.16642762394605
+          ],
+          [
+            2.4500454828879867,
+            49.16940201287969
+          ],
+          [
+            2.450454801547835,
+            49.17003553962553
+          ],
+          [
+            2.451929403793997,
+            49.172280060271106
+          ],
+          [
+            2.452981136135861,
+            49.173904206518415
+          ],
+          [
+            2.4539394821136398,
+            49.17544394182386
+          ],
+          [
+            2.4539603643766554,
+            49.17551766081212
+          ],
+          [
+            2.454849945701312,
+            49.176863690107865
+          ],
+          [
+            2.454925121847822,
+            49.17699201200247
+          ],
+          [
+            2.456838615816366,
+            49.17993492205039
+          ],
+          [
+            2.4568803803423975,
+            49.18000863435006
+          ],
+          [
+            2.457418550264748,
+            49.18088966691093
+          ],
+          [
+            2.458400013395334,
+            49.1823693182414
+          ]
         ]
       }
     }
   ]
-}
+  }
