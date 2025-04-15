@@ -1,14 +1,14 @@
 {
   "revName": {
-    "plural": "Voies Lyonnaises",
-    "singular": "Voie Lyonnaise"
+    "plural": "Cyclopolis Oise",
+    "singular": "Cyclopolis Oise"
   },
-  "assoName": "La Ville à Vélo",
-  "assoLink": "https://lavilleavelo.org",
-  "slug": "voie-lyonnaise",
+  "assoName": "VeloOise",
+  "assoLink": "https://www.velooise.fr",
+  "slug": "velo-oise",
   "center": [
-    4.8312188,
-    45.757198
+    2.483333,
+    49.266667
   ],
   "zoom": 12,
   "nbVoiesCyclables": 12,
