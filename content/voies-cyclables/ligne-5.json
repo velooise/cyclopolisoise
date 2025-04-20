@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "CCAC-53-05",
+          "line": 5,
+          "name": "LCES-Pontarmé",
+          "status": "unknown",
+          "type": "bidirectionnelle",
+          "link": "/voie-oise-5",
+          "quality": "satisfactory"
+        },
+"geometry":{"type":"MultiLineString","coordinates":[[[2.542032,49.145354],[2.542566,49.146041],[2.546703,49.150687]]]}
+}
+]
+}
