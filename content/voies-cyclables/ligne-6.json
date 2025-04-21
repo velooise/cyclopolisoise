@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ACSO-VVSaintLeu",
+        "line": 1,
+        "name": "Creil-Saint-Leu",
+        "status": "wip",
+        "type": "voie-verte",
+        "link": "/voie-oise-1#lamorlaye-chantilly-entree",
+        "quality": "satisfactory"
+      },
+      {
+	  "type": "Feature",
+      "properties": {},
+      "geometry": { 
+        "coordinates": [
+          [
+            2.5339784371359713,
+            49.13017952866406
+          ],
+          [
+            2.534308504324855,
+            49.133973094639515
+          ],
+          [
+            2.5420690484277486,
+            49.14541440341918
+          ],
+          [
+            2.546877533888818,
+            49.15059506545998
+          ]
+        ],
+        "type": "LineString"
+      }
+	}
+}
+}
