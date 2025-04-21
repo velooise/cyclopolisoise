@@ -12,7 +12,7 @@
           "link": "/voie-oise-5",
           "quality": "satisfactory"
         },
-"geometry":{"type":"MultiLineString","coordinates":[[[2.542032,49.145354],[2.542566,49.146041],[2.546703,49.150687]]]}
+"geometry":{"type":"LineString","coordinates":[[[2.542032,49.145354],[2.542566,49.146041],[2.546703,49.150687]]]}
 }
 ]
 }
