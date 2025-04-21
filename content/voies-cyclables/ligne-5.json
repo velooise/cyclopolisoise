@@ -7,8 +7,8 @@
           "id": "CCAC-53-05",
           "line": 5,
           "name": "LCES-Pontarmé",
-          "status": "planned",
-          "type": "bidirectionnelle",
+          "status": "unknown",
+          "type": "voie-verte",
           "link": "/voie-oise-5",
           "quality": "satisfactory"
         },
