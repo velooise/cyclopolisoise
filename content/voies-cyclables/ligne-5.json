@@ -7,12 +7,31 @@
           "id": "CCAC-53-05",
           "line": 5,
           "name": "LCES-Pontarmé",
-          "status": "unknown",
+          "status": "planned",
           "type": "bidirectionnelle",
           "link": "/voie-oise-5",
           "quality": "satisfactory"
         },
-"geometry":{"type":"LineString","coordinates":[[[2.542032,49.145354],[2.542566,49.146041],[2.546703,49.150687]]]}
-}
+  "geometry": {
+        "coordinates": [
+          [
+            2.5339784371359713,
+            49.13017952866406
+          ],
+          [
+            2.534308504324855,
+            49.133973094639515
+          ],
+          [
+            2.5420690484277486,
+            49.14541440341918
+          ],
+          [
+            2.546877533888818,
+            49.15059506545998
+          ]
+        ],
+        "type": "LineString"
+      }}
 ]
 }
