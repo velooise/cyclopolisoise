@@ -27,10 +27,7 @@ La ville de Chantilly a déployé en mars 2021 la continuité sur le rond point 
 
 En 2024 la continuité jusque la Pizzeria La Napoli a été réalisée, et la piste inaugurée en octobre 2024.
 
-### de l'avenue de Bourgon au rond point de Sylvie
-
-imageUrl: https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg
-caption: Dans le mag de chantilly du 30/4/2025
-credit: Mairie de Chantilly
+### de l'avenue de Bourbon au rond point de Sylvie
+![la suite en 2025-2026](https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg "Mag de Chantilly du 30/4/2025").
 
 
