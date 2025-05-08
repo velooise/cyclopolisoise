@@ -9,7 +9,7 @@
           "name": "EV3 Trois Forets",
           "status": "done",
           "type": "voie-verte",
-          "link": "/voie-oise-4#ev3",
+          "link": "/velo-oise-4#ev3",
           "quality": "satisfactory"
         },
         "geometry": {
