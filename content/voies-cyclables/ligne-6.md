@@ -6,7 +6,7 @@ to: Saint Leu d'Esserent
 description: Relier Creil à Saint Leu par les berges de l'Oise
 cover: 
 ---
-(Comaac) - 53-05 - PONTARME - 684,2 m - piste cyclable en recul de la voie
+(ACSO) - 
 Statut : Acquisition foncière en cours 
        ### Date actualisation : 08/05/2025
         ### Description : 
