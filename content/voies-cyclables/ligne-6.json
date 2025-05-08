@@ -4,12 +4,12 @@
       {
         "type": "Feature",
         "properties": {
-          "id": "CCAC-53-05",
-          "line": 5,
-          "name": "LCES-Pontarmé",
-          "status": "unknown",
+          "id": "ACSO-Creil-SaintLeu",
+          "line": 6,
+          "name": "Creil a Saint Leu par les berges",
+          "status": "planned",
           "type": "voie-verte",
-          "link": "/voie-oise-5",
+          "link": "/voie-oise-6",
           "quality": "satisfactory"
         },
   "geometry": {
