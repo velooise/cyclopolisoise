@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": "lamorlaye-chantilly",
-        "line": 1,
+        "line": z,
         "name": "Liaison Lamorlaye Chantilly",
         "status": "done",
         "type": "bidirectionnelle",
