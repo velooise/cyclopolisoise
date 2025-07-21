@@ -83,6 +83,32 @@
         ]
       }
     },
+     {
+      "type": "Feature",
+      "properties": {
+        "id": "lamorlaye-chantilly",
+        "line": 1,
+        "name": "Liaison Lamorlaye Chantilly (rond point du Mont de Pô à Entrée de Chantilly",
+        "status": "done",
+        "doneAt": "01/03/2021",
+        "type": "bidirectionnelle",
+        "link": "/velo-oise-1#/velo-oise-1#du-rond-point-%C3%A0-lentr%C3%A9e-de-chantilly",
+        "quality": "satisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": 
+          [
+            2.4500454828879867,
+            49.16940201287969
+          ],
+          [
+            2.450454801547835,
+            49.17003553962553
+          ]
+         ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
