@@ -8,6 +8,7 @@
         "line": 1,
         "name": "Liaison Lamorlaye Chantilly",
         "status": "done",
+        "doneAt": "31/10/2020",
         "type": "bidirectionnelle",
         "link": "/velo-oise-1#lamorlaye-chantilly-entree",
         "quality": "satisfactory"
