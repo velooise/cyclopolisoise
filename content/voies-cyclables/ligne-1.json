@@ -6,13 +6,20 @@
       "properties": {
         "id": "lamorlaye-chantilly",
         "line": 1,
-        "name": "Liaison Lamorlaye Chantilly",
+        "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
         "status": "done",
         "doneAt": "31/10/2020",
         "type": "bidirectionnelle",
-        "link": "/velo-oise-1#lamorlaye-chantilly-entree",
+        "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
         "quality": "satisfactory"
       },
+      "geometry": {
+        "coordinates": [
+          2.4475517279378494,
+          49.1643126472446
+        ],
+        "type": "Point"
+      }
       "geometry": {
         "type": "LineString",
         "coordinates": [
