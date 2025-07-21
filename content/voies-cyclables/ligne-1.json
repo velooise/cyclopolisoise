@@ -1,6 +1,19 @@
 {
   "type": "FeatureCollection",
   "features": [
+   {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Côte du mont de Pô",
+        "line": 1,
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/lamorlaye-mont-de-po.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2,44800, 49,16153]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -13,13 +26,6 @@
         "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
         "quality": "satisfactory"
       },
-      "geometry": {
-        "coordinates": [
-          2.4475517279378494,
-          49.1643126472446
-        ],
-        "type": "Point"
-      }
       "geometry": {
         "type": "LineString",
         "coordinates": [
