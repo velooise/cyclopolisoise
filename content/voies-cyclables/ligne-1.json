@@ -399,7 +399,7 @@
         "status": "done",
         "doneAt": "30/09/2010",
         "type": "voie-verte",
-        "link": "/voie-oise-1#chantilly-rdp-sylvie"
+        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration"
       },
       "geometry": {
         "type": "LineString",
@@ -459,6 +459,51 @@
           [
             2.461277326130613,
             49.18612950472044
+          ]
+        ]
+     }
+   },
+      {
+      "type": "Feature",
+      "properties": {
+        "id": "chantilly-joffre-mairie",
+        "line": 1,
+        "name": "Marechal Joffre Mairie",
+        "status": "done",
+        "doneAt": "30/09/2019",
+        "type": "bandes-cyclables",
+        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+            [
+            2.463000652858085,
+            49.18979782977496
+          ],
+          [
+            2.463350912450835,
+            49.190353463467886
+          ],
+          [
+            2.463949096812655,
+            49.19131824288891
+          ],
+          [
+            2.464520808805048,
+            49.192201310403505
+          ],
+          [
+            2.4646895702454117,
+            49.19238235147415
+          ],
+          [
+            2.464851963329437,
+            49.1926591141295
+          ],
+          [
+            2.4650048043033905,
+            49.19290466204845
           ]
         ]
      }
