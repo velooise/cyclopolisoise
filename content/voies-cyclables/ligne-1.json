@@ -6,10 +6,10 @@
       "properties": {
         "id": "lamorlaye-rd1016",
         "line": 1,
-        "name": "Traversé de Lamorlaye par la RD1016",
+        "name": "Traversée de Lamorlaye par la RD1016",
         "status": "unknown",
         "type": "bidirectionnelle",
-        "link": "/velo-oise-1#rd1016",
+        "link": "/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
         "quality": "satisfactory"
       },
       "geometry": {
