@@ -401,7 +401,7 @@
         "status": "done",
         "doneAt": "30/09/2010",
         "type": "voie-verte",
-        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -431,7 +431,7 @@
         "status": "done",
         "doneAt": "30/09/2019",
         "type": "bandes-cyclables",
-        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-boulevard-de-la-lib%C3%A9ration-%C3%A0-la-mairie",
         "quality": "unsatisfactory"
       },
       "geometry": {
@@ -477,7 +477,7 @@
         "status": "done",
         "doneAt": "30/09/2019",
         "type": "bidirectionnelle",
-        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-la-place-omer-vallon-%C3%A0-la-nonette",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -599,7 +599,7 @@
         "status": "done",
         "doneAt": "30/09/2015",
         "type": "bidirectionnelle",
-        "link": "/voie-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-la-nonette-au-rond-point-de-leurope",
         "quality": "satisfactory"
       },
       "geometry": {
