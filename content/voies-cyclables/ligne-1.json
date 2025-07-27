@@ -15,6 +15,40 @@
       "geometry": {
         "type": "LineString",
                "coordinates": [
+
+        ]
+      }
+    },
+
+    
+   {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Côte du mont de Pô",
+        "line": 1,
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/lamorlaye-mont-de-po.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.4480000000, 49.1615305556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamorlaye-chantilly",
+        "line": 1,
+        "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
+        "status": "done",
+        "doneAt": "31/10/2020",
+        "type": "bidirectionnelle",
+        "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
+        "quality": "satisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.4472938133807816,
             49.15973376848066
@@ -79,126 +113,6 @@
             2.4482152399071992,
             49.16648346182129
           ]
-        ]
-      }
-    },
-
-    
-   {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Côte du mont de Pô",
-        "line": 1,
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/lamorlaye-mont-de-po.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.4480000000, 49.1615305556]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "lamorlaye-chantilly",
-        "line": 1,
-        "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
-        "status": "done",
-        "doneAt": "31/10/2020",
-        "type": "bidirectionnelle",
-        "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
-        "quality": "satisfactory"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-         [
-            2.441287561512894,
-            49.14641649566286
-          ],
-          [
-            2.4416632547459187,
-            49.147242214034435
-          ],
-          [
-            2.4422944193773617,
-            49.14857906222474
-          ],
-          [
-            2.443361389388201,
-            49.15086931450995
-          ],
-          [
-            2.4439174153729653,
-            49.15208811772757
-          ],
-          [
-            2.4440226094780257,
-            49.15241247159699
-          ],
-          [
-            2.4458650289801938,
-            49.15647562592699
-          ],
-          [
-            2.4471724414311495,
-            49.159256890735975
-          ],
-          [
-            2.4473527767520977,
-            49.15941413021437
-          ],
-          [
-            2.448444446406569,
-            49.162670024115954
-          ],
-          [
-            2.448031353218937,
-            49.163408407392694
-          ],
-          [
-            2.447590759365795,
-            49.164344771662115
-          ],
-          [
-            2.447508198020188,
-            49.16497490913716
-          ],
-          [
-            2.4476734743738007,
-            49.16565888714763
-          ],
-          [
-            2.4480314151722666,
-            49.16610879965853
-          ],
-            [
-            2.448141020336095,
-            49.166099922994476
-          ],
-          [
-            2.4482245493881294,
-            49.166097192144605
-          ],
-         [
-            2.448141020336095,
-            49.166099922994476
-          ],
-          [
-            2.4482245493881294,
-            49.166097192144605
-          ],
-          [
-            2.4482830197243857,
-            49.1662583120586
-          ],
-          
-          [
-            2.448212020030695,
-            49.16642762394605
-          ]
-         
-         
         ]
       }
     },
