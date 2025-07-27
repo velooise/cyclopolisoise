@@ -38,5 +38,13 @@ En 2024 la continuité jusque la Pizzeria La Napoli a été réalisée, et la pi
 
 Cette allée cavalière est assez ancienne, elle a été aménagée en voie verte en stabilisé et est régulièrement remise en état.
 
+### du Boulevard de la Libération à la mairie
 
+Deux bandes cyclables de part et d'autre de la chaussée conduisent jusqu'à la mairie. Elles sont proches du stationnement et s'interrompent à l'entrée de la zone 30.
 
+### de la place Omer Vallon à la Nonette 
+Une piste bidirectionnelle longe la route de l'autre coté de la chaussée
+
+### de la Nonette au rond point de l'Europe
+
+Poursuite en piste bidirectionnelle 
