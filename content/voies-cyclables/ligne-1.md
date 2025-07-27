@@ -34,4 +34,9 @@ En 2024 la continuité jusque la Pizzeria La Napoli a été réalisée, et la pi
 ### de l'avenue de Bourbon au rond point de Sylvie
 ![la suite en 2025-2026](https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg "Mag de Chantilly du 30/4/2025").
 
+### du rond point de Sylvie au Boulevard de la Libération
+
+Cette allée cavalière est assez ancienne, elle a été aménagée en voie verte en stabilisé et est régulièrement remise en état.
+
+
 
