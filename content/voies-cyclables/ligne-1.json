@@ -7,9 +7,9 @@
         "id": "lamorlaye-rd1016",
         "line": 1,
         "name": "Traversée de Lamorlaye par la RD1016",
-        "status": "postponed",
+        "status": "planned",
         "type": "bidirectionnelle",
-        "link": "/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -133,8 +133,8 @@
         "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
         "status": "done",
         "doneAt": "31/10/2020",
-        "type": "bidirectionnelle",
-        "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -215,8 +215,8 @@
         "name": "Liaison Lamorlaye Chantilly (rond point du Mont de Pô à Entrée de Chantilly",
         "status": "done",
         "doneAt": "01/03/2021",
-        "type": "bidirectionnelle",
-        "link": "/velo-oise-1#/velo-oise-1#du-rond-point-%C3%A0-lentr%C3%A9e-de-chantilly",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-rond-point-%C3%A0-lentr%C3%A9e-de-chantilly",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -250,7 +250,7 @@
         "status": "done",
         "doneAt": "30/09/2024",
         "type": "bidirectionnelle",
-        "link": "/velo-oise-1#la-continuit%C3%A9-jusquau-carrefour-avec-lavenue-de-bourbon"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-continuit%C3%A9-jusquau-carrefour-avec-lavenue-de-bourbon"
       },
       "geometry": {
         "type": "LineString",
@@ -325,8 +325,8 @@
         "line": 1,
         "name": "Chantilly-Rond Point de Sylvie",
         "status": "wip",
-        "type": "bidirectionnelle",
-        "link": "/voie-oise-1#chantilly-rdp-sylvie"
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-lavenue-de-bourbon-au-rond-point-de-sylvie"
       },
       "geometry": {
         "type": "LineString",
