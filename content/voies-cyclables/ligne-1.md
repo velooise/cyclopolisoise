@@ -11,6 +11,11 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/04/cyclopolis-lamorlaye-c
 
 ## Les tronçons (du Nord au Sud)
 
+### La traversée de Lamorlaye le long de la RD1016
+
+C'est un projet de la mairie de Lamorlaye à l'occasion d'une requalification complète de la traversée de ville. Ce projet n'est pas plannifié pour l'instant. Il est toutefois possible (et conseillé) d'utiliser un itinéraire bis pour traverser la commune en empruntant l'itinéraire de la piscine, puis la rue du vieux chateau, en traversant le parc du chateau (ou la nuit en le contournant par la droite), puis en remontant la rue du Comte Komar. Cet itinéraire alternatif et plus apaisé que la RD10116 est possible dans les deux sens.
+
+
 ### La côte du Mont de Pô
 
 
