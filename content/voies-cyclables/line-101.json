@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+      "type": "Feature",
+      "properties": {
+        "id": "sc-ccac-chantilly-zc-st-maximin-01-01-01-02",
+        "line": 101,
+        "name": "De Chantilly à la Zone Commerciale Saint Maximin",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
+        "quality": "satisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+               "coordinates": [
+          [
+            2.469639191226662,
+            49.203279198802704
+          ],
+          [
+            2.4725317299099743,
+            49.20734215226361
+          ],
+          [
+            2.4638952795354783,
+            49.209924975424144
+          ]
+        ]
+        ]
+      }
+    },
+
+    
+   {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "line": 101,
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 2.4654554654005665, 49.20971553900941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sc-ccac-chantilly-zc-st-maximin-01-04",
+        "line": 1,
+        "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4638952795354783,
+            49.209924975424144
+          ],
+          [
+            2.4641468355197276,
+            49.20982309372721
+          ],
+          [
+            2.4645999398935317,
+            49.21149222698091
+          ],
+          [
+            2.467381498235085,
+            49.2206180189996
+          ],
+          [
+            2.4676994638885503,
+            49.22088238615896
+          ]
+        ]
+      }
+    }  
+  ]
+  }
