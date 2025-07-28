@@ -1,13 +1,13 @@
 ---
 name: Liaison Chantilly - Zone Commerciale Saint Maximin 
-line: 101
+line: 7
 from: Chantilly
 to: ZC Saint-Maximin
-description: La ligne 101 du schéma cyclable de la CCAC reliera Chantilly à la Zone de Saint-Maximin
+description: La ligne 7 du schéma cyclable de la CCAC reliera Chantilly à la Zone de Saint-Maximin
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/04/cyclopolis-lamorlaye-chantilly.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-01.jpg
 ---
-
+Ligne 01 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
 
 ### Une voie verte de 1148m dans la forêt
