@@ -12,10 +12,10 @@
         </div>
         <div class="sm:flex justify-center lg:justify-end mt-12 lg:mt-0 lg:ml-8 lg:flex-1">
           <button type="button" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lvv-pink transition duration-300 transform hover:scale-105 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">
-            <a href="https://lavilleavelo.org/sinvestir/adherer/" target="_blank">Adhérer</a>
+            <a href="https://www.velooise.fr/2016/04/12/adherer/" target="_blank">Adhérer</a>
           </button>
           <button type="button" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-lvv-pink bg-white transition duration-300 transform hover:scale-105 sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">
-            <a href="https://lavilleavelo.org/" target="_blank">En savoir +</a>
+            <a href="https://www.veloise.fr/" target="_blank">En savoir +</a>
           </button>
         </div>
       </div>
