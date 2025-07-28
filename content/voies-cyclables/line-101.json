@@ -10,7 +10,6 @@
                 "status": "planned",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-101",
-                "quality": "satisfactory"
             },
             "geometry": {
                 "type": "LineString",
