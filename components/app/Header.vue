@@ -56,20 +56,14 @@
                     >
                       Évolution du réseau
                     </NuxtLink>
+    
                     <NuxtLink
-                      to="/plan-officiel"
-                      class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
-                      @click="close()"
-                    >
-                      Plan officiel
-                    </NuxtLink>
-                    <NuxtLink
-                      to="https://barometre.parlons-velo.fr/2021/carte/#11.88/45.74926/4.84739"
+                      to="https://www.velooise.fr/"
                       target="_blank"
                       class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
                       @click="close()"
                     >
-                      <span>Baromètre FUB Lyon</span>
+                      <span>VélOOise</span>
                       <div class="flex items-center">
                         <Icon name="mdi:launch" class="h-4 w-4" aria-hidden="true" />
                       </div>
@@ -306,9 +300,8 @@ const { getAssoName } = useConfig();
 
 const navItems = [
   { name: 'Carte interactive', path: '/carte-interactive', target: '_self' },
-  { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
   { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
-  { name: 'Baromètre FUB Lyon', path: 'https://barometre.parlons-velo.fr/2021/carte/#11.88/45.74926/4.84739', target: '_blank' }
+  { name: 'VélOOise', path: 'https://www.velooise.fr', target: '_blank' }
 ];
 
 const { data: voies } = await useAsyncData(() => {
