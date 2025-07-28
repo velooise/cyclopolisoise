@@ -50,8 +50,9 @@
             "properties": {
                 "id": "sc-ccac-chantilly-zc-st-maximin-01-04",
                 "line": 1,
-                "name": "Liaison Lamorlaye Chantilly (côte du mont de Pô)",
+                "name": "Liaison Chantilly-ZC Saint-Maximin (le long de la rd)",
                 "status": "planned",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101",
                 "type": "bidirectionnelle"
             },
             "geometry": {
