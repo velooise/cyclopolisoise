@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "id": "sc-ccac-chantilly-zc-st-maximin-01-01-01-02",
-                "line": 101,
+                "line": 7,
                 "name": "De Chantilly à la Zone Commerciale Saint Maximin",
                 "status": "planned",
                 "type": "voie-verte",
@@ -34,7 +34,7 @@
             "properties": {
                 "type": "perspective",
                 "name": "Point Central",
-                "line": 101
+                "line": 7
             },
             "geometry": {
                 "type": "Point",
