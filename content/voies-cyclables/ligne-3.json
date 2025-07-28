@@ -1,6 +1,24 @@
 {
   "type": "FeatureCollection",
   "features": [
+   {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Parc Asterix",
+        "line": 3,
+       
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": 
+        [
+          2.564065601450096,
+          49.11846980482758
+        ]
+      }
+    },
+    
     {
       "type": "Feature",
       "properties": {
