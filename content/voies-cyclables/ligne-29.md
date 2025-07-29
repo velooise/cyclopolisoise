@@ -1,0 +1,18 @@
+
+---
+name: GARE CHANTILLY - AVILLY ST LEONARD
+line: 29
+from: GARE CHANTILLY 
+to:  AVILLY ST LEONARD 
+description: La ligne 72' du schéma cyclable de la CCAC reliera GARE CHANTILLY  à AVILLY ST LEONARD 
+trafic: inconnu vélos/jour
+cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-72'.jpg
+---
+Ligne 72' du schéma cyclable de la CCAC  
+## Les tronçons (du Nord au Sud)
+
+## Informations complémentaires
+
+Budget estimé : 601 245 € dont 601 245 € pour la CCAC (EPCI Voisine : , CD60 : )
+Linéaire : 6 070 m
+

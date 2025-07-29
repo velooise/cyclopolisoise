@@ -1,16 +1,18 @@
+
 ---
-name: Liaison Gouvieux - Precy sur Oise 
+name: CHANTILLY - ETANG DE COMELLE
 line: 9
-from: Gouvieux
-to:  Precy sur Oise 
-description: La ligne 9 du schéma cyclable de la CCAC reliera Gouvieux à Precy sur Oise 
+from: CHANTILLY 
+to:  ETANG DE COMELLE 
+description: La ligne 8 du schéma cyclable de la CCAC reliera CHANTILLY  à ETANG DE COMELLE 
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-11.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-8.jpg
 ---
-Ligne 09 du schéma cyclable de la CCAC  
+Ligne 8 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
 
 ## Informations complémentaires
 
-Budget estimé : 369 383 € dont 310 059 € pour la CCAC et 59 323 € pour Precy/Pays de Thelle 
-Linéaire : 4 232 m
+Budget estimé : 11 283 € dont 11 283 € pour la CCAC (EPCI Voisine : , CD60 : )
+Linéaire : 3 856 m
+

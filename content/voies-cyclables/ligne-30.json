@@ -7,8 +7,8 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-8.jpg",
-				"line": 9
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-73.jpg",
+				"line": 30
 			},
 			"geometry": {
 				"type": "Point",
@@ -21,12 +21,12 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "chantilly---etang-de-comelle-8",
-                "line": 9,
-                "name": "CHANTILLY - ETANG DE COMELLE",
+                "id": "gouvieux-cente-nautique---lamorlaye-73",
+                "line": 30,
+                "name": "GOUVIEUX cente nautique - LAMORLAYE",
                 "status": "planned",
                 "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-9"
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
             },
             "geometry": {
                 "type": "LineString",
