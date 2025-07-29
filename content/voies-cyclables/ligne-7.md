@@ -15,3 +15,6 @@ Ligne 01 du schéma cyclable de la CCAC
 
 ### Une piste cyclable de 1962m le long de la rd1016
 
+## Informations complémentaires
+
+Budget estimé : 608 194€ dont 33 483 pour la CCAC et 574 711 € pour l'ACSO/Saint Maximin
