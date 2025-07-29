@@ -5,7 +5,7 @@ from: Chantilly
 to: ZC Saint-Maximin
 description: La ligne 7 du schéma cyclable de la CCAC reliera Chantilly à la Zone de Saint-Maximin
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-01.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/07/chatgpt-dessine-une-piste.jpg
 ---
 Ligne 01 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
