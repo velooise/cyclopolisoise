@@ -1,4 +1,3 @@
-
 ---
 name: LAMORLAYE COLLEGE - COYE
 line: 13
