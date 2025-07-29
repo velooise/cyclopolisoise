@@ -4,6 +4,20 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "perspective",
+        "name": "RD1017",
+        "line": 2,
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/LcesFossesAvant.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [         2.532706308942693,
+          49.116179563615276]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "lces-fosses",
         "line": 2,
         "name": "La Chapelle-en-Serval - Fosses",
