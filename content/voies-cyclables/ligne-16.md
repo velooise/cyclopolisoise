@@ -13,5 +13,6 @@ Ligne 16 du schéma cyclable de la CCAC
 ## Informations complémentaires
 
 Budget estimé : 1 430 332 € dont 1 236 741 € pour la CCAC (EPCI Voisine : 193 591 €, CD60 : )
+
 Linéaire : 7 232 m
 
