@@ -4,8 +4,13 @@
     {
       "type": "Feature",
       "properties": {
-        "_gpxType": "trk",
-        "type": "cycling",
+        "id": "garejaux-parctechno",
+        "line": 34,
+        "name": "Liaison entre la gare de Jaux et le parc technologique des Rives de l'Oise par la rive droite de l'Oise",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "",
+        "quality": "satisfactory"
         "coordinateProperties": {}
       },
       "geometry": {
