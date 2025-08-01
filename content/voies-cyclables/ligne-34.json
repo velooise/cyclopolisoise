@@ -198,10 +198,21 @@
           ]
         ]
       },
-       "geometry": {
+       {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Début de la liaison cyclable à la gare de Jaux",
+        "line": 34,
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/piste-rive-droite-oise-parctechno-jaux-scaled.jpg"
+      },
+      {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
         "coordinates": [
-          2.7849332472560775,
-          49.39834147556246
+          2.777516867028993,
+          49.38682516683423
         ],
         "type": "Point"
       }
