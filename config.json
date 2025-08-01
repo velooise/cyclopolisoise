@@ -64,7 +64,149 @@
     {
       "line": 13,
       "color": "#4DADC9"
-    }
+    },
+     {
+      "line": 14,
+      "color": "#9B59B6"
+    },
+    {
+  "line": 15, "color": "#E84C3D"
+},
+{
+  "line": 16, "color": "#9B59B6"
+},
+{
+  "line": 17, "color": "#1ABC9C"
+},
+{
+  "line": 18, "color": "#F39C12"
+},
+{
+  "line": 19, "color": "#2ECC71"
+},
+{
+  "line": 20, "color": "#E67E22"
+},
+{
+  "line": 21, "color": "#3498DB"
+},
+{
+  "line": 22, "color": "#E74C3C"
+},
+{
+  "line": 23, "color": "#8E44AD"
+},
+{
+  "line": 24, "color": "#16A085"
+},
+{
+  "line": 25, "color": "#F1C40F"
+},
+{
+  "line": 26, "color": "#27AE60"
+},
+{
+  "line": 27, "color": "#D35400"
+},
+{
+  "line": 28, "color": "#2980B9"
+},
+{
+  "line": 29, "color": "#C0392B"
+},
+{
+  "line": 30, "color": "#2C3E50"
+},
+{
+  "line": 31, "color": "#7F8C8D"
+},
+{
+  "line": 32, "color": "#BDC3C7"
+},
+{
+  "line": 33, "color": "#34495E"
+},
+{
+  "line": 34, "color": "#95A5A6"
+},
+{
+  "line": 35, "color": "#1ABC9C"
+},
+{
+  "line": 36, "color": "#E67E22"
+},
+{
+  "line": 37, "color": "#3498DB"
+},
+{
+  "line": 38, "color": "#E74C3C"
+},
+{
+  "line": 39, "color": "#8E44AD"
+},
+{
+  "line": 40, "color": "#16A085"
+},
+{
+  "line": 41, "color": "#F39C12"
+},
+{
+  "line": 42, "color": "#27AE60"
+},
+{
+  "line": 43, "color": "#D35400"
+},
+{
+  "line": 44, "color": "#2980B9"
+},
+{
+  "line": 45, "color": "#C0392B"
+},
+{
+  "line": 46, "color": "#2C3E50"
+},
+{
+  "line": 47, "color": "#7F8C8D"
+},
+{
+  "line": 48, "color": "#BDC3C7"
+},
+{
+  "line": 49, "color": "#34495E"
+},
+{
+  "line": 50, "color": "#95A5A6"
+},
+{
+  "line": 51, "color": "#E84C3D"
+},
+{
+  "line": 52, "color": "#9B59B6"
+},
+{
+  "line": 53, "color": "#1ABC9C"
+},
+{
+  "line": 54, "color": "#F39C12"
+},
+{
+  "line": 55, "color": "#2ECC71"
+},
+{
+  "line": 56, "color": "#E67E22"
+},
+{
+  "line": 57, "color": "#3498DB"
+},
+{
+  "line": 58, "color": "#E74C3C"
+},
+{
+  "line": 59, "color": "#8E44AD"
+},
+{
+  "line": 60, "color": "#16A085"
+}
   ],
   "transports": [
     {
