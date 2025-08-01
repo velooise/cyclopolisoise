@@ -197,8 +197,10 @@
             49.406656
           ]
         ]
-      },
-       {
+      }
+       
+    },
+    {
       "type": "Feature",
       "properties": {},
       "geometry": {
@@ -208,6 +210,5 @@
         ],
         "type": "Point"
       }
-    }
   ]
 }
