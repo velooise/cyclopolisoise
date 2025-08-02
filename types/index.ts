@@ -9,6 +9,7 @@ export type LaneType =
 | 'voie-verte'
 | 'bandes-cyclables'
 | 'zone-de-rencontre'
+| 'zone-30'  
 | 'aucun'
 | 'inconnu';
 
