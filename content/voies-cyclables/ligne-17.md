@@ -9,6 +9,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-17.jpg
 ---
 Ligne 17 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
+En sortie de Coye c'est une zone 30 qui est prévue, puis ensuite un marquage au sol.
+A l'arrivée aux étangs, une voie interdite aux véhicules motorisés sauf ayants droits.
 
 ## Informations complémentaires
 
