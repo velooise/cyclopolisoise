@@ -10,7 +10,7 @@ export const useUrl = () => {
   }
 
   function getVoieCyclableRegex() {
-    return new RegExp(`${config.slug}-(1[0-2]|[1-9]|2[0-2]|3[0-2]|4[0-2])\\b`);
+    return new RegExp(`${config.slug}-(1[0-9]|[1-9]|2[0-9]|3[0-9]|4[0-9])\\b`);
   }
 
   return { withoutTrailingSlash, getVoieCyclablePath, getVoieCyclableRegex };
