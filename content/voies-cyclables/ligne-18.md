@@ -11,8 +11,9 @@ Ligne 21 du schéma cyclable de la CCAC
 ## Les tronçons (du Nord au Sud)
 Au sein de la commune passage en zone 30.
 Dès la sortie de la commune, remplacement de la zone de rencontre par une impasse avec débouché cyclable. La route sera fermée à hauteur du cimetière. Les riverains peuvent y circuler en voiture pour rejoindre la route manon, les véhicules agricoles sont également autorisés. Ce qui nous permet d'attribuer le nom de voie verte à cette route bucolique.
+![la suite en 2025-2026](https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg "Mag de Chantilly du 30/4/2025").
 
-(https://www.velooise.fr/wp-content/uploads/2025/08/orry-rue-du-moulin.jpeg)
+![vue bucolique](https://www.velooise.fr/wp-content/uploads/2025/08/orry-rue-du-moulin.jpeg)
 ## Informations complémentaires
 
 Budget estimé : 93 794 € dont 93 794 € pour la CCAC (EPCI Voisine : , CD60 : )
