@@ -7,7 +7,7 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": ,
+				"imgUrl": "",
 				"line": 25
 			},
 			"geometry": {
