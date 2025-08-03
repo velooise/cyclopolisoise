@@ -1,37 +1,72 @@
+
 {
     "type": "FeatureCollection",
     "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "id": "CCAC-53-05",
-          "line": 5,
-          "name": "LCES-Pontarmé",
-          "status": "unknown",
-          "type": "voie-verte",
-          "link": "/velo-oise-5",
-          "quality": "satisfactory"
-        },
-  "geometry": {
-        "coordinates": [
-          [
-            2.5339784371359713,
-            49.13017952866406
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg",
+				"line": 25
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+            2.5367761409992227,
+            49.137542918619744
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lces-pontarme-53",
+                "line": 25,
+                "name": "LCES-Pontarmé",
+                "status": "planned",
+                "type": "bilatérale",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+            2.5339913203164315,
+            49.131753323781936
           ],
           [
-            2.534308504324855,
-            49.133973094639515
+            2.534228231455671,
+            49.13369712143805
           ],
           [
-            2.5420690484277486,
-            49.14541440341918
+            2.5350325368760593,
+            49.13504647217701
           ],
           [
-            2.546877533888818,
-            49.15059506545998
+            2.5367761409992227,
+            49.137542918619744
+          ],
+          [
+            2.537601069634178,
+            49.13871676476256
+          ],
+          [
+            2.5405547112083298,
+            49.14309504054995
+          ],
+          [
+            2.5428277760582034,
+            49.14635642066207
+          ],
+          [
+            2.546934509238042,
+            49.150784430458
           ]
-        ],
-        "type": "LineString"
-      }}
-]
+                ]
+            }
+        }
+     ]
 }
+
+
