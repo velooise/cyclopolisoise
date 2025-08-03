@@ -7,42 +7,106 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-55.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-55.jpg",
 				"line": 26
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					  2.511137702053418,
+          49.20359973740074
 				]
 			}
 		},
         {
             "type": "Feature",
             "properties": {
-                "id": "chantilly---senlis-55",
+                "id": "chantilly-55-04",
                 "line": 26,
-                "name": "CHANTILLY - SENLIS",
-                "status": "planned",
+                "name": "Chantilly - Chemin des obstinés",
+                "status": "done",
+		"doneAt": "01/01/2016",
                 "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-26"
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+		"quality": "satisfactory"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
+          [
+            2.467278755243427,
+            49.195852540490876
+          ],
+          [
+            2.4669735705740834,
+            49.19707431697262
+          ],
+          [
+            2.4666975286460797,
+            49.19839038358515
+          ]
+                ]
+            }
+        },
+	  {
+            "type": "Feature",
+            "properties": {
+                "id": "chantilly-55-02",
+                "line": 26,
+                "name": "Chantilly - Suite chemin des obstinés",
+                "status": "done",
+		"doneAt": "01/01/2016",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+		"quality": "satisfactory"
+		    
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+            [
+            2.466699004470428,
+            49.19840977878806
+          ],
+          [
+            2.466600725761623,
+            49.1988829720884
+          ],
+          [
+            2.4667921106154154,
+            49.19913984655537
+          ]
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "chantilly-55-03",
+                "line": 26,
+                "name": "Chantilly - chemin des bourgognes",
+                "status": "done",
+		"doneAt": "01/01/2016",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+		"quality": "satisfactory"
+		    
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+       [
+            2.466783610464688,
+            49.19913774805829
+          ],
+          [
+            2.468348663956334,
+            49.20148573404947
+          ],
+          [
+            2.4694400745015344,
+            49.20312752668522
+          ]
                 ]
             }
         }
