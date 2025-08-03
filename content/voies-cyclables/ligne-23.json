@@ -7,18 +7,132 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-30.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-30.jpg",
 				"line": 23
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					 2.5916267461060727,
+          49.11008427698897
 				]
 			}
 		},
         {
+            "type": "Feature",
+            "properties": {
+                "id": "mortefontaine-collège-lycée---plailly-30-08",
+                "line": 23,
+                "name": "MORTEFONTAINE collège lycée - PLAILLY",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+          [
+            2.582549298844185,
+            49.10421608517305
+          ],
+          [
+            2.587025160298367,
+            49.106224438839064
+          ]
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "mortefontaine-collège-lycée---plailly-30-05",
+                "line": 23,
+                "name": "MORTEFONTAINE collège lycée - PLAILLY",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                 [
+            2.5872263226111443,
+            49.10629028512409
+          ],
+          [
+            2.5881315530175186,
+            49.10688289775649
+          ],
+          [
+            2.588181843596743,
+            49.10764011470971
+          ]
+ 
+                ]
+            }
+        },
+	          {
+            "type": "Feature",
+            "properties": {
+                "id": "mortefontaine-collège-lycée---plailly-30-01",
+                "line": 23,
+                "name": "MORTEFONTAINE collège lycée - PLAILLY",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+            2.588220049759343,
+            49.10763056521253
+          ],
+          [
+            2.58916299809988,
+            49.10833838813767
+          ],
+          [
+            2.590558561643519,
+            49.10935895225367
+          ],
+          [
+            2.5925382699440433,
+            49.11072454268833
+          ],
+          [
+            2.593606944729089,
+            49.11150639076442
+          ],
+          [
+            2.594914499760847,
+            49.11251865996945
+          ],
+          [
+            2.5959203113243348,
+            49.11355559725101
+          ],
+          [
+            2.5965866614839683,
+            49.113530908520175
+          ],
+          [
+            2.597114712555367,
+            49.113374546271444
+          ],
+          [
+            2.5971200143888495,
+            49.11337497387527
+          ],
+          [
+            2.59770784516968,
+            49.11313419504816
+          ]
+
+                ]
+            }
+        },
+	          {
             "type": "Feature",
             "properties": {
                 "id": "mortefontaine-collège-lycée---plailly-30",
@@ -31,18 +145,35 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
+           [
+            2.597829508239215,
+            49.11313628834748
+          ],
+          [
+            2.5979485169251575,
+            49.11304186496318
+          ],
+          [
+            2.5979701548682783,
+            49.112895508361845
+          ],
+          [
+            2.598179321649013,
+            49.11266416962829
+          ],
+          [
+            2.5987779671039846,
+            49.11226522770741
+          ],
+          [
+            2.598835668284522,
+            49.11221565458226
+          ],
+          [
+            2.599452349656417,
+            49.11254614114526
+          ]
+ 
                 ]
             }
         }
