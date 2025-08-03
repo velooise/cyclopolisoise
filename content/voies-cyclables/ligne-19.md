@@ -13,6 +13,7 @@ Ligne 22 du schéma cyclable de la CCAC
 ## Historique
 ### 2016
 ![En 2016, un sentier](https://www.velooise.fr/wp-content/uploads/2025/08/20160201.le_parisien.jpg)
+
 Jusqu'en 2016 un chemin naturel (tracé par les chaussures des piétons et les roues des vélos) longeait la route départementale. La CCAC a décidé de lancer une étude pour déployer un aménagement. [Lire ici] (https://www.velooise.fr/2017/08/23/une-voie-verte-entre-orry-la-ville-et-coye-la-foret/)
 ### 2018
 Durant l'été et l'automne 2018 une voie verte a été aménagée. D’une longueur d’1,4km, pour 2m de largeur, elle a été
@@ -25,6 +26,6 @@ Comme prévu, le revêtement stabilisé s'abime, des ornières apparaissent à c
 Un nettoyage complet et une reprise est effectuée par l'Aire Cantilienne, notamment entre la Gare et Orry.
 ## Informations complémentaires
 
-Budget estimé : 319 285 € dont 319 285 € pour la CCAC (EPCI Voisine : , CD60 : )
+Budget estimé dans le schéma : 319 285 € dont 319 285 € pour la CCAC (EPCI Voisine : , CD60 : )
 Linéaire : 1 894 m
 
