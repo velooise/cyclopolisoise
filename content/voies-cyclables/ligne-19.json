@@ -25,7 +25,7 @@
                 "line": 19,
                 "name": "GARE DE COYE ORRY - ORRY LA VILLE",
                 "status": "done",
-		"doneAt": "01/07/2024"
+		"doneAt": "01/07/2024",
                 "type": "bidirectionnelle",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-19"
             },
