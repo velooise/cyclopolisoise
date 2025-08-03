@@ -183,6 +183,7 @@ export const useStats = () => {
     'voie-verte': 'Voie verte',
     'bandes-cyclables': 'Bandes cyclables',
     'zone-de-rencontre': 'Zone de rencontre',
+    'zone-30: 'Zone 30',
     aucun: 'Aucun',
     inconnu: 'Inconnu'
   };
