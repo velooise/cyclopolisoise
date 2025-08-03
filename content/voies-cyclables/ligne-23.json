@@ -21,7 +21,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "mortefontaine-collège-lycée---plailly-30-08",
+                "id": "mortefontaine-collège-lycée-plailly-30-08",
                 "line": 23,
                 "name": "MORTEFONTAINE collège lycée - PLAILLY",
                 "status": "planned",
@@ -45,7 +45,7 @@
 	      {
             "type": "Feature",
             "properties": {
-                "id": "mortefontaine-collège-lycée---plailly-30-05",
+                "id": "mortefontaine-collège-lycée-plailly-30-05",
                 "line": 23,
                 "name": "MORTEFONTAINE collège lycée - PLAILLY",
                 "status": "planned",
@@ -74,7 +74,7 @@
 	          {
             "type": "Feature",
             "properties": {
-                "id": "mortefontaine-collège-lycée---plailly-30-01",
+                "id": "mortefontaine-collège-lycée-plailly-30-01",
                 "line": 23,
                 "name": "MORTEFONTAINE collège lycée - PLAILLY",
                 "status": "planned",
@@ -135,11 +135,11 @@
 	          {
             "type": "Feature",
             "properties": {
-                "id": "mortefontaine-collège-lycée---plailly-30",
+                "id": "mortefontaine-collège-lycée-plailly-30-00",
                 "line": 23,
                 "name": "MORTEFONTAINE collège lycée - PLAILLY",
                 "status": "planned",
-                "type": "voie-verte",
+                "type": "zone-30",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
             },
             "geometry": {
@@ -180,7 +180,7 @@
 	             {
             "type": "Feature",
             "properties": {
-                "id": "mortefontaine-collège-lycée---plailly-30",
+                "id": "mortefontaine-collège-lycée-plailly-30",
                 "line": 23,
                 "name": "MORTEFONTAINE collège lycée - PLAILLY",
                 "status": "planned",
