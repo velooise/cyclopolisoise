@@ -10,6 +10,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-21.jpg
 Ligne 21 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
 Au sein de la commune passage en zone 30.
+
 Dès la sortie de la commune, remplacement de la zone de rencontre par une impasse avec débouché cyclable. La route sera fermée à hauteur du cimetière. Les riverains peuvent y circuler en voiture pour rejoindre la route manon, les véhicules agricoles sont également autorisés. Ce qui nous permet d'attribuer le nom de voie verte à cette route bucolique.
 
 ![vue bucolique](https://www.velooise.fr/wp-content/uploads/2025/08/orry-rue-du-moulin.jpeg)
