@@ -17,5 +17,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/07/LcesFossesAvant.jpg
 
 ## Fil d'actu
 
-### Début prévisionnel des travaux
-Janvier 2025
+### Historique
+Janvier 2025 - début des travaux
+Aout 2025 - le gros oeuvre est bien avancé, les poteaux de séparation sont déjà installés (vue du coté de la Chapelle)
+!(https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-l2-Apercu-des-travaux-au-3-8-2025.jpg)
