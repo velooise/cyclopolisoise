@@ -22,7 +22,7 @@
 			"properties": {
 				"id": "plailly---za-zi-zc---gare-de-fosses-31-17",
 				"line": 24,
-				"name": "PLAILLY - ZA-ZI-ZC - GARE DE FOSSES",
+				"name": "Fosses-Survilliers",
 				"status": "planned",
 				"type": "bilaterale",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
@@ -78,9 +78,9 @@
 			"properties": {
 				"id": "plailly---za-zi-zc---gare-de-fosses-31-14-15",
 				"line": 24,
-				"name": "PLAILLY - ZA-ZI-ZC - GARE DE FOSSES",
+				"name": "Survilliers Centre",
 				"status": "planned",
-				"type": "bilaterale",
+				"type": "zone-30",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
 			},
 			"geometry": {
@@ -190,7 +190,7 @@
 			"properties": {
 				"id": "plailly---za-zi-zc---gare-de-fosses-31-13",
 				"line": 24,
-				"name": "PLAILLY - ZA-ZI-ZC - GARE DE FOSSES",
+				"name": "Survilliers-sortie",
 				"status": "planned",
 				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
@@ -226,7 +226,7 @@
 			"properties": {
 				"id": "plailly-za-zi-zc-gare-de-fosses-31-05-06-08",
 				"line": 24,
-				"name": "PLAILLY - ZA-ZI-ZC - GARE DE FOSSES",
+				"name": "Survilliers-Plailly",
 				"status": "planned",
 				"type": "bilaterale",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
