@@ -5,7 +5,7 @@ from: ORRY LA VILLE
 to:  LA CHAPELLE EN SERVAL 
 description: La ligne 23 du schéma cyclable de la CCAC reliera ORRY LA VILLE   à LA CHAPELLE EN SERVAL 
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-23.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-23.jpg
 ---
 Ligne 23 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
