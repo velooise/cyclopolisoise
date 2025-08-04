@@ -5,7 +5,7 @@ from: GOUVIEUX
 to:  LAMORLAYE 
 description: La ligne 70 du schéma cyclable de la CCAC reliera GOUVIEUX  à LAMORLAYE 
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-70.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-70.jpg
 ---
 Ligne 70 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
