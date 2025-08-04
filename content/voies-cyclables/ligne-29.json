@@ -195,7 +195,7 @@
             "properties": {
                 "id": "gare-chantilly-avilly-st-leonard-72-13",
                 "line": 29,
-                "name": "Vers Saint Léonard",
+                "name": "Direction Courteuil",
                 "status": "planned",
                 "type": "bilaterale",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
