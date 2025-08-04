@@ -18,8 +18,9 @@ Ce n'est pas un long fleuve tranquille cette liaison a visée plutôt touristiqu
 - 2022 : le projet patine un peu,  l’acquisition du foncier a débuté mais il reste encore quelques propriétaires récalcitrants que le Département et la CCSSO essaient de convaincre.
 - 2023 : c'est pour 2024 ! ;-)
 - 2025 : elle devrait voir le jour d'ici 2027 avec toujours des problèmes de foncier. Sur le revêtement, grand sujet de débat quant aux coûts et au financement, il y a toujours un flottement entre de l'enrobé et du stabilisé et peut-être une option pour un enrobé clair. Il faut réussir à convaincre l'architecte des Bâtiments de France, le Parc Naturel Régional ainsi que le maire de Vineuil qu'il vaut mieux quelques vélos sur une piste en enrobé dans la forêt que dans le coeur du village. « On regrette que cela avance trop lentement », a annoncé la maire de Chantilly lors de ses vœux. Une étude environementale 4 saisons a été demandée (bim, une année de plus) et la voie verte devrait contourner la scierie.
-- 
+  
 ## Informations complémentaires
+C'est l'une des dernières voies vertes dont le financement est porté par le Département de l'Oise et pas une intercommunalité.
 
 Budget estimé : 478 145 € dont 4 379 € pour la CCAC (EPCI Voisine : , CD60 : 473 765 €)
 
