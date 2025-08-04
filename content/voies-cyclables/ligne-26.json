@@ -256,7 +256,7 @@
 				"line": 26,
 				"name": "l'ancienne voie ferrée",
 				"status": "planned",
-				"type": "zone-30",
+				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-26"
 			},
 			"geometry": {
