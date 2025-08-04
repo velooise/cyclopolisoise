@@ -21,7 +21,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72'",
+                "id": "gare-chantilly-avilly-st-leonard-72-23-24-25",
                 "line": 29,
                 "name": "Chantilly vers le chateau",
                 "status": "planned",
@@ -70,6 +70,122 @@
           [
             2.484612898171747,
             49.18959370190916
+          ]
+                ]
+            }
+        },
+	 {
+            "type": "Feature",
+            "properties": {
+                "id": "gare-chantilly-avilly-st-leonard-72-20-21",
+                "line": 29,
+                "name": "Chantilly vers le chateau",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+            [
+            2.48503612409354,
+            49.18977601850642
+          ],
+          [
+            2.485900508235744,
+            49.19025402810189
+          ],
+          [
+            2.487230329992741,
+            49.1904713036638
+          ],
+          [
+            2.4900562012272474,
+            49.189276276263485
+          ],
+          [
+            2.4919511972311454,
+            49.18929800429248
+          ],
+          [
+            2.494112157586642,
+            49.18949355612003
+          ],
+          [
+            2.4980018862266036,
+            49.18931973231136
+          ],
+          [
+            2.503720119782969,
+            49.19060166854277
+          ],
+          [
+            2.50694493754483,
+            49.19205738635898
+          ]
+                ]
+            }
+        },
+	 {
+            "type": "Feature",
+            "properties": {
+                "id": "gare-chantilly-avilly-st-leonard-72-01",
+                "line": 29,
+                "name": "Dans Avilly",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+          [
+            2.5072673434347905,
+            49.19202193809423
+          ],
+          [
+            2.5124482677682636,
+            49.19066311683136
+          ]
+                ]
+            }
+        },
+	 {
+            "type": "Feature",
+            "properties": {
+                "id": "gare-chantilly-avilly-st-leonard-72-15-14",
+                "line": 29,
+                "name": "Vers Saint Léonard",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+            [
+            2.5126868629681667,
+            49.19059628859304
+          ],
+          [
+            2.517117916674522,
+            49.19050718413507
+          ],
+          [
+            2.525124271953189,
+            49.1907867453732
+          ],
+          [
+            2.530468338452522,
+            49.191164319461734
+          ],
+          [
+            2.533044046870316,
+            49.191227254643195
+          ],
+          [
+            2.5366067578712546,
+            49.190739554859135
           ]
                 ]
             }
