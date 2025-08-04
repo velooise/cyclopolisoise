@@ -252,9 +252,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "chantilly-55-08-9-11-12-14",
+				"id": "chantilly-55-08-9-11-12-13",
 				"line": 26,
-				"name": "l'ancienne voie ferrée dans Vineuil Eguemont",
+				"name": "l'ancienne voie ferrée",
 				"status": "planned",
 				"type": "zone-30",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-26"
