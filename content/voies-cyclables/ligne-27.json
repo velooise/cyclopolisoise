@@ -7,45 +7,122 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-70.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-70.jpg",
 				"line": 27
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+				          2.4158569701588988,
+          49.180379177386044
 				]
 			}
 		},
         {
             "type": "Feature",
             "properties": {
-                "id": "gouvieux---lamorlaye-70",
+                "id": "gouvieux---lamorlaye-70-10-06",
                 "line": 27,
-                "name": "GOUVIEUX - LAMORLAYE",
+                "name": "La traversée du Lys",
                 "status": "planned",
-                "type": "voie-verte",
+                "type": "bilaterale",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
+                   [
+            2.438745393145723,
+            49.155822672636276
+          ],
+          [
+            2.4301376628113758,
+            49.16345679649962
+          ],
+          [
+            2.4257165803321357,
+            49.16827511058719
+          ],
+          [
+            2.4304915205174495,
+            49.1691617954657
+          ],
+          [
+            2.4306686057405784,
+            49.172051985078014
+          ],
+          [
+            2.4247853882255868,
+            49.17575852841989
+          ],
+          [
+            2.420625553615224,
+            49.17405607690225
+          ]
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "gouvieux---lamorlaye-70-02",
+                "line": 27,
+                "name": "Entrée dans Gouvieux via Av. Aristide Briand",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+            2.4205241016724415,
+            49.17401186088375
+          ],
+          [
+            2.4171083025216262,
+            49.17801363806447
+          ],
+          [
+            2.4150452951126624,
+            49.182015091717545
+          ]
+                ]
+            }
+        },
+	         {
+            "type": "Feature",
+            "properties": {
+                "id": "gouvieux---lamorlaye-70-01",
+                "line": 27,
+                "name": "Gouvieux-Monument aux morts",
+                "status": "planned",
+                "type": "bilaterale",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                       [
+            2.415011475319261,
+            49.182169837570456
+          ],
+          [
+            2.4141321606863357,
+            49.18398253867474
+          ],
+          [
+            2.4134557648153816,
+            49.18444675632651
+          ],
+          [
+            2.4117985949295075,
+            49.18444675632651
+          ]
                 ]
             }
         }
+	    
      ]
 }
 
