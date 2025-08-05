@@ -101,6 +101,144 @@
 					]
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gouvieux-centre-nautique-73-01",
+				"line": 30,
+				"name": "Pistes sur trottoir autour de l'accès à la piscine",
+				"status": "done",
+				"doneAt": "01/10/2016",
+				"type": "bilaterale",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+				"quality": "unsatisfactory"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					   [
+            2.429762538632417,
+            49.18759416656869
+          ],
+          [
+            2.4302284239195444,
+            49.18715862059753
+          ],
+          [
+            2.4305822608473875,
+            49.18690422914153
+          ],
+          [
+            2.4309243032103893,
+            49.18670765302954
+          ],
+          [
+            2.4312191673167263,
+            49.18657274740315
+          ],
+          [
+            2.431337112959767,
+            49.18651878504943
+          ]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gouvieux-centre-nautique-73-01",
+				"line": 30,
+				"name": "Pistes sur trottoir autour de l'accès à la piscine",
+				"status": "done",
+				"doneAt": "01/10/2016",
+				"type": "bilaterale",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+				"quality": "unsatisfactory"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+		        [
+            2.4337025821285465,
+            49.18786826277875
+          ],
+          [
+            2.4336789930001714,
+            49.187837427962876
+          ],
+          [
+            2.4336082256151315,
+            49.18784899102127
+          ],
+          [
+            2.4334431017153975,
+            49.18768710795919
+          ],
+          [
+            2.4341684674170097,
+            49.18661172845998
+          ],
+          [
+            2.4342923103411636,
+            49.18639973332802
+          ]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gouvieux-centre-nautique-73-01",
+				"line": 30,
+				"name": "Pistes sur trottoir autour de l'accès à la piscine",
+				"status": "done",
+				"doneAt": "01/10/2016",
+				"type": "bilaterale",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+				"quality": "unsatisfactory"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+		          [
+            2.4331010594455904,
+            49.18809181421531
+          ],
+          [
+            2.432994908367391,
+            49.18809181421531
+          ],
+          [
+            2.432688249696213,
+            49.1884849546596
+          ],
+          [
+            2.4325871685454388,
+            49.18877727169968
+          ],
+          [
+            2.4326579359304787,
+            49.18893144265914
+          ],
+          [
+            2.432828957112662,
+            49.188923734122625
+          ],
+          [
+            2.4329292109084406,
+            49.189201240682905
+          ],
+          [
+            2.4338550842016673,
+            49.18929374252349
+          ],
+          [
+            2.4339081597408097,
+            49.18938238995864
+          ]
+				]
+			}
 		}
 	]
 }
