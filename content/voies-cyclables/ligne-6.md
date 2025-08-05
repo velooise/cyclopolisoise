@@ -11,7 +11,7 @@ Statut : Acquisition foncière en cours
 ## les tronçons
 
 ## l'ecoquartier
-
+Achevé en aout 2025
 ## de l'écoquartier à l'écluse
 
 ## de l'écluse à l'usine EDF
