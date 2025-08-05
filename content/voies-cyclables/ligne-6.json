@@ -56,15 +56,14 @@
 			}
 		},
 		{
-			"type": "FeatureCollection",
-			"features": [
-				{
+			
+			
 					"type": "Feature",
 					"properties": {
 						"id": "ACSO-Creil-SaintLeu",
 						"line": 6,
 						"name": "Creil a Saint Leu par les berges",
-						"status": "planned",
+						"status": "wip",
 						"type": "voie-verte",
 						"link": "https://cyclopolisoise.netlify.app/velo-oise-6"
 					},
@@ -196,5 +195,5 @@
 				}
 			]
 		}
-	]
-}
+	
+
