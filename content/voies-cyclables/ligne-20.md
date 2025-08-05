@@ -13,5 +13,6 @@ Ligne 23 du schéma cyclable de la CCAC
 ## Informations complémentaires
 
 Budget estimé : 240 494 € dont 240 494 € pour la CCAC (EPCI Voisine : , CD60 : )
+
 Linéaire : 1 405 m
 
