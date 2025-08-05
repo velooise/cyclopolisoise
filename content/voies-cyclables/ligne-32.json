@@ -7,21 +7,55 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-75.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-75.jpg",
 				"line": 32
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					 2.5120441817187213,
+          49.13013571029026
 				]
 			}
 		},
         {
             "type": "Feature",
             "properties": {
-                "id": "orry-contournement-ouest-75",
+                "id": "orry-contournement-ouest-75-1",
+                "line": 32,
+                "name": "ORRY contournement ouest (75)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-contournement-ouest-75-2",
+                "line": 32,
+                "name": "ORRY contournement ouest (75)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  
+                ]
+            }
+        },
+	    {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-contournement-ouest-75-3 (75)",
                 "line": 32,
                 "name": "ORRY contournement ouest",
                 "status": "planned",
@@ -31,18 +65,41 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
+                  
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-contournement-ouest-75-4",
+                "line": 32,
+                "name": "ORRY contournement ouest (75)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-contournement-ouest-75-5",
+                "line": 32,
+                "name": "ORRY contournement ouest (75)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  
                 ]
             }
         }
