@@ -9,23 +9,23 @@ trafic: inconnu vélos/jour
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-lam-vieille-cavee.jpg
 ---
 
-#### Liaison Lamorlaye - Piscine Aqualis
+### Liaison Lamorlaye - Piscine Aqualis
 
-##### Principes d'aménagement(s) cyclable(s)
+#### Principes d'aménagement(s) cyclable(s)
 voie verte & marquage au sol vélo + chevrons
 
-##### Vocation
+#### Vocation
 Utilitaire 
 
-##### Lieu(x) desservi(s)
+#### Lieu(x) desservi(s)
 
 * Piscine Aqualis
 
 
-##### Description
+#### Description
 
 Attention, forte déclivité pour cette voie verte qui traverse le parc du château d'Aiglemont.
 
-##### Historique
+#### Historique
 
 - 2025 Réfection d'une partie de l'enrobé qui souffre des racines
