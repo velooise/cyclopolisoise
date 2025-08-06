@@ -41,34 +41,7 @@
 				]
 			}
 		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gare-de-coye-orry---coye-13",
-				"line": 14,
-				"name": "GARE DE COYE ORRY - COYE",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.4877459592515265,
-						49.138957916598514
-					],
-					[
-						2.4872942949430126,
-						49.13889014859734
-					],
-					[
-						2.4848899391310795,
-						49.138957916598514
-					]
-				]
-			}
-		},
+	
 		{
 			"type": "Feature",
 			"properties": {
