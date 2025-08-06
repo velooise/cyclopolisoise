@@ -5,7 +5,7 @@ from: GARE DE COYE ORRY
 to:  ORRY LA VILLE 
 description: La ligne 22 du schéma cyclable de la CCAC reliera GARE DE COYE ORRY  à ORRY LA VILLE 
 trafic: inconnu vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-22.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-22.jpg
 ---
 Ligne 22 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
