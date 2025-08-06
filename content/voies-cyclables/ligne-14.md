@@ -12,7 +12,8 @@ Ligne 13 du schéma cyclable de la CCAC
 
 - sous le tunnel jusqu'à la sortie du parking coté coye, élargissement, abaissement du trottoir. Reste l'insertion lorsque l'on vient d'Orry qui est à envisager
 - de la sortie du parking coté coye au poteau
-- la descente de la gare s'effectuerait par une piste sur trottoir pour la montée et un marquage pour la descente
+- la descente de la gare s'effectuerait par une piste sur trottoir pour la montée et un marquage pour la descente jusque la rue des bruyères
+- la suite est en zone-30
 
 
 ## Informations complémentaires
