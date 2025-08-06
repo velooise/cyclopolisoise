@@ -10,6 +10,11 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-13.jpg
 Ligne 13 du schéma cyclable de la CCAC  
 ## Les tronçons (du Nord au Sud)
 
+- sous le tunnel jusqu'à la sortie du parking coté coye, élargissement, abaissement du trottoir. Reste l'insertion lorsque l'on vient d'Orry qui est à envisager
+- de la sortie du parking coté coye au poteau
+- la descente de la gare s'effectuerait par une piste sur trottoir pour la montée et un marquage pour la descente
+
+
 ## Informations complémentaires
 
 Budget estimé : 129 820 € dont 129 820 € pour la CCAC (EPCI Voisine : , CD60 : )
