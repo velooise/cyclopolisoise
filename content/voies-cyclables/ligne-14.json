@@ -138,6 +138,40 @@
 					]
 				]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gare-coye-13-12-14",
+				"line": 14,
+				"name": "coye 13-12-14 : sur trottoir",
+				"status": "done",
+				"doneAt": "01/08/2022",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					
+					 [
+            2.476366190324711,
+            49.14109883944326
+          ],
+          [
+            2.4750918875454033,
+            49.141740937700746
+          ],
+          [
+            2.473731468630689,
+            49.142506972226926
+          ],
+          [
+            2.4728187756354885,
+            49.14316035246395
+          ]
+				]
+			}
 		}
 	]
 }
