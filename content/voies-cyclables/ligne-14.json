@@ -47,9 +47,10 @@
 			"properties": {
 				"id": "gare-de-coye-orry---coye-13",
 				"line": 14,
-				"name": "GARE DE COYE ORRY - COYE",
-				"status": "planned",
+				"name": "Du parking au poteau de coye (13-01) ",
+				"status": "done",
 				"type": "voie-verte",
+				"doneAt": "01/09/2018",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
 			},
 			"geometry": {
