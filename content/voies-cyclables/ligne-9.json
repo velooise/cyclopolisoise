@@ -23,7 +23,8 @@
 				"id": "chantilly---etang-de-comelle-8",
 				"line": 9,
 				"name": "CHANTILLY - ETANG DE COMELLE",
-				"status": "planned",
+				"status": "done",
+				"doneAt": "01/05/2010"
 				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-9"
 			},
