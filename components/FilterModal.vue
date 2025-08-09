@@ -90,6 +90,7 @@ const typeFilters = ref([
   { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
   { label: 'Zone 30', isEnable: true, types: ['zone-30'] },
   { label: 'Impasse + débouché cyclable', isEnable: true, types: ['imp+debouche-cyclable'] },
+  { label: 'Piste sur trottoir', isEnable: true, types: ['piste-sur-trottoir'] },
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
