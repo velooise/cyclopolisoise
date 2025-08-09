@@ -10,6 +10,7 @@ export type LaneType =
 | 'bandes-cyclables'
 | 'zone-de-rencontre'
 | 'zone-30'  
+| 'imp+debouche-cyclable'  
 | 'aucun'
 | 'inconnu';
 
