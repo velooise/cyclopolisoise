@@ -184,6 +184,7 @@ export const useStats = () => {
     'bandes-cyclables': 'Bandes cyclables',
     'zone-de-rencontre': 'Zone de rencontre',
     'zone-30': 'Zone 30',
+    'imp+debouche-cyclable': 'Impasse avec débouché cyclable',
     aucun: 'Aucun',
     inconnu: 'Inconnu'
   };
