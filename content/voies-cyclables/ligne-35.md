@@ -8,6 +8,7 @@ description: La ligne 35 des voies de l'Oise relie Coye-la-Foret à la piscine A
 trafic: 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-lam-vieille-cavee.jpg
 ---
+
 Cette liaison a été mise en place à l'occasion de la mise en service de la Piscine Aqualis. Les standards de réalisation de l'époque ne sont plus les mêmes que ceux d'aujourd'hui. C'est une voie qui reste utilisée pour les trajets utilitaires et de loisirs, y compris pour rejoindre le collège de Lamorlaye depuis Coye.
 
 ### Liaison Coye - Lamorlaye
