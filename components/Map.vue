@@ -59,7 +59,7 @@ const {
 } = useMap();
 
 const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested']);
-const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre','zone-30', 'imp+debouche-cyclable','aucun', 'inconnu']);
+const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre','zone-30', 'imp+debouche-cyclable', 'piste-sur-trottoir','aucun', 'inconnu']);
 
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {
