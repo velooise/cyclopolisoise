@@ -126,6 +126,7 @@ function checkGeoJsonDataHealth({ links }) {
                 'bandes-cyclables',
                 'zone-de-rencontre',
                 'zone-30',
+                'imp+debouche-cyclable',
                 'inconnu',
                 'aucun'
               ];
