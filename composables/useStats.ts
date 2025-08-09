@@ -185,6 +185,7 @@ export const useStats = () => {
     'zone-de-rencontre': 'Zone de rencontre',
     'zone-30': 'Zone 30',
     'imp+debouche-cyclable': 'Impasse avec débouché cyclable',
+    'piste-sur-trottoir': 'Piste sur trottoir',
     aucun: 'Aucun',
     inconnu: 'Inconnu'
   };
