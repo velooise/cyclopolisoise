@@ -8,7 +8,6 @@ Entièrement développée par des bénévoles de l'association lyonnaise "La Vil
 On y retrouve en particulier :
 - une carte intéractive permettant de visualiser les tracés des voies cyclables.
 - une page détaillée sur chacune des voies cyclables.
-- des analyses de traffic à partir des compteurs à vélo de la métropole lyonnaise.
 
 ## Est-il possible de réutiliser Cyclopolis pour un autre projet ?
 
