@@ -91,6 +91,7 @@ const typeFilters = ref([
   { label: 'Zone 30', isEnable: true, types: ['zone-30'] },
   { label: 'Impasse + débouché cyclable', isEnable: true, types: ['imp+debouche-cyclable'] },
   { label: 'Piste sur trottoir', isEnable: true, types: ['piste-sur-trottoir'] },
+  { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
