@@ -1,0 +1,52 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C4.jpg",
+				"line": 61
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.4006012033979687,
+					49.19650945673175
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "c4---zae-de-senlis-la-bigue-(liaison-de-ceinture-périphérique)-C4",
+                "line": 61,
+                "name": "C4 - ZAE DE SENLIS LA BIGUE  (Liaison de ceinture périphérique)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-61"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.469639191226662,
+                        49.203279198802704
+                    ],
+                    [
+                        2.4725317299099743,
+                        49.20734215226361
+                    ],
+                    [
+                        2.4638952795354783,
+                        49.209924975424144
+                    ]
+                ]
+            }
+        }
+     ]
+}
+
+

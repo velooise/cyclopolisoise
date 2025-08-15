@@ -1,0 +1,68 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B2.jpg",
+				"line": 55
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.589221083857126,
+          49.214419214041015
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "barreau-complmentaire-b2---rue-du-haut-de-villevert-(projet-de-cahussee-a-voie-centrale-banalisee)-B2",
+                "line": 55,
+                "name": "Barreau Complmentaire B2 - RUE DU HAUT DE VILLEVERT (PROJET DE CAHUSSEE A VOIE CENTRALE BANALISEE)",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-55"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+              2.5920298417702634,
+              49.21566272685141
+            ],
+            [
+              2.5905610652665634,
+              49.21493123888246
+            ],
+            [
+              2.589678731016595,
+              49.21448774122466
+            ],
+            [
+              2.588281994465022,
+              49.21414088298629
+            ],
+            [
+              2.58750817754521,
+              49.21398923775425
+            ],
+            [
+              2.584980375607159,
+              49.2135174496129
+            ],
+            [
+              2.584980375607159,
+              49.2135174496129
+            ]
+                ]
+            }
+        }
+     ]
+}
+
+

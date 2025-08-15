@@ -1,0 +1,52 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A12.jpg",
+				"line": 45
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.4006012033979687,
+					49.19650945673175
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "a12---antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
+                "line": 45,
+                "name": "A12 - ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-45"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.469639191226662,
+                        49.203279198802704
+                    ],
+                    [
+                        2.4725317299099743,
+                        49.20734215226361
+                    ],
+                    [
+                        2.4638952795354783,
+                        49.209924975424144
+                    ]
+                ]
+            }
+        }
+     ]
+}
+
+

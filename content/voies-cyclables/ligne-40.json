@@ -1,8 +1,7 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
-    {
+	"type": "FeatureCollection",
+	"features": [
+		{
 			"type": "Feature",
 			"properties": {
 				"type": "perspective",
@@ -13,188 +12,410 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					2.572762425311822,
+					49.20648462818943
 				]
 			}
 		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "a1-1--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
-                "line": 40,
-                "name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
-                "status": "done",
-                "type": "zone-de-rencontre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-40"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                            2.583266544616114,
-                            49.20539971905661
-                        ],
-                        [
-                            2.581947962878402,
-                            49.20570055745649
-                        ],
-                        [
-                            2.581215417468561,
-                            49.20576892956484
-                        ],
-                        [
-                            2.579813116255437,
-                            49.20617916022955
-                        ]
-                ]
-            }
-        },
-         {
-            "type": "Feature",
-            "properties": {
-                "id": "a1-2--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
-                "line": 40,
-                "name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
-                "status": "planned",
-                "type": "imp+debouche-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-40"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
-                            2.579875905861996,
-                            49.20611078868845
-                        ],
-                        [
-                            2.579603817566911,
-                            49.2056595341461
-                        ],
-                        [
-                            2.579059640976744,
-                            49.20546809158094
-                        ],
-                        [
-                            2.579059640976744,
-                            49.20546809158094
-                        ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "a1-3--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
-                "line": 40,
-                "name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
-                "status": "planned",
-                "type": "voie)verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-40"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
-                            2.578954991632481,
-                            49.205495440564206
-                        ],
-                        [
-                            2.578264305960345,
-                            49.20627488022826
-                        ],
-                        [
-                            2.577782918976736,
-                            49.206425296994695
-                        ]
-                ]
-            }
-        },
-           {
-            "type": "Feature",
-            "properties": {
-                "id": "a1-4--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
-                "line": 40,
-                "name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
-                "status": "planned",
-                "type": "piste-sur-trottoir",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-40"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                  [
-                            2.577950357927557,
-                            49.20654836491781
-                        ],
-                        [
-                            2.57692479435378,
-                            49.2064936681009
-                        ],
-                        [
-                            2.572906259534083,
-                            49.20519460091637
-                        ],
-                        [
-                            2.571043501206203,
-                            49.20470231390819
-                        ],
-                        [
-                            2.571147505322593,
-                            49.204717414343875
-                        ],
-                        [
-                            2.570454144546737,
-                            49.204521108320655
-                        ]
-                ]
-            }
-        },
-         {
-            "type": "Feature",
-            "properties": {
-                "id": "a1-5--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
-                "line": 40,
-                "name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-40"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
-                            2.570338584417429,
-                            49.20447580682001
-                        ],
-                        [
-                            2.570015016055361,
-                            49.20515532497192
-                        ],
-                        [
-                            2.569945679977776,
-                            49.20551773083474
-                        ],
-                        [
-                            2.568790078684684,
-                            49.2053667287147
-                        ],
-                        [
-                            2.567958045753657,
-                            49.2057442331502
-                        ],
-                        [
-                            2.56701045269332,
-                            49.20589523411741
-                        ],
-                        [
-                            2.56701045269332,
-                            49.20589523411741
-                        ]
-                ]
-            }
-        }
-     ]
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1bis-1--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.570580904357728,
+						49.20805396572942
+					],
+					[
+						2.570321275423948,
+						49.2077135893391
+					],
+					[
+						2.5701987887732236,
+						49.207559259448026
+					],
+					[
+						2.5701025492622143,
+						49.2073877811415
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1bis-2--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "bilaterale",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.570074390518972,
+						49.20737551663745
+					],
+					[
+						2.569854855381993,
+						49.206975781912305
+					],
+					[
+						2.5697936120570146,
+						49.20678715349162
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1bis-3--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.5698017239013864,
+						49.20678548833949
+					],
+					[
+						2.56978978884797,
+						49.206653650493436
+					],
+					[
+						2.5696760512434764,
+						49.2056533335511
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1-1--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.578974625989924,
+						49.205491667602885
+					],
+					[
+						2.5786518049167,
+						49.20589308353668
+					],
+					[
+						2.578496169192226,
+						49.20610586479299
+					],
+					[
+						2.5783208991092286,
+						49.20631411839154
+					],
+					[
+						2.578058838816218,
+						49.20643912890313
+					],
+					[
+						2.5778857106147073,
+						49.20648264489364
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1-2--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "impasse-dc",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.579705511154543,
+						49.206149623202435
+					],
+					[
+						2.579583996787515,
+						49.205882572499064
+					],
+					[
+						2.579478333091791,
+						49.20565176716813
+					],
+					[
+						2.579133610772352,
+						49.20554230959689
+					],
+					[
+						2.579054357419984,
+						49.20551987160198
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1-3--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "done",
+				"type": "zone-de-rencontre",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.583182007707043,
+						49.205356568939926
+					],
+					[
+						2.5825200750591675,
+						49.20551302919835
+					],
+					[
+						2.5819558882135563,
+						49.205605627726335
+					],
+					[
+						2.5815671603911903,
+						49.205671744697455
+					],
+					[
+						2.581196925018664,
+						49.20575339564371
+					],
+					[
+						2.580494453523559,
+						49.2059490180906
+					],
+					[
+						2.579934517279676,
+						49.20611198518857
+					],
+					[
+						2.5797172913958777,
+						49.206168010424605
+					],
+					[
+						2.5797061242301282,
+						49.20615327057028
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1-4--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.577894919740879,
+						49.206571756772746
+					],
+					[
+						2.5774098570473294,
+						49.20656591378858
+					],
+					[
+						2.5772626047238836,
+						49.20655841643295
+					],
+					[
+						2.577214679151848,
+						49.20660223023397
+					],
+					[
+						2.5770281581125785,
+						49.20657737762994
+					],
+					[
+						2.5769262353763995,
+						49.206564196774366
+					],
+					[
+						2.5766789304305546,
+						49.20648969440744
+					],
+					[
+						2.5766956416253146,
+						49.20645371352472
+					],
+					[
+						2.5765991665223646,
+						49.20642527841851
+					],
+					[
+						2.576142884929461,
+						49.20629974142616
+					],
+					[
+						2.574485303515863,
+						49.20582791207046
+					],
+					[
+						2.573665752506682,
+						49.20559426154542
+					],
+					[
+						2.5732109334752384,
+						49.20546008085128
+					],
+					[
+						2.572749184671668,
+						49.20532590059349
+					],
+					[
+						2.5718547642998084,
+						49.205068438394036
+					],
+					[
+						2.5714052441883015,
+						49.20493744363202
+					],
+					[
+						2.5710631355636178,
+						49.20483738790289
+					],
+					[
+						2.570773234855047,
+						49.20475159632535
+					],
+					[
+						2.570581494391533,
+						49.204704716382366
+					],
+					[
+						2.570132191456217,
+						49.204571066790244
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1-5--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.569979873513391,
+						49.20452153711481
+					],
+					[
+						2.5697437956160165,
+						49.20516675739507
+					],
+					[
+						2.5696482123986595,
+						49.205620621737864
+					],
+					[
+						2.568518858245396,
+						49.20550391704575
+					],
+					[
+						2.5679755438461465,
+						49.20582997520788
+					],
+					[
+						2.567492998269733,
+						49.205976927082546
+					],
+					[
+						2.567045448879436,
+						49.20603813705117
+					],
+					[
+						2.5667042360679444,
+						49.20603242094186
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a1bis-5--centre-ville---quartier-gateliere---val-d'aunette-(par-av.-de-chantilly)-A1",
+				"line": 40,
+				"name": "A1 - CENTRE-VILLE - QUARTIER GATELIERE - VAL D'AUNETTE (PAR AV. DE CHANTILLY)",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-40"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.577893231923174,
+						49.20658132319899
+					],
+					[
+						2.575802422960982,
+						49.20716879701753
+					],
+					[
+						2.575236577400717,
+						49.2073567035854
+					],
+					[
+						2.57333402543353,
+						49.20764001823797
+					],
+					[
+						2.5713789791887893,
+						49.20790046946032
+					],
+					[
+						2.5706265611946537,
+						49.20801478717478
+					]
+				]
+			}
+		}
+	]
 }
-
-

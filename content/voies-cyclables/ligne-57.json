@@ -1,0 +1,52 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B4.jpg",
+				"line": 57
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.4006012033979687,
+					49.19650945673175
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "barreau-complmentaire-b4---rue-yves-carlier-(volonte-damenagement.-type-a-definir)-liaisons-de-ceinture-peripherique-B4",
+                "line": 57,
+                "name": "Barreau Complmentaire B4 - RUE YVES CARLIER (VOLONTE DAMENAGEMENT. TYPE A DEFINIR) LIAISONS DE CEINTURE PERIPHERIQUE",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-57"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.469639191226662,
+                        49.203279198802704
+                    ],
+                    [
+                        2.4725317299099743,
+                        49.20734215226361
+                    ],
+                    [
+                        2.4638952795354783,
+                        49.209924975424144
+                    ]
+                ]
+            }
+        }
+     ]
+}
+
+
