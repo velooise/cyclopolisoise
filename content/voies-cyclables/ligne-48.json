@@ -121,7 +121,7 @@
                 "line": 48,
                 "name": "A4 - CENTRE-VILLE - QUARTIER VILLEVERT",
                 "status": "planned",
-                "type": "impasse-dc",
+                "type": "imp+debouche-cyclable",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-48"
             },
             "geometry": {

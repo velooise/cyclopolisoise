@@ -24,7 +24,7 @@
 				"line": 49,
 				"name": "A5 - CENTRE-VILLE - VILLEVERT - PARC ECOLOGIQUE - ZC DU POTEAU",
 				"status": "planned",
-				"type": "impasse-dc",
+				"type": "imp+debouche-cyclable",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-49"
 			},
 			"geometry": {
@@ -152,7 +152,7 @@
 				"line": 49,
 				"name": "A5 - CENTRE-VILLE - VILLEVERT - PARC ECOLOGIQUE - ZC DU POTEAU",
 				"status": "planned",
-				"type": "impasse-dc",
+				"type": "imp+debouche-cyclable",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-49"
 			},
 			"geometry": {

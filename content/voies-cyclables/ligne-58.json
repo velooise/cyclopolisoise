@@ -24,7 +24,7 @@
                 "line": 58,
                 "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",
                 "status": "planned",
-                "type": "impasse-dc",
+                "type": "imp+debouche-cyclable",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-58"
             },
             "geometry": {
