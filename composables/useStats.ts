@@ -186,6 +186,7 @@ export const useStats = () => {
     'zone-30': 'Zone 30',
     'imp+debouche-cyclable': 'Impasse avec débouché cyclable',
     'piste-sur-trottoir': 'Piste sur trottoir',
+    'chaucidou': 'Chaucidou',
     aucun: 'Aucun',
     inconnu: 'Inconnu'
   };
