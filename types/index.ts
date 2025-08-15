@@ -12,6 +12,7 @@ export type LaneType =
 | 'zone-30'  
 | 'imp+debouche-cyclable'
 | 'piste-sur-trottoir'
+| 'chaucidou'
 | 'aucun'
 | 'inconnu';
 
