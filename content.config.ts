@@ -58,6 +58,7 @@ export default defineContentConfig({
                   "zone-30",
                   "imp+debouche-cyclable",
                   "piste-sur-trottoir",
+                  "chaucidou",
                   "aucun",
                   "inconnu"
                 ]),
