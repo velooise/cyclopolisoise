@@ -21,7 +21,8 @@
         D'autres schémas viendront s'adjoindre à cet outil. L'objectif de l'outil est de suivre le déploiement des différents plans et de constituer un historique des différents aménagements. C'est un travail un peu fastidieux à réaliser et tous les volontaires sont invités à participer. Il suffit de manipuler un peu en informatique, nous pouvons vous former, si vous connaissez github, les formats json et markdown, c'est un plus.
       </div>
     </div>
-    
+   
+    </div>
 </template>
 
 <script setup lang="ts">
