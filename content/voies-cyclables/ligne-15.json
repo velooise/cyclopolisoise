@@ -1,0 +1,88 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-13.jpg",
+				"line": 15
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					     2.4812212074344018,
+          49.143862640499236
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "gare-de-coye-orry---coye-13'",
+                "line": 15,
+                "name": "GARE DE COYE ORRY - COYE",
+                "status": "planned",
+                "type": "bilaterale",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-15"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+    [
+            2.484744215747128,
+            49.13911795696313
+          ],
+          [
+            2.484080151628092,
+            49.14035401084806
+          ],
+          [
+            2.4837074268325523,
+            49.14177488988955
+          ],
+          [
+            2.483633366176491,
+            49.14278207792299
+          ],
+          [
+            2.4838358221645933,
+            49.14365173858178
+          ],
+          [
+            2.4835494455114144,
+            49.14361202719553
+          ],
+          [
+            2.4819638191238482,
+            49.14371155562654
+          ],
+          [
+            2.4806079982514007,
+            49.14395386661937
+          ],
+          [
+            2.4801601126094397,
+            49.14396406995283
+          ],
+          [
+            2.4779375540342414,
+            49.14356257426354
+          ],
+          [
+            2.4761784530884654,
+            49.143276228712864
+          ],
+          [
+            2.472924162015204,
+            49.143245383251696
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+

@@ -1,0 +1,177 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-13.jpg",
+				"line": 14
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.482351226332412,
+					49.13875847307324
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gare-de-coye-orry---coye-13-00",
+				"line": 14,
+				"name": "GARE DE COYE ORRY - COYE",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.4877459592515265,
+						49.138957916598514
+					],
+					[
+						2.488885507372572,
+						49.13941222306963
+					]
+				]
+			}
+		},
+	
+				{
+			"type": "Feature",
+			"properties": {
+				"id": "gare-de-coye-orry---coye-13",
+				"line": 14,
+				"name": "Du parking au poteau de coye (13-01) ",
+				"status": "done",
+				"type": "voie-verte",
+				"doneAt": "01/09/2018",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.4877459592515265,
+						49.138957916598514
+					],
+					[
+						2.4872942949430126,
+						49.13889014859734
+					],
+					[
+						2.4848899391310795,
+						49.138957916598514
+					]
+				]
+			}
+		},
+			{
+			"type": "Feature",
+			"properties": {
+				"id": "gare-coye-13-12-14",
+				"line": 14,
+				"name": "coye 13-12-14 : sur trottoir",
+				"status": "planned",
+				"type": "bilaterale",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.4848453695736623,
+						49.13896762688117
+					],
+					[
+						2.484544590607925,
+						49.13887571887298
+					],
+					[
+						2.484206476236835,
+						49.13868023215613
+					],
+					[
+						2.4838229936146092,
+						49.138600606212606
+					],
+					[
+						2.483050090446312,
+						49.13860442578377
+					],
+					[
+						2.482167428897128,
+						49.138751711289046
+					],
+					[
+						2.4812898089403177,
+						49.1390200924869
+					],
+					[
+						2.4804290015866286,
+						49.13934977729821
+					],
+					[
+						2.4799564313676115,
+						49.139413484104495
+					],
+					[
+						2.4794618598292004,
+						49.13947089490276
+					],
+					[
+						2.4790518489469946,
+						49.13955917107387
+					],
+					[
+						2.4770529569298105,
+						49.14065517768407
+					],
+					[
+						2.47633671416898,
+						49.14101199083731
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "gare-coye-13-12-14",
+				"line": 14,
+				"name": "coye 13-12-14 : sur trottoir",
+				"status": "done",
+				"doneAt": "01/08/2022",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-14"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					
+					 [
+            2.476366190324711,
+            49.14109883944326
+          ],
+          [
+            2.4750918875454033,
+            49.141740937700746
+          ],
+          [
+            2.473731468630689,
+            49.142506972226926
+          ],
+          [
+            2.4728187756354885,
+            49.14316035246395
+          ]
+				]
+			}
+		}
+	]
+}

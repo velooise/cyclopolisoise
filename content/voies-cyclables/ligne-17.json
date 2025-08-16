@@ -1,0 +1,146 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-17.jpg",
+				"line": 17
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.477508215356835,
+					49.15462310540809
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "coye---etang-de-comelle-17-01",
+				"line": 17,
+				"name": "COYE - ETANG DE COMELLE",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.4727742840531732,
+						49.14327885546885
+					],
+					[
+						2.4723754197167693,
+						49.14501658521726
+					],
+					[
+						2.472016448431077,
+						49.14796482849678
+					],
+					[
+						2.472032405527898,
+						49.14975918773831
+					],
+					[
+						2.4717930869265388,
+						49.15011921578261
+					],
+					[
+						2.4720084736673016,
+						49.150776651546806
+					],
+					[
+						2.4733980636541446,
+						49.152228909933314
+					],
+					[
+						2.475296657893466,
+						49.153538499328135
+					],
+					[
+						2.4779850026566805,
+						49.15486892339308
+					],
+					[
+						2.4790938455108176,
+						49.15509848311655
+					],
+					[
+						2.4795405735664815,
+						49.155223697062894
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "coye---etang-de-comelle-17-02",
+				"line": 17,
+				"name": "COYE - ETANG DE COMELLE",
+				"status": "done",
+				"doneAt": "21/11/2016",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.4795340643170505,
+						49.155220512820165
+					],
+					[
+						2.479419114284326,
+						49.15562146429255
+					],
+					[
+						2.4791454237267203,
+						49.15635176042099
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "coye---etang-de-comelle-17-03",
+				"line": 17,
+				"name": "COYE - ETANG DE COMELLE",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					          [
+            2.47915636910696,
+            49.15634460179362
+          ],
+          [
+            2.4791071048064737,
+            49.15644483769097
+          ],
+          [
+            2.4798187002536167,
+            49.15664888871308
+          ],
+          [
+            2.480628824301732,
+            49.157300414419495
+          ],
+          [
+            2.48116525779227,
+            49.157493722595774
+          ]
+				]
+			}
+		}
+	]
+}

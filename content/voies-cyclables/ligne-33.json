@@ -1,0 +1,106 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-76.jpg",
+				"line": 33
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.508566750934591,
+					49.194443792540824
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "saint-firmin---avilly-76-02",
+				"line": 33,
+				"name": "Saint Firmin vers Avilly (76-02) impasse",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-33"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.5059794534917046,
+						49.19727152026175
+					],
+					[
+						2.5062990504164304,
+						49.19667631488079
+					],
+					[
+						2.507098042729183,
+						49.19630039200271
+					],
+					[
+						2.5075454784249587,
+						49.195611192638694
+					],
+					[
+						2.5074176396548467,
+						49.19519349138133
+					],
+					[
+						2.5084243699683952,
+						49.19497419680866
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "saint-firmin---avilly-76-02",
+				"line": 33,
+				"name": "Saint Firmin vers Avilly (76-05)",
+				"status": "done",
+				"doneAt": "01/08/2020",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-33"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.508455044283977,
+						49.19497355999471
+					],
+					[
+						2.5087053409876603,
+						49.19398224312249
+					],
+					[
+						2.5078634338931067,
+						49.19396737321796
+					],
+					[
+						2.507337177065068,
+						49.193636044943815
+					],
+					[
+						2.507177897344093,
+						49.193437777797385
+					],
+					[
+						2.5071399736008573,
+						49.192654614801825
+					],
+					[
+						2.507117219799511,
+						49.192084583064656
+					]
+				]
+			}
+		}
+	]
+}

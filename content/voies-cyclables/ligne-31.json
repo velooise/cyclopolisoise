@@ -1,0 +1,101 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-74.jpg",
+				"line": 31
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.6139687122604585,
+					49.11282540378528
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "montaby---mortefontaine-74",
+				"line": 31,
+				"name": "Sortie de Mortefontaine (74)",
+				"status": "planned",
+				"type": "bidirectionnelle",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-31"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.601813089387406,
+						49.111098617318135
+					],
+					[
+						2.6025129160586005,
+						49.11141913487842
+					],
+					[
+						2.6066328268564405,
+						49.11068745079373
+					],
+					[
+						2.609074802059297,
+						49.11050227299117
+					],
+					[
+						2.6104027949703834,
+						49.110457090944664
+					],
+					[
+						2.612359725579921,
+						49.11169331441201
+					],
+					[
+						2.614385016096577,
+						49.11324776383964
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "vers-montaby74-01",
+				"line": 31,
+				"name": "MONTABY - MORTEFONTAINE",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-31"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.6145098464398586,
+						49.1131205787963
+					],
+					[
+						2.6174259584077504,
+						49.11315993533202
+					],
+					[
+						2.6207930155247823,
+						49.113455108352525
+					],
+					[
+						2.623799316521996,
+						49.11384866964832
+					],
+					[
+						2.6275872557785362,
+						49.114596427508076
+					]
+				]
+			}
+		}
+	]
+}

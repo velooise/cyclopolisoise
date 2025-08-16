@@ -1,0 +1,128 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-21.jpg",
+				"line": 18
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.515475259572753,
+          49.1425832722978
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-la-ville-centre---montgresin-21-01",
+                "line": 18,
+                "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+            2.5131221332442237,
+            49.13262780713373
+          ],
+          [
+            2.513710437705072,
+            49.13401004962387
+          ],
+          [
+            2.51318898518349,
+            49.13582965448663
+          ],
+          [
+            2.513723807420945,
+            49.13792911252898
+          ]
+                ]
+            }
+        },
+	 {
+            "type": "Feature",
+            "properties": {
+                "id": "orry-la-ville-centre---montgresin-21-05",
+                "line": 18,
+                "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+          [
+            2.5137371779768216,
+            49.137972850292755
+          ],
+          [
+            2.5143861608059694,
+            49.14043822344536
+          ],
+          [
+            2.5154290641684725,
+            49.142668687257725
+          ],
+          [
+            2.516332302319796,
+            49.144606363110114
+          ],
+          [
+            2.51614511453721,
+            49.14565591736377
+          ],
+          [
+            2.5158890223029857,
+            49.146458456822785
+          ],
+          [
+            2.516102951197979,
+            49.14854871896077
+          ],
+          [
+            2.5157954260097597,
+            49.15042900615387
+          ],
+          [
+            2.5159157610130762,
+            49.15100619591175
+          ],
+          [
+            2.5165709182531373,
+            49.15148718223955
+          ],
+          [
+            2.517052258267256,
+            49.15170581084496
+          ],
+          [
+            2.517212704938089,
+            49.15207310473002
+          ],
+          [
+            2.517259039677782,
+            49.15323805372498
+          ],
+          [
+            2.518555983602795,
+            49.155083183647804
+          ]
+                ]
+            }
+        }    
+     ]
+}
+
+

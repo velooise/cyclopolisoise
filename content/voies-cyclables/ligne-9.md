@@ -1,0 +1,22 @@
+---
+name: CHANTILLY - ETANG DE COMELLE
+line: 9
+from: CHANTILLY 
+to:  ETANG DE COMELLE 
+description: La ligne 8 du schéma cyclable de la CCAC reliera CHANTILLY  à ETANG DE COMELLE 
+trafic: inconnu vélos/jour
+cover: https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-8.jpg
+---
+Ligne 8 du schéma cyclable de la CCAC  
+## Les tronçons (du Nord au Sud)
+
+La route Toudouze est l'axe principal utilisé. C'est en 2007 que l'AP3F et l'AU5V (aujourd'hui VélOOise) ont obtenu la fermeture de cette route à la circulation automobile.
+
+A noter qu'au milieu de l'itinéraire, il est nécessaire de traverser à pied la piste des Lions, piste d'entrainement de galop de Chantilly. Le matin un gardien règlemente la traversée des piétons et cyclistes.
+
+## Informations complémentaires
+
+Budget estimé : 11 283 € dont 11 283 € pour la CCAC (EPCI Voisine : , CD60 : )
+
+Linéaire : 3 856 m
+

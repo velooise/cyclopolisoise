@@ -1,0 +1,81 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-23.jpg",
+				"line": 20
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.5156373461954615,
+					49.12880921821704
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "orry-la-ville---la-chapelle-en-serval-23-04",
+				"line": 20,
+				"name": "ORRY LA VILLE  - LA CHAPELLE EN SERVAL",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-20"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.512888081310365,
+						49.131928921617316
+					],
+					[
+						2.5133465212413455,
+						49.13138424317984
+					],
+					[
+						2.513575741207518,
+						49.13089481687078
+					],
+					[
+						2.513913539050691,
+						49.12951334557738
+					],
+					[
+						2.518090375921645,
+						49.127740890721356
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "orry-la-ville---la-chapelle-en-serval-23-05",
+				"line": 20,
+				"name": "ORRY LA VILLE  - LA CHAPELLE EN SERVAL",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-20"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.5178863590367087,
+						49.12765696466582
+					],
+					[
+						2.523938060517253,
+						49.12284447290847
+					]
+				]
+			}
+		}
+	]
+}

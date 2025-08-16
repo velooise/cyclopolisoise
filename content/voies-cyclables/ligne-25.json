@@ -1,0 +1,25 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "",
+				"line": 25
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+	   2.5367761409992227,
+            49.137542918619744
+				]
+			}
+		}
+        
+     ]
+}
+
+
