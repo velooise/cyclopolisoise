@@ -1,0 +1,77 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C3.jpg",
+				"line": 60
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.594742039977632,
+					49.2109158640061
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "c3-1--villevert",
+				"line": 60,
+				"name": "C3 -1- VILLEVERT – BONSECOURS  (Liaison de ceinture périphérique)",
+				"status": "planned",
+				"type": "chaucidou",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-60"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.5992124408582153,
+							49.21183468888775
+						],
+						[
+							2.5945605914608723,
+							49.21088154580436
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "c3-2--villevert",
+				"line": 60,
+				"name": "C3 -2- VILLEVERT – BONSECOURS  (Liaison de ceinture périphérique)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-60"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.5912103387497165,
+							49.21170562376625
+						],
+						[
+							2.594239756081371,
+							49.210986342820206
+						],
+						[
+							2.5945414172913757,
+							49.21088979726807
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		}
+	]
+}
