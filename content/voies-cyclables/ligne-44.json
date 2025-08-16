@@ -28,8 +28,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.575875953455104,
 							49.199349941249
@@ -66,9 +67,9 @@
 							2.570679181361753,
 							49.19725819276886
 						]
-					]
-				],
-				"type": "LineString"
+					
+				]
+			
 			}
 		},
 		{
@@ -82,8 +83,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.5706708906920044,
 							49.19724735757577
@@ -92,9 +94,9 @@
 							2.5701348143875142,
 							49.196945949775575
 						]
-					]
-				],
-				"type": "LineString"
+					
+				]
+				
 			}
 		},
 		{
@@ -108,8 +110,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.579251116612735,
 							49.19900536410813
@@ -122,9 +125,9 @@
 							2.5759188463981575,
 							49.1993545458459
 						]
-					]
-				],
-				"type": "LineString"
+					
+				]
+				
 			}
 		},
 		{
@@ -138,8 +141,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.570109521344339,
 							49.19693984433292
@@ -169,8 +173,7 @@
 							49.195479363250556
 						]
 					]
-				],
-				"type": "LineString"
+				
 			}
 		},
 		{
@@ -184,8 +187,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.5693122375251396,
 							49.195449079242216
@@ -207,8 +211,7 @@
 							49.1939837308127
 						]
 					]
-				],
-				"type": "LineString"
+			
 			}
 		},
 		{
@@ -222,8 +225,9 @@
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
 			},
 			"geometry": {
+				"type": "LineString",
 				"coordinates": [
-					[
+					
 						[
 							2.5667015271880285,
 							49.193945383086366
@@ -236,9 +240,8 @@
 							2.5659101357177847,
 							49.1932353095805
 						]
-					]
-				],
-				"type": "LineString"
+					
+				]
 			}
 		},
 		{
@@ -253,7 +256,7 @@
 			},
 			"geometry": {
 				"coordinates": [
-					[
+					
 						[
 							2.565873535979882,
 							49.193213628120766
@@ -262,7 +265,7 @@
 							2.5643288500843333,
 							49.19181333271355
 						]
-					]
+					
 				],
 				"type": "LineString"
 			}
@@ -279,7 +282,7 @@
 			},
 			"geometry": {
 				"coordinates": [
-					[
+					
 						[
 							2.5643143233842847,
 							49.191774848206585
@@ -312,7 +315,7 @@
 							2.569448920176818,
 							49.19153511706292
 						]
-					]
+					
 				],
 				"type": "LineString"
 			}
@@ -329,7 +332,7 @@
 			},
 			"geometry": {
 				"coordinates": [
-					[
+					
 						[
 							2.5694357898130855,
 							49.19152678336987
@@ -358,7 +361,7 @@
 							2.5707624397167117,
 							49.19161530497757
 						]
-					]
+					
 				],
 				"type": "LineString"
 			}
