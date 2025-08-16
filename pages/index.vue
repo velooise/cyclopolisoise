@@ -9,7 +9,7 @@
             Où en est le projet ?
           </h2>
           <p class="text-xl text-gray-500">
-            Après une phase d'étude et de concertation en 2022 et 2023, le projet entre en phase de réalisation.<br> Les travaux devraient se multiplier en 2024 et 2025.
+            Les études des schémas cyclables ont débuté autour de 2020. Le déploiement se réalise à des vitesses différentes selon les villes ou comunautés de communes.
           </p>
         </div>
       </div>
