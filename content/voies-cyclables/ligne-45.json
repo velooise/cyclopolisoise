@@ -20,9 +20,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a12-1--antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
+				"id": "a12-1--antenne-lycees",
 				"line": 45,
-				"name": "A12 -1- ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
+				"name": "A12 -1- ANTENNE LYCEES : PROLONGEMENT AMENAGEMENT EXISTANT SUR RD1017",
 				"status": "done",
 				"doneAt": "01/01/2005",
 				"type": "bidirectionnelle",
@@ -81,7 +81,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a12-2--antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
+				"id": "a12-2--antenne-lycees",
 				"line": 45,
 				"name": "A12 -2- ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
 				"status": "planned",
