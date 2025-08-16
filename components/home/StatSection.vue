@@ -24,4 +24,10 @@
    
     </div>
 </template>
+<script setup lang="ts">
 
+
+const { getRevName, getNbVoiesCyclables } = useConfig();
+
+
+</script>
