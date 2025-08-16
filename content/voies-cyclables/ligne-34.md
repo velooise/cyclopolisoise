@@ -3,7 +3,7 @@ name: Liaison Parc Technologique des Rives de l'Oise < > Jaux via Rives de l'Ois
 line: 34
 from: Jaux
 to: Venette
-doneat: fin 2024
+doneat: "15/11/2024"
 description: La ligne 34 des voies de l'Oise relie la gare de Jaux au Parc technologique des Rives de l'Oise (Venette)
 trafic: inconnu vélos/jour
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/piste-rive-droite-oise-parctechno-jaux-scaled.jpg
