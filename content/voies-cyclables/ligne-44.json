@@ -20,7 +20,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-1--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-1",
 				"line": 44,
 				"name": "A11 -1- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -74,7 +74,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-2--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-2",
 				"line": 44,
 				"name": "A11 -2- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -100,7 +100,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-3--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-3",
 				"line": 44,
 				"name": "A11 -3- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -130,7 +130,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-4--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-4",
 				"line": 44,
 				"name": "A11 -4- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -176,7 +176,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-5--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-5",
 				"line": 44,
 				"name": "A11 -5- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -214,7 +214,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-6--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-6",
 				"line": 44,
 				"name": "A11 -6- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -244,7 +244,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-7--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-7",
 				"line": 44,
 				"name": "A11 -7- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -270,7 +270,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-8--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-8",
 				"line": 44,
 				"name": "A11 -8- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
@@ -320,7 +320,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-9--centre-ville---quartier-brichebay---lycees-A11",
+				"id": "a11-9",
 				"line": 44,
 				"name": "A11 - CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
