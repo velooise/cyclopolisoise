@@ -7,6 +7,7 @@ description: La ligne A12 du schéma cyclable de Senlis reliera LYCEES à RD1017
 trafic: inconnu vélos/jour
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-Senlis-A12.jpg
 ---
+
 Ligne A12 du schéma cyclable de Senlis
 ## Les tronçons (du Nord au Sud)
 
@@ -15,4 +16,3 @@ Ligne A12 du schéma cyclable de Senlis
 Budget estimé : 10 881 €
 
 Linéaire : 862 m
-
