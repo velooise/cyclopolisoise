@@ -1,8 +1,7 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
-    {
+	"type": "FeatureCollection",
+	"features": [
+		{
 			"type": "Feature",
 			"properties": {
 				"type": "perspective",
@@ -13,40 +12,46 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					2.5797713330202896,
+					49.2046226481001
 				]
 			}
 		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "barreau-complmentaire-b1---bd-montauban---bd-des-otages-(projet-de-chaussee-a-voie-centrale-banalisee)(ce-barreau-sera-integre-a-la-liaison-a10)-B1",
-                "line": 54,
-                "name": "Barreau Complmentaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CHAUSSEE A VOIE CENTRALE BANALISEE)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-54"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
-                ]
-            }
-        }
-     ]
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "barreau-complmentaire-b1---bd-montauban---bd-des-otages-(projet-de-chaussee-a-voie-centrale-banalisee)(ce-barreau-sera-integre-a-la-liaison-a10)-B1",
+				"line": 54,
+				"name": "Barreau Complmentaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CHAUSSEE A VOIE CENTRALE BANALISEE)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",
+				"status": "planned",
+				"type": "chaucidou",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-54"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.579110689480119,
+						49.20542973146411
+					],
+					[
+						2.580007558611942,
+						49.20436032751969
+					],
+					[
+						2.580792319102288,
+						49.20352529740113
+					],
+					[
+						2.581577079592633,
+						49.203056502382445
+					],
+					[
+						2.582204887984909,
+						49.20291000302769
+					]
+				]
+			}
+		}
+	]
 }
-
-

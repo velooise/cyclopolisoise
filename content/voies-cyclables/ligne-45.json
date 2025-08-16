@@ -1,8 +1,7 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
-    {
+	"type": "FeatureCollection",
+	"features": [
+		{
 			"type": "Feature",
 			"properties": {
 				"type": "perspective",
@@ -13,40 +12,107 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					2.5743041906491158,
+					49.192104355295925
 				]
 			}
 		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "a12---antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
-                "line": 45,
-                "name": "A12 - ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-45"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
-                ]
-            }
-        }
-     ]
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a12-1--antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
+				"line": 45,
+				"name": "A12 -1- ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
+				"status": "done",
+				"doneAt": "01/01/2005",
+				"type": "bidirectionnelle",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-45"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.5730146153515587,
+						49.19165129680954
+					],
+					[
+						2.573092144430462,
+						49.191672129192625
+					],
+					[
+						2.573181250191052,
+						49.19167972157169
+					],
+					[
+						2.57330591955976,
+						49.19167882918299
+					],
+					[
+						2.573561046637905,
+						49.19168082726521
+					],
+					[
+						2.573867403507863,
+						49.19167615465676
+					],
+					[
+						2.5741571915310297,
+						49.19165298466348
+					],
+					[
+						2.5742791176694064,
+						49.19172533184397
+					],
+					[
+						2.5754278234107035,
+						49.193331392662195
+					],
+					[
+						2.5766416217576675,
+						49.19502299466337
+					],
+					[
+						2.576919462123223,
+						49.195454209538816
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a12-2--antenne-lycees-:-prolongement-de-l'amenagement-existant-sur-la-rd1017-A12",
+				"line": 45,
+				"name": "A12 -2- ANTENNE LYCEES : PROLONGEMENT DE L'AMENAGEMENT EXISTANT SUR LA RD1017",
+				"status": "planned",
+				"type": "bidirectionnelle",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-45"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.5730138671441694,
+						49.19165161307234
+					],
+					[
+						2.5728619231938694,
+						49.19166296164968
+					],
+					[
+						2.5717818900940017,
+						49.19165164472477
+					],
+					[
+						2.571011277842956,
+						49.19163598326395
+					],
+					[
+						2.570753385269313,
+						49.1916456967767
+					]
+				]
+			}
+		}
+	]
 }
-
-
