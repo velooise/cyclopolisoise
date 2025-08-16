@@ -5,6 +5,8 @@
         <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
           Les {{ getRevName() }}, c'est quoi ?
         </h2>
+            </div>
+
         <p class="mt-3 text-xl text-gray-500 sm:mt-4">
           Plusieurs communes et communautés de communes du Sud de l'Oise ont réalisé un schéma cyclable, VélOOise a participé à la plupart de ces concertations. Un schéma c'est une projection pour les dix années à venir environ qui identifie les liaisons cyclables souhaitées, leur type et une estimation du coût.  L'ensemble doit créer un maillage cyclable sans discontinuités.
         </p>
@@ -22,7 +24,6 @@
       </div>
     </div>
    
-    </div>
 </template>
 <script setup lang="ts">
 
