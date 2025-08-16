@@ -8,6 +8,7 @@
         "line": 34,
         "name": "Liaison entre la gare de Jaux et le parc technologique des Rives de l'Oise par la rive droite de l'Oise",
         "status": "done",
+        "doneAt": "15/11/2024",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-34",
         "quality": "satisfactory",
