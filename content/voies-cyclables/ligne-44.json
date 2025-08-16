@@ -68,7 +68,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -94,7 +94,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -124,7 +124,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -170,7 +170,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -208,7 +208,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -238,7 +238,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -264,7 +264,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -314,7 +314,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		},
 		{
@@ -360,7 +360,7 @@
 						]
 					]
 				],
-				"type": "MultiLineString"
+				"type": "LineString"
 			}
 		}
 	]
