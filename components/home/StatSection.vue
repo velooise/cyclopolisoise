@@ -10,21 +10,18 @@
         </p>
         Les schémas cyclables qui sont incorporés dans CycloPolis de VélOOise :
         <ul>
-          <li> Schéma de la Communauté de Communes de l'Aire Cantilienne (99%)
-          <li> Schéma de l'ARC & Plan Vélo (Agglomération de Compiègne)  (1% en cours)
-          <li> Schéma de l'ACSO (10%)
-          <li> Schéma du Clermontois (10%)
-          <li> Schéma de la ville de Senlis (100%)  
-          <li> Schéma de la ville de Chantilly (0%)  
+          <li> Schéma de la Communauté de Communes de l'Aire Cantilienne (99%) </li>
+          <li> Schéma de l'ARC & Plan Vélo (Agglomération de Compiègne)  (1% en cours)</li>
+          <li> Schéma de l'ACSO (10%)</li>
+          <li> Schéma du Clermontois (10%)</li>
+          <li> Schéma de la ville de Senlis (100%)  </li>
+          <li> Schéma de la ville de Chantilly (0%)  </li>
             
         </ul>
-        D'autres schémas viendront s'adjoindre à cet outil. L'objectif de l'outil est de suivre le déploiement des différents plans et de constituer un historique des différents aménagements. C'est un travail un peu fastidieux à réaliser et tous les volontaires sont invités à participer. Il suffit de manipuler un peu en informatique, nous pouvons vous former, si vous connaissez github, les formats json et markdown, c'est un plus.
+        D'autres schémas viendront s'adjoindre à cet outil. L'objectif de l'outil est de suivre le déploiement des différents plans et de constituer un historique des différents aménagements. C'est un travail un peu fastidieux à réaliser et <b>tous les volontaires sont invités à participer</b>. Il suffit de manipuler un peu en informatique, nous pouvons vous former, si vous connaissez github, les formats json et markdown, c'est un plus.
       </div>
     </div>
    
     </div>
 </template>
 
-<script setup lang="ts">
-const { getRevName, getNbVoiesCyclables } = useConfig();
-</script>
