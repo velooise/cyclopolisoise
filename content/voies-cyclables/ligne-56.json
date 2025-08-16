@@ -1,0 +1,67 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B3.jpg",
+				"line": 56
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.594545874336262,
+					49.20584896122105
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "barreau-compelmentaire-b3---avenue-clemenceau-(projet-dechaussee-a-voie-centrale-banalisee)-B3",
+				"line": 56,
+				"name": "Barreau Complementaire B3 - AVENUE CLEMENCEAU (PROJET DECHAUSSEE A VOIE CENTRALE BANALISEE)",
+				"status": "planned",
+				"type": "chaucidou",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-56"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.5924524562324796,
+							49.20747199680644
+						],
+						[
+							2.594463082290474,
+							49.205877972012196
+						],
+						[
+							2.595915945507827,
+							49.20477794235178
+						],
+						[
+							2.597295533131288,
+							49.20376605576019
+						],
+						[
+							2.5978026577594395,
+							49.20339801027663
+						],
+						[
+							2.598253806452905,
+							49.203112758193825
+						],
+						[
+							2.598685847284358,
+							49.20287564675232
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		}
+	]
+}

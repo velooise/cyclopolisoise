@@ -1,0 +1,144 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A8.jpg",
+				"line": 52
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.6009011133146487,
+					49.2053611958265
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a8-1--centre-ville---zae-de-senlis-(+dessertes-internes-a-la-zae)-A8",
+				"line": 52,
+				"name": "A8 - CENTRE-VILLE - ZAE DE SENLIS (+DESSERTES INTERNES A LA ZAE)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-52"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.5985152806016063,
+							49.20722555940626
+						],
+						[
+							2.5996524776163703,
+							49.206316032062205
+						],
+						[
+							2.600880405116363,
+							49.205396491882276
+						],
+						[
+							2.601390290246671,
+							49.20475964455448
+						],
+						[
+							2.6019804235024893,
+							49.20369050390302
+						],
+						[
+							2.6025207066088507,
+							49.203259931182636
+						],
+						[
+							2.605363885391377,
+							49.20345315006717
+						],
+						[
+							2.6079304802747956,
+							49.2037120818296
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a8-2--centre-ville---zae-de-senlis-(+dessertes-internes-a-la-zae)-A8",
+				"line": 52,
+				"name": "A8 - CENTRE-VILLE - ZAE DE SENLIS (+DESSERTES INTERNES A LA ZAE)",
+				"status": "done",
+				"doneAt": "01/10/2020",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-52"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.5999294993466187,
+							49.206200753426664
+						],
+						[
+							2.601203336508159,
+							49.20691771640798
+						],
+						[
+							2.602202778930898,
+							49.20721884186258
+						],
+						[
+							2.6042762200848664,
+							49.20740411631931
+						],
+						[
+							2.606223941284509,
+							49.20765510076093
+						],
+						[
+							2.607154268943572,
+							49.20770438184219
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "a8-3--centre-ville---zae-de-senlis-(+dessertes-internes-a-la-zae)-A8",
+				"line": 52,
+				"name": "A8 - CENTRE-VILLE - ZAE DE SENLIS (+DESSERTES INTERNES A LA ZAE)",
+				"status": "planned",
+				"type": "piste-sur-trottoir",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-52"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						[
+							2.604995138119819,
+							49.20493136199003
+						],
+						[
+							2.6023465681161766,
+							49.204658287721124
+						],
+						[
+							2.6017166034879105,
+							49.204587596812694
+						]
+					]
+				],
+				"type": "MultiLineString"
+			}
+		}
+	]
+}
