@@ -7,14 +7,14 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-53.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg",
 				"line": 25
 			},
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.4006012033979687,
-					49.19650945673175
+					      2.539733725996541,
+          49.14173813809464
 				]
 			}
 		},
@@ -23,7 +23,7 @@
             "properties": {
                 "id": "la-chapelle-en-serval---pontarme-53",
                 "line": 25,
-                "name": "LA CHAPELLE EN SERVAL - PONTARME",
+                "name": "53-LA CHAPELLE EN SERVAL - PONTARME",
                 "status": "planned",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
@@ -32,17 +32,29 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.469639191226662,
-                        49.203279198802704
-                    ],
-                    [
-                        2.4725317299099743,
-                        49.20734215226361
-                    ],
-                    [
-                        2.4638952795354783,
-                        49.209924975424144
-                    ]
+            2.5339937205448564,
+            49.13107687782059
+          ],
+          [
+            2.534294729789906,
+            49.13368095769874
+          ],
+          [
+            2.5370371813412476,
+            49.13794788915999
+          ],
+          [
+            2.539256503698482,
+            49.1410782808677
+          ],
+          [
+            2.5423960014824303,
+            49.14608197350958
+          ],
+          [
+            2.5472689999204476,
+            49.15122774897799
+          ]
                 ]
             }
         }
