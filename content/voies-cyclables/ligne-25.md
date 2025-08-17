@@ -14,5 +14,5 @@ Ligne 53 du schéma cyclable de CCAC
 
 Budget estimé : 617 681 €
 
-Linéaire : 0 m
+Linéaire : 2 487 m
 
