@@ -25,7 +25,7 @@
                 "line": 25,
                 "name": "53-LA CHAPELLE EN SERVAL - PONTARME",
                 "status": "planned",
-                "type": "voie-verte",
+                "type": "bidirectionnelle",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
             },
             "geometry": {
