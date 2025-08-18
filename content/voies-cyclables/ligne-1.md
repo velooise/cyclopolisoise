@@ -21,11 +21,16 @@ C'est un projet de la mairie de Lamorlaye à l'occasion d'une requalification co
 
 Réalisée par le département de l'Oise lors de la réfection de l'enrobé et la création du rond point
 
-A l’occasion de la réalisation d’un rond point sur le mont de Pô en novembre 2020, le Département a décidé de réaliser et de financer une piste cyclable bidirectionnelle dans la côte, en supprimant une voie de dépassement. Le Département a suivi nos préconisations de ne pas envoyer les cyclistes sur le rond point mais de leur proposer un contournement à la hollandaise pour garantir leur sécurité. Nous avons défendu une continuité coté Est (sur la commune de Chantilly) plutôt que côté Ouest (sur la commune de Gouvieux) pour éviter les innombrables pertes de temps à franchir les intersections. Nous avons été entendus.
+A l’occasion de la réalisation d’un rond point sur le mont de Pô en novembre 2020, le Département a décidé de réaliser et de financer une piste cyclable bidirectionnelle dans la côte, en supprimant une voie de dépassement. Le Département a suivi nos préconisations de ne pas envoyer les cyclistes sur le rond point mais de leur proposer un contournement à la hollandaise pour garantir leur sécurité. Nous avons défendu une continuité coté Est (sur la commune de Chantilly) plutôt que côté Ouest (sur la commune de Gouvieux) pour éviter les innombrables pertes de temps à franchir les intersections. Nous avons été écoutés, c'est suffisament rare pour le signaler.
 
 ### du rond point à l'entrée de Chantilly
 
+![en 2021](https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ligne1-2021.jpg)
+
 La ville de Chantilly a déployé en mars 2021 la continuité sur le rond point et jusqu'à l'avenue d'Orléans à l'aide d'un aménagement provisoire en attendant du définitif.
+
+En 2024 l'ensemble a été pérénisé par un aménagement en dur à l'occasion de l'aménagement de la suite.
+
 
 ### la continuité jusqu'au carrefour avec l'avenue de Bourbon
 
