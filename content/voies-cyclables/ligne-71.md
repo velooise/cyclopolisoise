@@ -1,36 +1,17 @@
 ---
-name: Liaison Parc Technologique des Rives de l'Oise < > Jaux via Rives de l'Oise
+name: Piste 4
 line: 71
-from: Jaux
-to: Venette
-description: La ligne 71 des voies de l'Oise relie la gare de Jaux au Parc technologique des Rives de l'Oise (Venette)
-trafic:  vélos/jour
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/piste-rive-droite-oise-parctechno-jaux-scaled.jpg
+from: Compiègne
+to:  Pierrefonds 
+description: La ligne 71 : Compiègne - no Piste 4 du schéma cyclable Communal relie Compiègne à Pierrefonds 
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-1.jpg
 ---
+Ligne 1 du schéma cyclable Communal : Compiègne (inscrite au schéma : )
+## Les tronçons (du Nord au Sud)
 
-#### Liaison 3 - Parc Technologique des Rives de l'Oise < > Jaux via Rives de l'Oise
-Longueur : 2780m
-Mise en service : 13/09/2024
+## Informations complémentaires
 
-##### Principes d'aménagement(s) cyclable(s)
-voie verte & marquage au sol vélo + chevrons
+Budget estimé : 
 
-##### Vocation
-Utilitaire
-
-##### Lieu(x) desservi(s)
-
-* Parc Techno
-* City Stade de Jaux
-* Mairie Jaux
-* École Jaux
-* Arrêt SNCF Jaux
-* Lycée Ch. De Gaulle
-* ZA Mercières
-
-##### Description
-
-* Sortie de la piste cyclable du Parc Technologique des Rives de l'Oise au niveau de la rue des Rives de l’Oise > chemin agricole puis chemin de halage : voie verte 2400m
-* Déboucher sur le chemin du stade jusqu’à rue de la Gare : voie verte 360m
-* Connexion voie verte Le Meux - Armancourt : jalon 20m
+Linéaire :
 
