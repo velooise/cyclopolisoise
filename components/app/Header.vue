@@ -6,12 +6,7 @@
           <NuxtLink to="/" class="flex space-x-2">
             <span class="sr-only">Cyclopolis</span>
             <img
-              class="h-7 w-auto sm:h-8"
-              src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
-              :alt="`logo ${getAssoName()}`"
-            >
-            <img
-              class="h-8 w-auto sm:h-10"
+              class="h-10 w-auto sm:h-14"
               src="https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-header-velooise.png"
               alt="logo cyclopolis VélOOise"
             >
