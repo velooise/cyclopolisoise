@@ -12,8 +12,8 @@
             >
             <img
               class="h-8 w-auto sm:h-10"
-              src="https://cyclopolis.lavilleavelo.org/logo-cyclopolis-header.png"
-              alt="logo cyclopolis"
+              src="https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-header-velooise.png"
+              alt="logo cyclopolis VélOOise"
             >
           </NuxtLink>
         </div>
