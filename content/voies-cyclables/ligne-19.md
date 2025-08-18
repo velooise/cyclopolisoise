@@ -27,7 +27,8 @@ Budget : 350 000 € dont 40% 118 040€ pour la CCAC (Etat : 30% 88 480€, CD3
 Comme prévu, le revêtement stabilisé s'abime, des ornières apparaissent à certains endroits, et la végétation réduit petit à petit les accotements
 
 ### 2025 
-Un nettoyage complet et une reprise est effectuée par l'Aire Cantilienne, notamment entre la Gare et Orry.
+Un nettoyage complet et une reprise du revêtement est effectuée par l'Aire Cantilienne, notamment entre la Gare et Orry.
+Ces travaux ne font pas partie des travaux prévu par le SDC (Travaux préconisés : élargissement de la piste de 1 m sur emprise de la chaussée (largeur finale 2,5 m) + mise en place de panneaux de début et de fin de « Voie verte » + jalonnement Dv). C'est travaux se font sur le budget de rénovation des pistes existant, sans élargissement de la piste.
 
 ## Informations complémentaires
 
