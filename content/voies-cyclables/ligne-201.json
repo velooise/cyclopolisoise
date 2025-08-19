@@ -9,7 +9,6 @@
         "name": "Liaison 49 du schéma cyclable de la CCSSO : Senlis - Pontarmé",
         "status": "planned",
         "type": "voie-partagee",
-        "jalonnement": false,
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
