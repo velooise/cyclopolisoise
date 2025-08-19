@@ -1,8 +1,8 @@
 ---
 name: 101 - Liaison étudiante 
 line: 108
-from: 
-to:  
+from: Bvd Etats-Unis
+to:  Centre de Recherche
 description: 108 - schema cyclable de l'ARC 101 - Liaison étudiante 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-108.jpg
 ---
