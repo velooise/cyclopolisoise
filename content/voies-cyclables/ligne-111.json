@@ -1,37 +1,241 @@
 {
-"type": "FeatureCollection",
+    "type": "FeatureCollection",
     "features": [
-
-{
+        {
             "type": "Feature",
             "properties": {
                 "id": "TC1277",
                 "line": 111,
-                "name": "21 - Oise - Forêt via Boulevard Gambetta:Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
-                "status": "EN SERVICE",
+                "name": "21 - Oise - ForĂȘt via Boulevard Gambetta:Piste 18 - Oise - Foret (Boulevard des Etats-Unis)",
+                "status": "done",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
             },
-		"geometry": 
-		{"coordinates":[[2.8198915489,49.4090865722],[2.8206171845,49.4087853117],[2.8209251352,49.4086601644],[2.8217742309,49.408318851],[2.8222047417,49.4081579264],[2.8222507523,49.4081328049],[2.8222741608,49.4080998328],[2.8222807045,49.4080357838],[2.8223511491,49.4080250422]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-111.jpg",
-				"line": 111
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8198915489,49.4090865722
-				]
-			}
-		}
-
-
-]}
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.8198915489,
+                        49.4090865722
+                    ],
+                    [
+                        2.8206171845,
+                        49.4087853117
+                    ],
+                    [
+                        2.8209251352,
+                        49.4086601644
+                    ],
+                    [
+                        2.8217742309,
+                        49.408318851
+                    ],
+                    [
+                        2.8222047417,
+                        49.4081579264
+                    ],
+                    [
+                        2.8222507523,
+                        49.4081328049
+                    ],
+                    [
+                        2.8222741608,
+                        49.4080998328
+                    ],
+                    [
+                        2.8222807045,
+                        49.4080357838
+                    ],
+                    [
+                        2.8223511491,
+                        49.4080250422
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1278",
+                "line": 111,
+                "name": "Piste 18 - Oise - Foret (Boulevard des Etats-Unis):21 - Oise - Foret via Boulevard Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.8198915489,
+                        49.4090865722
+                    ],
+                    [
+                        2.8193925623,
+                        49.4093463366
+                    ],
+                    [
+                        2.8186683746,
+                        49.4097352503
+                    ],
+                    [
+                        2.8172939855,
+                        49.4104740897
+                    ],
+                    [
+                        2.8171650564,
+                        49.4105590654
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1279",
+                "line": 111,
+                "name": "21 - Oise - Foret via Boulevard Gambetta",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.8159686608,
+                        49.4114907172
+                    ],
+                    [
+                        2.8169096363,
+                        49.4107462456
+                    ],
+                    [
+                        2.8169990511,
+                        49.4106829739
+                    ],
+                    [
+                        2.8171650564,
+                        49.4105590654
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1280",
+                "line": 111,
+                "name": "101 - Liaison Etudiante:21 - Oise - Foret via Boulevard Gambetta",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.8149901218,
+                        49.4122609819
+                    ],
+                    [
+                        2.8152716353,
+                        49.4120362153
+                    ],
+                    [
+                        2.8157001503,
+                        49.4117033311
+                    ],
+                    [
+                        2.8159686608,
+                        49.4114907172
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1281",
+                "line": 111,
+                "name": "21 - Oise - ForĂȘt via Boulevard Gambetta",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.8133430289,
+                        49.4132336882
+                    ],
+                    [
+                        2.8135342867,
+                        49.4131661883
+                    ],
+                    [
+                        2.8139252057,
+                        49.4129279287
+                    ],
+                    [
+                        2.8144655324,
+                        49.4126030382
+                    ],
+                    [
+                        2.8148898046,
+                        49.4123422432
+                    ],
+                    [
+                        2.8149901218,
+                        49.4122609819
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1282",
+                "line": 111,
+                "name": "21 - Oise - ForĂȘt via Boulevard Gambetta",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.8133430289,
+                        49.4132336882
+                    ],
+                    [
+                        2.8132407663,
+                        49.4133437959
+                    ],
+                    [
+                        2.8131473359,
+                        49.4134105328
+                    ],
+                    [
+                        2.8124617297,
+                        49.4137777528
+                    ],
+                    [
+                        2.8123936228,
+                        49.4138011216
+                    ],
+                    [
+                        2.8123244845,
+                        49.4138881383
+                    ],
+                    [
+                        2.812263105,
+                        49.4139613043
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ]
+}
