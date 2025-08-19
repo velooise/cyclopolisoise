@@ -1,0 +1,52 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1371",
+                "line": 136,
+                "name": "22 - Gare - Hauts de Margny",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8106408732,49.431705265],[2.8104872857,49.4317506656],[2.8097823762,49.4323111631],[2.8089414904,49.4329585638],[2.8082097608,49.4335377738]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1372",
+                "line": 136,
+                "name": "22 - Gare - Hauts de Margny",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8082097608,49.4335377738],[2.8071070605,49.4343898176],[2.8053343731,49.4357715485],[2.8045984779,49.4363440268],[2.8030833694,49.4375170454],[2.8030504038,49.437538102],[2.8029994646,49.4375564487],[2.8029454756,49.4375660783],[2.802893574,49.4375673341],[2.8028468351,49.4375622318],[2.8027990916,49.4375510963],[2.8027652497,49.4375326116],[2.8026914256,49.4374889305]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-136.jpg",
+				"line": 136
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8082097608,49.4335377738
+				]
+			}
+		}
+
+
+]}

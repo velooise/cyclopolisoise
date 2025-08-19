@@ -1,0 +1,82 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1343",
+                "line": 132,
+                "name": "19 - Ralleigh - Oise",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8078639105,49.4126092743],[2.8078926513,49.4125657587],[2.8079189042,49.4125261807],[2.8079371485,49.4125036227],[2.8079656396,49.4124725645],[2.8080088553,49.4124496759],[2.8080834826,49.4124298769]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1344",
+                "line": 132,
+                "name": "19 - Ralleigh - Oise",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8077984953,49.4112592679],[2.8078697614,49.4116274378],[2.8079420421,49.4120281935],[2.8079610665,49.4121007982],[2.8080049892,49.4121926968],[2.808052375,49.4122690492],[2.8081532261,49.4124111445],[2.8080834826,49.4124298769]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1345",
+                "line": 132,
+                "name": "19 - Ralleigh - Oise",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8077984953,49.4112592679],[2.8077974376,49.4112385307],[2.8078031733,49.4112222475],[2.8078180164,49.4111985733],[2.8078430743,49.4111749152],[2.8078692451,49.4111571834],[2.8079010769,49.4111431634],[2.8079328866,49.4111350677],[2.8079749166,49.4111255072],[2.8080172625,49.4111097395],[2.8080554935,49.4110892552],[2.8081044037,49.4110608213],[2.8081407932,49.4110419948],[2.808179998,49.4110290972],[2.8082310884,49.4110247348],[2.8082732105,49.4110285043],[2.8083089209,49.4110396693],[2.8083641684,49.41106449]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1346",
+                "line": 132,
+                "name": "19 - Ralleigh - Oise",
+                "status": "postponed",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8083641684,49.41106449],[2.8084017295,49.4110332438],[2.8085110173,49.4109445499],[2.8085520138,49.4109075869],[2.8085793109,49.4108920784],[2.8086179115,49.4108857194],[2.8086974194,49.4108730107]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-132.jpg",
+				"line": 132
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8083641684,49.41106449
+				]
+			}
+		}
+
+
+]}

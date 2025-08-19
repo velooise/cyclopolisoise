@@ -1,0 +1,112 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1347",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8086974194,49.4108730107],[2.8088242009,49.410963559],[2.8088670743,49.4110324985],[2.808931614,49.4110740716],[2.8089859336,49.4111171097],[2.8091401187,49.4112402854],[2.80958062,49.4115897815],[2.8097192619,49.4116966397],[2.8099060186,49.4118368983],[2.810179508,49.4120032122],[2.8104469283,49.4121228609],[2.8105236409,49.4121536431],[2.8105837302,49.412190836]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1348",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8075742051,49.4101151954],[2.8076950323,49.410140894],[2.8077992191,49.4102341261],[2.8079002855,49.4102620993],[2.8082226246,49.4105098617],[2.8086974194,49.4108730107]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1349",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8105837302,49.412190836],[2.8107359082,49.4122332854],[2.8108076322,49.4122620944],[2.8110351262,49.4123484497],[2.8113088894,49.4124531999],[2.8115229704,49.4125203941],[2.8116059877,49.4125464509],[2.8116316755,49.4125739808]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1350",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8116316755,49.4125739808],[2.811666199,49.4125978052],[2.811724399,49.412622855],[2.8119354445,49.4126944952],[2.8120700958,49.4127351145],[2.8121902177,49.4127638258],[2.8123758874,49.4128009584],[2.8124432653,49.4128070055]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1351",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8124432653,49.4128070055],[2.8125123826,49.4128356374],[2.8130145513,49.413000432]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1352",
+                "line": 133,
+                "name": "20 - Ralleigh - Gambetta",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8130145513,49.413000432],[2.8133237909,49.4131209512],[2.8133601458,49.4131424009],[2.8133764543,49.4131661967],[2.8133690774,49.4131911445],[2.8133430289,49.4132336882]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-133.jpg",
+				"line": 133
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8130145513,49.413000432
+				]
+			}
+		}
+
+
+]}

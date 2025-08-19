@@ -1,0 +1,262 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1426",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8325912264,49.406906789],[2.8327194412,49.4067669931],[2.8328240166,49.4066524826],[2.8329148111,49.4065571224],[2.8329536367,49.4065084678]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1427",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8325912264,49.406906789],[2.8321857854,49.4073617798]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1428",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8321857854,49.4073617798],[2.8319134283,49.4076638953],[2.8315300758,49.4080715003]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1429",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8315300758,49.4080715003],[2.831242088,49.4083550187],[2.8311440486,49.4084468066],[2.8306182072,49.4088917917],[2.8304964274,49.4089948445],[2.8303727128,49.4090777034],[2.8302240525,49.4091820433]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1430",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8302240525,49.4091820433],[2.8299739296,49.409348482]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1431",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8299739296,49.409348482],[2.8297780236,49.4094856732]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1432",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8297780236,49.4094856732],[2.8287409643,49.4102861465]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1433",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8287409643,49.4102861465],[2.8281938064,49.4107330325]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1434",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8281938064,49.4107330325],[2.8281677335,49.4107543639]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1435",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8281677335,49.4107543639],[2.8273225856,49.4114257151],[2.8264794899,49.412104385]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1436",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8264794899,49.412104385],[2.8259877411,49.4124881162]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1437",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8259877411,49.4124881162],[2.8251608404,49.4131610549]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1438",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8251608404,49.4131610549],[2.824957851,49.4133185076]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1439",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.824957851,49.4133185076],[2.8246544832,49.4135574528]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1440",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8246544832,49.4135574528],[2.824182535,49.4139276374],[2.8239853807,49.4140933702]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1441",
+                "line": 144,
+                "name": "103 - Coeur de ville - Etats-Unis via Carnot et Sablons",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8239853807,49.4140933702],[2.8239162194,49.4141676328],[2.8238528282,49.4142254061],[2.8236442972,49.4143911681]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-144.jpg",
+				"line": 144
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8239853807,49.4140933702
+				]
+			}
+		}
+
+
+]}

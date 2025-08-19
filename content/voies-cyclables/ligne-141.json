@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1396",
+                "line": 141,
+                "name": "30 - Traversee de la RD932A:Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
+                "status": "done",
+                "type": "",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7805299504,49.350105075],[2.7807211961,49.3500480587],[2.7809299308,49.3499928805]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-141.jpg",
+				"line": 141
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7805299504,49.350105075
+				]
+			}
+		}
+
+
+]}
