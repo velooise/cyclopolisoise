@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1277",
+                "line": 111,
+                "name": "21 - Oise - Forêt via Boulevard Gambetta:Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
+                "status": "EN SERVICE",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8198915489,49.4090865722],[2.8206171845,49.4087853117],[2.8209251352,49.4086601644],[2.8217742309,49.408318851],[2.8222047417,49.4081579264],[2.8222507523,49.4081328049],[2.8222741608,49.4080998328],[2.8222807045,49.4080357838],[2.8223511491,49.4080250422]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-111.jpg",
+				"line": 111
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8198915489,49.4090865722
+				]
+			}
+		}
+
+
+]}

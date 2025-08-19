@@ -1,0 +1,67 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1258",
+                "line": 109,
+                "name": "106 - Coeur de ville",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8236442972,49.4143911681],[2.8233829362,49.4149224454],[2.8231672984,49.4153608314],[2.8230451226,49.4156124039]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1259",
+                "line": 109,
+                "name": "106 - Coeur de ville",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8236442972,49.4143911681],[2.8238293339,49.4145065549],[2.8240186401,49.4146137353],[2.8242975183,49.4147660481],[2.8244687253,49.414849689],[2.8246190833,49.4149072621],[2.8247888479,49.4149620701],[2.8249861867,49.4150248749]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1260",
+                "line": 109,
+                "name": "106 - Coeur de ville",
+                "status": "postponed",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8219646271,49.4131615787],[2.8220993699,49.4132558273],[2.8221867803,49.4133242606],[2.8223031249,49.413415346],[2.8225522009,49.4135986284],[2.8227981674,49.4137789436],[2.8231424009,49.4140256037],[2.823400125,49.4142162066],[2.8236442972,49.4143911681]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-109.jpg",
+				"line": 109
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8219646271,49.4131615787
+				]
+			}
+		}
+
+
+]}
