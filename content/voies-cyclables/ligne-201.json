@@ -4,11 +4,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "branche-A-voie-partagee",
+        "id": "A1-PontarmeNord-voie-partagee",
+        "name": "Pontarmé (branche nord) → Montgrésin (voie partagée)",
         "line": 201,
-        "name": "Branche A - Liaison 50 CCSSO",
         "status": "planned",
-        "type": "voie-partagée"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -28,34 +29,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "branche-B-voie-partagee",
+        "id": "A2-PontarmeNord-jalonnement",
+        "name": "Pontarmé (branche nord) → Montgrésin (jalonnement directionnel)",
         "line": 201,
-        "name": "Branche B - Liaison 50 CCSSO",
         "status": "planned",
-        "type": "voie-partagée"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [2.551086736299462, 49.15654368202656],
-          [2.550609956199707, 49.15645533532971],
-          [2.550133176099951, 49.15636698847529],
-          [2.549453764457801, 49.1562370663443],
-          [2.548738594308168, 49.15610194696658],
-          [2.54813069968098, 49.155987614897526],
-          [2.547804899946147, 49.15584989637307],
-          [2.54772146342869, 49.15573036677729]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "troncon-jalonnement-directionnel-commune",
-        "line": 201,
-        "name": "Tronçon commun - Liaison 50 CCSSO",
-        "status": "planned",
-        "type": "jalonnement-directionnel"
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -73,47 +52,123 @@
           [2.521447, 49.155261],
           [2.520857, 49.155103],
           [2.51924, 49.155123],
-          [2.518727, 49.155095]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "troncon-voie-partagee-montgresin",
-        "line": 201,
-        "name": "Montgrésin - Liaison 50 CCSSO",
-        "status": "planned",
-        "type": "voie-partagée"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [2.518727, 49.155095],
           [2.514312, 49.154999],
           [2.512539, 49.154889],
           [2.511396, 49.154806],
           [2.51037, 49.154854],
-          [2.509541, 49.155006]
+          [2.509541, 49.155006],
+          [2.509706, 49.154257]
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "troncon-jalonnement-directionnel-route-manon",
+        "id": "B1-PontarmeSud-voie-partagee",
+        "name": "Pontarmé (branche sud) → Montgrésin (voie partagée)",
         "line": 201,
-        "name": "Route Manon - Liaison 50 CCSSO",
         "status": "planned",
-        "type": "jalonnement-directionnel"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [2.551086736299462, 49.15654368202656],
+          [2.550609956199707, 49.15645533532971],
+          [2.550133176099951, 49.15636698847529],
+          [2.549453764457801, 49.1562370663443],
+          [2.548738594308168, 49.15610194696658],
+          [2.54813069968098, 49.155987614897526],
+          [2.547804899946147, 49.15584989637307]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "B2-PontarmeSud-jalonnement",
+        "name": "Pontarmé (branche sud) → Montgrésin (jalonnement directionnel)",
+        "line": 201,
+        "status": "planned",
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.547804899946147, 49.15584989637307],
+          [2.54772146342869, 49.15573036677729],
+          [2.546996, 49.155437],
+          [2.546288, 49.155279],
+          [2.544671, 49.155299],
+          [2.542975, 49.155344],
+          [2.542346, 49.155187],
+          [2.541636, 49.155158],
+          [2.540256, 49.155205],
+          [2.538836, 49.155251],
+          [2.538008, 49.155222],
+          [2.536782, 49.155631],
+          [2.535558, 49.155833],
+          [2.534571, 49.155933],
+          [2.533152, 49.155901],
+          [2.530867, 49.155608],
+          [2.529606, 49.155577],
+          [2.527322, 49.155258],
+          [2.524719, 49.155299],
+          [2.521447, 49.155261]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C1-Montgresin-voie-partagee",
+        "name": "Montgrésin → Route Manon (voie partagée)",
+        "line": 201,
+        "status": "planned",
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.521447, 49.155261],
+          [2.520857, 49.155103],
+          [2.51924, 49.155123],
+          [2.518727, 49.155095],
+          [2.514312, 49.154999],
+          [2.512539, 49.154889],
+          [2.511396, 49.154806],
+          [2.51037, 49.154854],
           [2.509541, 49.155006],
           [2.509706, 49.154257],
+          [2.509748, 49.153972]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C2-RouteManon-jalonnement",
+        "name": "Route Manon → Gare Orry-la-Ville-Coye (jalonnement directionnel)",
+        "line": 201,
+        "status": "planned",
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [2.509748, 49.153972],
-          [2.50995, 49.153482]
+          [2.50995, 49.153482],
+          [2.507718, 49.151766],
+          [2.505646, 49.149973],
+          [2.503267, 49.147195],
+          [2.499448, 49.142654],
+          [2.496094, 49.138864],
+          [2.490772, 49.138945]
         ]
       }
     }
