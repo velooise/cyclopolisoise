@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1183",
+                "line": 107,
+                "name": "104 - Libération - Etats-Unis",
+                "status": "EN SERVICE",
+                "type": "",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8276092517,49.4053550219],[2.8280543824,49.4054558957],[2.8286721547,49.4056133598],[2.8288754382,49.4056693267],[2.8291951461,49.4057667919],[2.8294551764,49.4058467388],[2.8305560561,49.4062211877],[2.831564291,49.4065605741]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-107.jpg",
+				"line": 107
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8276092517,49.4053550219
+				]
+			}
+		}
+
+
+]}

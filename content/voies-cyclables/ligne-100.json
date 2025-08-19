@@ -1,0 +1,38 @@
+{
+"type": "FeatureCollection",
+    "features": [
+	
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1080",
+                "line": 100,
+                "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre:9 - Béthisy-Saint-Pierre - Néry",
+                "status": "EN PROJET",
+                "type": "",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.7888628682,49.3053369176],[2.7888648678,49.3053204946],[2.7888852223,49.3053047354],[2.7889297186,49.3052921774],[2.7892555505,49.3052371488],[2.7895812105,49.3051797126],[2.7896848228,49.3051677684],[2.7898201041,49.3051642132],[2.790009466,49.3051670698],[2.7902528779,49.3051839194],[2.7906526889,49.3052313658],[2.7916183854,49.3053543399],[2.7924491726,49.3054563617],[2.7925727636,49.3054715383]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-100.jpg",
+				"line": 100
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7888628682,49.3053369176
+				]
+			}
+		}
+
+
+]}

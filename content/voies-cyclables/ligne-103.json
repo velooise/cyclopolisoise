@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1145",
+                "line": 103,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "EN SERVICE",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7355241657,49.3133919155],[2.734972454,49.3129441609]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-103.jpg",
+				"line": 103
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7355241657,49.3133919155
+				]
+			}
+		}
+
+
+]}

@@ -1,0 +1,67 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1147",
+                "line": 105,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "EN SERVICE",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7406834635,49.3174505633],[2.7407412601,49.3174219406],[2.7399594923,49.3167588814],[2.7385279497,49.3155981411],[2.7379620703,49.3151373097],[2.7374975309,49.314746146],[2.7369069434,49.3142834181],[2.7368279052,49.3143279909],[2.7367492115,49.3143679877],[2.7363065833,49.3140239533]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1149",
+                "line": 105,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "EN SERVICE",
+                "type": "chaucidou",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7406834635,49.3174505633],[2.7407614746,49.3175272978],[2.741281626,49.3179591197],[2.741989345,49.3185279218],[2.742253065,49.3187407953],[2.7424992647,49.3189414601],[2.7427413291,49.3191421156],[2.742881716,49.3192553527],[2.743280153,49.3195841576],[2.7439332424,49.3201088341],[2.7441805298,49.3203013838],[2.7443490781,49.3203794113],[2.744398654,49.3204233878]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1150",
+                "line": 105,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "EN SERVICE",
+                "type": "aucun",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.7446087102,49.3206839447],[2.7444864779,49.3205137257],[2.744398654,49.3204233878]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-105.jpg",
+				"line": 105
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7446087102,49.3206839447
+				]
+			}
+		}
+
+
+]}
