@@ -8,7 +8,7 @@
                 "id": "TC1142",
                 "line": 101,
                 "name": "6 - Lacroix - Verberie via étangs:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
-                "status": "EN SERVICE",
+                "status": "done",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
             },
@@ -23,15 +23,102 @@
                 "id": "TC1143",
                 "line": 101,
                 "name": "6 - Lacroix - Verberie via étangs:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
-                "status": "EN SERVICE",
+                "status": "done",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
             },
 		"geometry": 
 		{"type":"LineString","coordinates":[[2.7451824756,49.3256457727],[2.7450644168,49.3257261538],[2.7449716041,49.3258047545],[2.7448523988,49.3259384569],[2.7444743423,49.3264091237],[2.7440274109,49.3269912715],[2.7437260174,49.3273964342],[2.7431397156,49.3281214292],[2.7426098483,49.3288084562],[2.7422842161,49.3292345753],[2.7417422501,49.3299255117],[2.7413906331,49.3303213672],[2.7412289805,49.330500939],[2.7411500084,49.3306215906],[2.7410953134,49.3307094625],[2.7410044424,49.33079857],[2.7408792992,49.3309099296],[2.7406997298,49.3310553172],[2.7405786768,49.3311522392],[2.7404635524,49.3312688729],[2.7404250762,49.3313278873],[2.7403965546,49.3314053089],[2.7403758922,49.3315182056],[2.7403816562,49.3315707487],[2.7403752777,49.3316403382],[2.7403528304,49.3317085799],[2.7403063358,49.3317636372],[2.7402599072,49.331805562],[2.7401928044,49.3318363074]]}
+		      },{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1144",
+                "line": 101,
+                "name": "28 - Collège Verberie - Zone industrielle Verberie:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
+                "status": "done",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.734972454,49.3129441609],[2.734940076,49.3129209096],[2.7344128229,49.3129182115],[2.733767728,49.3129128456],[2.7329987626,49.3129096595],[2.7325450031,49.3128966096],[2.7304071196,49.3126458661],[2.7297743139,49.3125664705],[2.729651212,49.312556685],[2.7295038412,49.3125519171],[2.7288959471,49.3125302662],[2.7281532865,49.3125195724],[2.7278484776,49.3125055882],[2.7275113566,49.3124768381],[2.7271935077,49.3124417971],[2.7270314993,49.3124319796],[2.7269408978,49.3124680932]]}
+		      }
+
+
+
+,
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1145",
+                "line": 101,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "done",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7355241657,49.3133919155],[2.734972454,49.3129441609]]}
+		      },
+			  
+			  {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1146",
+                "line": 101,
+                "name": "28 - Collège Verberie - Zone industrielle Verberie:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
+                "status": "done",
+                "type": "inconnu",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.7363065833,49.3140239533],[2.7358358318,49.3136461687],[2.7355241657,49.3133919155]],"type":"LineString"}
+		      },
+			  {
+            "type": "Feature",
+            "properties": {
+                "id": "TC1147",
+                "line": 101,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.7406834635,49.3174505633],[2.7407412601,49.3174219406],[2.7399594923,49.3167588814],[2.7385279497,49.3155981411],[2.7379620703,49.3151373097],[2.7374975309,49.314746146],[2.7369069434,49.3142834181],[2.7368279052,49.3143279909],[2.7367492115,49.3143679877],[2.7363065833,49.3140239533]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1149",
+                "line": 101,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "done",
+                "type": "chaucidou",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7406834635,49.3174505633],[2.7407614746,49.3175272978],[2.741281626,49.3179591197],[2.741989345,49.3185279218],[2.742253065,49.3187407953],[2.7424992647,49.3189414601],[2.7427413291,49.3191421156],[2.742881716,49.3192553527],[2.743280153,49.3195841576],[2.7439332424,49.3201088341],[2.7441805298,49.3203013838],[2.7443490781,49.3203794113],[2.744398654,49.3204233878]]}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1150",
+                "line": 105,
+                "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
+                "status": "done",
+                "type": "inconnu",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7446087102,49.3206839447],[2.7444864779,49.3205137257],[2.744398654,49.3204233878]]}
 		      }
 
 ,
+			  
 {
 			"type": "Feature",
 			"properties": {
