@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Senlis-Pontarmé",
+        "line": 200,
+        "name": "Liaison 49 du schéma cyclable de la CCSSO : Senlis - Pontarmé",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-200"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              2.551224,
+              49.156759
+            ],
+            [
+              2.553119,
+              49.161059
+            ],
+            [
+              2.556042,
+              49.165001
+            ],
+            [
+              2.561066,
+              49.172545
+            ],
+            [
+              2.564847,
+              49.177887
+            ],
+            [
+              2.56586,
+              49.17939
+            ],
+            [
+              2.570617,
+              49.186183
+            ],
+            [
+              2.573969,
+              49.19116
+            ],
+            [
+              2.576542,
+              49.194997
+            ],
+            [
+              2.580246,
+              49.200493
+            ],
+            [
+              2.581963,
+              49.202904
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
