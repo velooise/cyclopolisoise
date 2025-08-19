@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1283",
+                "line": 116,
+                "name": "Piste 17 - Les Lycées:18 - Les Lycées - tranche 1",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8240990549,49.4006130175],[2.8223240761,49.4004812091],[2.8222469831,49.4004881141],[2.821181717,49.4004134379],[2.8211314943,49.4003928624],[2.8209455392,49.4003768971],[2.8184990391,49.4002125491],[2.8170327741,49.4001029586],[2.816421592,49.4000583395],[2.8160982751,49.4000348909],[2.8160358807,49.4000303527],[2.8159848125,49.4000317562],[2.8159317545,49.4000449692],[2.8159031565,49.4000388954],[2.81587088,49.4000340964]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-116.jpg",
+				"line": 116
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8240990549,49.4006130175
+				]
+			}
+		}
+
+
+]}
