@@ -8,8 +8,7 @@
         "name": "Pontarmé (branche nord) → Montgrésin (voie partagée)",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "voie-partagee"
       },
       "geometry": {
         "type": "LineString",
@@ -33,8 +32,7 @@
         "name": "Pontarmé (branche nord) → Montgrésin (jalonnement directionnel)",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "jalonnement-directionnel"
       },
       "geometry": {
         "type": "LineString",
@@ -49,16 +47,7 @@
           [2.529606, 49.155577],
           [2.527322, 49.155258],
           [2.524719, 49.155299],
-          [2.521447, 49.155261],
-          [2.520857, 49.155103],
-          [2.51924, 49.155123],
-          [2.518727, 49.155095],
-          [2.514312, 49.154999],
-          [2.512539, 49.154889],
-          [2.511396, 49.154806],
-          [2.51037, 49.154854],
-          [2.509541, 49.155006],
-          [2.509706, 49.154257]
+          [2.521447, 49.155261]
         ]
       }
     },
@@ -69,8 +58,7 @@
         "name": "Pontarmé (branche sud) → Montgrésin (voie partagée)",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "voie-partagee"
       },
       "geometry": {
         "type": "LineString",
@@ -92,14 +80,12 @@
         "name": "Pontarmé (branche sud) → Montgrésin (jalonnement directionnel)",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "jalonnement-directionnel"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [2.547804899946147, 49.15584989637307],
-          [2.54772146342869, 49.15573036677729],
           [2.546996, 49.155437],
           [2.546288, 49.155279],
           [2.544671, 49.155299],
@@ -124,12 +110,48 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C1-Montgresin-voie-partagee",
+        "id": "C1-Pontarme-RueChateau-voie-partagee",
+        "name": "Pontarmé (Rue du Château) → Grande Rue (voie partagée)",
+        "line": 201,
+        "status": "planned",
+        "type": "voie-partagee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.550136, 49.154815],
+          [2.549656690287326, 49.154226529149355],
+          [2.548546860132651, 49.15451134082813],
+          [2.548370189972994, 49.15511148690113],
+          [2.548098328916109, 49.155480699317344]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "C2-Pontarme-GrandeRue-voie-verte",
+        "name": "Pontarmé (Grande Rue → Mairie) (voie verte)",
+        "line": 201,
+        "status": "planned",
+        "type": "voie-verte"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [2.548098328916109, 49.155480699317344],
+          [2.54772146342869, 49.15573036677729]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "D1-Montgresin-voie-partagee",
         "name": "Montgrésin → Route Manon (voie partagée)",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "voie-partagee"
       },
       "geometry": {
         "type": "LineString",
@@ -151,12 +173,11 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C2-RouteManon-jalonnement",
+        "id": "D2-RouteManon-jalonnement",
         "name": "Route Manon → Gare Orry-la-Ville-Coye (jalonnement directionnel)",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "type": "jalonnement-directionnel"
       },
       "geometry": {
         "type": "LineString",
