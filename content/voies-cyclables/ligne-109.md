@@ -1,7 +1,7 @@
 ---
 name: 106 - Coeur de ville 
 line: 109
-from: 
+from: Rue des Domeliers
 to:  
 description: 109 - schema cyclable de l'ARC 106 - Coeur de ville 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-109.jpg
