@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC936",
+                "line": 178,
+                "name": "Piste 14 - Bois de Plaisance:4 - Voie Verte (Stade François Louvet)",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8046440542,49.4199514989],[2.8047598382,49.4199392886],[2.8048312887,49.4199360766],[2.8049051194,49.4199341845],[2.8052239015,49.4199429966],[2.8054178693,49.4199495325],[2.8055323619,49.4199481605],[2.8056015564,49.419941529],[2.8057118527,49.4199200985],[2.8057945272,49.4198961964],[2.8058837072,49.4198605517],[2.8064237476,49.4196482457]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-178.jpg",
+				"line": 178
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8046440542,49.4199514989
+				]
+			}
+		}
+
+
+]}

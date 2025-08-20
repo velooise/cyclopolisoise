@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC589",
+                "line": 169,
+                "name": "106 - C?ur de ville",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8245062801,49.4159506618],[2.8245999787,49.4157030487],[2.8246411318,49.4156170864],[2.8248412539,49.4152478256],[2.8249861867,49.4150248749]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-169.jpg",
+				"line": 169
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8245062801,49.4159506618
+				]
+			}
+		}
+
+
+]}
