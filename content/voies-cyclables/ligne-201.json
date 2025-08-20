@@ -4,11 +4,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A1-PontarmeNord-voie-partagee",
-        "name": "Pontarmé (branche nord) → Montgrésin (voie partagée)",
+        "id": "201-PontarmeNord-voie-partagee",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "voie-partagee"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -28,11 +29,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "A2-PontarmeNord-jalonnement",
-        "name": "Pontarmé (branche nord) → Montgrésin (jalonnement directionnel)",
+        "id": "201-troncon-commun-jalonnement",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "jalonnement-directionnel"
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -54,11 +56,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "B1-PontarmeSud-voie-partagee",
-        "name": "Pontarmé (branche sud) → Montgrésin (voie partagée)",
+        "id": "201-PontarmeSud-voie-partagee",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "voie-partagee"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -76,11 +79,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "B2-PontarmeSud-jalonnement",
-        "name": "Pontarmé (branche sud) → Montgrésin (jalonnement directionnel)",
+        "id": "201-PontarmeSud-jalonnement-jusqu-au-commun",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "jalonnement-directionnel"
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -93,28 +97,19 @@
           [2.542346, 49.155187],
           [2.541636, 49.155158],
           [2.540256, 49.155205],
-          [2.538836, 49.155251],
-          [2.538008, 49.155222],
-          [2.536782, 49.155631],
-          [2.535558, 49.155833],
-          [2.534571, 49.155933],
-          [2.533152, 49.155901],
-          [2.530867, 49.155608],
-          [2.529606, 49.155577],
-          [2.527322, 49.155258],
-          [2.524719, 49.155299],
-          [2.521447, 49.155261]
+          [2.538836, 49.155251]
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "C1-Pontarme-RueChateau-voie-partagee",
-        "name": "Pontarmé (Rue du Château) → Grande Rue (voie partagée)",
+        "id": "201-Pontarme-Rue-du-Chateau-voie-partagee",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "voie-partagee"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -130,11 +125,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "C2-Pontarme-GrandeRue-voie-verte",
-        "name": "Pontarmé (Grande Rue → Mairie) (voie verte)",
+        "id": "201-Pontarme-Grande-Rue-voie-verte",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "voie-verte"
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -147,11 +143,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D1-Montgresin-voie-partagee",
-        "name": "Montgrésin → Route Manon (voie partagée)",
+        "id": "201-Montgresin-voie-partagee",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "voie-partagee"
+        "type": "voie-partagee",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -173,11 +170,12 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "D2-RouteManon-jalonnement",
-        "name": "Route Manon → Gare Orry-la-Ville-Coye (jalonnement directionnel)",
+        "id": "201-Route-Manon-jalonnement",
         "line": 201,
+        "name": "Pontarmé - Montgrésin - Orry-la-Ville-Coye",
         "status": "planned",
-        "type": "jalonnement-directionnel"
+        "type": "jalonnement-directionnel",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
