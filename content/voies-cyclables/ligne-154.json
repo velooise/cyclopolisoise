@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC305",
+                "line": 154,
+                "name": "Piste 6 - Compiègne - Le Meux: - Trans'Oise:Eurovélo 3 - La Scandibérique:5 - Rive gauche - Pont Neuf - Zone industrielle Nord",
+                "status": "done",
+                "type": "aucun",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8227078275,49.4194742935],[2.8218177482,49.4188944791],[2.8212762709,49.4185532747]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-154.jpg",
+				"line": 154
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8227078275,49.4194742935
+				]
+			}
+		}
+
+
+]}
