@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC557",
+                "line": 165,
+                "name": "16 - Pénétrante Cyclable : Mercières vers Centre Ville",
+                "status": "done",
+                "type": "unknown" ,
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.7947386892,49.3975299226],[2.7947876362,49.3975334051],[2.7947714431,49.3976066747],[2.7947436318,49.3978860991],[2.794743154,49.3980060633],[2.7947456233,49.3981595423],[2.7947655174,49.3983210931],[2.7947976327,49.398508132],[2.7948390755,49.3986737405],[2.7949324814,49.3989419768],[2.7950108956,49.3991069776],[2.795075107,49.3992283916],[2.7952107669,49.3994591682],[2.7952954612,49.3995946908],[2.7953883584,49.3996996661]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-165.jpg",
+				"line": 165
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7947386892,49.3975299226
+				]
+			}
+		}
+
+
+]}

@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC339",
+                "line": 163,
+                "name": "Piste 14 - Bois de Plaisance:11 - ZAC Camp du ROY - Bords de l'Oise",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.7799374669,49.4014364672],[2.7798260157,49.4015316186],[2.779550345,49.4017609199],[2.7794154289,49.4018760524],[2.7792871076,49.4019864291],[2.7789908413,49.4022471583],[2.778877946,49.4023375383],[2.7787958588,49.4023988916],[2.7786148399,49.4025311025],[2.7783942444,49.4026923237],[2.7782073522,49.4028307213],[2.778157423,49.4028887956],[2.7781570268,49.4029808114],[2.7781546278,49.4030289608],[2.7781413851,49.4030503911],[2.7780436594,49.4030952666]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-163.jpg",
+				"line": 163
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.7799374669,49.4014364672
+				]
+			}
+		}
+
+
+]}
