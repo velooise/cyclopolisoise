@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC308",
+                "line": 156,
+                "name": "5 - Rive gauche - Pont Neuf - Zone industrielle Nord:Eurovélo 3 - La Scandibérique:Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8309083709,49.4230344902],[2.830176049,49.4226938955],[2.8266751406,49.421031402],[2.8240756998,49.4198056623],[2.8238931946,49.4197195987]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-156.jpg",
+				"line": 156
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8309083709,49.4230344902
+				]
+			}
+		}
+
+
+]}
