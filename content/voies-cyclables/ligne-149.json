@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC2532",
+                "line": 149,
+                "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
+                "status": "done",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.777876922,49.403133579],[2.7778416726,49.4031351502],[2.7778202649,49.4031420864],[2.7775581201,49.4033035546]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-149.jpg",
+				"line": 149
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.777876922,49.403133579
+				]
+			}
+		}
+
+
+]}

@@ -1,0 +1,67 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1469",
+                "line": 147,
+                "name": "107 - Oise - Forêt via Bellicart",
+                "status": "planned",
+                 "type": "bandes-cyclables" ,
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.836978917,49.4270167899],[2.8378485869,49.4270654739],[2.8383865998,49.4270900101],[2.8384326324,49.4270878065],[2.8384634916,49.4270798714],[2.8384828951,49.4270601218],[2.8388367277,49.4265548842],[2.8393075931,49.4258654222],[2.839491386,49.4256026405],[2.8399843983,49.4248782054],[2.8400080314,49.4248482112],[2.8400344083,49.4248189055],[2.8406721792,49.4241006539]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1470",
+                "line": 147,
+                "name": "107 - Oise - Forêt via Bellicart",
+                "status": "planned",
+                 "type": "bandes-cyclables" ,
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"coordinates":[[2.8406721792,49.4241006539],[2.8408387528,49.4241783378],[2.840907478,49.4242082447],[2.8409717125,49.4242297761]],"type":"LineString"}
+		      }
+
+
+,{
+            "type": "Feature",
+            "properties": {
+                "id": "TC1471",
+                "line": 147,
+                "name": "107 - Oise - Forêt via Bellicart",
+                "status": "done",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.8434942604,49.4218765104],[2.8432198017,49.4222182548],[2.8430151508,49.4224711697],[2.8426256668,49.4229537729],[2.8425920893,49.4230167358],[2.8425473847,49.423068422],[2.8425049104,49.4231060549],[2.8421650958,49.4233483976],[2.8421198627,49.4233730878],[2.8420736485,49.423395663],[2.8420369804,49.4234183007],[2.8411081773,49.4240871769],[2.8410505535,49.424134569],[2.8410047316,49.4241842812],[2.8409717125,49.4242297761]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-147.jpg",
+				"line": 147
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.8434942604,49.4218765104
+				]
+			}
+		}
+
+
+]}
