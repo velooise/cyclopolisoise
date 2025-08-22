@@ -1,5 +1,5 @@
 ---
-name: Piste 6 - Compiègne - Le Meux: - Trans'Oise Eurovélo 3 - La Scandibérique 5 - Rive gauche - Pont Neuf - Zone industrielle Nord 
+name: Piste 6 - Compiègne - Le Meux - Trans'Oise Eurovélo 3 - La Scandibérique 5 - Rive gauche - Pont Neuf - Zone industrielle Nord 
 line: 154
 from: 
 to:  
