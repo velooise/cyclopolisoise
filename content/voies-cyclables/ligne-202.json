@@ -1,31 +1,7 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "202-Pontarme-centre-zone-30",
-        "line": 202,
-        "name": "Pontarmé - Thiers-sur-Thève - Parc Astérix",
-        "status": "planned",
-        "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [2.550474, 49.154584],
-          [2.550136, 49.154815],
-          [2.550473, 49.15459],
-          [2.551202, 49.154735],
-          [2.551815, 49.154427],
-          [2.552508, 49.154171],
-          [2.553456, 49.153955],
-          [2.553674, 49.153852],
-          [2.555172, 49.153858]
-        ]
-      }
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -46,35 +22,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "202-Thiers-sur-Theve-zone-30",
-        "line": 202,
-        "name": "Pontarmé - Thiers-sur-Thève - Parc Astérix",
-        "status": "planned",
-        "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [2.560676, 49.153399],
-          [2.563142, 49.153176],
-          [2.563235, 49.153939],
-          [2.563327, 49.154625],
-          [2.565857, 49.153948],
-          [2.568465, 49.153285],
-          [2.570062, 49.153201],
-          [2.570832, 49.153113],
-          [2.571819, 49.152909],
-          [2.572433, 49.152575],
-          [2.574135, 49.151806],
-          [2.575124, 49.151395],
-          [2.576566, 49.150999]
-        ]
-      }
-    },
+    
     {
       "type": "Feature",
       "properties": {
