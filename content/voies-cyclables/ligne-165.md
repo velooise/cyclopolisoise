@@ -1,9 +1,9 @@
 ---
-name: 16 - Pénétrante Cyclable : Mercières vers Centre Ville 
+name: 16 - Pénétrante Cyclable  Mercières vers Centre Ville 
 line: 165
-from: 
-to:  
-description: 165 - schema cyclable de l'ARC 16 - Pénétrante Cyclable : Mercières vers Centre Ville 
+from: Mercières
+to:  Centre Ville 
+description: 165 - schema cyclable de l'ARC 16 - Pénétrante Cyclable  Mercières vers Centre Ville 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-165.jpg
 ---
 Type d'amenagement : 
