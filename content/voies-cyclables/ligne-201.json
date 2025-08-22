@@ -8,7 +8,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
+        "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -33,7 +33,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
+        "type": "aucun",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -60,7 +60,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
+        "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -83,7 +83,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
+        "type": "aucun",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -118,7 +118,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
+        "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -157,7 +157,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "voie-partagee",
+        "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -184,7 +184,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "jalonnement-directionnel",
+        "type": "aucun",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
