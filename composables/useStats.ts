@@ -175,11 +175,11 @@ export const useStats = () => {
   }
 
   const typologyNames: Record<LaneType, string> = {
-    bidirectionnelle: 'Piste bidirectionnelle',
-    bilaterale: 'Piste bilatérale',
+    'bidirectionnelle': 'Piste bidirectionnelle',
+    'bilaterale': 'Piste bilatérale',
     'voie-bus': 'Voie bus',
     'voie-bus-elargie': 'Voie bus élargie',
-    velorue: 'Vélorue',
+    'velorue': 'Vélorue',
     'voie-verte': 'Voie verte',
     'bandes-cyclables': 'Bandes cyclables',
     'zone-de-rencontre': 'Zone de rencontre',
@@ -187,6 +187,10 @@ export const useStats = () => {
     'imp+debouche-cyclable': 'Impasse avec débouché cyclable',
     'piste-sur-trottoir': 'Piste sur trottoir',
     'chaucidou': 'Chaucidou',
+    'jalonnement': 'Simple jalonnement vertical',
+    'pictogramme': 'Marquage au sol',
+    'voie-riverains': 'Voie réservée riverains et vélos'
+    'unidirectionnelle': 'Piste cyclable unidirectionnelle'
     aucun: 'Aucun',
     inconnu: 'Inconnu'
   };
