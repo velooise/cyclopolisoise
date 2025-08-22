@@ -13,6 +13,10 @@ export type LaneType =
 | 'imp+debouche-cyclable'
 | 'piste-sur-trottoir'
 | 'chaucidou'
+| 'unidirectionnelle'  
+| 'jalonnement'
+| 'pictogramme'
+| 'voie-riverains'
 | 'aucun'
 | 'inconnu';
 
