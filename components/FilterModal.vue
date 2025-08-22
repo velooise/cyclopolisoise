@@ -75,7 +75,7 @@ defineExpose({
 const statusFilters = ref([
   { label: 'Terminé', isEnable: true, statuses: ['done'] },
   { label: 'En travaux', isEnable: true, statuses: ['wip', 'tested'] },
-  { label: 'Prévu pour 2026', isEnable: true, statuses: ['planned', 'variante'] },
+  { label: 'Prévu', isEnable: true, statuses: ['planned', 'variante'] },
   { label: 'Reporté', isEnable: true, statuses: ['postponed', 'variante-postponed'] },
   { label: 'Inconnu', isEnable: true, statuses: ['unknown'] }
 ]);
@@ -92,6 +92,10 @@ const typeFilters = ref([
   { label: 'Impasse + débouché cyclable', isEnable: true, types: ['imp+debouche-cyclable'] },
   { label: 'Piste sur trottoir', isEnable: true, types: ['piste-sur-trottoir'] },
   { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
+  { label: 'Unidirectionnelle', isEnable: true, types: ['unidirectionnelle'] },
+  { label: 'Voie réservée riverains et vélos', isEnable: true, types: ['voie-riverains'] },
+  { label: 'Simple Pictogramme au sol', isEnable: true, types: ['pictogramme'] },
+  { label: 'Jalonnement', isEnable: true, types: ['jalonnement'] },  
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
