@@ -1,11 +1,12 @@
 ---
-name: 16 Pénétrante Cyclable : Mercières vers Centre Ville 
+name: 16 - Pénétrante Cyclable - Mercières vers Centre Ville 
 line: 131
 from: Mercières
 to: Centre-Ville 
 description: 131 - schema cyclable de l'ARC 16 - Pénétrante Cyclable : Mercières vers Centre Ville 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-131.jpg
 ---
+
 Type d'amenagement : 
 Revetement : LISSE
 Statut : EN SERVICE
