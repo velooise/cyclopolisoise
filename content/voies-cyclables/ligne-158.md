@@ -1,9 +1,9 @@
 ---
 name: Eurovélo 3 - La Scandibérique Piste 5 - Compiègne - Choisy - Clairière de l'Armistice - Trans'Oise:5 - Rive gauche - Pont Neuf - Zone industrielle Nord 
 line: 158
-from: 
-to:  
-description: '158 - schema cyclable de l'ARC Eurovélo 3 - La Scandibérique:Piste 5 - Compiègne - Choisy - Clairière de l'Armistice: - Trans'Oise:5 - Rive gauche - Pont Neuf - Zone' industrielle Nord 
+from: Compiègne
+to:  Clairière de l'Armistice
+description: 158 - schema cyclable de l'ARC Eurovélo 3 - La Scandibérique:Piste 5 - Compiègne - Choisy - Clairière de l'Armistice - Trans'Oise:5 - Rive gauche - Pont Neuf - Zone'industrielle Nord 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-158.jpg
 ---
 Type d'amenagement : 
