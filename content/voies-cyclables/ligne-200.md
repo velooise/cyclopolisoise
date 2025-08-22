@@ -13,4 +13,4 @@ Ligne 49 du schéma cyclable de la CCSSO
 
 Budget estimé : (EPCI Voisine : , CD60 : )
 
-Linéaire : 5 600 m
+Linéaire : 5 600 mètres
