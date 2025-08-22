@@ -1,6 +1,6 @@
 ---
 name: Senlis - Ermenonville
-line: 48
+line: 203
 from: Senlis 
 to:  Ermenonville 
 description: La ligne 48 du schéma cyclable de la CCSSO reliera Senlis à Ermenonville via Borest et Fontaine-Chaalis.
