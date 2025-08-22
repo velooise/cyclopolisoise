@@ -59,6 +59,10 @@ export default defineContentConfig({
                   "imp+debouche-cyclable",
                   "piste-sur-trottoir",
                   "chaucidou",
+                  "jalonnement",
+                  "pictogramme",
+                  "unidirectionnelle",
+                  "voie-riverains",
                   "aucun",
                   "inconnu"
                 ]),
