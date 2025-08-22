@@ -1,6 +1,6 @@
 ---
 name: Pontarmé - Thiers-sur-Thève - Parc Astérix
-line: 51
+line: 202
 from: Pontarmé 
 to:  Parc Astérix 
 description: La ligne 51 du schéma cyclable de la CCSSO reliera Pontarmé au Parc Astérix via Thiers-sur-Thève.
