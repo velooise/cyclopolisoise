@@ -30,6 +30,9 @@ Comme prévu, le revêtement stabilisé s'abime, des ornières apparaissent à c
 Un nettoyage complet et une reprise du revêtement est effectuée par l'Aire Cantilienne, notamment entre la Gare et Orry.
 Ces travaux ne font pas partie des travaux prévu par le SDC (Travaux préconisés : élargissement de la piste de 1 m sur emprise de la chaussée (largeur finale 2,5 m) + mise en place de panneaux de début et de fin de « Voie verte » + jalonnement Dv). C'est travaux se font sur le budget de rénovation des pistes existant, sans élargissement de la piste.
 
+![Rénovation 2025](https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-19-2025-renovation.jpg)
+Voici les images du nouveau revêtement de la voie verte entre Orry et la gare. Nouvelle largeur : 1m60. Ils ont peut-être réussi à grappiller 10cm de plus. On est loin de l’élargissement prévu par le SDC en 2019 à 2m50. Ils ont tout de même pensé à marquer le passage des vélo pour les automobilistes sortant du parking, mais le rétrécissement pénible à l’arrivée à la gare reste inchangé.
+
 ## Informations complémentaires
 
 Budget estimé dans le schéma : 319 285 € dont 319 285 € pour la CCAC (EPCI Voisine : , CD60 : )
