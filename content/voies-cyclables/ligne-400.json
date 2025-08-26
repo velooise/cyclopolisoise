@@ -69,7 +69,7 @@
                 "name": "De Mouy à Bury",
                 "status": "planned",
                 "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-400
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-400"
             },
             "geometry": {
                 "type": "LineString",
