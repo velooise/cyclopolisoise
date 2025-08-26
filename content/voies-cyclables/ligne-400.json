@@ -1,0 +1,95 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"line": 400
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+				          2.3378373664183414,
+          49.309743078421064
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "mouy-bury",
+                "line": 400,
+                "name": "mouy-bury",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-400"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+            2.32730883057485,
+            49.3100862344435
+          ],
+          [
+            2.3375023794970105,
+            49.30977429048659
+          ],
+          [
+            2.33750237298932,
+            49.30933746545216
+          ],
+          [
+            2.3383637769710788,
+            49.30936863733774
+          ],
+          [
+            2.338603059512451,
+            49.30964944852835
+          ],
+          [
+            2.347360410577778,
+            49.309462405962165
+          ],
+          [
+            2.3478866260277016,
+            49.30955607644978
+          ]
+                ]
+            }
+        },
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "mouy-bury-nord",
+                "line": 400,
+                "name": "De Mouy à Bury",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-400
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+            2.4205241016724415,
+            49.17401186088375
+          ],
+          [
+            2.4171083025216262,
+            49.17801363806447
+          ],
+          [
+            2.4150452951126624,
+            49.182015091717545
+          ]
+                ]
+            }
+        }
+	        
+	    
+     ]
+}
