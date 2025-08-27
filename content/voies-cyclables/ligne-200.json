@@ -29,7 +29,9 @@
       },
       {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "name": "Repère"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [2.5624911055651296, 49.17486668611576]
