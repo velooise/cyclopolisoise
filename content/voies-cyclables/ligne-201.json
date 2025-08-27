@@ -33,7 +33,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "aucun",
+        "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -83,7 +83,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "aucun",
+        "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -157,7 +157,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "zone-30",
+        "type": "voie-riverains",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
@@ -184,7 +184,7 @@
         "name": "Pontarmé – Montgrésin – Gare d’Orry-la-Ville-Coye",
         "line": 201,
         "status": "planned",
-        "type": "aucun",
+        "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
       },
       "geometry": {
