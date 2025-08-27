@@ -1,0 +1,47 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+  
+      
+	      {
+            "type": "Feature",
+            "properties": {
+                "id": "ccc-amenagements-existants",
+                "line": 499,
+                "name": "Aménagements existants au sein du Clermontois",
+                "status": "done",
+                "type": "bidirectionnelle",
+				"doneAt": "01/08/2022",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-400
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.4173896223892655,
+            49.34700609309678
+          ],
+          [
+            2.4194496237476812,
+            49.34784812483892
+          ],
+          [
+            2.424013839486719,
+            49.34924275732277
+          ],
+          [
+            2.4263162652616472,
+            49.34987431445646
+          ],
+          [
+            2.4276492348855925,
+            49.34942699073119
+          ]
+                ]
+            }
+        }
+	        
+	    
+     ]
+}
