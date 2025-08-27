@@ -20,9 +20,9 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "mouy-bury",
+                "id": "mouy-bury-d137",
                 "line": 400,
-                "name": "mouy-bury",
+                "name": "De Mouy à Bury D137",
                 "status": "planned",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-400"
@@ -64,9 +64,9 @@
 	      {
             "type": "Feature",
             "properties": {
-                "id": "mouy-bury-nord",
+                "id": "mouy-bury-d12",
                 "line": 400,
-                "name": "De Mouy à Bury",
+                "name": "De Mouy à Bury D12",
                 "status": "planned",
                 "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-400"
@@ -74,17 +74,25 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                  [
-            2.4205241016724415,
-            49.17401186088375
+       [
+            2.337863230038465,
+            49.31025901636974
           ],
           [
-            2.4171083025216262,
-            49.17801363806447
+            2.3358812432582,
+            49.3131663386082
           ],
           [
-            2.4150452951126624,
-            49.182015091717545
+            2.3359605227290103,
+            49.313308469963005
+          ],
+          [
+            2.3355244856379045,
+            49.31347644285299
+          ],
+          [
+            2.332141203056807,
+            49.31756552451091
           ]
                 ]
             }
