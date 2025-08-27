@@ -13,6 +13,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-500.j
 
 
 ![Oise Hebdo](https://www.velooise.fr/wp-content/uploads/2025/08/20250727.OH_.CCPOH-VOIE-DOUCE-AGEUX.jpg)
+
 A l'été 2025 cette ancienne liaison a été refaite pour un budget de 384 571€
 
 Budget  : 
