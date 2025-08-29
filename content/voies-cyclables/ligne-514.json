@@ -31,7 +31,7 @@
       "geometry": {
         "coordinates": [
           
-           [
+      [
               2.5260502,
               49.4068565
             ],
@@ -99,8 +99,9 @@
               2.556938,
               49.3806148
             ]
-        ,
-        "type": "MultiLineString"
+          
+        ],
+        "type": "LineString"
       }
     }
 ]
