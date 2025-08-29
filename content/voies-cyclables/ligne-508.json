@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-508.jpg",
+				"line": 508
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					   2.544456459170858,
+              49.30780206715916
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "monceaux->-brenouille",
+        "line": 508,
+        "name": "MONCEAUX > BRENOUILLE",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-508"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+     [
+              2.5424760729631664,
+              49.3067545810613
+            ],
+            [
+              2.544456459170858,
+              49.30780206715916
+            ],
+            [
+              2.545778655189806,
+              49.310116797632205
+            ],
+            [
+              2.5478535990313422,
+              49.315692562025696
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

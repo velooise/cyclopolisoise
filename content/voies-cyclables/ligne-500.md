@@ -1,21 +1,16 @@
 ---
-name: Liaison Carrefour Jeanlin vers Centre Commercial
+name: départ
 line: 500
-from: Pont-Sainte-Maxence
-to: Les Ageux
-description: Liaison Carrefour Jeanlin vers Centre Commercial (schéma CCPOH)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-500.jpg
+from: 
+to:   
+description: La ligne 500 : départ - no (en m)" du schéma cyclable de la CCPOH  relie  à  
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-(en m)".jpg
 ---
+## Les tronçons (du Nord au Sud)
 
-## Les troncons (du Nord au Sud)
+## Informations complémentaires
 
-## Informations complementaires
+Budget estimé : 
 
+Linéaire : arrivéem
 
-![Oise Hebdo](https://www.velooise.fr/wp-content/uploads/2025/08/20250727.OH_.CCPOH-VOIE-DOUCE-AGEUX.jpg)
-
-A l'été 2025 cette ancienne liaison a été refaite pour un budget de 384 571€
-
-Budget  : 
-
-Lineaire :

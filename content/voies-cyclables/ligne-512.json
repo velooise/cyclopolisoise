@@ -6,8 +6,8 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-514.jpg",
-				"line": 514
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-512.jpg",
+				"line": 512
 			},
 			"geometry": {
 				"type": "Point",
@@ -20,12 +20,12 @@
  {
       "type": "Feature",
       "properties": {
-		"id": "sacy-le-grand->-za-la-motte",
-        "line": 514,
-        "name": "SACY-LE-GRAND > ZA LA MOTTE",
+		"id": "le-rocher->-marais-de-sacy",
+        "line": 512,
+        "name": "LE ROCHER > MARAIS DE SACY",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-514"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-512"
 
       },
       "geometry": {
