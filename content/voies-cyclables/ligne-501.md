@@ -1,5 +1,5 @@
 ---
-name: ANGICOURT > RIEUX
+name: ANGICOURT - RIEUX
 line: 501
 from: ANGICOURT 
 to: RIEUX 
