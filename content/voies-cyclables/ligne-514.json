@@ -1,0 +1,108 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-514.jpg",
+				"line": 514
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					  2.605204674710393,
+					 49.30533144013822
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "sacy-le-grand->-za-la-motte",
+        "line": 514,
+        "name": "SACY-LE-GRAND > ZA LA MOTTE",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-514"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+           [
+              2.5260502,
+              49.4068565
+            ],
+            [
+              2.5293197,
+              49.4046195
+            ],
+            [
+              2.5319869,
+              49.4041033
+            ],
+            [
+              2.5348261,
+              49.4036731
+            ],
+            [
+              2.5363748,
+              49.4054799
+            ],
+            [
+              2.5376654,
+              49.4082331
+            ],
+            [
+              2.5391281,
+              49.4072867
+            ],
+            [
+              2.5424836,
+              49.403415
+            ],
+            [
+              2.5443764,
+              49.4006617
+            ],
+            [
+              2.5473017,
+              49.3973062
+            ],
+            [
+              2.5486783,
+              49.3962738
+            ],
+            [
+              2.5505712,
+              49.3930043
+            ],
+            [
+              2.5519478,
+              49.3895628
+            ],
+            [
+              2.5529802,
+              49.3862073
+            ],
+            [
+              2.5541848,
+              49.3829378
+            ],
+            [
+              2.5553893,
+              49.3823355
+            ],
+            [
+              2.556938,
+              49.3806148
+            ]
+        ,
+        "type": "MultiLineString"
+      }
+    }
+]
+}
+
