@@ -1,0 +1,66 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-535.jpg",
+				"line": 535
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 
+              2.6190831,
+              49.3357079
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "sarron->-villette->-st-martin-longueau",
+        "line": 535,
+        "name": "SARRON > VILLETTE > ST-MARTIN-LONGUEAU",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-535"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+   [
+              2.6087918,
+              49.3451416
+            ],
+            [
+              2.6167553,
+              49.3415886
+            ],
+            [
+              2.6190831,
+              49.3357079
+            ],
+            [
+              2.6230036,
+              49.3263967
+            ],
+            [
+              2.6241062,
+              49.3238239
+            ],
+            [
+              2.6225135,
+              49.3183107
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

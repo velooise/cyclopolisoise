@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-517.jpg",
+				"line": 517
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+				      2.6272916,
+              49.3712373
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "sacy-le-petit-<>-st-martin-longueau",
+        "line": 517,
+        "name": "SACY-LE-PETIT <> ST-MARTIN-LONGUEAU",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-517"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+       [
+              2.6184705,
+              49.3589858
+            ],
+            [
+              2.6211658,
+              49.3653566
+            ],
+            [
+              2.6227585,
+              49.3698896
+            ],
+            [
+              2.6272916,
+              49.3712373
+            ],
+            [
+              2.6319472,
+              49.3772406
+            ],
+            [
+              2.6370928,
+              49.3820187
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

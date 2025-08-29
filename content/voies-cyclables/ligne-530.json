@@ -1,0 +1,85 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-530.jpg",
+				"line": 530
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					         2.6828122,
+              49.2715181
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "villeneuve->-roberval->-rhuis",
+        "line": 530,
+        "name": "VILLENEUVE > ROBERVAL > RHUIS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-530"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+       [
+              2.6791126,
+              49.2510409
+            ],
+            [
+              2.6841888,
+              49.2544825
+            ],
+            [
+              2.6826401,
+              49.2587844
+            ],
+            [
+              2.6834145,
+              49.2666999
+            ],
+            [
+              2.6828122,
+              49.2715181
+            ],
+            [
+              2.6811775,
+              49.2740992
+            ],
+            [
+              2.6828983,
+              49.2790895
+            ],
+            [
+              2.6844469,
+              49.2850261
+            ],
+            [
+              2.6836726,
+              49.2908767
+            ],
+            [
+              2.6813496,
+              49.2938881
+            ],
+            [
+              2.6813496,
+              49.3001689
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

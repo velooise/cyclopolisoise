@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-532.jpg",
+				"line": 532
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					  2.605204674710393,
+					 49.30533144013822
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "sacy-le-grand->-labruyere->-hopital-p-doumer",
+        "line": 532,
+        "name": "SACY-LE-GRAND > LABRUYERE > HOPITAL P DOUMER",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-532"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+            [
+              2.6129573,
+              49.3587408
+            ],
+            [
+              2.6285167,
+              49.4040714
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+
