@@ -1,72 +1,128 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-518.jpg",
-				"line": 518
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					   2.6053614,
-              49.3174531
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "les-ageux->-pont-ste-maxence",
-        "line": 518,
-        "name": "LES AGEUX > PONT-STE-MAXENCE",
-        "status": "planned",
-        "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-518"
-
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-518.jpg",
+        "line": 518
       },
       "geometry": {
         "coordinates": [
-         [
-              2.6056064,
-              49.3093671
-            ],
-            [
-              2.6048713,
-              49.3087545
-            ],
-            [
-              2.6068315,
-              49.3109598
-            ],
-            [
-              2.606219,
-              49.3147578
-            ],
-            [
-              2.6053614,
-              49.3174531
-            ],
-            [
-              2.606219,
-              49.320761
-            ],
-            [
-              2.6070766,
-              49.3238239
-            ],
-            [
-              2.6070766,
-              49.3238239
-            ]
-          
+          2.604618852462473,
+          49.31738587185641
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-ageux->-pont-ste-maxence-t1",
+        "line": 518,
+        "name": "LES AGEUX > PONT-STE-MAXENCE",
+        "status": "wip",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-518"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.6047533708867983,
+            49.308098763537494
+          ],
+          [
+            2.6058746225011493,
+            49.30908942090729
+          ],
+          [
+            2.606247915416701,
+            49.31031430466675
+          ],
+          [
+            2.6055244309411263,
+            49.31168126765691
+          ],
+          [
+            2.6040667020854085,
+            49.31406560349186
+          ],
+          [
+            2.6040253157101874,
+            49.31607737759129
+          ],
+          [
+            2.6041209774622547,
+            49.31639547746639
+          ],
+          [
+            2.6045607084268045,
+            49.31688395154793
+          ],
+          [
+            2.604566909499433,
+            49.317429210323276
+          ],
+          [
+            2.6046516173338845,
+            49.31761835692075
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "id": "les-ageux->-pont-ste-maxence-t2",
+        "line": 518,
+        "name": "LES AGEUX > PONT-STE-MAXENCE",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-518"},
+      "geometry": {
+        "coordinates": [
+          [
+            2.604871218814395,
+            49.31806266369594
+          ],
+          [
+            2.604613030352681,
+            49.31817206024306
+          ],
+          [
+            2.6045226643908848,
+            49.31863488910011
+          ],
+          [
+            2.6042773853521624,
+            49.319038808911756
+          ],
+          [
+            2.6038642838144312,
+            49.31928284219239
+          ],
+          [
+            2.60357855923192,
+            49.32328085959057
+          ],
+          [
+            2.603681834616708,
+            49.32365949878755
+          ],
+          [
+            2.603914204231671,
+            49.323794125356216
+          ],
+          [
+            2.604327305770198,
+            49.32388668090849
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-
