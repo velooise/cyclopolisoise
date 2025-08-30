@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-523.jpg",
+				"line": 523
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					         2.5076339,
+              49.26302
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "verneuil-en-h.->-ba110",
+        "line": 523,
+        "name": "VERNEUIL-EN-H. > BA110",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-523"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+               [
+              2.5002579,
+              49.2513823
+            ],
+            [
+              2.5105844,
+              49.2577748
+            ],
+            [
+              2.5076339,
+              49.26302
+            ],
+            [
+              2.5104204,
+              49.2684291
+            ],
+            [
+              2.5125513,
+              49.2726908
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

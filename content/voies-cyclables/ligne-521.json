@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-521.jpg",
+				"line": 521
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.495517592234119,
+              49.275715869345674
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "verneuil-en-h.->-creil",
+        "line": 521,
+        "name": "VERNEUIL-EN-H. > CREIL",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-521"
+
+      },
+      "geometry": {
+        "coordinates": [
+     [
+              2.4849813983386544,
+              49.26453978152891
+            ],
+            [
+              2.488094197377743,
+              49.265768443217574
+            ],
+            [
+              2.491996769422184,
+              49.2694026331302
+            ],
+            [
+              2.493127669075261,
+              49.272739070365816
+            ],
+            [
+              2.495517592234119,
+              49.275715869345674
+            ],
+            [
+              2.4987958278934626,
+              49.277297687878445
+            ],
+            [
+              2.5023888,
+              49.2782638
+            ],
+            [
+              2.506667956334805,
+              49.2793477787908
+            ],
+            [
+              2.5089711240422807,
+              49.28097923753572
+            ],
+            [
+              2.509522544016837,
+              49.28200564935386
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

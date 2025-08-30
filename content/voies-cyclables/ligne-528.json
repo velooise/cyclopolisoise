@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-528.jpg",
+				"line": 528
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					           2.6455576,
+              49.3147524
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "pontpoint-<>-les-etangs",
+        "line": 528,
+        "name": "PONTPOINT <> LES ETANGS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-528"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+    [
+              2.6529569,
+              49.3236143
+            ],
+            [
+              2.6521825,
+              49.3200868
+            ],
+            [
+              2.6482248,
+              49.3202588
+            ],
+            [
+              2.6455576,
+              49.3147524
+            ],
+            [
+              2.6453855,
+              49.3089878
+            ],
+            [
+              2.646504,
+              49.3025349
+            ],
+            [
+              2.64659,
+              49.2976307
+            ],
+            [
+              2.64659,
+              49.2973726
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+

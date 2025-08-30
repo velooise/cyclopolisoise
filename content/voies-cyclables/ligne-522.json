@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-522.jpg",
+				"line": 522
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.496324,
+              49.2482679
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "creil->-verneuil-parc-techn.",
+        "line": 522,
+        "name": "CREIL > VERNEUIL PARC TECHN.",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-522"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+              [
+              2.4894397,
+              49.2454814
+            ],
+            [
+              2.4937014,
+              49.2456453
+            ],
+            [
+              2.496324,
+              49.2482679
+            ],
+            [
+              2.4938654,
+              49.2517101
+            ],
+            [
+              2.498291,
+              49.2553161
+            ],
+            [
+              2.5071422,
+              49.26302
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+
