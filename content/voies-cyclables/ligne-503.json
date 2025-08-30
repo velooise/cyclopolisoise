@@ -1,0 +1,69 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-503.jpg",
+				"line": 503
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+			     2.5101801561049255,
+              49.318669575881664
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "angicourt->-cinqueux",
+        "line": 503,
+        "name": "ANGICOURT > CINQUEUX",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-503"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+  [
+              2.5059256749877057,
+              49.311550518713965
+            ],
+            [
+              2.5089498883782397,
+              49.31505150774179
+            ],
+            [
+              2.5101801561049255,
+              49.318669575881664
+            ],
+            [
+              2.5110171118941236,
+              49.3201007022109
+            ],
+            [
+              2.5193424189777245,
+              49.32072189030412
+            ],
+            [
+              2.5245959129951427,
+              49.31978957480568
+            ],
+            [
+              2.526065611223174,
+              49.319358236016015
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+
