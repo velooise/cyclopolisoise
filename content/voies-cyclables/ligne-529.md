@@ -10,6 +10,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-29.jp
 
 ## Informations complémentaires
 
+**Priorité dans le schéma** : 6/22 
+
 Budget estimé : 
 
 Linéaire : 1 481m

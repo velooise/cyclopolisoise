@@ -13,6 +13,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-18.jp
 
 Article du 27 aout 2025 dans Oise Hebdo sur les travaux.
 
+**Priorité dans le schéma** : 12/22 
+
 Budget estimé : 
 
 Linéaire : 1 198m
