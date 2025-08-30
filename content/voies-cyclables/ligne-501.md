@@ -9,6 +9,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-1.jpg
 ## Les tronçons (du Nord au Sud)
 
 ## Informations complémentaires
+**Priorité dans le schéma** : 16/22 
 
 Budget estimé : 
 
