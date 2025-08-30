@@ -1,65 +1,65 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-517.jpg",
-				"line": 517
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				      2.6272916,
-              49.3712373
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "sacy-le-petit-<>-st-martin-longueau",
+        "id": "sacy-le-petit-<>-st-martin-longueau",
         "line": 517,
         "name": "SACY-LE-PETIT <> ST-MARTIN-LONGUEAU",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-517"
-
       },
       "geometry": {
         "coordinates": [
-          
-       [
-              2.6184705,
-              49.3589858
-            ],
-            [
-              2.6211658,
-              49.3653566
-            ],
-            [
-              2.6227585,
-              49.3698896
-            ],
-            [
-              2.6272916,
-              49.3712373
-            ],
-            [
-              2.6319472,
-              49.3772406
-            ],
-            [
-              2.6370928,
-              49.3820187
-            ]
-          
+          [
+            2.6121633383496183,
+            49.34326523748903
+          ],
+          [
+            2.613149368104798,
+            49.34437339554751
+          ],
+          [
+            2.6153040129224325,
+            49.35090052595059
+          ],
+          [
+            2.6198990009574255,
+            49.35232257363765
+          ],
+          [
+            2.623227625913294,
+            49.3555187687761
+          ],
+          [
+            2.6259719433377935,
+            49.35896123673827
+          ],
+          [
+            2.6284037369798576,
+            49.360238176150915
+          ]
         ],
         "type": "LineString"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-517.jpg",
+        "line": 517
+      },
+      "geometry": {
+        "coordinates": [
+          2.6272916,
+          49.3712373
+        ],
+        "type": "Point"
+      }
     }
-]
+  ]
 }
-
