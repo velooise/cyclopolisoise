@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-536.jpg",
+				"line": 536
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.6129573,
+              49.3587408
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "st-martin-longueau->-estrees-st-denis",
+        "line": 536,
+        "name": "ST-MARTIN-LONGUEAU > ESTREES-ST-DENIS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-536"
+
+      },
+      "geometry": {
+        "coordinates": [
+          
+           [
+              2.6129573,
+              49.3587408
+            ],
+            [
+              2.6285167,
+              49.4040714
+            ]
+          
+        ],
+        "type": "LineString"
+      }
+    }
+]
+}
+
