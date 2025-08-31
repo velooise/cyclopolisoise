@@ -1,0 +1,104 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-42.jpg",
+				"line": 642
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4528844602708944,
+          49.29279823789247
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "piste-vers-la-deviation-42",
+        "line": 642,
+        "name": "PISTE VERS LA DEVIATION-42",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.458961131048511,
+            49.310582989404764
+          ],
+          [
+            2.451387730238565,
+            49.31150187852447
+          ]
+         ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+		"id": "piste-vers-la-deviation-88",
+        "line": 642,
+        "name": "PISTE VERS LA DEVIATION-88",
+        "status": "planned",
+        "type": "bidirectionnelle",
+    "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+       [
+            2.4514253144610336,
+            49.31147619911036
+          ],
+          [
+            2.45018500564359,
+            49.311794743399304
+          ],
+          [
+            2.449583643792778,
+            49.31191725988509
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "piste-vers-la-deviation-130",
+       "line": 642,
+        "name": "PISTE VERS LA DEVIATION-130",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+          [
+            2.4589423375972785,
+            49.31059406571421
+          ],
+          [
+            2.4611410668646556,
+            49.31207653086085
+          ]
+         ]
+      }
+    }
+]
+}
+
