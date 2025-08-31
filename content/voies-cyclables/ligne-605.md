@@ -3,8 +3,8 @@ name: D137
 line: 605
 from: Bailleval
 to:  D137 
-description: La ligne 605, réseau reseau structurant du schéma de la CCLVD concerne Bailleval - D137 (tronçons 5, 6, 78, 117, 118, 176
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-5.jpg
+description: La ligne 605, réseau reseau structurant du schéma de la CCLVD concerne Bailleval - D137 (tronçons 5, 6, 78, 117, 118, 176) 
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-5.jpg
 ---
 
 **Point(s) d'intérêt** : École D'aides-Soignants Groupe Hospitalier, École Élémentaire De Rosoy, Mairie De Rosoy, École Maternelle Georges Blin, Mairie De Labruyère

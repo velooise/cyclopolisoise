@@ -4,7 +4,7 @@ line: 642
 from: Cauffry
 to:  PISTE VERS LA DEVIATION 
 description: La ligne 642, réseau reseau structurant du schéma de la CCLVD (tronçons 42,88,130) concerne Laigneville,Mogneville,Cauffry - PISTE VERS LA DEVIATION
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-42.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-42.jpg
 ---
 
 **Point(s) d'intérêt** : Zone D'activités Du Marais, Parc Chédeville, Collège Du Marais, Complexe Henri Besse, École Maternelle Saint-Exupéry
