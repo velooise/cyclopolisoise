@@ -17,5 +17,5 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-111.j
 
 Budget estimé :  1 354 307 €
 
-Linéaire : 862 m (voie verte en enrobé)
+Linéaire : 3 911 m 
 
