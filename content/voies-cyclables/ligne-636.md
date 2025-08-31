@@ -4,7 +4,7 @@ line: 636
 from: Cauffry
 to:  D916a 
 description: La ligne 636, réseau reseau structurant du schéma de la CCLVD concerne Cauffry - D916a (troncons 34 35 36 37 93 103 104 )
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-Cauffry.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-636.jpg
 ---
 
 **Point(s) d'intérêt** : Za La Petite Vallée, Complexe Henri Besse, Collège Du Marais, École Primaire Des Marronniers, Salle Marcel Patoux
