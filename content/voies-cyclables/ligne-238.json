@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+       "id": "38-01-02",
+        "line": 238,
+        "name": "Liaisons 38 du schéma cyclable de la CCSSO : Aumont - Fleurines 38-01, 38-02",
+        "status": "wip",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+     [
+            2.5620620831547853,
+            49.225909126389354
+          ],
+          [
+            2.571152604595426,
+            49.2345990106152
+          ],
+          [
+            2.578600233763723,
+            49.24185728849784
+          ]
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+       "id": "38-08",
+        "line": 238,
+        "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-08",
+        "status": "wip",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+      [
+            2.5786003953395493,
+            49.24192351123992
+          ],
+          [
+            2.5829941834323904,
+            49.24612610225364
+          ],
+          [
+            2.5857530736290926,
+            49.248927630890734
+          ]
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+       "id": "38-09",
+        "line": 238,
+        "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-09",
+        "status": "wip",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+   [
+			2.5857530736290926,
+            49.24886092967512
+          ],
+          [
+            2.5850378058008516,
+            49.250461733973964
+          ],
+          [
+            2.5850378058008516,
+            49.25139551251135
+          ],
+          [
+            2.58570198307018,
+            49.253729881582416
+          ],
+          [
+            2.5858552547477416,
+            49.25469694500134
+          ],
+          [
+            2.584782353004613,
+            49.25659766960911
+          ]
+        ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          2.5815278767283303,
+          49.24473933515159
+        ],
+        "type": "Point"
+      }
+    }
+]
+}
+   
