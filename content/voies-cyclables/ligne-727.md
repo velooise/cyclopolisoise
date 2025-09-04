@@ -4,7 +4,7 @@ line: 727
 from: Mogneville
 to:  Cheminement menant au Parc de Chédeville 
 description: La ligne 727, réseau reseau structurant du schéma de la CCLVD concerne Mogneville - Cheminement menant au Parc de Chédeville (127,133)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-127.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-127.jpg
 ---
 
 **Point(s) d'intérêt** : Parc Chédeville, Zone D'activités Du Marais, École Primaire Chantal Mauduit, Mairie De Mogneville, Piscine La Vallée Dorée
