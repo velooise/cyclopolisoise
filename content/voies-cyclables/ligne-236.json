@@ -1,0 +1,133 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-236.jpg",
+				"line": 236
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+		 2.528534824535825,
+          49.23700318391232
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "236-Liaison36-01-02-03-04-05Baseaérienne",
+                "line": 236,
+                "name": "Liaison 36 et 36’ - Base aérienne de Creil - Aumont",
+                "status": "planned",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                        [
+            2.51258892148428,
+            49.24249115565675
+          ],
+          [
+            2.522477853608848,
+            49.23974724601388
+          ],
+          [
+            2.531501504172553,
+            49.23692247389539
+          ],
+          [
+            2.5347154071135947,
+            49.23563109568968
+          ],
+          [
+            2.5384237566604497,
+            49.23232178492543
+          ],
+          [
+            2.5396598731763333,
+            49.23070740653978
+          ],
+          [
+            2.5427501644647634,
+            49.23159532118024
+          ],
+          [
+            2.5467057373149657,
+            49.23070740653978
+          ]
+                ]
+            }
+        },
+		 {
+            "type": "Feature",
+            "properties": {
+                "id": "236-Liaison36p-Baseaérienne",
+                "line": 236,
+                "name": "Liaison 36’ - Base aérienne de Creil - Aumont",
+                "status": "planned",
+                "type": "voie-riverains",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                        [
+            2.5448345277973203,
+            49.23098398628093
+          ],
+          [
+            2.543850562718802,
+            49.23192307451711
+          ],
+          [
+            2.5433207353691785,
+            49.232985705466064
+          ],
+          [
+            2.542828752829905,
+            49.23377648575595
+          ],
+          [
+            2.542261080669789,
+            49.23424600556345
+          ],
+          [
+            2.5415420292667648,
+            49.23731013049306
+          ],
+          [
+            2.5372312464266713,
+            49.2411713614286
+          ],
+          [
+            2.532460161868613,
+            49.24333052628913
+          ],
+          [
+            2.5267673905203765,
+            49.24092358237357
+          ],
+          [
+            2.524924016941668,
+            49.23989705590199
+          ],
+          [
+            2.5243276313717047,
+            49.23918909417898
+          ]
+                ]
+            }
+        }
+		
+     ]
+}
+
+
