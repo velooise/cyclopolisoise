@@ -1,0 +1,88 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-261.jpg",
+				"line": 261
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					  2.6084935367306343,
+          49.20940065695851
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "261-Liaison-61-01-05",
+                "line": 261,
+                "name": "Liaison 61-01-05 - Plateforme logistique - Senlis",
+                "status": "planned",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-261"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+            2.6237257985654026,
+            49.210666389123816
+          ],
+          [
+            2.6008396135096916,
+            49.208328705812306
+          ]
+                ]
+            }
+        },
+		{
+            "type": "Feature",
+            "properties": {
+                "id": "261-Liaison-61-06-08",
+                "line": 261,
+                "name": "Liaison 61-06-08 - Plateforme logistique - Senlis",
+                "status": "planned",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-261"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+            2.600936138336408,
+            49.20829739523023
+          ],
+          [
+            2.597418902729686,
+            49.20787960280856
+          ],
+          [
+            2.5954204734092627,
+            49.20772292974013
+          ],
+          [
+            2.5928225152916298,
+            49.207461806856514
+          ],
+          [
+            2.5903844315185296,
+            49.2079971061999
+          ],
+          [
+            2.589385216857096,
+            49.206652317801286
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+
