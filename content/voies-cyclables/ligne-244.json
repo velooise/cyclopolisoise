@@ -1,0 +1,77 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-244.jpg",
+				"line": 244
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.6886024299840017,
+					49.21299204175665
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "244-Liaison44-01-02-03",
+				"line": 244,
+				"name": "Liaison 44-01-02-03 - Montepilloy – Ancienne voie ferrée",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-244"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.682859125164839,
+						49.21497300461337
+					],
+					[
+						2.69331935913479,
+						49.21128345186088
+					],
+					[
+						2.695269572248151,
+						49.21078707845737
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "244-Liaison44-04",
+				"line": 244,
+				"name": "Liaison 44-04 - Montepilloy – Ancienne voie ferrée",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-244"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.682859125164839,
+						49.21497300461337
+					],
+					[
+						2.69331935913479,
+						49.21128345186088
+					],
+					[
+						2.695269572248151,
+						49.21078707845737
+					]
+				]
+			}
+		}
+	]
+}

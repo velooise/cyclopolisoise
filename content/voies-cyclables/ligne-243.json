@@ -1,0 +1,153 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-243.jpg",
+				"line": 243
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.704392913097905,
+					49.24050306081813
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "243-Liaison 43 – Rully – Bray – Chaussée Brunehaut",
+				"line": 243,
+				"name": "Liaison 43 – Rully – Bray – Chaussée Brunehaut",
+				"status": "planned",
+				"type": "voie-riverains",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.6859717048116636,
+						49.24289095404822
+					],
+					[
+						2.689919282056934,
+						49.23968367939955
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "243-Liaison43-02-03",
+				"line": 243,
+				"name": "Liaison 43-02-03 – Rully – Bray – Chaussée Brunehaut",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.6899032677622188,
+						49.23970015149922
+					],
+					[
+						2.6905426800323085,
+						49.23951798258196
+					],
+					[
+						2.6911123382357687,
+						49.23955593451009
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "243-Liaison43-04",
+				"line": 243,
+				"name": "Liaison 43-04 – Rully – Bray – Chaussée Brunehaut",
+				"status": "planned",
+				"type": "jalonnement",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.69112721020943,
+						49.239543373022656
+					],
+					[
+						2.6954249122789946,
+						49.23942028338591
+					],
+					[
+						2.6969688574279758,
+						49.239575173614554
+					],
+					[
+						2.6989959767716982,
+						49.239795756673715
+					],
+					[
+						2.7010906667608197,
+						49.239795756673715
+					],
+					[
+						2.7042664870656665,
+						49.240457499940334
+					],
+					[
+						2.7087937202666126,
+						49.24036926801702
+					],
+					[
+						2.7149426489422126,
+						49.23931047264301
+					],
+					[
+						2.7179833279583647,
+						49.23913400454026
+					],
+					[
+						2.7191900515420286,
+						49.239450837736456
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "243-Liaison43-05",
+				"line": 243,
+				"name": "Liaison 43-05 – Rully – Bray – Chaussée Brunehaut",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.719197971238742,
+						49.23944312848582
+					],
+					[
+						2.720758496380455,
+						49.240330046875016
+					]
+				]
+			}
+		}
+	]
+}
