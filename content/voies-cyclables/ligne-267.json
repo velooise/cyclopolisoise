@@ -1,0 +1,101 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-267.jpg",
+				"line": 267
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.6708809708293018,
+					49.22041381225094
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "267-Liaison-67-01",
+				"line": 267,
+				"name": "Liaison 67-01 - Barbery – Ancienne voie ferrée",
+				"status": "planned",
+				"type": "jalonnement",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-267"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.6647137738969207,
+						49.22478184529891
+					],
+					[
+						2.6653146427283048,
+						49.22442679436938
+					],
+					[
+						2.666802508404942,
+						49.224314672493335
+					],
+					[
+						2.667517828442328,
+						49.223810120902044
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "267-Liaison-67-02",
+				"line": 267,
+				"name": "Liaison 67-02 - Barbery – Ancienne voie ferrée",
+				"status": "planned",
+				"type": "zone-30",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-267"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.667650589795045,
+						49.22369613224319
+					],
+					[
+						2.6705107138396897,
+						49.22177318619458
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "267-Liaison-67-03-04",
+				"line": 267,
+				"name": "Liaison 67-03-04 - Barbery – Ancienne voie ferrée",
+				"status": "planned",
+				"type": "jalonnement",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-267"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						2.667650589795045,
+						49.22369613224319
+					],
+					[
+						2.6705107138396897,
+						49.22177318619458
+					]
+				]
+			}
+		}
+	]
+}
