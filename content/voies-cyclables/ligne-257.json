@@ -1,0 +1,88 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-257.jpg",
+				"line": 257
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.5510256246794256,
+          49.20534478549769
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "257-Liaison-57-01",
+                "line": 257,
+                "name": "Liaison 57-01 - Courteuil – Voie Verte (Chantilly)",
+                "status": "planned",
+                "type": "chaucidou",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-257"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.5507053561914574,
+            49.20103851782093
+          ],
+          [
+            2.5508369688112964,
+            49.2027154229263
+          ],
+          [
+            2.5507053561914574,
+            49.20338186942095
+          ]
+                ]
+            }
+        },
+		{
+            "type": "Feature",
+            "properties": {
+                "id": "257-Liaison-57-02",
+                "line": 257,
+                "name": "Liaison 57-02 - Courteuil – Voie Verte (Chantilly)",
+                "status": "planned",
+                "type": "jalonnement",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-257"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+            2.5507382593461614,
+            49.20379033218879
+          ],
+          [
+            2.5508698719660288,
+            49.20454275476976
+          ],
+          [
+            2.551133097205735,
+            49.20488671556555
+          ],
+          [
+            2.550071430619738,
+            49.20990199805678
+          ],
+          [
+            2.550334655859473,
+            49.21037489227351
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+

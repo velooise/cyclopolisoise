@@ -1,0 +1,128 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-256.jpg",
+				"line": 256
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.5537344568803633,
+          49.20151362112213
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "256-Liaison-56-01-02-03",
+                "line": 256,
+                "name": "Liaison 56-01-02-03 - Courteuil - Senlis",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.540555592789275,
+            49.19954021552704
+          ],
+          [
+            2.543436873431517,
+            49.19982262056641
+          ],
+          [
+            2.547374623641332,
+            49.199759864030625
+          ],
+          [
+            2.549967776219745,
+            49.20051293720846
+          ],
+          [
+            2.5507841390688384,
+            49.20110911200845
+          ],
+          [
+            2.5534253129909246,
+            49.200732581392
+          ],
+          [
+            2.553761462398427,
+            49.20145426255536
+          ]
+                ]
+            }
+        },
+		 {
+            "type": "Feature",
+            "properties": {
+                "id": "256-Liaison-56-04",
+                "line": 256,
+                "name": "Liaison 56-04 - Courteuil - Senlis",
+                "status": "planned",
+                "type": "imp+debouche-cyclable",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.5537763869819514,
+            49.201423664250996
+          ],
+          [
+            2.555746931540398,
+            49.201492151296605
+          ],
+          [
+            2.560694256173207,
+            49.20309472108832
+          ],
+          [
+            2.5613860430927957,
+            49.20342344693404
+          ]
+                ]
+            }
+        },
+			 {
+            "type": "Feature",
+            "properties": {
+                "id": "256-Liaison-56-05-06",
+                "line": 256,
+                "name": "Liaison 56-05-06 - Courteuil - Senlis",
+                "status": "planned",
+                "type": "voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                      [
+            2.5613726212085624,
+            49.20341950358605
+          ],
+          [
+            2.566969806281236,
+            49.20346059416653
+          ],
+          [
+            2.5703658511573337,
+            49.20436457829578
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+
