@@ -1,0 +1,116 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-263.jpg",
+				"line": 263
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.64593977816088,
+          49.232639447120306
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "263-Liaison-63-01",
+                "line": 263,
+                "name": "Liaison 63-01 - Ognon – Chaussée Brunehaut",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                   [
+            2.6447442023081464,
+            49.236330203562346
+          ],
+          [
+            2.6450850233288747,
+            49.23546730195275
+          ]
+                ]
+            }
+        },
+		 {
+            "type": "Feature",
+            "properties": {
+                "id": "263-Liaison-63-02",
+                "line": 263,
+                "name": "Liaison 63-02 - Ognon – Chaussée Brunehaut",
+                "status": "planned",
+                "type": "jalonnement",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                   [
+            2.6450954563870255,
+            49.23546957254757
+          ],
+          [
+            2.6454084552837855,
+            49.234579405658735
+          ],
+          [
+            2.6455586514555876,
+            49.234192718668254
+          ],
+          [
+            2.645767317386202,
+            49.23380893978603
+          ],
+          [
+            2.6459508736567443,
+            49.23283538944884
+          ],
+          [
+            2.6459334841395616,
+            49.232560636248195
+          ],
+          [
+            2.64494232096618,
+            49.2319020571795
+          ],
+          [
+            2.644851900491318,
+            49.231734004677236
+          ],
+          [
+            2.6449805778157156,
+            49.23143877572306
+          ],
+          [
+            2.646165348615199,
+            49.23043314611462
+          ],
+          [
+            2.6473419386678927,
+            49.22989905671284
+          ],
+          [
+            2.649565980842283,
+            49.22942118235352
+          ],
+          [
+            2.6512734712858332,
+            49.22892456292615
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+

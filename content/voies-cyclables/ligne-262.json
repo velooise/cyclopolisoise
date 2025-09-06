@@ -1,0 +1,48 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-262.jpg",
+				"line": 262
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					 2.7306781559142053,
+          49.260960696512626
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "262-Liaison62-01",
+                "line": 262,
+                "name": "Liaison 62-01 - Raray – Nery (variante EV3)",
+                "status": "planned",
+                "type": "voie-riverains",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-262"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.7175316094109974,
+            49.25530555438286
+          ],
+          [
+            2.7461944138021295,
+            49.26687357214786
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+
