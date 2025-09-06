@@ -7,11 +7,12 @@ description: La ligne 205 du schéma cyclable (liaison 46 du schéma) de ccsso r
 cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-205.jpg
 ---
 Ligne 46 du schéma cyclable de ccsso
+Fonction utilitaire
 ## Les tronçons (du Nord au Sud)
 
 ## Informations complémentaires
 
-Budget estimé : 
+Budget estimé : 358 859 € HT (dont travaux : 315 713 € - Acquisitions foncières : 5 790 € - MOE et aléas : 47 357 €)
 
-Linéaire :  m
+Linéaire : 3 722 m
 
