@@ -1,0 +1,116 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-266.jpg",
+				"line": 266
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					  2.6445177872131183,
+          49.24514886126724
+				]
+			}
+		},
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "266-Liaison-66-01-05",
+                "line": 266,
+                "name": "Liaison 66-01-05 - Villers-St-Frambourg - Ognon",
+                "status": "planned",
+                "type": "jalonnement",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [ 
+            2.6401637706150893,
+            49.25471361231979
+          ],
+          [
+            2.6445063616933453,
+            49.24928809921229
+          ],
+          [
+            2.646440171782416,
+            49.24647545571381
+          ],
+          [
+            2.646847289696325,
+            49.244925111272806
+          ],
+          [
+            2.645965229275731,
+            49.243463326997556
+          ],
+          [
+            2.6455581113618223,
+            49.24279885909431
+          ],
+          [
+            2.64501528747752,
+            49.24213438225004
+          ],
+          [
+            2.645422405390491,
+            49.24089400155182
+          ],
+          [
+            2.643827860229152,
+            49.23989724448563
+          ]
+                ]
+            }
+        },
+		   {
+            "type": "Feature",
+            "properties": {
+                "id": "266-Liaison-66-06-07",
+                "line": 266,
+                "name": "Liaison 66-06-07 - Villers-St-Frambourg - Ognon",
+                "status": "planned",
+                "type": "zone-30",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                     [
+            2.6438957132692167,
+            49.23994154517723
+          ],
+          [
+            2.640944108396809,
+            49.238302391285714
+          ],
+          [
+            2.6421654621366315,
+            49.23746064247081
+          ],
+          [
+            2.6441671252118795,
+            49.23688470080543
+          ],
+          [
+            2.6446420961110277,
+            49.23633090440899
+          ],
+          [
+            2.6449813398448896,
+            49.23599862244055
+          ]
+                ]
+            }
+        }
+     ]
+}
+
+
