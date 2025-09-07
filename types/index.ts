@@ -16,6 +16,7 @@ export type LaneType =
 | 'unidirectionnelle'  
 | 'jalonnement'
 | 'pictogramme'
+| 'jalonnement-picto'
 | 'voie-riverains'
 | 'aucun'
 | 'inconnu';
