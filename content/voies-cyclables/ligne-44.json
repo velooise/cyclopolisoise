@@ -179,9 +179,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "a11-5",
+				"id": "a11-5-0",
 				"line": 44,
-				"name": "A11 -5- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
+				"name": "A11 -5-0 CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
 				"status": "planned",
 				"type": "bidirectionnelle",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
@@ -201,19 +201,12 @@
 						[
 							2.56817837810504,
 							49.19465214397248
-						],
-						[
-							2.5676592721109994,
-							49.19439154761293
-						],
-						[
-							2.5667746150784314,
-							49.1939837308127
 						]
 					]
 			
 			}
 		},
+ 
 		{
 			"type": "Feature",
 			"properties": {
@@ -242,6 +235,34 @@
 						]
 					
 				]
+			}
+		},
+    {
+			"type": "Feature",
+			"properties": {
+				"id": "a11-5-1",
+				"line": 44,
+				"name": "A11 -5-1 CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",
+				"status": "done",
+        "doneAt": "01/09/2025",
+				"type": "bidirectionnelle",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-44"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					
+					
+						[
+							2.5676592721109994,
+							49.19439154761293
+						],
+						[
+							2.5667746150784314,
+							49.1939837308127
+						]
+					]
+			
 			}
 		},
 		{
