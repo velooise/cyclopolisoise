@@ -12,6 +12,10 @@ Fonction utilitaire
 
 ## Informations complémentaires
 
+## Echéances (source https://ccsso.fr/projet/schema-voies-cyclables/)
+Liaison 35 : Senlis / Aumont – 2 km Travaux prévus pour décembre 2023​​​​
+
+
 Budget estimé : 358 859 € HT (dont travaux : 315 713 € - Acquisitions foncières : 5 790 € - MOE et aléas : 47 357 €)
 
 Linéaire : 3 722 m
