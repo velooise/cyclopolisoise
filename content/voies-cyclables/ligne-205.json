@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "features": [
+  {
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Central",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-241.jpg",
+				"line": 241
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.630768109378181,
+          49.1953537934522
+				]
+			}
+		},
     {
       "type": "Feature",
       "properties": {

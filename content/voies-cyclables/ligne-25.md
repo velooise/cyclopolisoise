@@ -7,12 +7,15 @@ description: La ligne 53 du schéma cyclable de CCAC reliera LA CHAPELLE EN SERV
 trafic: inconnu vélos/jour
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg
 ---
+
 Ligne 53 du schéma cyclable de CCAC
+Fonction Utilitaire
+
 ## Les tronçons (du Nord au Sud)
 
 ## Informations complémentaires
 
-Budget estimé : 617 681 €
+Budget estimé : 719 939 € HT (dont travaux : 617 681 € - Acquisitions foncières : 9 606 € - MOE et aléas : 92 652 €)
 
 Linéaire : 2 487 m
 

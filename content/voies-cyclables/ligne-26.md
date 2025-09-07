@@ -3,11 +3,10 @@ name: CHANTILLY - SENLIS
 line: 26
 from: CHANTILLY 
 to:  SENLIS 
-description: La ligne 55 du schéma cyclable de la CCAC reliera CHANTILLY  à SENLIS sur l'ancien délaissé ferroviaire
-trafic: inconnu vélos/jour
+description: La ligne 55 du schéma cyclable de la CCSSO reliera CHANTILLY  à SENLIS sur l'ancien délaissé ferroviaire
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-55.jpg
 ---
-Ligne 55 du schéma cyclable de la CCAC  
+Ligne 55 du schéma cyclable de la CCSSO  
 ## Les tronçons (du Nord au Sud)
 
 ## Historique
@@ -22,7 +21,7 @@ Ce n'est pas un long fleuve tranquille cette liaison a visée plutôt touristiqu
 ## Informations complémentaires
 C'est l'une des dernières voies vertes dont le financement est porté par le Département de l'Oise et pas une intercommunalité.
 
-Budget estimé : 478 145 € dont 4 379 € pour la CCAC (EPCI Voisine : , CD60 : 473 765 €)
+Budget estimé : 595 866 € HT (dont travaux : 518 145 € - Acquisitions foncières : 0 € - MOE et aléas : 77 722 €) (CCAC : 4 379 €, CD60 : 473 765 €)  (hors coût du souterrain pour la traversée : +- 100 000)
 
 Linéaire : 8 285 m
 

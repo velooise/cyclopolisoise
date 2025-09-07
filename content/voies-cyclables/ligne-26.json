@@ -20,9 +20,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "chantilly-55-04",
+				"id": "chantilly-55-01",
 				"line": 26,
-				"name": "Chantilly - Chemin des obstinés",
+				"name": "Chantilly 55-01 - Chemin des obstinés",
 				"status": "done",
 				"doneAt": "01/01/2016",
 				"type": "voie-verte",
@@ -52,7 +52,7 @@
 			"properties": {
 				"id": "chantilly-55-02",
 				"line": 26,
-				"name": "Chantilly - Suite chemin des obstinés",
+				"name": "Chantilly 55-02 - Suite chemin des obstinés",
 				"status": "done",
 				"doneAt": "01/01/2016",
 				"type": "zone-30",
@@ -82,7 +82,7 @@
 			"properties": {
 				"id": "chantilly-55-03",
 				"line": 26,
-				"name": "Chantilly - chemin des bourgognes",
+				"name": "55-03 Chantilly - chemin des bourgognes",
 				"status": "done",
 				"doneAt": "01/01/2016",
 				"type": "voie-verte",
@@ -112,7 +112,7 @@
 			"properties": {
 				"id": "chantilly-55-04",
 				"line": 26,
-				"name": "Chantilly - le long du golf",
+				"name": "55-04 Chantilly - le long du golf",
 				"status": "done",
 				"doneAt": "01/01/2016",
 				"type": "voie-verte",
@@ -190,7 +190,7 @@
 			"properties": {
 				"id": "chantilly-55-07",
 				"line": 26,
-				"name": "Traversée de Vineuil dans les quartiers",
+				"name": "55-07 Traversée de Vineuil dans les quartiers",
 				"status": "planned",
 				"type": "zone-30",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-26"
@@ -254,7 +254,7 @@
 			"properties": {
 				"id": "chantilly-55-08-9-11-12-13",
 				"line": 26,
-				"name": "l'ancienne voie ferrée",
+				"name": "55-08-9-11-12-13 l'ancienne voie ferrée",
 				"status": "planned",
 				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-26"
