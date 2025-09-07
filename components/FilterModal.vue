@@ -96,6 +96,7 @@ const typeFilters = ref([
   { label: 'Voie réservée riverains et vélos', isEnable: true, types: ['voie-riverains'] },
   { label: 'Simple Pictogramme au sol', isEnable: true, types: ['pictogramme'] },
   { label: 'Jalonnement', isEnable: true, types: ['jalonnement'] },  
+  { label: 'Jalonnement et Pictogramme au sol', isEnable: true, types: ['jalonnement-picto'] },  
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
