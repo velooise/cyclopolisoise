@@ -1,0 +1,92 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-7.jpg",
+				"line": 607
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4528844602708944,
+          49.29279823789247
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "les-mains-fermes-7",
+        "line": 607,
+        "name": "LES MAINS FERMES 7",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-607"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+             [
+            2.4616748645397877,
+            49.3489808493629
+          ],
+          [
+            2.462683675836132,
+            49.34985476470453
+          ]
+         ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+		"id": "les-mains-fermes-8",
+        "line": 607,
+        "name": "LES MAINS FERMES 8",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-607"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+                   [
+            2.4627051399068023,
+            49.34986175596444
+          ],
+          [
+            2.4630914931693155,
+            49.35003653714497
+          ],
+          [
+            2.463660291027651,
+            49.350204326494264
+          ],
+          [
+            2.463982252080541,
+            49.35054689463823
+          ],
+          [
+            2.4642183568518874,
+            49.35100830918432
+          ],
+          [
+            2.464744226570133,
+            49.351099193357754
+          ],
+          [
+            2.4649695993061584,
+            49.351071229014764
+          ]
+         ]
+      }
+    }
+]
+}
+

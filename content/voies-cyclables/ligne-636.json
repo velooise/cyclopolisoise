@@ -1,170 +1,353 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            2.4436378325565045,
-            49.29401674098855
-          ],
-          [
-            2.443434137039702,
-            49.29452732697109
-          ]
-        ],
-        "type": "LineString"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "d916a-103",
-        "line": 636,
-        "name": "D916a-103",
-        "status": "planned",
-        "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            2.4429301777135777,
-            49.29703736294687
-          ],
-          [
-            2.442823990565202,
-            49.296353533448126
-          ],
-          [
-            2.443736588247475,
-            49.29374897332286
-          ],
-          [
-            2.44477891712458,
-            49.29089270118655
-          ],
-          [
-            2.4453324805266163,
-            49.290116424715904
-          ],
-          [
-            2.4497334700213003,
-            49.28793194297205
-          ],
-          [
-            2.4526674630180025,
-            49.28619873157061
-          ]
-        ],
-        "type": "LineString"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "d916a-36-37",
-        "line": 636,
-        "name": "D916a-36-37",
-        "status": "planned",
-        "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            2.443019109457424,
-            49.314693497425196
-          ],
-          [
-            2.443342506847131,
-            49.31066081408585
-          ]
-        ],
-        "type": "LineString"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "d916a-34-35",
-        "line": 636,
-        "name": "D916a 34 35",
-        "status": "planned",
-        "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            2.4400072270676105,
-            49.31805208123404
-          ],
-          [
-            2.4417554514228925,
-            49.3168101411118
-          ],
-          [
-            2.4430531391653574,
-            49.31468162250553
-          ]
-        ],
-        "type": "LineString"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-36.jpg",
-        "line": 636
-      },
-      "geometry": {
-        "coordinates": [
-          2.443183969551143,
-          49.31208135707695
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "d916a-93",
-        "line": 636,
-        "name": "D916a-93",
-        "status": "planned",
-        "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            2.443354944112798,
-            49.31063038911785
-          ],
-          [
-            2.4432885370079873,
-            49.31045102534037
-          ],
-          [
-            2.442975474938038,
-            49.310024260624346
-          ],
-          [
-            2.443155722796064,
-            49.30973974875977
-          ],
-          [
-            2.4435067317833443,
-            49.3097211935812
-          ]
-        ],
-        "type": "LineString"
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "d916a-34-35",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636",
+				"type": "bidirectionnelle"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.4400072270676105,
+						49.31805208123404
+					],
+					[
+						2.4417554514228925,
+						49.3168101411118
+					],
+					[
+						2.4430531391653574,
+						49.31468162250553
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-30-31",
+				"type": "bidirectionnelle",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.4422168309858705,
+						49.32285806532269
+					],
+					[
+						2.44255587984739,
+						49.3192015387211
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "d916a-36-37",
+				"line": 636,
+				"name": "D916a-36-37",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.443019109457424,
+						49.314693497425196
+					],
+					[
+						2.443342506847131,
+						49.31066081408585
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "d916a-93",
+				"line": 636,
+				"name": "D916a-93",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.443354944112798,
+						49.31063038911785
+					],
+					[
+						2.4432885370079873,
+						49.31045102534037
+					],
+					[
+						2.442975474938038,
+						49.310024260624346
+					],
+					[
+						2.443155722796064,
+						49.30973974875977
+					],
+					[
+						2.4435067317833443,
+						49.3097211935812
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-39",
+				"type": "zone-30",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.442568556316985,
+						49.31918264203239
+					],
+					[
+						2.44235382827614,
+						49.31903584474077
+					],
+					[
+						2.4423800146226142,
+						49.31893342776684
+					],
+					[
+						2.4425266581628478,
+						49.31889928872809
+					],
+					[
+						2.442584268125927,
+						49.318970980681826
+					],
+					[
+						2.442568556316985,
+						49.319179228146766
+					],
+					[
+						2.4425633190482188,
+						49.31920312534072
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-40-41",
+				"type": "zone-30",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.442374776059637,
+						49.31897780877671
+					],
+					[
+						2.4410706960065625,
+						49.31865690116766
+					],
+					[
+						2.440620290847079,
+						49.31852034410423
+					],
+					[
+						2.4401056513646893,
+						49.31828837157653
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-40",
+				"type": "bidirectionnelle",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.440132745697241,
+						49.318296181677056
+					],
+					[
+						2.440058278477437,
+						49.31840209121614
+					],
+					[
+						2.4395776264245512,
+						49.31846828456278
+					],
+					[
+						2.439259448304597,
+						49.31838002674755
+					],
+					[
+						2.4392188298209874,
+						49.31811083943492
+					],
+					[
+						2.4394557709744618,
+						49.31793432236557
+					],
+					[
+						2.4399838112583723,
+						49.317894605937255
+					],
+					[
+						2.440227522158523,
+						49.31797403876132
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-156",
+				"type": "bilaterale",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.4422285911582264,
+						49.32282818632885
+					],
+					[
+						2.4419291645956775,
+						49.32583363750581
+					],
+					[
+						2.441770820907948,
+						49.32728555551898
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "636-104",
+				"type": "zone-de-rencontre",
+				"line": 636,
+				"name": "D916a 34 35",
+				"status": "planned",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.44380711342788,
+						49.29341931058556
+					],
+					[
+						2.443572046844821,
+						49.294114796021915
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "d916a-103",
+				"line": 636,
+				"name": "D916a-103",
+				"status": "planned",
+				"type": "voie-verte",
+				"link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+			},
+			"geometry": {
+				"coordinates": [
+					[
+						2.4429301777135777,
+						49.29703736294687
+					],
+					[
+						2.442823990565202,
+						49.296353533448126
+					],
+					[
+						2.443736588247475,
+						49.29374897332286
+					],
+					[
+						2.44477891712458,
+						49.29089270118655
+					],
+					[
+						2.4453324805266163,
+						49.290116424715904
+					],
+					[
+						2.4497334700213003,
+						49.28793194297205
+					],
+					[
+						2.4526674630180025,
+						49.28619873157061
+					]
+				],
+				"type": "LineString"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-36.jpg",
+				"line": 636
+			},
+			"geometry": {
+				"coordinates": [
+					2.443183969551143,
+					49.31208135707695
+				],
+				"type": "Point"
+			}
+		}
+	]
 }

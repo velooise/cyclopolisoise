@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-9.jpg",
+				"line": 609
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.4421887936768485,
+          49.349710429556865
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "route-du-marais-(d540)-9",
+        "line": 609,
+        "name": "Route du Marais (D540)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-609"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+          [
+            2.4433585855008744,
+            49.35012990463693
+          ],
+          [
+            2.4422531858876937,
+            49.349731403395566
+          ],
+          [
+            2.4407292369072593,
+            49.349724412117126
+          ]
+         ]
+      }
+    }
+]
+}
+

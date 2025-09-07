@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-1.jpg",
+				"line": 601
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4573939601248753,
+          49.34729352222513
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "accès-résidence-yvette-joly-1",
+        "line": 601,
+        "name": "Accès résidence Yvette Joly",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-601"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4571364036046077,
+            49.347488242218304
+          ],
+          [
+            2.4575306876618583,
+            49.347069800430745
+          ],
+          [
+            2.4575879224436505,
+            49.3470739434363
+          ],
+          [
+            2.4576292586762065,
+            49.34712158797376
+          ],
+          [
+            2.457222255778021,
+            49.347525528937524
+          ]
+         ]
+      }
+    }
+]
+}
+
