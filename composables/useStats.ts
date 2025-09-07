@@ -189,7 +189,7 @@ export const useStats = () => {
     'chaucidou': 'Chaucidou',
     'jalonnement': 'Simple jalonnement vertical',
     'pictogramme': 'Marquage au sol',
-    'jalonnement-picto': 'Jalonnement vertical + Pictos au sol'
+    'jalonnement-picto': 'Jalonnement vertical + Pictos au sol',
     'voie-riverains': 'Voie réservée riverains et vélos',
     'unidirectionnelle': 'Piste cyclable unidirectionnelle',
     aucun: 'Aucun',
