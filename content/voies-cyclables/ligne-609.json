@@ -46,6 +46,36 @@
           ]
          ]
       }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-du-moulin-(d540)-19",
+        "line": 619,
+        "name": "19 Rue du Moulin (D540)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-619"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+          [
+            2.4433585855008744,
+            49.35012990463693
+          ],
+          [
+            2.4422531858876937,
+            49.349731403395566
+          ],
+          [
+            2.4407292369072593,
+            49.349724412117126
+          ]
+         ]
+      }
     }
 ]
 }
