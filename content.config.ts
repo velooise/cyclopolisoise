@@ -61,6 +61,7 @@ export default defineContentConfig({
                   "chaucidou",
                   "jalonnement",
                   "pictogramme",
+                  "jalonnement-picto",
                   "unidirectionnelle",
                   "voie-riverains",
                   "aucun",
