@@ -1,0 +1,64 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-170.jpg",
+				"line": 770
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+       2.4397176832311516,
+          49.32346391883587
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-edouard-vaillant-170",
+        "line": 770,
+        "name": "170 - Rue Edouard Vaillant",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-770"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+          [
+            2.439792803080536,
+            49.322092864557106
+          ],
+          [
+            2.439769650067916,
+            49.322507646797334
+          ],
+          [
+            2.4396404670692107,
+            49.32506505289959
+          ],
+          [
+            2.4394965490039056,
+            49.32539773652448
+          ],
+          [
+            2.4394284158435084,
+            49.32555901286639
+          ],
+          [
+            2.4418813654521045,
+            49.32591713935133
+          ]
+         ]
+      }
+    }
+]
+}
+

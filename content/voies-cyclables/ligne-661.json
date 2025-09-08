@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-61.jpg",
+				"line": 661
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4588992567238677,
+          49.316778046896445
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "voie-verte-entre-d62-et-d1016-61",
+        "line": 661,
+        "name": "61 - Voie verte entre D62 et D1016",
+        "status": "done",
+		"doneAt": "01/07/2022",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-661"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4502894458005073,
+            49.31241607855651
+          ],
+          [
+            2.4548647973541335,
+            49.31464577562096
+          ],
+          [
+            2.457256191963353,
+            49.31588461848219
+          ],
+          [
+            2.4582491275861287,
+            49.31652071577557
+          ],
+          [
+            2.4602065759704885,
+            49.318213675970725
+          ],
+          [
+            2.4647040646395055,
+            49.3224909133514
+          ]
+         ]
+      }
+    }
+]
+}
+
