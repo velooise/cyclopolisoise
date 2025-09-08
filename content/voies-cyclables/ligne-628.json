@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-28.jpg",
+				"line": 628
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4595987023916734,
+          49.347323698315535
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "vv-sans-nom-28",
+        "line": 628,
+        "name": "28- VV SANS NOM",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-628"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4578653767915455,
+            49.346341650311956
+          ],
+          [
+            2.4588003973958052,
+            49.346753593037306
+          ],
+          [
+            2.459156916042815,
+            49.346880681053875
+          ],
+          [
+            2.4597892321352504,
+            49.34743723505434
+          ],
+          [
+            2.4605359032650824,
+            49.34782287507858
+          ],
+          [
+            2.460892421912945,
+            49.348063898558905
+          ],
+          [
+            2.461736819545905,
+            49.348894708208775
+          ]
+         ]
+      }
+    }
+]
+}
+

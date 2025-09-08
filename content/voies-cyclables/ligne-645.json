@@ -1,0 +1,135 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-45.jpg",
+				"line": 645
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4414627809130707,
+          49.322489799908794
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rte-de-mouy-45",
+        "line": 645,
+        "name": "RTE DE MOUY",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-645"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4395730068641797,
+            49.32124472444906
+          ],
+          [
+            2.4393419934304745,
+            49.32150481396985
+          ],
+          [
+            2.439594008085578,
+            49.321956545135635
+          ],
+          [
+            2.440539063042877,
+            49.322285074289795
+          ],
+          [
+            2.4422611631857762,
+            49.32266835553298
+          ]
+         ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+		"id": "route-de-liancourt-(d137)-47",
+        "line": 645,
+        "name": "47 Route de Liancourt (D137)",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-647"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4395730068641797,
+            49.32124472444906
+          ],
+          [
+            2.4393419934304745,
+            49.32150481396985
+          ],
+          [
+            2.439594008085578,
+            49.321956545135635
+          ],
+          [
+            2.440539063042877,
+            49.322285074289795
+          ],
+          [
+            2.4422611631857762,
+            49.32266835553298
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "route-de-liancourt-(d137)-48-49",
+        "line": 645,
+        "name": "48-49 - Route de Liancourt (D137)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-648"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+          [
+            2.4395730068641797,
+            49.32124472444906
+          ],
+          [
+            2.4393419934304745,
+            49.32150481396985
+          ],
+          [
+            2.439594008085578,
+            49.321956545135635
+          ],
+          [
+            2.440539063042877,
+            49.322285074289795
+          ],
+          [
+            2.4422611631857762,
+            49.32266835553298
+          ]
+         ]
+      }
+    }
+]
+}
+
