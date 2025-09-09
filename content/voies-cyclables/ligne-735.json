@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-135.jpg",
+				"line": 735
+			},
+			"geometry": {
+				"type": "Point",
+  2.468801408478555,
+          49.317303513014764
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-pasteur-135",
+        "line": 735,
+        "name": "135 - Rue Pasteur",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-735"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+        [
+            2.468779064255358,
+            49.31934264298195
+          ],
+          [
+            2.468957818039769,
+            49.31867265244833
+          ],
+          [
+            2.469158916046098,
+            49.318221131947695
+          ],
+          [
+            2.4683656961298084,
+            49.31773319384982
+          ],
+          [
+            2.4692259487157173,
+            49.316334896704035
+          ],
+          [
+            2.4696169726180983,
+            49.316029013911674
+          ],
+          [
+            2.470756527991597,
+            49.315897920704856
+          ]
+         ]
+      }
+    }
+]
+}
+

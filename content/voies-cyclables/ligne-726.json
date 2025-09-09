@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-126.jpg",
+				"line": 726
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.472345662381457,
+          49.317876064781586
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "accès-mairie-et-complexe-sportif-126",
+        "line": 726,
+        "name": "Accès Mairie et complexe sportif",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-726"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4728851505627745,
+            49.31792134294372
+          ],
+          [
+            2.472092484643639,
+            49.31760171385494
+          ],
+          [
+            2.471913977105089,
+            49.31753649943906
+          ],
+          [
+            2.4717256614598853,
+            49.31758892672124
+          ]
+         ]
+      }
+    }
+]
+}
+

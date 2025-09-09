@@ -1,0 +1,71 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-136.jpg",
+				"line": 736
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.4713598220118627,
+          49.3177914553695
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-paul-faure-(d62)-136",
+        "line": 736,
+        "name": "136 - Rue Paul Faure (D62)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-736"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          [
+            2.468913129593318,
+            49.31932079560855
+          ],
+          [
+            2.4696504889528796,
+            49.318912976188244
+          ],
+          [
+            2.4706224626536084,
+            49.3184905882284
+          ],
+          [
+            2.471616780577534,
+            49.31788613019185
+          ],
+          [
+            2.471694985357516,
+            49.317500147082285
+          ],
+          [
+            2.471303961455135,
+            49.31682284865491
+          ],
+          [
+            2.4710358307791864,
+            49.3165169688929
+          ],
+          [
+            2.4708570769947755,
+            49.31590520366959
+          ]
+         ]
+      }
+    }
+]
+}
+

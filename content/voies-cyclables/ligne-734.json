@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-134.jpg",
+				"line": 734
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.4638268677299493,
+          49.31436091254457
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "r-du-lavoir-134",
+        "line": 734,
+        "name": "R DU LAVOIR",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-734"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.463838214982786,
+            49.31436584412367
+          ],
+          [
+            2.463690700697839,
+            49.31437077570223
+          ],
+          [
+            2.4635167094896246,
+            49.31436337833418
+          ],
+          [
+            2.4628132560716267,
+            49.31402048306933
+          ]
+         ]
+      }
+    }
+]
+}
+
