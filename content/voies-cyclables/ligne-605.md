@@ -3,7 +3,7 @@ name: D137
 line: 605
 from: Bailleval
 to:  D137 
-description: La ligne 605, réseau reseau structurant du schéma de la CCLVD concerne Bailleval - D137 (tronçons 5, 6, 78, 117, 118, 176) 
+description: La ligne 605, réseau reseau structurant du schéma de la CCLVD concerne Bailleval - D137 (tronçons 5, 6, 78, 79,80, 117, 118, 176) 
 cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-5.jpg
 ---
 
@@ -15,7 +15,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-5.jpg
 
 ## Informations complémentaires
 
-Budget estimé :  803 637 € 
+Budget estimé :  803 637 € - à actualiser pour tous les tronçons
 
 Linéaire : 2 177 m (voie verte en enrobé)
 

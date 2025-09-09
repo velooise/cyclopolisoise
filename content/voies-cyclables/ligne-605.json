@@ -1,38 +1,19 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-605.jpg",
-				"line": 605
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-   2.495675037291875,
-          49.35318795251206
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "d137-5",
+        "id": "d137-5",
         "line": 605,
-         "name": "D137-5-6-78-117-118-176",
+        "name": "D137-5-6-78-79-80-117-118-176",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-605"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "coordinates": [
+          [
             2.4715833888037935,
             49.33387794733872
           ],
@@ -65,20 +46,36 @@
             49.34923530481986
           ],
           [
-            2.4918538660403584,
-            49.351032237223166
+            2.4920644810003836,
+            49.35095383749601
           ],
           [
-            2.493723126444479,
-            49.35407674694326
+            2.4939487853303888,
+            49.35400815141224
           ],
           [
-            2.4951991710445185,
-            49.355577833327985
+            2.496944266425757,
+            49.35634215345614
           ]
-         ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-605.jpg",
+        "line": 605
+      },
+      "geometry": {
+        "coordinates": [
+          2.495675037291875,
+          49.35318795251206
+        ],
+        "type": "Point"
       }
     }
-]
+  ]
 }
-
