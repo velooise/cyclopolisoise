@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-98.jpg",
+				"line": 698
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.450459904194105,
+          49.30436101315706
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-forget-crauet-98",
+        "line": 698,
+        "name": "98 - Rue Forget Crauet",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-698"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+ [
+            2.450288242818033,
+            49.305508284391095
+          ],
+          [
+            2.45025605630957,
+            49.304018225715254
+          ],
+          [
+            2.449966377735734,
+            49.30336762258395
+          ]
+         ]
+      }
+    }
+]
+}
+

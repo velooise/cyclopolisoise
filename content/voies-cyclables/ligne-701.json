@@ -1,0 +1,94 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-101.jpg",
+				"line": 701
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+   2.449510294496463,
+          49.309223193783964
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-victor-hugo-101",
+        "line": 701,
+        "name": "101 - Rue Victor Hugo",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-701"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.44956393867605,
+            49.31203508239895
+          ],
+          [
+            2.4490167680368984,
+            49.31076205818283
+          ],
+          [
+            2.4490918698899975,
+            49.31017449744877
+          ],
+          [
+            2.4494459214795086,
+            49.309153244260216
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-victor-hugo-102",
+        "line": 701,
+        "name": "102 - Rue Victor Hugo",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-702"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.449462011198648,
+            49.309130517840714
+          ],
+          [
+            2.4491508749524655,
+            49.30780845255251
+          ],
+          [
+            2.4489148405594676,
+            49.306934051256945
+          ],
+          [
+            2.4488182810352157,
+            49.30647935645024
+          ],
+          [
+            2.449225976805593,
+            49.305548967846136
+          ]
+         ]
+      }
+    }
+]
+}
+

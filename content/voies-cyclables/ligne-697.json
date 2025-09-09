@@ -1,0 +1,134 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-97.jpg",
+				"line": 697
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.4460610086567556,
+          49.30476882331726
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-faidherbe-97",
+        "line": 697,
+        "name": "97 Rue Thiebaut (Faidherbe?)",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-697"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4441298181666866,
+            49.30469187187893
+          ],
+          [
+            2.4454387361657552,
+            49.30462191592133
+          ],
+          [
+            2.4469085867060016,
+            49.304761827736826
+          ],
+          [
+            2.4472626382955127,
+            49.304817792351884
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-henri-thebaut-99",
+        "line": 697,
+        "name": "99 - Rue Henri Thebaut",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-699"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+           [
+            2.449279732227666,
+            49.305543261752916
+          ],
+          [
+            2.4498269028668744,
+            49.30552227533855
+          ],
+          [
+            2.45025605630957,
+            49.30550128891568
+          ],
+          [
+            2.4508246846210113,
+            49.305564248157935
+          ],
+          [
+            2.4512752957348027,
+            49.3055852345544
+          ],
+          [
+            2.452863163471534,
+            49.3055712436244
+          ]
+         ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-henri-thebaut-100",
+        "line": 697,
+        "name": "97 - Rue Henri Thebaut",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-700"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+           [
+            2.447273439884526,
+            49.30483671422746
+          ],
+          [
+            2.4476382203114326,
+            49.30536837469512
+          ],
+          [
+            2.4478420681960245,
+            49.3054313341072
+          ],
+          [
+            2.448507256031661,
+            49.30544532507693
+          ],
+          [
+            2.4491939015396724,
+            49.305536266282445
+          ]
+         ]
+      }
+    }
+]
+}
+

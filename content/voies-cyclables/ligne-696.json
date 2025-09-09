@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-96.jpg",
+				"line": 696
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+    2.449913274271097,
+          49.29328971613302
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-douchet-rube-96",
+        "line": 696,
+        "name": "96 - Rue Douchet Rube",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-696"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4487329535710955,
+            49.29290816654964
+          ],
+          [
+            2.449112708926606,
+            49.29292155430406
+          ],
+          [
+            2.4494616733071553,
+            49.29307551322168
+          ],
+          [
+            2.44998511987842,
+            49.29346375531276
+          ],
+          [
+            2.450652257665496,
+            49.29363779387836
+          ]
+         ]
+      }
+    }
+]
+}
+

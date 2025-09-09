@@ -1,0 +1,55 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-94.jpg",
+				"line": 694
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.446426122140821,
+          49.29237160499633
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-andrĂ©-gourdin-94",
+        "line": 694,
+        "name": "94 - Rue Andre Gourdin",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-694"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+           [
+            2.4487168681544347,
+            49.292897666636634
+          ],
+          [
+            2.4484541467803638,
+            49.292768406296545
+          ],
+          [
+            2.4463247209089616,
+            49.29229945896222
+          ],
+          [
+            2.444462625557577,
+            49.291800446001815
+          ]
+         ]
+      }
+    }
+]
+}
+
