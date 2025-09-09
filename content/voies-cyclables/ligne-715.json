@@ -1,0 +1,72 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-115.jpg",
+				"line": 715
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4535662193866585,
+          49.319073888337044
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "chemin-le-long-de-la-brèche-115",
+        "line": 715,
+        "name": "Chemin le long de La Brèche",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-715"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4495532127594117,
+            49.32443131620144
+          ],
+          [
+            2.4514563341257087,
+            49.32152103711866
+          ],
+          [
+            2.452725082094446,
+            49.31957280386632
+          ],
+          [
+            2.452993471291194,
+            49.31956485174527
+          ],
+          [
+            2.452932473747211,
+            49.31910362653056
+          ],
+          [
+            2.454134485587929,
+            49.317061870184176
+          ],
+          [
+            2.4570156302742134,
+            49.31651928508856
+          ],
+          [
+            2.4594548252539425,
+            49.31752435700227
+          ]
+         ]
+      }
+    }
+]
+}
+

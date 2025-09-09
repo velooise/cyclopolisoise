@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-112.jpg",
+				"line": 712
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4653348294550312,
+          49.326434861874844
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "avenue-du-général-de-gaulle-112",
+        "line": 712,
+        "name": "112-113- Avenue du Général de Gaulle",
+        "status": "done",
+		"doneAt": "01/09/2022",
+        "type": "voiee-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-712"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+             [
+            2.463045464961141,
+            49.32566864754
+          ],
+          [
+            2.463179526845977,
+            49.325655205077055
+          ],
+          [
+            2.464066397776037,
+            49.32598454436837
+          ],
+          [
+            2.4643757713567993,
+            49.32607864090426
+          ],
+          [
+            2.467015759241434,
+            49.32674403270386
+          ]
+         ]
+      }
+    }
+]
+}
+

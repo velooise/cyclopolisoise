@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-107.jpg",
+				"line": 707
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.455234361767566,
+          49.32614313226662
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "avenue-albert-1er-(d137)-107",
+        "line": 707,
+        "name": "107 - Avenue Albert 1er (D137)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-707"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.448926753793529,
+            49.32434322524071
+          ],
+          [
+            2.456994235467903,
+            49.326375379154
+          ],
+          [
+            2.4607571611804815,
+            49.32764669701197
+          ]
+         ]
+      }
+    }
+]
+}
+
