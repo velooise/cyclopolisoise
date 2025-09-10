@@ -4,7 +4,7 @@ line: 609
 from: Bailleval
 to:  Route du Marais (D540) 
 description: La ligne 609, réseau reseau structurant du schéma de la CCLVD (tronçon 9,19) concerne Bailleval - Route du Marais (D540)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-9.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-9.jpg
 ---
 
 **Point(s) d'intérêt** : Les Écuries De Baillenval, Mairie De Bailleval, École Primaire Daniel Ourth

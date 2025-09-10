@@ -4,7 +4,7 @@ line: 604
 from: Bailleval
 to:  Chemin des Etangs 
 description: La ligne 604, réseau reseau structurant du schéma de la CCLVD (tronçon 4) concerne Bailleval - Chemin des Etangs
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-4.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-4.jpg
 ---
 
 **Point(s) d'intérêt** : Les Écuries De Baillenval, Zone Industrielle Saint-Gobain, École Primaire Daniel Ourth, Salle Des Sports (Guy Lejeune), École Maternelle Albert Camus

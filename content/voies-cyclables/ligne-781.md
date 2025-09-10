@@ -4,7 +4,7 @@ line: 781
 from: Rosoy
 to:  Rue d'Hardencourt 
 description: La ligne 781, réseau reseau tertiaire du schéma de la CCLVD (tronçon 181) concerne Rosoy - Rue d'Hardencourt
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-181.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-181.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Rosoy, École Élémentaire De Rosoy, École Élémentaire De Verderonne, Mairie De Verderonne, École Élémentaire De Labruyère

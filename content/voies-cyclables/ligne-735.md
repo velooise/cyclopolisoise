@@ -4,7 +4,7 @@ line: 735
 from: Mogneville
 to:  Rue Pasteur 
 description: La ligne 735, réseau reseau tertiaire du schéma de la CCLVD (tronçon 135) concerne Mogneville - Rue Pasteur
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-135.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-135.jpg
 ---
 
 **Point(s) d'intérêt** : École Primaire Chantal Mauduit, Mairie De Mogneville, Piscine La Vallée Dorée, Parc Chédeville, École Élémentaire Jean Macé

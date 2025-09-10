@@ -4,7 +4,7 @@ line: 715
 from: Liancourt
 to:  Chemin le long de La Brèche 
 description: La ligne 715, réseau reseau secondaire du schéma de la CCLVD (tronçon 115) concerne Liancourt - Chemin le long de La Brèche
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-115.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-115.jpg
 ---
 
 **Point(s) d'intérêt** : Zone Industrielle Parmentier, Mairie De Cauffry, Parc Chédeville, Collège Du Marais, Complexe Henri Besse

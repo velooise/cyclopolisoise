@@ -4,7 +4,7 @@ line: 601
 from: Bailleval
 to:  Accès résidence Yvette Joly 
 description: La ligne 601, réseau reseau tertiaire du schéma de la CCLVD (tronçon 1) concerne Bailleval - Accès résidence Yvette Joly
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-1.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-1.jpg
 ---
 
 **Point(s) d'intérêt** : École Primaire Daniel Ourth, Mairie De Bailleval, Les Écuries De Baillenval, École Maternelle Jean De La Fontaine

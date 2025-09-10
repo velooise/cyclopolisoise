@@ -4,7 +4,7 @@ line: 705
 from: Laigneville
 to:  Rue du Vieux Fort 
 description: La ligne 705, réseau reseau tertiaire du schéma de la CCLVD (tronçon 105) concerne Laigneville - Rue du Vieux Fort
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-105.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-105.jpg
 ---
 
 **Point(s) d'intérêt** : École Maternelle Saint-Exupéry, École Élémentaire Saint-Exupéry, H.l.m. De Sailleville, Zone D'activités Du Marais, Collège Du Marais

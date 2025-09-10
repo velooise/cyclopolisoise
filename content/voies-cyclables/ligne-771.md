@@ -4,7 +4,7 @@ line: 771
 from: Rantigny
 to:  Rue Emile Zola (D650) 
 description: La ligne 771, réseau reseau structurant du schéma de la CCLVD (tronçon 171) concerne Rantigny - Rue Emile Zola (D650)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-171.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-171.jpg
 ---
 
 **Point(s) d'intérêt** : Zone Industrielle Saint-Gobain, Mairie De Rantigny, École Maternelle Françoise Dolto, École Élémentaire Marcelin Berthelot, École Maternelle Françoise Dolto

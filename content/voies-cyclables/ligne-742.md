@@ -4,7 +4,7 @@ line: 742
 from: Monchy-Saint-Éloi
 to:  D62 
 description: La ligne 742, réseau reseau structurant du schéma de la CCLVD (tronçon 142,143,144) concerne Monchy-Saint-Éloi - D62
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-142.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-142.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Monchy-Saint-Éloi, École Transport Et Logistique Aft Isteli, École Élémentaire Eugène Cauchois, Siège De La Communauté De Communes Du Liancourtois, Cc Du Liancourtois

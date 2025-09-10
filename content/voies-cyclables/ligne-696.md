@@ -4,7 +4,7 @@ line: 696
 from: Laigneville
 to:  Rue Douchet Rube 
 description: La ligne 696, réseau reseau structurant du schéma de la CCLVD (tronçon 96) concerne Laigneville - Rue Douchet Rube
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-96.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-96.jpg
 ---
 
 **Point(s) d'intérêt** : Siège De La Communauté De Communes Du Liancourtois, Cc Du Liancourtois, École Élémentaire Jacques Brel, École Élémentaire Georges Brassens, Plateau D'évolution Laigneville

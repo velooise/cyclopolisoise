@@ -4,7 +4,7 @@ line: 746
 from: Monchy-Saint-Éloi
 to:  R EUGENE CAUCHOIS 
 description: La ligne 746, réseau reseau tertiaire du schéma de la CCLVD (tronçon 146,147,148) concerne Monchy-Saint-Éloi - R EUGENE CAUCHOIS
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-146.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-146.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Monchy-Saint-Éloi, École Transport Et Logistique Aft Isteli, École Élémentaire Eugène Cauchois, École Élémentaire Jean Moulin, Cc Du Liancourtois

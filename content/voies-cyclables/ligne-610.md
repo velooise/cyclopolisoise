@@ -4,7 +4,7 @@ line: 610
 from: Bailleval
 to:  Rue aux Dames 
 description: La ligne 610, réseau reseau tertiaire du schéma de la CCLVD (tronçon 10) concerne Bailleval - Rue aux Dames
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-10.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-10.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Bailleval, École Primaire Daniel Ourth, Les Écuries De Baillenval, École Maternelle Jean De La Fontaine, Stade René Naudot

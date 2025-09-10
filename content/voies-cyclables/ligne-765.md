@@ -4,7 +4,7 @@ line: 765
 from: Rantigny
 to:  R EMILE ZOLA 
 description: La ligne 765, réseau reseau tertiaire du schéma de la CCLVD (tronçon 165) concerne Rantigny - R EMILE ZOLA
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-165.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-165.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Rantigny, École Maternelle Françoise Dolto, École Élémentaire Marcelin Berthelot, École Maternelle Françoise Dolto, École Élémentaire Camille Claudel

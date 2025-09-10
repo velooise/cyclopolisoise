@@ -4,7 +4,7 @@ line: 738
 from: Mogneville
 to:  Rue de la Colline des Puits 
 description: La ligne 738, réseau reseau tertiaire du schéma de la CCLVD (tronçon 138) concerne Mogneville - Rue de la Colline des Puits
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-138.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-138.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Mogneville, École Primaire Chantal Mauduit, La Faloise, Parc Chédeville, Zone D'activités Du Marais

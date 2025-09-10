@@ -4,7 +4,7 @@ line: 736
 from: Mogneville
 to:  Rue Paul Faure (D62) 
 description: La ligne 736, réseau reseau structurant du schéma de la CCLVD (tronçon 136) concerne Mogneville - Rue Paul Faure (D62)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-136.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-136.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Mogneville, École Primaire Chantal Mauduit, Piscine La Vallée Dorée, École Élémentaire Jean Macé, École Maternelle Jean Macé

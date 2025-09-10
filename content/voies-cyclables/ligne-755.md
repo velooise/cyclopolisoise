@@ -4,7 +4,7 @@ line: 755
 from: Monchy-Saint-Éloi
 to:  Rue de la Passerelle 
 description: La ligne 755, réseau reseau tertiaire du schéma de la CCLVD (tronçon 155) concerne Monchy-Saint-Éloi - Rue de la Passerelle
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-155.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-155.jpg
 ---
 
 **Point(s) d'intérêt** : École Primaire Clos Saint-Paul, École Élémentaire Saint-Exupéry, École Élémentaire Eugène Cauchois, École Transport Et Logistique Aft Isteli, École Élémentaire Jean Moulin

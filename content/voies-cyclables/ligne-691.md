@@ -4,7 +4,7 @@ line: 691
 from: Laigneville
 to:  R DOUCHET RUBE 
 description: La ligne 691, réseau reseau structurant du schéma de la CCLVD (tronçon 91) concerne Laigneville - R DOUCHET RUBE
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-91.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-91.jpg
 ---
 
 **Point(s) d'intérêt** : École Élémentaire Jacques Brel, École Élémentaire Georges Brassens, Mairie De Laigneville, Plateau D'évolution Laigneville, Cc Du Liancourtois

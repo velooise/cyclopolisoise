@@ -4,7 +4,7 @@ line: 782
 from: Rosoy
 to:  Rue de l'Eglise 
 description: La ligne 782, réseau reseau secondaire du schéma de la CCLVD (tronçon 182) concerne Rosoy - Rue de l'Eglise
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-182.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-182.jpg
 ---
 
 **Point(s) d'intérêt** : Mairie De Rosoy, École Élémentaire De Rosoy, École Élémentaire De Verderonne, Mairie De Verderonne, École D'aides-Soignants Groupe Hospitalier

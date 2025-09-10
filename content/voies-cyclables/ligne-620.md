@@ -4,7 +4,7 @@ line: 620
 from: Bailleval
 to:  Ruelle des Bouchers / Chemin rural du Bois de Louveaucourt 
 description: La ligne 620, réseau reseau tertiaire du schéma de la CCLVD (tronçon 20) concerne Bailleval - Ruelle des Bouchers / Chemin rural du Bois de Louveaucourt
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-20.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-20.jpg
 ---
 
 **Point(s) d'intérêt** : École Primaire Daniel Ourth, École Maternelle Jean De La Fontaine, Stade René Naudot, Mairie De Bailleval, École Maternelle Albert Camus

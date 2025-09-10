@@ -4,7 +4,7 @@ line: 694
 from: Laigneville
 to:  Rue André Gourdin 
 description: La ligne 694, réseau reseau tertiaire du schéma de la CCLVD (tronçon 94) concerne Laigneville - Rue André Gourdin
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-94.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-94.jpg
 ---
 
 **Point(s) d'intérêt** : Siège De La Communauté De Communes Du Liancourtois, Cc Du Liancourtois, École Élémentaire Jacques Brel, École Élémentaire Georges Brassens, Plateau D'évolution Laigneville

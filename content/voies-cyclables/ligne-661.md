@@ -4,7 +4,7 @@ line: 661
 from: Cauffry
 to:  Voie verte entre D62 et D1016 
 description: La ligne 661, réseau reseau structurant du schéma de la CCLVD (tronçon 61) concerne Cauffry - Voie verte entre D62 et D1016
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-61.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-61.jpg
 ---
 
 **Point(s) d'intérêt** : Collège Du Marais, Piscine La Vallée Dorée, Parc Chédeville, École Élémentaire Jean Macé, Collège La Rochefoucauld

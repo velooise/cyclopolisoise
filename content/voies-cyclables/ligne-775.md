@@ -4,7 +4,7 @@ line: 775
 from: Rantigny
 to:  Rue de la Brèche (D630) 
 description: La ligne 775, réseau reseau structurant du schéma de la CCLVD (tronçon 175) concerne Rantigny - Rue de la Brèche (D630)
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-175.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-175.jpg
 ---
 
 **Point(s) d'intérêt** : École Maternelle Françoise Dolto, École Élémentaire Camille Claudel, École Maternelle Françoise Dolto, Mairie De Rantigny, École Élémentaire Marcelin Berthelot
