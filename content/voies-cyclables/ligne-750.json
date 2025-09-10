@@ -1,0 +1,84 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-150.jpg",
+				"line": 750
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.459551663725108,
+          49.293455513238
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-caucriaumont-(d62)-150",
+        "line": 750,
+        "name": "150 - Rue de Caucriaumont (D62)",
+        "status": "planned",
+        "type": "zone-de-rencontre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-750"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+              [
+            2.458872527665477,
+            49.293209742968685
+          ],
+          [
+            2.459409370850153,
+            49.29336401559283
+          ],
+          [
+            2.459568746170362,
+            49.29338918058522
+          ],
+          [
+            2.459661016092781,
+            49.29342528685578
+          ],
+          [
+            2.459659338457783,
+            49.2935182877346
+          ],
+          [
+            2.4595570027256315,
+            49.293536887888905
+          ],
+          [
+            2.459454666993423,
+            49.29350406408207
+          ],
+          [
+            2.4594345353738447,
+            49.293446075302825
+          ],
+          [
+            2.4595100289465677,
+            49.293383709935796
+          ],
+          [
+            2.459444601183634,
+            49.29343732227355
+          ],
+          [
+            2.4591577256074117,
+            49.29329180293553
+          ]
+         ]
+      }
+    }
+]
+}
+

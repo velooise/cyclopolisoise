@@ -1,0 +1,68 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-153.jpg",
+				"line": 753
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+   2.4733730489361108,
+          49.28685912324951
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-villiers-153",
+        "line": 753,
+        "name": "153-154 - Rue de Villiers",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-753"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+             [
+            2.472010486756261,
+            49.2874259678899
+          ],
+          [
+            2.472815149460729,
+            49.287006083596594
+          ],
+          [
+            2.4750252896897678,
+            49.28601234319083
+          ],
+          [
+            2.4758192235580907,
+            49.28569042299
+          ],
+          [
+            2.476454840707113,
+            49.285408581540125
+          ],
+          [
+            2.4773052036434677,
+            49.28528297953878
+          ],
+          [
+            2.477700935887242,
+            49.28500483801429
+          ]
+         ]
+      }
+    }
+]
+}
+

@@ -54,6 +54,40 @@
           ]
          ]
       }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-caucriaumont-(d62)-149",
+        "line": 696,
+        "name": "149 - Rue de Caucriaumont Monchy (D62)",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-749"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4507705519528713,
+            49.293624140948566
+          ],
+          [
+            2.4511702010961187,
+            49.293589155126
+          ],
+          [
+            2.451473290715171,
+            49.2935191834072
+          ],
+          [
+            2.4515483925670196,
+            49.29348419751054
+          ]
+         ]
+      }
     }
 ]
 }

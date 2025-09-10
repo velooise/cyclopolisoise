@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-146.jpg",
+				"line": 746
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.462512119048796,
+          49.29169231505341
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "r-eugene-cauchois-146",
+        "line": 746,
+        "name": "146 - R EUGENE CAUCHOIS",
+        "status": "planned",
+        "type": "zone-de-rencontre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-746"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.4624799325403046,
+            49.29158735339877
+          ],
+          [
+            2.4635742738186366,
+            49.29121648709662
+          ]
+         ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-eugène-cauchois-(d605)-147",
+        "line": 746,
+        "name": "147 - Rue Eugène Cauchois (D605)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-747"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.463582188762473,
+            49.2912116067381
+          ],
+          [
+            2.4649835463164322,
+            49.29074935879106
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-eugène-cauchois-(d605)-148",
+        "line": 746,
+        "name": "148 - Rue Eugène Cauchois (D605)",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-748"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+                [
+            2.466377498009024,
+            49.29007655806666
+          ],
+          [
+            2.467005692773938,
+            49.28985593518922
+          ],
+          [
+            2.468173490736234,
+            49.28953550496638
+          ],
+          [
+            2.4691626837860525,
+            49.289254975289396
+          ],
+          [
+            2.4700391239300075,
+            49.28890090355142
+          ],
+          [
+            2.471762632645124,
+            49.2878292719694
+          ],
+          [
+            2.471948629783128,
+            49.28771895321964
+          ],
+          [
+            2.471996952456948,
+            49.28739850910753
+          ]
+         ]
+      }
+    }
+]
+}
+
