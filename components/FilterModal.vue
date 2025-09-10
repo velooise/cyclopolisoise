@@ -98,6 +98,7 @@ const typeFilters = ref([
   { label: 'Jalonnement', isEnable: true, types: ['jalonnement'] },  
   { label: 'Jalonnement et Pictogramme au sol', isEnable: true, types: ['jalonnement-picto'] },  
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
+  { label: 'autre', isEnable: true, types: ['autre'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
 

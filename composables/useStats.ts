@@ -192,8 +192,9 @@ export const useStats = () => {
     'jalonnement-picto': 'Jalonnement vertical + Pictos au sol',
     'voie-riverains': 'Voie réservée riverains et vélos',
     'unidirectionnelle': 'Piste cyclable unidirectionnelle',
-    aucun: 'Aucun',
-    inconnu: 'Inconnu'
+    'aucun': 'Aucun',
+	'autre': 'autre',
+    'inconnu': 'Inconnu'
   };
 
   const qualityNames: Record<LaneQuality, string> = {

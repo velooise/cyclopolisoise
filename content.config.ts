@@ -65,6 +65,7 @@ export default defineContentConfig({
                   "unidirectionnelle",
                   "voie-riverains",
                   "aucun",
+				  "autre",
                   "inconnu"
                 ]),
                 link: z.string().optional(),

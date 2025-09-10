@@ -19,6 +19,7 @@ export type LaneType =
 | 'jalonnement-picto'
 | 'voie-riverains'
 | 'aucun'
+| 'autre'
 | 'inconnu';
 
 export type LaneStatus = 'done' | 'wip' | 'planned' | 'tested' | 'postponed' | 'unknown' | 'variante' | 'variante-postponed';
