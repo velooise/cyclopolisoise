@@ -1,38 +1,31 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-114.jpg",
-				"line": 714
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4544444085204873,
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4544444085204873,
           49.32760369455215
-				]
-			}
-		},
- {
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
-		"id": "chemin-du-marais-114",
+        "id": "chemin-du-marais-114-160",
         "line": 714,
-        "name": "114 - Chemin du Marais",
+        "name": "114-160 - Chemin du Marais",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-714"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.458365228866114,
             49.32693786060034
           ],
@@ -48,9 +41,8 @@
             2.4467196343599653,
             49.32561284919129
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

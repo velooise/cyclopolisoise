@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-165.jpg",
+				"line": 765
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4407619200612487,
+          49.331427303501414
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "r-emile-zola-165",
+        "line": 765,
+        "name": "165 R EMILE ZOLA DSC",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-765"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.440332766619804,
+            49.33111267175266
+          ],
+          [
+            2.441126700488155,
+            49.331829330031326
+          ]
+         ]
+      }
+    }
+]
+}
+

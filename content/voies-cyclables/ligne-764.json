@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-164.jpg",
+				"line": 764
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.4390036183853,
+          49.32773831947037
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "r-du-cimetiere-164",
+        "line": 764,
+        "name": "164 R DU CIMETIERE",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-764"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4385583716884014,
+            49.32810191867526
+          ],
+          [
+            2.439110906745668,
+            49.32735723665235
+          ]
+         ]
+      }
+    }
+]
+}
+

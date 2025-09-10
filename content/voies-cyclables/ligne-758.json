@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-158.jpg",
+				"line": 758
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.439302842099522,
+          49.32608652213696
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "clos-du-chateau-158",
+        "line": 758,
+        "name": "158 CLOS DU CHATEAU",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-758"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.439163367455393,
+            49.32663893049914
+          ],
+          [
+            2.4392813846518777,
+            49.32637321575632
+          ],
+          [
+            2.4392921134880794,
+            49.32623336531563
+          ],
+          [
+            2.43935648650384,
+            49.32603757390058
+          ]
+         ]
+      }
+    }
+]
+}
+

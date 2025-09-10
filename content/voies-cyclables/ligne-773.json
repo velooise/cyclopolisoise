@@ -1,0 +1,72 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-173.jpg",
+				"line": 773
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.4460812297064365,
+          49.32639050062278
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-parmentier-173",
+        "line": 773,
+        "name": "173 - Rue Parmentier",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-773"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.443802082284833,
+            49.3283771559509
+          ],
+          [
+            2.4442241475921946,
+            49.32766808254283
+          ],
+          [
+            2.444430490630765,
+            49.32756416575444
+          ],
+          [
+            2.445227725098732,
+            49.32755194023537
+          ],
+          [
+            2.445490343512091,
+            49.32743579765395
+          ],
+          [
+            2.4461093726289107,
+            49.32634771174273
+          ],
+          [
+            2.446643988683576,
+            49.32555302706285
+          ],
+          [
+            2.4476850778715686,
+            49.32417757949048
+          ]
+         ]
+      }
+    }
+]
+}
+

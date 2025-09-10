@@ -1,0 +1,64 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-171.jpg",
+				"line": 771
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4477952453606804,
+          49.33494929759155
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-emile-zola-(d650)-171",
+        "line": 771,
+        "name": "171 - Rue Emile Zola (D650)",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-771"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.441627488081366,
+            49.332286614249966
+          ],
+          [
+            2.442539439147481,
+            49.33297179336117
+          ],
+          [
+            2.443698153441545,
+            49.33367793736386
+          ],
+          [
+            2.4450392579490483,
+            49.33416733815466
+          ],
+          [
+            2.4475390767506724,
+            49.334964351885446
+          ],
+          [
+            2.4498944166952015,
+            49.33572076473314
+          ]
+         ]
+      }
+    }
+]
+}
+

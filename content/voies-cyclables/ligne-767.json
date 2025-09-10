@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-167.jpg",
+				"line": 767
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.439221694443262,
+          49.32826832956198
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "r-sacco-et-vanzetti-167",
+        "line": 767,
+        "name": "167 R SACCO ET VANZETTI",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-767"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+  [
+            2.4376445555426756,
+            49.3277928547453
+          ],
+          [
+            2.4387818121644216,
+            49.32817043806364
+          ],
+          [
+            2.439919068787475,
+            49.328478096403614
+          ],
+          [
+            2.440144374344328,
+            49.3288836430967
+          ],
+          [
+            2.4403374933926614,
+            49.32905844667545
+          ]
+         ]
+      }
+    }
+]
+}
+

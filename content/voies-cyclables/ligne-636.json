@@ -334,6 +334,48 @@
 			}
 		},
 		{
+      "type": "Feature",
+      "properties": {
+		"id": "avenue-pierre-curie-(d916a)-157",
+        "line": 636,
+        "name": "157 - Avenue Pierre Curie (D916a)",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-757"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.440246135873309,
+            49.331147735856774
+          ],
+          [
+            2.439430744332668,
+            49.33177699689469
+          ],
+          [
+            2.4389694043815098,
+            49.33225942490998
+          ],
+          [
+            2.438550979775016,
+            49.33306346109586
+          ],
+          [
+            2.4383042165458164,
+            49.333329139731376
+          ],
+          [
+            2.4380038091358642,
+            49.33397235575248
+          ]
+         ]
+      }
+    },
+		{
 			"type": "Feature",
 			"properties": {
 				"type": "perspective",

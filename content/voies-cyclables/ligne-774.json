@@ -1,0 +1,84 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-174.jpg",
+				"line": 774
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+ 2.4373833483160183,
+          49.34238832863625
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-breuil-le-vert-174",
+        "line": 774,
+        "name": "174 - Rue de Breuil le Vert",
+        "status": "planned",
+        "type": "jalonnement-picto",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-774"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.435420112410867,
+            49.33845567896998
+          ],
+          [
+            2.438188152115231,
+            49.33886114346734
+          ],
+          [
+            2.439239578048955,
+            49.3388541527284
+          ],
+          [
+            2.439175205031944,
+            49.33939942738084
+          ],
+          [
+            2.439003543655872,
+            49.3396510905672
+          ],
+          [
+            2.4384885595239894,
+            49.34011946029335
+          ],
+          [
+            2.437973575393272,
+            49.34118900429951
+          ],
+          [
+            2.437973576094322,
+            49.34151754810185
+          ],
+          [
+            2.4366432004229353,
+            49.34353772098149
+          ],
+          [
+            2.4357368154254857,
+            49.34572571370978
+          ],
+          [
+            2.4355866117205096,
+            49.34650856096792
+          ]
+         ]
+      }
+    }
+]
+}
+

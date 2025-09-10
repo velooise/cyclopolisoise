@@ -1,0 +1,64 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-162.jpg",
+				"line": 762
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.44548349895706,
+          49.32473284065907
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "pl-de-la-gare-162",
+        "line": 762,
+        "name": "162- PL DE LA GARE",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-762"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.444564629814977,
+            49.3233090383026
+          ],
+          [
+            2.445145424461458,
+            49.323783643662296
+          ],
+          [
+            2.44548349895706,
+            49.323535041425544
+          ],
+          [
+            2.4451540930383544,
+            49.32376104351124
+          ],
+          [
+            2.445240778806294,
+            49.32425824444755
+          ],
+          [
+            2.445110750153958,
+            49.324879738559304
+          ]
+         ]
+      }
+    }
+]
+}
+
