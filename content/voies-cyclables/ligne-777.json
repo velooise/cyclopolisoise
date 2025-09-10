@@ -1,0 +1,378 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-177.jpg",
+				"line": 777
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.4974853760999167,
+          49.33361604989486
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "d59-labruyère---rosoy-177",
+        "line": 777,
+        "name": "177 - D59 Labruyère - Rosoy",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-777"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.505417308000631,
+            49.34441643957237
+          ],
+          [
+            2.5047021845157076,
+            49.34484183423436
+          ],
+          [
+            2.503396306848657,
+            49.3451456853127
+          ],
+          [
+            2.5027278218514653,
+            49.34530773845427
+          ],
+          [
+            2.5020904291807824,
+            49.34593568933542
+          ],
+          [
+            2.5021526138312993,
+            49.34648260776646
+          ],
+          [
+            2.5024168985979998,
+            49.346847216676366
+          ],
+          [
+            2.503225299058215,
+            49.34703964806735
+          ],
+          [
+            2.5037694147535206,
+            49.34753591502323
+          ],
+          [
+            2.503691683940218,
+            49.348173965182724
+          ],
+          [
+            2.503199561150666,
+            49.349312084346195
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "d59-labruyère---rosoy-178",
+        "line": 777,
+        "name": "178 - D59 Labruyère - Rosoy",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-778"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+       [
+            2.5054486921158343,
+            49.3444163981097
+          ],
+          [
+            2.5062231299384337,
+            49.34265042613262
+          ],
+          [
+            2.5051389169858567,
+            49.341540354164295
+          ],
+          [
+            2.503435153775712,
+            49.340960079305745
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "d59-rosoy---verderonne-179",
+        "line": 777,
+        "name": "179 - D59 Rosoy - Verderonne",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-779"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+       [
+            2.499701900635131,
+            49.338854301720886
+          ],
+          [
+            2.498172385934623,
+            49.33732782856336
+          ],
+          [
+            2.497291772152238,
+            49.33639650589062
+          ],
+          [
+            2.4965766282421953,
+            49.33540357009542
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "d59-rosoy---verderonne-180",
+        "line": 777,
+        "name": "180 - D59 Rosoy - Verderonne",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-780"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+    [
+            2.499704178080549,
+            49.33884495712974
+          ],
+          [
+            2.4999464732481727,
+            49.33912990272225
+          ],
+          [
+            2.5009333828363367,
+            49.339749846217416
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-la-croix-dupuis-(d59)-183",
+        "line": 777,
+        "name": "183 - Rue de la Croix Dupuis (D59)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-783"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+        [
+            2.500974744182372,
+            49.339765248329456
+          ],
+          [
+            2.5024935212121875,
+            49.34054305434489
+          ],
+          [
+            2.503238128594262,
+            49.34087024660772
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "d59-185",
+        "line": 777,
+        "name": "185 - D59",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-785"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+     [
+            2.482499086013746,
+            49.325950900917576
+          ],
+          [
+            2.482742190681222,
+            49.32636785881624
+          ],
+          [
+            2.482767780646583,
+            49.32685152555467
+          ],
+          [
+            2.4835866595290668,
+            49.32724345890992
+          ],
+          [
+            2.4842392036385945,
+            49.327476949638196
+          ],
+          [
+            2.484367153463637,
+            49.327668744765674
+          ],
+          [
+            2.4843287685156668,
+            49.32803565510102
+          ],
+          [
+            2.4844439233581284,
+            49.32878614499734
+          ],
+          [
+            2.4849429276771957,
+            49.32906132175978
+          ],
+          [
+            2.4857490115770418,
+            49.329353174220756
+          ],
+          [
+            2.4864427566539575,
+            49.32956810910534
+          ],
+          [
+            2.486916171007749,
+            49.330018390399715
+          ],
+          [
+            2.4877478448729846,
+            49.33028522181607
+          ],
+          [
+            2.488234054209414,
+            49.330301898731705
+          ],
+          [
+            2.4911513102281617,
+            49.33002672890345
+          ],
+          [
+            2.491586339633983,
+            49.33003506740576
+          ],
+          [
+            2.493863846525869,
+            49.33072715816775
+          ],
+          [
+            2.4940429704318774,
+            49.3308105433066
+          ]
+         ]
+      }
+    },
+	 {
+      "type": "Feature",
+      "properties": {
+		"id": "d59-rosoy---verderonne-186",
+        "line": 777,
+        "name": "186 - D59 Rosoy - Verderonne",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-786"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4977397468892093,
+            49.33206105155003
+          ],
+          [
+            2.497726951906486,
+            49.33234454811847
+          ],
+          [
+            2.4971511776915065,
+            49.33298657842812
+          ],
+          [
+            2.4965944598272927,
+            49.334211012988845
+          ],
+          [
+            2.496492099967554,
+            49.33511982416624
+          ],
+          [
+            2.496581664844655,
+            49.33536995273815
+          ]
+         ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "rue-du-château-d'eau-(d59)-/-rue-du-pontceau-/-rue-de-l'eglise-191",
+        "line": 777,
+        "name": "191 - Rue du Château d'Eau (D59) / Rue du Pontceau / Rue de l'Eglise",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-791"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4917044909982167,
+            49.330065704352364
+          ],
+          [
+            2.4939206206907727,
+            49.330770767599006
+          ],
+          [
+            2.4941125689317687,
+            49.33147582074773
+          ],
+          [
+            2.497672336312746,
+            49.33198754654762
+          ]
+         ]
+      }
+    }
+]
+}
+
