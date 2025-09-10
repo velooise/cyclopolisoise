@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-189.jpg",
+				"line": 789
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+2.495527243380394,
+          49.33055578195959
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-des-charmilles-189",
+        "line": 789,
+        "name": "189 - Rue des Charmilles",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-789"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.494720279666467,
+            49.33039239732824
+          ],
+          [
+            2.4958406273468086,
+            49.33060683954565
+          ],
+          [
+            2.495699604561878,
+            49.330913183950116
+          ],
+          [
+            2.49562125857031,
+            49.3309642411655
+          ]
+         ]
+      }
+    }
+]
+}
+

@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-cclvd-188.jpg",
+				"line": 788
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+  2.4886386357509878,
+          49.32901352604463
+				]
+			}
+		},
+ {
+      "type": "Feature",
+      "properties": {
+		"id": "rue-de-la-cavée-188",
+        "line": 788,
+        "name": "188 - Rue de la Cavée",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-788"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+            [
+            2.485028876094418,
+            49.32796566970492
+          ],
+          [
+            2.4856723524177937,
+            49.32804749826539
+          ],
+          [
+            2.486624488115069,
+            49.32833048765531
+          ],
+          [
+            2.4871005559631953,
+            49.3283202591513
+          ],
+          [
+            2.4889943643275387,
+            49.3290226114774
+          ],
+          [
+            2.4896012344773624,
+            49.32912944733121
+          ],
+          [
+            2.490474897452657,
+            49.32946357186523
+          ],
+          [
+            2.4906475374419585,
+            49.32949766607794
+          ],
+          [
+            2.490804482885835,
+            49.32942265877881
+          ],
+          [
+            2.4908149459160427,
+            49.329334013641585
+          ]
+         ]
+      }
+    }
+]
+}
+

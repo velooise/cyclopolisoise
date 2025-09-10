@@ -42,6 +42,32 @@
           ]
          ]
       }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"id": "r-pasteur-166",
+        "line": 765,
+        "name": "166 DSC R PASTEUR",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-766"
+
+      },
+      "geometry": {
+	  "type": "LineString",
+               "coordinates": [
+          
+           [
+            2.4401354087356992,
+            49.33108481299203
+          ],
+          [
+            2.438129116392446,
+            49.33025976861188
+          ]
+         ]
+      }
     }
 ]
 }
