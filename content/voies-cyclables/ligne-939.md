@@ -6,9 +6,15 @@ to:  Saint Leu d'Esserent
 description: 939 - schema cyclable de l'ACSO 2025 kml_140  ligne C4 Chantilly => St Leu => Berges => Creil Ec’Eau Port => Engie => Gare PEM Sud
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-berges-oise-072025.jpg
 ---
+Hierarchie : Reseau structurant
+
+
 Type d'amenagement : voie-verte
+
 Statut : planned
-ACSO - Statut : Acquisition foncière en cours 
+
+ACSO - Statut : Acquisition foncière en cours
+
 ligne C4 Chantilly => St Leu => Berges => Creil Ec’Eau Port => Engie => Gare PEM Sud
 ## les tronçons
 

@@ -6,8 +6,12 @@ to:
 description: 835 - schema cyclable de l'ACSO 2025 kml_36 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-835.jpg
 ---
+Hierarchie : Reseau structurant
+
 Type d'amenagement : autre (DOUBLE-SENS CYCLABLE MARQUAGE)
+
 Statut : planned
+
 ## Les troncons (du Nord au Sud)
 
 ## Informations complementaires

@@ -13,7 +13,7 @@
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-908"
             },
 		"geometry": 
-		{"type":"LineString","coordinates":[[2.47525680517304,49.2597893168985,0],[2.47491856714716,49.2603640983164,0]]}
+		{"coordinates":[[2.47525680517304,49.2597893168985,0],[2.47491856714716,49.2603640983164,0]],"type":"LineString"}
 		      }
 
 ,

@@ -6,8 +6,12 @@ to:
 description: 831 - schema cyclable de l'ACSO 2025 kml_32 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-831.jpg
 ---
+Hierarchie : Reseau structurant
+
 Type d'amenagement : inconnu (PEM)
+
 Statut : planned
+
 ## Les troncons (du Nord au Sud)
 
 ## Informations complementaires

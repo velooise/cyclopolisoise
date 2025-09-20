@@ -6,8 +6,12 @@ to:
 description: 852 - schema cyclable de l'ACSO 2025 kml_53 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-852.jpg
 ---
+Hierarchie : Reseau structurant
+
 Type d'amenagement : autre (TRAVERSEE RENFORCEE AVEC ILOT CENTRAL)
+
 Statut : planned
+
 ## Les troncons (du Nord au Sud)
 
 ## Informations complementaires
