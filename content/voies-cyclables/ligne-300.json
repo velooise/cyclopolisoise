@@ -213,7 +213,7 @@
 			"properties": {
 				"id": "300-Liaison nogent-traversee-4",
 				"line": 300,
-				"name": "Liaison 4 Traversée de Nogent",
+				"name": "Liaison 4 kml_60 Traversée de Nogent",
 				"status": "done",
 				"doneAt": "01/07/2020",
 				"type": "voie-verte",
@@ -262,7 +262,7 @@
 			"properties": {
 				"id": "300-Liaison nogent-traversee-5",
 				"line": 300,
-				"name": "Liaison 5 Traversée de Nogent",
+				"name": "Liaison 5 kml_55 Traversée de Nogent",
 				"status": "done",
 				"doneAt": "01/07/2020",
 				"type": "voie-verte",

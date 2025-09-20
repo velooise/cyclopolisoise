@@ -7,9 +7,10 @@
             "properties": {
                 "id": "853-kml_54",
                 "line": 853,
-                "name": "kml_54",
-                "status": "planned",
-                "type": "Zone-30",
+                "name": "853 kml_54",
+                "status": "done",
+                "type": "bandes-cyclables",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-853"
             },
 		"geometry": 
