@@ -1,14 +1,14 @@
 ---
 name: kml_195 
 line: 994
-from: 
-to:  
+from: Saint Maximin
+to:  Pont de Saint Leu d'Esserent
 description: 994 - schema cyclable de l'ACSO 2025 kml_195 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-994.jpg
 ---
 Hierarchie : Reseau structurant
 
-Identifié par le cabinet comme existant, mais à vérifier
+Ce chemin parcourt le long de l'étang Sainte Barbe est praticable en velo. En stabilisé de l'étang jusqu'au pont. Et chemin de terre de l'étang jusqu'à la route sur env 300m. Il n'y a pas d'indication de piste cyclable.
 
 ## Les troncons (du Nord au Sud)
 

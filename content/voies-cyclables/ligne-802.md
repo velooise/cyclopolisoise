@@ -10,7 +10,7 @@ Hierarchie : Reseau structurant
 
 Type d'amenagement : Zone-30 (EXISTANT + ZONE 30)
 
-Statut : planned
+Aménagement non qualitatif, ne fonctionne que dans un sens.
 
 ## Les troncons (du Nord au Sud)
 

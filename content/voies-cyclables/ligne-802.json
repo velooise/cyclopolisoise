@@ -8,8 +8,9 @@
                 "id": "802-kml_3",
                 "line": 802,
                 "name": "kml_3",
-                "status": "planned",
-                "type": "Zone-30",
+                "status": "done",
+                "type": "bidirectionnelle",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-802"
             },
 		"geometry": 

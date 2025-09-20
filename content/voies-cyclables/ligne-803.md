@@ -8,9 +8,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-803.jp
 ---
 Hierarchie : Reseau structurant
 
-Type d'amenagement : aucun (EXISTANT + EXISTANT)
-
-Statut : planned
+Rond point avec un aménagement incorrect
 
 ## Les troncons (du Nord au Sud)
 
