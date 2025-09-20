@@ -8,8 +8,9 @@
                 "id": "867-kml_68",
                 "line": 867,
                 "name": "kml_68",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "piste-sur-trottoir",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-867"
             },
 		"geometry": 

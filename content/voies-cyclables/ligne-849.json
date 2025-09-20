@@ -8,8 +8,9 @@
                 "id": "849-kml_50",
                 "line": 849,
                 "name": "kml_50",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "bandes-cyclables",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-849"
             },
 		"geometry": 

@@ -8,8 +8,9 @@
                 "id": "989-kml_190",
                 "line": 989,
                 "name": "kml_190",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "voie-verte",
+				"quality": "satisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-989"
             },
 		"geometry": 

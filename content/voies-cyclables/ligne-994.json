@@ -8,8 +8,9 @@
                 "id": "994-kml_195",
                 "line": 994,
                 "name": "kml_195",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "voie-riverains",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-994"
             },
 		"geometry": 

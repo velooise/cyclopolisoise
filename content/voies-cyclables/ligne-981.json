@@ -8,8 +8,9 @@
                 "id": "981-kml_182",
                 "line": 981,
                 "name": "kml_182",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "bandes-cyclables",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-981"
             },
 		"geometry": 

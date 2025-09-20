@@ -8,8 +8,9 @@
                 "id": "864-kml_65",
                 "line": 864,
                 "name": "kml_65",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "bidirectionnelle",
+				"quality": "satisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-864"
             },
 		"geometry": 

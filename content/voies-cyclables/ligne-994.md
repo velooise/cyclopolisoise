@@ -8,9 +8,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-994.jp
 ---
 Hierarchie : Reseau structurant
 
-Type d'amenagement : aucun (EXISTANT)
-
-Statut : planned
+Identifié par le cabinet comme existant, mais à vérifier
 
 ## Les troncons (du Nord au Sud)
 

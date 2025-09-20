@@ -7,9 +7,9 @@
             "properties": {
                 "id": "930-kml_131",
                 "line": 930,
-                "name": "kml_131",
-                "status": "planned",
-                "type": "aucun",
+                "name": "kml_131 Allee a Cricri",
+                "status": "done",
+                "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-930"
             },
 		"geometry": 

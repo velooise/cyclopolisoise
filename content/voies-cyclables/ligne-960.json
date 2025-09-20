@@ -8,8 +8,9 @@
                 "id": "960-kml_161",
                 "line": 960,
                 "name": "kml_161",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "voie-verte",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-960"
             },
 		"geometry": 

@@ -8,9 +8,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-988.jp
 ---
 Hierarchie : Reseau structurant
 
-Type d'amenagement : aucun (EXISTANT)
-
-Statut : planned
+Dans le sens de la montée piste sur trottoir qui se termine en bande-cyclable en haut de la montée ce qui rend la réinsertion périlleuse.
+Dans la descente, pictogrammes vélos
 
 ## Les troncons (du Nord au Sud)
 

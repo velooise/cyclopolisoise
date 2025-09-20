@@ -8,8 +8,9 @@
                 "id": "913-kml_114",
                 "line": 913,
                 "name": "kml_114",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "bidirectionnelle",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-913"
             },
 		"geometry": 

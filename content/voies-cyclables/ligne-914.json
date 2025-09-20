@@ -8,8 +8,8 @@
                 "id": "914-kml_115",
                 "line": 914,
                 "name": "kml_115",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-914"
             },
 		"geometry": 

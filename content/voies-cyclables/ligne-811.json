@@ -8,8 +8,9 @@
                 "id": "811-kml_12",
                 "line": 811,
                 "name": "kml_12",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "bidirectionnelle",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-811"
             },
 		"geometry": 

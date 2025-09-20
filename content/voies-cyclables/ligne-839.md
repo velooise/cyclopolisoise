@@ -1,16 +1,16 @@
 ---
 name: kml_40 
 line: 839
-from: 
-to:  
+from: MONTATAIRE
+to: MONTATAIRE 
 description: 839 - schema cyclable de l'ACSO 2025 kml_40 
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-839.jpg
 ---
 Hierarchie : Reseau structurant
 
-Type d'amenagement : aucun (EXISTANT)
+Type d'amenagement : voie-verte
 
-Statut : planned
+Statut : done
 
 ## Les troncons (du Nord au Sud)
 

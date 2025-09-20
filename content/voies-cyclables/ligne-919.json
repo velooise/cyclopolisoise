@@ -8,8 +8,8 @@
                 "id": "919-kml_120",
                 "line": 919,
                 "name": "kml_120",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "piste-sur-trottoir",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-919"
             },
 		"geometry": 

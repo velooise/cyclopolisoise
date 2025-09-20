@@ -8,8 +8,9 @@
                 "id": "1000-kml_201",
                 "line": 1000,
                 "name": "kml_201",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+				"quality": "unsatisfactory"
+                "type": "bandes-cyclables",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-1000"
             },
 		"geometry": 

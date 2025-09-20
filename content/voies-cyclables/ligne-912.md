@@ -10,7 +10,7 @@ Hierarchie : Reseau structurant
 
 Type d'amenagement : bidirectionnelle (PISTE CYCLABLE BIDI + EXISTANT)
 
-Statut : planned
+Statut : done
 
 ## Les troncons (du Nord au Sud)
 

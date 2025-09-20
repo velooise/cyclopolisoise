@@ -8,9 +8,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-849.jp
 ---
 Hierarchie : Reseau structurant
 
-Type d'amenagement : aucun (EXISTANT)
+Type d'amenagement : bandes-cyclables
 
-Statut : planned
 
 ## Les troncons (du Nord au Sud)
 
