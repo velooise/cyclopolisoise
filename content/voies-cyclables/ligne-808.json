@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "808-kml_9",
+                "line": 808,
+                "name": "kml_9",
+                "status": "planned",
+                "type": "piste-sur-trottoir",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.4769051230882,49.2629042815388,0],[2.47675733292717,49.2628488024175,0],[2.47666030127827,49.2627998362108,0],[2.47660560448053,49.2627753262634,0],[2.47655491916103,49.2627616215522,0],[2.47628363665144,49.2626930201648,0],[2.47523765316119,49.262487101838,0]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-808.jpg",
+				"line": 808
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.4769051230882,49.2629042815388
+				]
+			}
+		}
+
+
+]}

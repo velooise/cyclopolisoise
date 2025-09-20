@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "815-kml_16",
+                "line": 815,
+                "name": "kml_16",
+                "status": "planned",
+                "type": "aucun",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-815"
+            },
+		"geometry": 
+		{"coordinates":[[2.48416525140522,49.2753765472462,0],[2.48457270084687,49.2755760628052,0],[2.48465210943122,49.2756042701745,0],[2.4854224813351,49.2757846556024,0],[2.48555271651833,49.2758139780537,0],[2.48561026869354,49.2758295059553,0],[2.48566782985264,49.2758441348919,0],[2.48567330760797,49.2758459561879,0],[2.48572264321668,49.2758587520914,0],[2.485843234516,49.2758907300544,0]],"type":"LineString"}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-815.jpg",
+				"line": 815
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.48416525140522,49.2753765472462
+				]
+			}
+		}
+
+
+]}
