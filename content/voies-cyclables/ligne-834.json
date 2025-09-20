@@ -8,8 +8,8 @@
                 "id": "834-kml_35",
                 "line": 834,
                 "name": "kml_35",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "voie-bus",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-834"
             },
 		"geometry": 
