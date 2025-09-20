@@ -3,13 +3,13 @@
     "features": [
 	
 
-,{
+{
             "type": "Feature",
             "properties": {
                 "id": "800-kml_1",
                 "line": 800,
                 "name": "kml_1",
-                "status": "prevu",
+                "status": "planned",
                 "type": "autre",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-800"
             },
