@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "959-kml_160",
+                "line": 959,
+                "name": "kml_160",
+                "status": "planned",
+                "type": "piste-sur-trottoir",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-959"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.49230870312945,49.2548234297563,0],[2.49224250830016,49.2548510199721,0],[2.49202010999041,49.2549433153098,0],[2.49187306691064,49.2550043378076,0],[2.49175570697782,49.2550530416415,0],[2.49159566311769,49.2551269837587,0],[2.49151894978542,49.2551580125498,0],[2.49139667828492,49.2552023807194,0],[2.49122905651624,49.2552566912641,0],[2.49074398394032,49.2554218573493,0],[2.49040648873938,49.2555238164172,0]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-959.jpg",
+				"line": 959
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.49230870312945,49.2548234297563
+				]
+			}
+		}
+
+
+]}

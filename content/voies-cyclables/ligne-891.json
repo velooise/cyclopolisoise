@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "891-kml_92",
+                "line": 891,
+                "name": "kml_92",
+                "status": "planned",
+                "type": "bandes-cyclables",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-891"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.4823424284745,49.2699865577111,0],[2.48255403934813,49.2697078821896,0],[2.4825714725235,49.2696847742315,0],[2.48267099140468,49.2695528598777,0],[2.48276316141677,49.2694031250944,0],[2.48279587324804,49.2692917915936,0],[2.48277937340178,49.2691559746349,0],[2.48276625695318,49.269093888669,0],[2.48274218667645,49.2690281598148,0],[2.4827071896173,49.268956091235,0],[2.48263392629025,49.2688640809699,0],[2.48250876777581,49.2687412827082,0]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-891.jpg",
+				"line": 891
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.4823424284745,49.2699865577111
+				]
+			}
+		}
+
+
+]}

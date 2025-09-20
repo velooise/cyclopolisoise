@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+    "features": [
+
+{
+            "type": "Feature",
+            "properties": {
+                "id": "999-kml_200",
+                "line": 999,
+                "name": "kml_200",
+                "status": "planned",
+                "type": "Voie-verte",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-999"
+            },
+		"geometry": 
+		{"type":"LineString","coordinates":[[2.48212454198565,49.2522071351788,0],[2.48255232792894,49.2521820769475,0],[2.48322839718587,49.2521436213343,0]]}
+		      }
+
+,
+{
+			"type": "Feature",
+			"properties": {
+				"type": "perspective",
+				"name": "Point Repere",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-999.jpg",
+				"line": 999
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					2.48212454198565,49.2522071351788
+				]
+			}
+		}
+
+
+]}
