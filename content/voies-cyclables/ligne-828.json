@@ -18,6 +18,20 @@
 
 ,
 {
+            "type": "Feature",
+            "properties": {
+                "id": "828-kml_154",
+                "line": 828,
+                "name": "kml_154",
+                "status": "planned",
+                "type": "bidirectionnelle",
+                "link": "https://cyclopolisoise.netlify.app/velo-oise-828"
+            },
+		"geometry": 
+		{"coordinates":[[2.50504913818654,49.293906286161,0],[2.50468862179274,49.2935191549221,0],[2.50451604976748,49.2933125854919,0]],"type":"LineString"}
+		      },
+			  
+{
 			"type": "Feature",
 			"properties": {
 				"type": "perspective",
