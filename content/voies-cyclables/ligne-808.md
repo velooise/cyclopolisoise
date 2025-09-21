@@ -16,7 +16,13 @@ Statut : planned
 
 ## Informations complementaires
 
-Budget  : 19625 
+Budget  :
+kml_9 : 19 625€ 
+kml_95 : 47 003€
+kml_94 : 1 491€
+kml_42 : 861€
+kml_176 : 141 552€
+kml_175 : 263 041€
 
 Lineaire :
 
