@@ -9,7 +9,7 @@
                 "line": 999,
                 "name": "kml_200",
                 "status": "planned",
-                "type": "Voie-verte",
+                "type": "voie-verte",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-999"
             },
 		"geometry": 

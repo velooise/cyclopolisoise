@@ -131,7 +131,7 @@
 				"line": 808,
 				"name": "kml_176 Berges Nord",
 				"status": "planned",
-				"type": "Voie-verte",
+				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-808"
 			},
 			"geometry": {
@@ -282,7 +282,7 @@
 				"line": 808,
 				"name": "kml_175 Berges Nord",
 				"status": "planned",
-				"type": "Voie-verte",
+				"type": "voie-verte",
 				"link": "https://cyclopolisoise.netlify.app/velo-oise-808"
 			},
 			"geometry": {
