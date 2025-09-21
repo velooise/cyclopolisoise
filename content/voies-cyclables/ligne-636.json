@@ -44,7 +44,8 @@
         "id": "d916a-34-35",
         "line": 636,
         "name": "D916a 34 35",
-        "status": "planned",
+        "status": "done",
+        "doneAt": "01/08/2024",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-636",
         "type": "bidirectionnelle"
       },
@@ -96,7 +97,8 @@
         "id": "d916a-36-37",
         "line": 636,
         "name": "D916a-36-37",
-        "status": "planned",
+        "status": "done",
+        "doneAt": "01/09/2024",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
       },
