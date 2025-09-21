@@ -8,8 +8,9 @@
                 "id": "907-kml_108",
                 "line": 907,
                 "name": "kml_108",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+				"doneAt": "01/07/2023",
+                "type": "bilaterale",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-907"
             },
 		"geometry": 

@@ -8,8 +8,9 @@
                 "id": "898-kml_99",
                 "line": 898,
                 "name": "kml_99",
-                "status": "planned",
-                "type": "Zone-30",
+                "status": "done",
+                "type": "bandes-cyclables",
+				        "quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-898"
             },
 		"geometry": 

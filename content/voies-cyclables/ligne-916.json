@@ -8,8 +8,9 @@
                 "id": "916-kml_117",
                 "line": 916,
                 "name": "kml_117",
-                "status": "planned",
-                "type": "aucun",
+                "status": "done",
+                "type": "dandes-cyclables",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-916"
             },
 		"geometry": 

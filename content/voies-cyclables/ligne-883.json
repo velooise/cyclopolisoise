@@ -8,8 +8,8 @@
                 "id": "883-kml_84",
                 "line": 883,
                 "name": "kml_84",
-                "status": "planned",
-                "type": "bandes-cyclables",
+                "status": "done",
+                "type": "voie-bus",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-883"
             },
 		"geometry": 

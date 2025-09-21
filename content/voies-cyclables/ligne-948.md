@@ -1,8 +1,8 @@
 ---
 name: kml_149 
 line: 948
-from: Montataire
-to:  Montataire
+from: Villers Saint Paul
+to:  Villers Saint Paul
 description: 948 - schema cyclable de l'ACSO 2025 kml_149 - Joliot Curie Montataire
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-948.jpg
 ---
