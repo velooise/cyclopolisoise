@@ -8,8 +8,9 @@
                 "id": "936-kml_137",
                 "line": 936,
                 "name": "kml_137",
-                "status": "planned",
+                "status": "done",
                 "type": "bandes-cyclables",
+				"quality": "unsatisfactory",
                 "link": "https://cyclopolisoise.netlify.app/velo-oise-936"
             },
 		"geometry": 
