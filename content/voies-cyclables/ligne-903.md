@@ -4,7 +4,7 @@ line: 903
 from: Villers sous Saint Leu
 to:  Saint Leu d'Esserent
 description: 903 - schema cyclable de l'ACSO 2025 kml_104 
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-903.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg
 ---
 Hierarchie : Reseau structurant
 

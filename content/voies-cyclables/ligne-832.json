@@ -22,7 +22,7 @@
 			"properties": {
 				"type": "perspective",
 				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-832.jpg",
+				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
 				"line": 832
 			},
 			"geometry": {

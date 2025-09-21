@@ -4,7 +4,7 @@ line: 994
 from: Saint Maximin
 to:  Pont de Saint Leu d'Esserent
 description: 994 - schema cyclable de l'ACSO 2025 kml_195 
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-994.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg
 ---
 Hierarchie : Reseau structurant
 

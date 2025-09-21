@@ -3,8 +3,8 @@ name: kml_155
 line: 954
 from: 
 to:  
-description: 954 - schema cyclable de l'ACSO 2025 kml_155 Traversée Ile Saint Maurice
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-954.jpg
+description: 954 - schema cyclable de l'ACSO 2025 kml_155 TraversÃ©e Ile Saint Maurice
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg
 ---
 Hierarchie : Reseau structurant
 

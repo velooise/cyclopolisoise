@@ -4,7 +4,7 @@ line: 839
 from: MONTATAIRE
 to: MONTATAIRE 
 description: 839 - schema cyclable de l'ACSO 2025 kml_40 
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-839.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg
 ---
 Hierarchie : Reseau structurant
 

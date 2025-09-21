@@ -4,7 +4,7 @@ line: 915
 from: 
 to:  
 description: 915 - schema cyclable de l'ACSO 2025 kml_116 
-cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-915.jpg
+cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg
 ---
 Hierarchie : Reseau structurant
 
