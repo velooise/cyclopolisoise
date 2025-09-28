@@ -1,37 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-56.jpg",
-				"line": 656
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.448214096263314,
-          49.31729138319929
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-jean-rival-56",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-56.jpg",
+        "line": 656
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.448214096263314,
+          49.31729138319929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-jean-rival-56",
         "line": 656,
         "name": "Rue Jean Rival",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-656"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-    [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4486847011786494,
             49.31720040411432
           ],
@@ -39,24 +38,22 @@
             2.4476440414121896,
             49.31740368810665
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-des-marronniers-57",
+        "id": "rue-des-marronniers-57",
         "line": 656,
         "name": "57 - Rue des Marronniers",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-657"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.4476507883103125,
             49.31740572072573
@@ -89,25 +86,23 @@
             2.4451022572847876,
             49.31886667194635
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-premier-septembre-58",
+        "id": "rue-du-premier-septembre-58",
         "line": 656,
         "name": "58 - Rue du Premier Septembre",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-658"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.448731262293336,
             49.317195194279975
           ],
@@ -119,9 +114,8 @@
             2.449067908057799,
             49.318743559658685
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

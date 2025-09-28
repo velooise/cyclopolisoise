@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "features": [
- {
+    {
       "type": "Feature",
       "properties": {
         "id": "lamorlaye-rd1016",
@@ -14,8 +14,8 @@
       },
       "geometry": {
         "type": "LineString",
-               "coordinates": [
-         [
+        "coordinates": [
+          [
             2.441245247726613,
             49.14637098805247
           ],
@@ -110,9 +110,7 @@
         ]
       }
     },
-
-    
-   {
+    {
       "type": "Feature",
       "properties": {
         "type": "perspective",
@@ -122,7 +120,10 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2.4480000000, 49.1615305556]
+        "coordinates": [
+          2.4480000000,
+          49.1615305556
+        ]
       }
     },
     {
@@ -207,7 +208,7 @@
         ]
       }
     },
-     {
+    {
       "type": "Feature",
       "properties": {
         "id": "lamorlaye-chantilly",
@@ -222,7 +223,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-         [
+          [
             2.448246593202441,
             49.166467074050075
           ],
@@ -238,10 +239,10 @@
             2.4506054153324897,
             49.1700093909769
           ]
-         ]
+        ]
       }
     },
-      {
+    {
       "type": "Feature",
       "properties": {
         "id": "chantilly-gal-leclerc",
@@ -256,7 +257,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-               [
+          [
             2.450533129485507,
             49.17007211498549
           ],
@@ -317,8 +318,8 @@
             49.18236915402332
           ]
         ]
-      } 
-    },    
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -333,7 +334,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-              [
+          [
             2.458490690433649,
             49.18240319174029
           ],
@@ -390,8 +391,8 @@
             49.18612950472044
           ]
         ]
-     }
-   },
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -407,7 +408,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-              [
+          [
             2.461289665430769,
             49.186280837706335
           ],
@@ -420,9 +421,9 @@
             49.18971326292731
           ]
         ]
-     }
-   },
-      {
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "id": "chantilly-joffre-mairie",
@@ -437,7 +438,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-            [
+          [
             2.463000652858085,
             49.18979782977496
           ],
@@ -466,9 +467,9 @@
             49.19290466204845
           ]
         ]
-     }
-   },
-   {
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "id": "chantilly-nonette",
@@ -483,7 +484,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-           [
+          [
             2.4657421202935836,
             49.19439329482529
           ],
@@ -588,9 +589,9 @@
             49.197284378358745
           ]
         ]
-     }
-   },
-     {
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "id": "chantilly-nord",
@@ -605,7 +606,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-            [
+          [
             2.463770364540295,
             49.19829861669356
           ],
@@ -662,7 +663,7 @@
             49.201276866291096
           ]
         ]
-     }
-   } 
+      }
+    }
   ]
-  }
+}

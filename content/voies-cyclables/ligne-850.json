@@ -1,37 +1,57 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "850-kml_51",
-                "line": 850,
-                "name": "kml_51",
-                "status": "planned",
-                "type": "autre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-850"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.48727680976641,49.2845602139059,0],[2.48749969013842,49.2842538932754,0],[2.48782254244734,49.2838095032209,0],[2.48845473285852,49.2835655598822,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 850
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.48727680976641,49.2845602139059
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "850-kml_51",
+        "line": 850,
+        "name": "kml_51",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-850"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.48727680976641,
+            49.2845602139059,
+            0
+          ],
+          [
+            2.48749969013842,
+            49.2842538932754,
+            0
+          ],
+          [
+            2.48782254244734,
+            49.2838095032209,
+            0
+          ],
+          [
+            2.48845473285852,
+            49.2835655598822,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.48727680976641,
+          49.2845602139059
+        ]
+      }
+    }
+  ]
+}

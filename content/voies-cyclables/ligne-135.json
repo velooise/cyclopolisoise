@@ -1,37 +1,45 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1361",
-                "line": 135,
-                "name": "22 - Gare - Hauts de Margny:23 - Venette - Margny - Clairoix",
-                "status": "done",
-                "type": "",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8170060175,49.4267680121],[2.8170556365,49.4267175358]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-135.jpg",
-				"line": 135
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8170060175,49.4267680121
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1361",
+        "line": 135,
+        "name": "22 - Gare - Hauts de Margny:23 - Venette - Margny - Clairoix",
+        "status": "done",
+        "type": "",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8170060175,
+            49.4267680121
+          ],
+          [
+            2.8170556365,
+            49.4267175358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-135.jpg",
+        "line": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8170060175,
+          49.4267680121
+        ]
+      }
+    }
+  ]
+}

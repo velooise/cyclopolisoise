@@ -1,157 +1,157 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C5.jpg",
-				"line": 62
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.581864843336575,
-					49.19729820251544
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "c5-1--la-bigue---four-a-chaux",
-				"line": 62,
-				"name": "C5 -1- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
-				"status": "planned",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-62"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5771201784930153,
-						49.19545382069809
-					],
-					[
-						2.5774477177017925,
-						49.19529637049584
-					],
-					[
-						2.5777598765493606,
-						49.195196564743355
-					],
-					[
-						2.577943001273581,
-						49.195366588290774
-					],
-					[
-						2.577933310782283,
-						49.195589792842846
-					],
-					[
-						2.578199936467638,
-						49.19611596848776
-					],
-					[
-						2.578510536715847,
-						49.19645627332109
-					],
-					[
-						2.57893726767529,
-						49.196653234460705
-					],
-					[
-						2.5806884635710863,
-						49.197026002631034
-					],
-					[
-						2.58234139899803,
-						49.197403230688415
-					],
-					[
-						2.583507000367335,
-						49.19771447629779
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "c5-2--la-bigue---four-a-chaux",
-				"line": 62,
-				"name": "C5 -2- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-62"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5835994953232957,
-						49.19775793129771
-					],
-					[
-						2.5848500370451846,
-						49.1982172649479
-					],
-					[
-						2.5853478934480263,
-						49.198178068884665
-					],
-					[
-						2.5855968216494327,
-						49.19823922957056
-					],
-					[
-						2.5857243286323732,
-						49.19839673402771
-					],
-					[
-						2.5862315231539426,
-						49.19893871677267
-					],
-					[
-						2.5867690729796595,
-						49.199350354194884
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "c5-3--la-bigue---four-a-chaux",
-				"line": 62,
-				"name": "C5 -3- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
-				"status": "planned",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-62"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.586872421452741,
-						49.199419768762034
-					],
-					[
-						2.5875205504407095,
-						49.199546299773324
-					],
-					[
-						2.589089838964963,
-						49.19989159394473
-					],
-					[
-						2.5922019003354784,
-						49.199722301543645
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C5.jpg",
+        "line": 62
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.581864843336575,
+          49.19729820251544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c5-1--la-bigue---four-a-chaux",
+        "line": 62,
+        "name": "C5 -1- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5771201784930153,
+            49.19545382069809
+          ],
+          [
+            2.5774477177017925,
+            49.19529637049584
+          ],
+          [
+            2.5777598765493606,
+            49.195196564743355
+          ],
+          [
+            2.577943001273581,
+            49.195366588290774
+          ],
+          [
+            2.577933310782283,
+            49.195589792842846
+          ],
+          [
+            2.578199936467638,
+            49.19611596848776
+          ],
+          [
+            2.578510536715847,
+            49.19645627332109
+          ],
+          [
+            2.57893726767529,
+            49.196653234460705
+          ],
+          [
+            2.5806884635710863,
+            49.197026002631034
+          ],
+          [
+            2.58234139899803,
+            49.197403230688415
+          ],
+          [
+            2.583507000367335,
+            49.19771447629779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c5-2--la-bigue---four-a-chaux",
+        "line": 62,
+        "name": "C5 -2- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5835994953232957,
+            49.19775793129771
+          ],
+          [
+            2.5848500370451846,
+            49.1982172649479
+          ],
+          [
+            2.5853478934480263,
+            49.198178068884665
+          ],
+          [
+            2.5855968216494327,
+            49.19823922957056
+          ],
+          [
+            2.5857243286323732,
+            49.19839673402771
+          ],
+          [
+            2.5862315231539426,
+            49.19893871677267
+          ],
+          [
+            2.5867690729796595,
+            49.199350354194884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c5-3--la-bigue---four-a-chaux",
+        "line": 62,
+        "name": "C5 -3- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.586872421452741,
+            49.199419768762034
+          ],
+          [
+            2.5875205504407095,
+            49.199546299773324
+          ],
+          [
+            2.589089838964963,
+            49.19989159394473
+          ],
+          [
+            2.5922019003354784,
+            49.199722301543645
+          ]
+        ]
+      }
+    }
+  ]
 }

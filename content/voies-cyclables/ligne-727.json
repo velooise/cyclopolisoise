@@ -1,37 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-727.jpg",
-				"line": 727
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4609290741325935,
-          49.31317899391303
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "cheminement-menant-au-parc-de-chédeville-127-133",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-727.jpg",
+        "line": 727
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4609290741325935,
+          49.31317899391303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cheminement-menant-au-parc-de-chédeville-127-133",
         "line": 727,
         "name": "Cheminement menant au Parc de Chédeville-127-133",
         "status": "wip",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-727"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-      [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.460873627476417,
             49.31870021294054
           ],
@@ -51,9 +50,8 @@
             2.461419861648352,
             49.31293483501773
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

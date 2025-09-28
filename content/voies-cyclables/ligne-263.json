@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-263.jpg",
-				"line": 263
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.64593977816088,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-263.jpg",
+        "line": 263
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.64593977816088,
           49.232639447120306
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "263-Liaison-63-01",
-                "line": 263,
-                "name": "Liaison 63-01 - Ognon – Chaussée Brunehaut",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "263-Liaison-63-01",
+        "line": 263,
+        "name": "Liaison 63-01 - Ognon – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6447442023081464,
             49.236330203562346
           ],
@@ -39,23 +38,23 @@
             2.6450850233288747,
             49.23546730195275
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "263-Liaison-63-02",
-                "line": 263,
-                "name": "Liaison 63-02 - Ognon – Chaussée Brunehaut",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "263-Liaison-63-02",
+        "line": 263,
+        "name": "Liaison 63-02 - Ognon – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-263"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6450954563870255,
             49.23546957254757
           ],
@@ -107,10 +106,8 @@
             2.6512734712858332,
             49.22892456292615
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-761.jpg",
-				"line": 761
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.44549329634026,
-          49.32493512233523
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "pl-de-la-gare-161-1",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-761.jpg",
+        "line": 761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.44549329634026,
+          49.32493512233523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pl-de-la-gare-161-1",
         "line": 761,
         "name": "PL DE LA GARE 161.1",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-761"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.44349441273809,
             49.32816768618119
           ],
@@ -40,25 +38,23 @@
             2.445253803180833,
             49.32467494635367
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "pl-de-la-gare-161-2",
+        "id": "pl-de-la-gare-161-2",
         "line": 761,
         "name": "PL DE LA GARE 161.2",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-761"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4442358695123403,
             49.32667826360597
           ],
@@ -66,9 +62,8 @@
             2.4420802806628785,
             49.32617093781175
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

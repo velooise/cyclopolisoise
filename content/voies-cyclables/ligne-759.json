@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-159.jpg",
-				"line": 759
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.439302842099522,
-          49.32608652213696
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "clos-du-chateau-159",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-159.jpg",
+        "line": 759
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.439302842099522,
+          49.32608652213696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "clos-du-chateau-159",
         "line": 759,
         "name": "159 CLOS DU CHATEAU Goulotte",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-759"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-   [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4393457574441584,
             49.326058551917896
           ],
@@ -44,9 +42,8 @@
             2.439420859296007,
             49.3255061368329
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

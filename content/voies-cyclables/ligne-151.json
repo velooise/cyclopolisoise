@@ -1,52 +1,77 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC3003",
-                "line": 151,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8169293189,49.4077708783],[2.8171354898,49.4076387853],[2.8178425172,49.4071962746]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC3004",
-                "line": 151,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8178425172,49.4071962746],[2.8185365994,49.4067431575],[2.8186533707,49.406679231]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-151.jpg",
-				"line": 151
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8178425172,49.4071962746
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC3003",
+        "line": 151,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8169293189,
+            49.4077708783
+          ],
+          [
+            2.8171354898,
+            49.4076387853
+          ],
+          [
+            2.8178425172,
+            49.4071962746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC3004",
+        "line": 151,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8178425172,
+            49.4071962746
+          ],
+          [
+            2.8185365994,
+            49.4067431575
+          ],
+          [
+            2.8186533707,
+            49.406679231
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-151.jpg",
+        "line": 151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8178425172,
+          49.4071962746
+        ]
+      }
+    }
+  ]
+}

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-4.jpg",
-				"line": 604
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.448618545989035,
-          49.34094091350153
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "chemin-des-etangs-4",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-4.jpg",
+        "line": 604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.448618545989035,
+          49.34094091350153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chemin-des-etangs-4",
         "line": 604,
         "name": "Chemin des Etangs-4",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-604"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.443409622393631,
             49.350100130770926
           ],
@@ -48,9 +46,8 @@
             2.4513221483945813,
             49.336137520121696
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

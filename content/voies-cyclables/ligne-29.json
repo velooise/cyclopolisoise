@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-72p.jpg",
-				"line": 29
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-		          2.4964142981540363,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-72p.jpg",
+        "line": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4964142981540363,
           49.1893804406437
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72-23-24-25",
-                "line": 29,
-                "name": "Chantilly vers le chateau",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-         [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-chantilly-avilly-st-leonard-72-23-24-25",
+        "line": 29,
+        "name": "Chantilly vers le chateau",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4612366030586372,
             49.18615385050143
           ],
@@ -71,23 +70,23 @@
             2.484612898171747,
             49.18959370190916
           ]
-                ]
-            }
-        },
-	 {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72-20-21",
-                "line": 29,
-                "name": "Chantilly vers le chateau",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-            [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-chantilly-avilly-st-leonard-72-20-21",
+        "line": 29,
+        "name": "Chantilly vers le chateau",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.48503612409354,
             49.18977601850642
           ],
@@ -123,22 +122,22 @@
             2.50694493754483,
             49.19205738635898
           ]
-                ]
-            }
-        },
-	 {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72-01",
-                "line": 29,
-                "name": "Dans Avilly",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-chantilly-avilly-st-leonard-72-01",
+        "line": 29,
+        "name": "Dans Avilly",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.5072673434347905,
             49.19202193809423
@@ -147,23 +146,23 @@
             2.5124482677682636,
             49.19066311683136
           ]
-                ]
-            }
-        },
-	 {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72-15-14",
-                "line": 29,
-                "name": "Vers Saint Léonard",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-            [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-chantilly-avilly-st-leonard-72-15-14",
+        "line": 29,
+        "name": "Vers Saint Léonard",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5126868629681667,
             49.19059628859304
           ],
@@ -187,23 +186,23 @@
             2.5366067578712546,
             49.190739554859135
           ]
-                ]
-            }
-        },
-	{
-            "type": "Feature",
-            "properties": {
-                "id": "gare-chantilly-avilly-st-leonard-72-13",
-                "line": 29,
-                "name": "Direction Courteuil",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-chantilly-avilly-st-leonard-72-13",
+        "line": 29,
+        "name": "Direction Courteuil",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.537136350047689,
             49.19369714423419
           ],
@@ -215,10 +214,8 @@
             2.5366308302427,
             49.190739554859135
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

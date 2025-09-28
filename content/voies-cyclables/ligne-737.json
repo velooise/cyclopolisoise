@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-137.jpg",
-				"line": 737
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4727734402069643,
-          49.314892602515215
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-l'eglise-137",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-137.jpg",
+        "line": 737
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4727734402069643,
+          49.314892602515215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-l'eglise-137",
         "line": 737,
         "name": "137 - Rue de l'Eglise",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-737"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4725276537541845,
             49.31564275757327
           ],
@@ -52,9 +50,8 @@
             2.471957876067421,
             49.31475422314949
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "852-kml_53",
-                "line": 852,
-                "name": "kml_53",
-                "status": "planned",
-                "type": "autre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-852"
-            },
-		"geometry": 
-		{"coordinates":[[2.4262144325403,49.2193162964163,0],[2.42639767678223,49.2193765046342,0],[2.42656293064491,49.2194501124665,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 852
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4262144325403,49.2193162964163
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "852-kml_53",
+        "line": 852,
+        "name": "kml_53",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-852"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.4262144325403,
+            49.2193162964163,
+            0
+          ],
+          [
+            2.42639767678223,
+            49.2193765046342,
+            0
+          ],
+          [
+            2.42656293064491,
+            49.2194501124665,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 852
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4262144325403,
+          49.2193162964163
+        ]
+      }
+    }
+  ]
+}

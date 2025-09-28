@@ -1,36 +1,35 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-30.jpg",
-				"line": 23
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.5916267461060727,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-30.jpg",
+        "line": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5916267461060727,
           49.11008427698897
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "mortefontaine-collège-lycée-plailly-30-08",
-                "line": 23,
-                "name": "MORTEFONTAINE collège lycée - PLAILLY",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-08",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.582549298844185,
             49.10421608517305
@@ -39,23 +38,23 @@
             2.587025160298367,
             49.106224438839064
           ]
-                ]
-            }
-        },
-	      {
-            "type": "Feature",
-            "properties": {
-                "id": "mortefontaine-collège-lycée-plailly-30-05",
-                "line": 23,
-                "name": "MORTEFONTAINE collège lycée - PLAILLY",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-05",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5872263226111443,
             49.10629028512409
           ],
@@ -67,24 +66,23 @@
             2.588181843596743,
             49.10764011470971
           ]
- 
-                ]
-            }
-        },
-	          {
-            "type": "Feature",
-            "properties": {
-                "id": "mortefontaine-collège-lycée-plailly-30-01",
-                "line": 23,
-                "name": "MORTEFONTAINE collège lycée - PLAILLY",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-01",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.588220049759343,
             49.10763056521253
           ],
@@ -128,24 +126,23 @@
             2.59770784516968,
             49.11313419504816
           ]
-
-                ]
-            }
-        },
-	          {
-            "type": "Feature",
-            "properties": {
-                "id": "mortefontaine-collège-lycée-plailly-30-00",
-                "line": 23,
-                "name": "MORTEFONTAINE collège lycée - PLAILLY",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-           [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-00",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.597829508239215,
             49.11313628834748
           ],
@@ -173,24 +170,23 @@
             2.599452349656417,
             49.11254614114526
           ]
- 
-                ]
-            }
-        },
-	             {
-            "type": "Feature",
-            "properties": {
-                "id": "mortefontaine-collège-lycée-plailly-30",
-                "line": 23,
-                "name": "MORTEFONTAINE collège lycée - PLAILLY",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-         [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-23"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.599447826524937,
             49.11254645092666
           ],
@@ -218,11 +214,8 @@
             2.6011509710677387,
             49.116051293274154
           ]
- 
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-155.jpg",
-				"line": 755
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.472349829298736,
-          49.28625741302076
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-la-passerelle-155",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-155.jpg",
+        "line": 755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.472349829298736,
+          49.28625741302076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-la-passerelle-155",
         "line": 755,
         "name": "155 Rue de la Passerelle",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-755"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4727407225096556,
             49.28703343196287
           ],
@@ -48,25 +46,23 @@
             2.471892666930529,
             49.286228378317844
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-caucriaumont-(d62)-151",
+        "id": "rue-de-caucriaumont-(d62)-151",
         "line": 751,
         "name": "141 - Chemin entre Monchy-Saint-Eloi et Nogent-Sur-Oise (Passerelle)",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-751"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-[
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4727407225096556,
             49.28703343196287
           ],
@@ -82,9 +78,8 @@
             2.471892666930529,
             49.286228378317844
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

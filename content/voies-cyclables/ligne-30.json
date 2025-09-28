@@ -1,123 +1,123 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-73.jpg",
-				"line": 30
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.432798799936222,
-					49.17991193562568
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux-cente-nautique---lamorlaye-73-03-04-05",
-				"line": 30,
-				"name": "Rd Point du Mont de Po à f.Mathet (73-03-04-05)",
-				"status": "planned",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-30"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.447754887130287,
-						49.16633657243577
-					],
-					[
-						2.444933708003532,
-						49.16838905115688
-					],
-					[
-						2.4425893478833416,
-						49.170116704633415
-					],
-					[
-						2.4388146143049028,
-						49.17287039147689
-					],
-					[
-						2.4358344955078337,
-						49.17562396733467
-					],
-					[
-						2.434761652846504,
-						49.176701976167664
-					],
-					[
-						2.4335696053279037,
-						49.17906572139202
-					],
-					[
-						2.432138535757815,
-						49.18067164285782
-					],
-					[
-						2.431800788960885,
-						49.18147682284203
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux-cente-nautique---lamorlaye-73-02",
-				"line": 30,
-				"name": "De la cavée de Paris (73-02)",
-				"status": "done",
-				"doneAt": "01/10/2016",
-				"type": "bidirectionnelle",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-30"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.4318703019793304,
-						49.181521636022126
-					],
-					[
-						2.4316280851217016,
-						49.185031129133904
-					],
-					[
-						2.431506976692276,
-						49.18629765199242
-					],
-					[
-						2.431506976692276,
-						49.1865351214193
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux-centre-nautique-73-01",
-				"line": 30,
-				"name": "Pistes sur trottoir autour de l'accès à la piscine",
-				"status": "done",
-				"doneAt": "01/10/2016",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
-				"quality": "unsatisfactory"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					   [
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-73.jpg",
+        "line": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.432798799936222,
+          49.17991193562568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-cente-nautique---lamorlaye-73-03-04-05",
+        "line": 30,
+        "name": "Rd Point du Mont de Po à f.Mathet (73-03-04-05)",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.447754887130287,
+            49.16633657243577
+          ],
+          [
+            2.444933708003532,
+            49.16838905115688
+          ],
+          [
+            2.4425893478833416,
+            49.170116704633415
+          ],
+          [
+            2.4388146143049028,
+            49.17287039147689
+          ],
+          [
+            2.4358344955078337,
+            49.17562396733467
+          ],
+          [
+            2.434761652846504,
+            49.176701976167664
+          ],
+          [
+            2.4335696053279037,
+            49.17906572139202
+          ],
+          [
+            2.432138535757815,
+            49.18067164285782
+          ],
+          [
+            2.431800788960885,
+            49.18147682284203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-cente-nautique---lamorlaye-73-02",
+        "line": 30,
+        "name": "De la cavée de Paris (73-02)",
+        "status": "done",
+        "doneAt": "01/10/2016",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4318703019793304,
+            49.181521636022126
+          ],
+          [
+            2.4316280851217016,
+            49.185031129133904
+          ],
+          [
+            2.431506976692276,
+            49.18629765199242
+          ],
+          [
+            2.431506976692276,
+            49.1865351214193
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-centre-nautique-73-01",
+        "line": 30,
+        "name": "Pistes sur trottoir autour de l'accès à la piscine",
+        "status": "done",
+        "doneAt": "01/10/2016",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "quality": "unsatisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.429762538632417,
             49.18759416656869
           ],
@@ -141,25 +141,25 @@
             2.431337112959767,
             49.18651878504943
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux-centre-nautique-73-01",
-				"line": 30,
-				"name": "Pistes sur trottoir autour de l'accès à la piscine",
-				"status": "done",
-				"doneAt": "01/10/2016",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
-				"quality": "unsatisfactory"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-		        [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-centre-nautique-73-01",
+        "line": 30,
+        "name": "Pistes sur trottoir autour de l'accès à la piscine",
+        "status": "done",
+        "doneAt": "01/10/2016",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "quality": "unsatisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4337025821285465,
             49.18786826277875
           ],
@@ -183,25 +183,25 @@
             2.4342923103411636,
             49.18639973332802
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux-centre-nautique-73-01",
-				"line": 30,
-				"name": "Pistes sur trottoir autour de l'accès à la piscine",
-				"status": "done",
-				"doneAt": "01/10/2016",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-30",
-				"quality": "unsatisfactory"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-		          [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-centre-nautique-73-01",
+        "line": 30,
+        "name": "Pistes sur trottoir autour de l'accès à la piscine",
+        "status": "done",
+        "doneAt": "01/10/2016",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "quality": "unsatisfactory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4331010594455904,
             49.18809181421531
           ],
@@ -237,8 +237,8 @@
             2.4339081597408097,
             49.18938238995864
           ]
-				]
-			}
-		}
-	]
+        ]
+      }
+    }
+  ]
 }

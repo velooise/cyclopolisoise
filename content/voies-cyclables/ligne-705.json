@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-105.jpg",
-				"line": 705
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.451553136245508,
-          49.30646187983305
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-vieux-fort-105",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-105.jpg",
+        "line": 705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.451553136245508,
+          49.30646187983305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-du-vieux-fort-105",
         "line": 705,
         "name": "105 - Rue du Vieux Fort",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-705"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.451016694442444,
             49.30795885973919
@@ -48,9 +46,8 @@
             2.4511561693113606,
             49.30562243194504
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

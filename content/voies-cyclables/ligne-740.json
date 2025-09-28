@@ -1,36 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-140.jpg",
-				"line": 740
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4722649312136014,
-          49.315561406595634
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-château-d'eau-140",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-140.jpg",
+        "line": 740
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4722649312136014,
+          49.315561406595634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-du-château-d'eau-140",
         "line": 740,
         "name": "140 - Rue du Château d'Eau",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-740"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
+        "type": "LineString",
+        "coordinates": [
           [
             2.4713958954921793,
             49.31538655509871
@@ -47,9 +46,8 @@
             2.4738313412780712,
             49.31660350864334
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

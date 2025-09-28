@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-21.jpg",
-				"line": 18
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.515475259572753,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-21.jpg",
+        "line": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.515475259572753,
           49.1425832722978
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "orry-la-ville-centre---montgresin-21-01",
-                "line": 18,
-                "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                  [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "orry-la-ville-centre---montgresin-21-01",
+        "line": 18,
+        "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5131221332442237,
             49.13262780713373
           ],
@@ -47,22 +46,22 @@
             2.513723807420945,
             49.13792911252898
           ]
-                ]
-            }
-        },
-	 {
-            "type": "Feature",
-            "properties": {
-                "id": "orry-la-ville-centre---montgresin-21-05",
-                "line": 18,
-                "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "orry-la-ville-centre---montgresin-21-05",
+        "line": 18,
+        "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.5137371779768216,
             49.137972850292755
@@ -119,10 +118,8 @@
             2.518555983602795,
             49.155083183647804
           ]
-                ]
-            }
-        }    
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,53 +1,49 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-531.jpg",
-				"line": 531
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				          2.6894372,
-              49.2554289
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "villeneuve->-usine-schluter",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-531.jpg",
+        "line": 531
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6894372,
+          49.2554289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "villeneuve->-usine-schluter",
         "line": 531,
         "name": "VILLENEUVE > Usine SCHLUTER",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-531"
-
       },
       "geometry": {
         "coordinates": [
-          
-            [
-              2.6843609,
-              49.2549987
-            ],
-            [
-              2.6894372,
-              49.2554289
-            ],
-            [
-              2.6948576,
-              49.255601
-            ]
-          
+          [
+            2.6843609,
+            49.2549987
+          ],
+          [
+            2.6894372,
+            49.2554289
+          ],
+          [
+            2.6948576,
+            49.255601
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

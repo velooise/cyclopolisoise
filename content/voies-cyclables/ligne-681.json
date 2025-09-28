@@ -1,37 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-81.jpg",
-				"line": 681
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.507709883156082,
-          49.35089801885749
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "d59-labruyère---rosoy-81",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-81.jpg",
+        "line": 681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.507709883156082,
+          49.35089801885749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "d59-labruyère---rosoy-81",
         "line": 681,
         "name": "D59 Labruyère - Rosoy",
         "status": "planned",
         "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-681"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.50318928608246,
             49.34933132336576
           ],
@@ -63,23 +62,22 @@
             2.5074409784459135,
             49.35093437512276
           ]
-         ]
+        ]
       }
-    },{
+    },
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-colonel-fabien-(d59)-84",
+        "id": "rue-du-colonel-fabien-(d59)-84",
         "line": 681,
         "name": "84 - Rue du Colonel Fabien (D59)",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-684"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.5074639010984185,
             49.3509383597889
@@ -104,25 +102,23 @@
             2.5108958807933277,
             49.35145542368633
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-marais-85",
+        "id": "rue-du-marais-85",
         "line": 681,
         "name": "85 - Rue du Marais",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-685"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5077747417585954,
             49.35099351145075
           ],
@@ -138,25 +134,23 @@
             2.510061930652853,
             49.35014999979697
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "voirie-crinquille-86",
+        "id": "voirie-crinquille-86",
         "line": 681,
         "name": "86 - Voirie Crinquille",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-686"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.518920770594889,
             49.35296124597923
           ],
@@ -172,9 +166,8 @@
             2.5203799183628632,
             49.34970035280841
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

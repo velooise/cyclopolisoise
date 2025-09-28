@@ -1,61 +1,57 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-513.jpg",
-				"line": 513
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					   2.565009908506368,
-              49.351757671443764
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "st-martin-longueau-<>-sacy-le-grand",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-513.jpg",
+        "line": 513
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.565009908506368,
+          49.351757671443764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "st-martin-longueau-<>-sacy-le-grand",
         "line": 513,
         "name": "ST-MARTIN-LONGUEAU <> SACY-LE-GRAND",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-513"
-
       },
       "geometry": {
         "coordinates": [
-          
-    [
-              2.5388922959672837,
-              49.359173708482096
-            ],
-            [
-              2.5449063121613857,
-              49.35262493645587
-            ],
-            [
-              2.565009908506368,
-              49.351757671443764
-            ],
-            [
-              2.58778065485216,
-              49.34795000710047
-            ],
-            [
-              2.598611982987208,
-              49.34596363032974
-            ]
-          
+          [
+            2.5388922959672837,
+            49.359173708482096
+          ],
+          [
+            2.5449063121613857,
+            49.35262493645587
+          ],
+          [
+            2.565009908506368,
+            49.351757671443764
+          ],
+          [
+            2.58778065485216,
+            49.34795000710047
+          ],
+          [
+            2.598611982987208,
+            49.34596363032974
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

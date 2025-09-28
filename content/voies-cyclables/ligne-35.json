@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature", 
+      "type": "Feature",
       "properties": {
         "type": "perspective",
         "name": "Point Central",
@@ -395,7 +395,7 @@
     },
     {
       "type": "Feature",
-       "properties": {
+      "properties": {
         "id": "lam-coye",
         "line": 35,
         "name": "Lamorlaye Coye",

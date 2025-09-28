@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-18.jpg",
-				"line": 618
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.455591342466647,
-          49.344980673508985
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-du-clos-de-saveuse-18",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-18.jpg",
+        "line": 618
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.455591342466647,
+          49.344980673508985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-du-clos-de-saveuse-18",
         "line": 618,
         "name": "18-Rue du Clos de Saveuse",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-618"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-             [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.453863484819607,
             49.34461709059508
           ],
@@ -40,9 +38,8 @@
             2.457405056393924,
             49.34540018891681
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

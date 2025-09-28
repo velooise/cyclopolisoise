@@ -1,38 +1,37 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-22.jpg",
-				"line": 19
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				          2.4958993954506354,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-22.jpg",
+        "line": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4958993954506354,
           49.138773518929156
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-de-coye-orry---orry-la-ville-22",
-                "line": 19,
-                "name": "GARE DE COYE ORRY - ORRY LA VILLE",
-                "status": "done",
-		"doneAt": "01/07/2024",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-19"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-de-coye-orry---orry-la-ville-22",
+        "line": 19,
+        "name": "GARE DE COYE ORRY - ORRY LA VILLE",
+        "status": "done",
+        "doneAt": "01/07/2024",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-19"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4916147495774226,
             49.138917700319354
           ],
@@ -56,22 +55,22 @@
             2.4902935959645447,
             49.138967374702304
           ]
-                ]
-            }
-        },
-	       {
-            "type": "Feature",
-            "properties": {
-                "id": "gare-de-coye-orry---orry-la-ville-22-01",
-                "line": 19,
-                "name": "GARE DE COYE ORRY - ORRY LA VILLE",
-                "status": "wip",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-19"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gare-de-coye-orry---orry-la-ville-22-01",
+        "line": 19,
+        "name": "GARE DE COYE ORRY - ORRY LA VILLE",
+        "status": "wip",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-19"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.491628731016135,
             49.13892090825959
@@ -112,10 +111,8 @@
             2.5070245536699645,
             49.13602012659018
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

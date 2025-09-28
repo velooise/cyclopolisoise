@@ -1,77 +1,73 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-511.jpg",
-				"line": 511
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					    2.574268950207337,
-              49.32727805791679
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "monceaux->-le-rocher",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-511.jpg",
+        "line": 511
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.574268950207337,
+          49.32727805791679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monceaux->-le-rocher",
         "line": 511,
         "name": "MONCEAUX > LE ROCHER",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-511"
-
       },
       "geometry": {
         "coordinates": [
-          
-            [
-              2.54833735295887,
-              49.317476619457295
-            ],
-            [
-              2.552109478500646,
-              49.32281142614559
-            ],
-            [
-              2.5572594284736594,
-              49.32542760503065
-            ],
-            [
-              2.560251506197866,
-              49.32282779556883
-            ],
-            [
-              2.574268950207337,
-              49.32727805791679
-            ],
-            [
-              2.5890602071046844,
-              49.329603652932306
-            ],
-            [
-              2.5953770683407402,
-              49.330364731226965
-            ],
-            [
-              2.5999224853745773,
-              49.33124743560303
-            ],
-            [
-              2.602618587188472,
-              49.332029729614234
-            ]
-          
+          [
+            2.54833735295887,
+            49.317476619457295
+          ],
+          [
+            2.552109478500646,
+            49.32281142614559
+          ],
+          [
+            2.5572594284736594,
+            49.32542760503065
+          ],
+          [
+            2.560251506197866,
+            49.32282779556883
+          ],
+          [
+            2.574268950207337,
+            49.32727805791679
+          ],
+          [
+            2.5890602071046844,
+            49.329603652932306
+          ],
+          [
+            2.5953770683407402,
+            49.330364731226965
+          ],
+          [
+            2.5999224853745773,
+            49.33124743560303
+          ],
+          [
+            2.602618587188472,
+            49.332029729614234
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

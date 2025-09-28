@@ -1,37 +1,57 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "912-kml_113",
-                "line": 912,
-                "name": "kml_113",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-912"
-            },
-		"geometry": 
-		{"coordinates":[[2.48322839718587,49.2521436213343,0],[2.48330121714015,49.2521403372935,0],[2.48378476543545,49.2521271246658,0],[2.4839069696546,49.2521294455756,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 912
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.48322839718587,49.2521436213343
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "912-kml_113",
+        "line": 912,
+        "name": "kml_113",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-912"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.48322839718587,
+            49.2521436213343,
+            0
+          ],
+          [
+            2.48330121714015,
+            49.2521403372935,
+            0
+          ],
+          [
+            2.48378476543545,
+            49.2521271246658,
+            0
+          ],
+          [
+            2.4839069696546,
+            49.2521294455756,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.48322839718587,
+          49.2521436213343
+        ]
+      }
+    }
+  ]
+}

@@ -1,61 +1,57 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-510.jpg",
-				"line": 510
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.5921168934628014,
-              49.31397919212905
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "les-ageux->-gare-de-pont-ste-maxence",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-510.jpg",
+        "line": 510
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5921168934628014,
+          49.31397919212905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "les-ageux->-gare-de-pont-ste-maxence",
         "line": 510,
         "name": "LES AGEUX > GARE DE PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-510"
-
       },
       "geometry": {
         "coordinates": [
-          
-            [
-              2.5680411010641486,
-              49.325321483470454
-            ],
-            [
-              2.588712468908899,
-              49.31965458825855
-            ],
-            [
-              2.5921168934628014,
-              49.31397919212905
-            ],
-            [
-              2.5973435256453627,
-              49.31566010243683
-            ],
-            [
-              2.604029324678086,
-              49.317671994859616
-            ]
-          
+          [
+            2.5680411010641486,
+            49.325321483470454
+          ],
+          [
+            2.588712468908899,
+            49.31965458825855
+          ],
+          [
+            2.5921168934628014,
+            49.31397919212905
+          ],
+          [
+            2.5973435256453627,
+            49.31566010243683
+          ],
+          [
+            2.604029324678086,
+            49.317671994859616
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

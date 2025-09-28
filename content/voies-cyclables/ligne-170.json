@@ -1,37 +1,45 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC590",
-                "line": 170,
-                "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen:18 - Les Lycées - tranche 1",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8031691322,49.3935606029],[2.8033158283,49.3935470339]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-170.jpg",
-				"line": 170
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8031691322,49.3935606029
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC590",
+        "line": 170,
+        "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen:18 - Les Lycées - tranche 1",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8031691322,
+            49.3935606029
+          ],
+          [
+            2.8033158283,
+            49.3935470339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-170.jpg",
+        "line": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8031691322,
+          49.3935606029
+        ]
+      }
+    }
+  ]
+}

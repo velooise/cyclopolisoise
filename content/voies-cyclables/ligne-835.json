@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "835-kml_36",
-                "line": 835,
-                "name": "kml_36",
-                "status": "planned",
-                "type": "autre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-835"
-            },
-		"geometry": 
-		{"coordinates":[[2.4660359335086,49.259016179279,0],[2.46597923136181,49.2590536859798,0],[2.46534324679147,49.259721517231,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 835
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4660359335086,49.259016179279
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "835-kml_36",
+        "line": 835,
+        "name": "kml_36",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-835"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.4660359335086,
+            49.259016179279,
+            0
+          ],
+          [
+            2.46597923136181,
+            49.2590536859798,
+            0
+          ],
+          [
+            2.46534324679147,
+            49.259721517231,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 835
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4660359335086,
+          49.259016179279
+        ]
+      }
+    }
+  ]
+}

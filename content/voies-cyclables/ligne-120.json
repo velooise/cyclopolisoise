@@ -1,82 +1,193 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1303",
-                "line": 120,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "planned",
-                "type": "",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.7675716546,49.3527580947],[2.7682677961,49.3526777135],[2.7683178651,49.3526766202],[2.768354251,49.3526820417],[2.7683942512,49.3526934164],[2.7684165124,49.3527097157]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1304",
-                "line": 120,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "planned",
-                "type": "",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.7684165124,49.3527097157],[2.7680952579,49.3527577118],[2.7679016898,49.3527834122],[2.7676457371,49.3528137306],[2.7669622791,49.3529139391],[2.7663869759,49.3529993658],[2.7662277507,49.3530230614],[2.7659521713,49.3530580114]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1305",
-                "line": 120,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "planned",
-                "type": "",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.7659521713,49.3530580114],[2.7656826423,49.3530973558],[2.7655006913,49.3531297728],[2.7653817276,49.3531527105],[2.765257861,49.3531789296],[2.7651355393,49.3532121131],[2.7648659576,49.3533016466]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1306",
-                "line": 120,
-                "name": "10 - Lacroix - Le Meux",
-                "status": "planned",
-                "type": "",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.7679016898,49.3527834122],[2.7678494588,49.3528349385],[2.7678059517,49.3528818338],[2.7677315036,49.3529824633],[2.7677026394,49.3530527009],[2.7676907331,49.3531060976]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-120.jpg",
-				"line": 120
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7679016898,49.3527834122
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1303",
+        "line": 120,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "planned",
+        "type": "",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7675716546,
+            49.3527580947
+          ],
+          [
+            2.7682677961,
+            49.3526777135
+          ],
+          [
+            2.7683178651,
+            49.3526766202
+          ],
+          [
+            2.768354251,
+            49.3526820417
+          ],
+          [
+            2.7683942512,
+            49.3526934164
+          ],
+          [
+            2.7684165124,
+            49.3527097157
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1304",
+        "line": 120,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "planned",
+        "type": "",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.7684165124,
+            49.3527097157
+          ],
+          [
+            2.7680952579,
+            49.3527577118
+          ],
+          [
+            2.7679016898,
+            49.3527834122
+          ],
+          [
+            2.7676457371,
+            49.3528137306
+          ],
+          [
+            2.7669622791,
+            49.3529139391
+          ],
+          [
+            2.7663869759,
+            49.3529993658
+          ],
+          [
+            2.7662277507,
+            49.3530230614
+          ],
+          [
+            2.7659521713,
+            49.3530580114
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1305",
+        "line": 120,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "planned",
+        "type": "",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7659521713,
+            49.3530580114
+          ],
+          [
+            2.7656826423,
+            49.3530973558
+          ],
+          [
+            2.7655006913,
+            49.3531297728
+          ],
+          [
+            2.7653817276,
+            49.3531527105
+          ],
+          [
+            2.765257861,
+            49.3531789296
+          ],
+          [
+            2.7651355393,
+            49.3532121131
+          ],
+          [
+            2.7648659576,
+            49.3533016466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1306",
+        "line": 120,
+        "name": "10 - Lacroix - Le Meux",
+        "status": "planned",
+        "type": "",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7679016898,
+            49.3527834122
+          ],
+          [
+            2.7678494588,
+            49.3528349385
+          ],
+          [
+            2.7678059517,
+            49.3528818338
+          ],
+          [
+            2.7677315036,
+            49.3529824633
+          ],
+          [
+            2.7677026394,
+            49.3530527009
+          ],
+          [
+            2.7676907331,
+            49.3531060976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-120.jpg",
+        "line": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7679016898,
+          49.3527834122
+        ]
+      }
+    }
+  ]
+}

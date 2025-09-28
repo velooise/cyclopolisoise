@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-89.jpg",
-				"line": 689
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4528844602708944,
-          49.29279823789247
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "pl-de-la-gare-89",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-89.jpg",
+        "line": 689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4528844602708944,
+          49.29279823789247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pl-de-la-gare-89",
         "line": 689,
         "name": "89 - PL DE LA GARE",
         "status": "planned",
         "type": "voie-bus",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-689"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-             [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.448187817783065,
             49.29327530474586
           ],
@@ -40,9 +38,8 @@
             2.4484301942244997,
             49.2927929015313
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

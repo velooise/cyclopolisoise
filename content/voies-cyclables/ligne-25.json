@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg",
-				"line": 25
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					      2.539733725996541,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg",
+        "line": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.539733725996541,
           49.14173813809464
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "la-chapelle-en-serval---pontarme-53",
-                "line": 25,
-                "name": "53-LA CHAPELLE EN SERVAL - PONTARME",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "la-chapelle-en-serval---pontarme-53",
+        "line": 25,
+        "name": "53-LA CHAPELLE EN SERVAL - PONTARME",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5339937205448564,
             49.13107687782059
           ],
@@ -55,10 +54,8 @@
             2.5472689999204476,
             49.15122774897799
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

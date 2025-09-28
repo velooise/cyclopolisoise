@@ -1,81 +1,77 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-519.jpg",
-				"line": 519
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					  2.55232412911229,
-              49.30029023010167
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rieux-<>-brenouille-<>-pont-ste-maxence",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-519.jpg",
+        "line": 519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.55232412911229,
+          49.30029023010167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rieux-<>-brenouille-<>-pont-ste-maxence",
         "line": 519,
         "name": "RIEUX <> BRENOUILLE <> PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-519"
-
       },
       "geometry": {
         "coordinates": [
-          
           [
-              2.526848691242105,
-              49.30026527412952
-            ],
-            [
-              2.5386224873368413,
-              49.302147266083566
-            ],
-            [
-              2.542534684142541,
-              49.30235536247103
-            ],
-            [
-              2.55232412911229,
-              49.30029023010167
-            ],
-            [
-              2.559363153371835,
-              49.30223076687249
-            ],
-            [
-              2.567173928165605,
-              49.304109641355566
-            ],
-            [
-              2.581660664734092,
-              49.30370187466579
-            ],
-            [
-              2.590493,
-              49.3030081
-            ],
-            [
-              2.597013052425946,
-              49.303971251062244
-            ],
-            [
-              2.604191947574054,
-              49.303385721578856
-            ]
-          
+            2.526848691242105,
+            49.30026527412952
+          ],
+          [
+            2.5386224873368413,
+            49.302147266083566
+          ],
+          [
+            2.542534684142541,
+            49.30235536247103
+          ],
+          [
+            2.55232412911229,
+            49.30029023010167
+          ],
+          [
+            2.559363153371835,
+            49.30223076687249
+          ],
+          [
+            2.567173928165605,
+            49.304109641355566
+          ],
+          [
+            2.581660664734092,
+            49.30370187466579
+          ],
+          [
+            2.590493,
+            49.3030081
+          ],
+          [
+            2.597013052425946,
+            49.303971251062244
+          ],
+          [
+            2.604191947574054,
+            49.303385721578856
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

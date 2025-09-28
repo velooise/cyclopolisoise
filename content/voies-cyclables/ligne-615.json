@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-15.jpg",
-				"line": 615
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-   2.4596363235312424,
-          49.34338702619797
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-l'ourmelet-15",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-15.jpg",
+        "line": 615
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4596363235312424,
+          49.34338702619797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-l'ourmelet-15",
         "line": 615,
         "name": "Rue de l'Ourmelet-15",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-615"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-              [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4576723611128557,
             49.34504414489078
           ],
@@ -56,9 +54,8 @@
             2.460183657320158,
             49.34273674918626
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

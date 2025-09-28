@@ -1,37 +1,45 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC562",
-                "line": 166,
-                "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.7912157343,49.4050918182],[2.7927902324,49.4066657248]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-166.jpg",
-				"line": 166
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7912157343,49.4050918182
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC562",
+        "line": 166,
+        "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.7912157343,
+            49.4050918182
+          ],
+          [
+            2.7927902324,
+            49.4066657248
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-166.jpg",
+        "line": 166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7912157343,
+          49.4050918182
+        ]
+      }
+    }
+  ]
+}

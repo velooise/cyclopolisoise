@@ -4,8 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-   
-		"id": "235-Liaison35-01-Aumont-Senlis",
+        "id": "235-Liaison35-01-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-01 - Aumont - Senlis",
         "status": "planned",
@@ -53,8 +52,7 @@
     {
       "type": "Feature",
       "properties": {
-	
-		"id": "235-Liaison35-02-Aumont-Senlis",
+        "id": "235-Liaison35-02-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-02 - Aumont - Senlis",
         "status": "planned",
@@ -106,8 +104,7 @@
     {
       "type": "Feature",
       "properties": {
- 
-		"id": "235-Liaison35-03-04-Aumont-Senlis",
+        "id": "235-Liaison35-03-04-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-03-04 - Aumont - Senlis",
         "status": "planned",
@@ -172,12 +169,10 @@
         "type": "Point"
       }
     },
-  
     {
       "type": "Feature",
       "properties": {
- 
-		"id": "235-Liaison35-05-Aumont-Senlis",
+        "id": "235-Liaison35-05-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-05 - Aumont - Senlis",
         "status": "planned",
@@ -214,7 +209,7 @@
     {
       "type": "Feature",
       "properties": {
-		"id": "235-Liaison35-06-Aumont-Senlis",
+        "id": "235-Liaison35-06-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-06 - Aumont - Senlis",
         "status": "planned",

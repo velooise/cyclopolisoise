@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-20.jpg",
-				"line": 620
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4602976223907547,
-          49.339011690206036
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "ruelle-des-bouchers-/-chemin-rural-du-bois-de-louveaucourt-20",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-20.jpg",
+        "line": 620
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4602976223907547,
+          49.339011690206036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ruelle-des-bouchers-/-chemin-rural-du-bois-de-louveaucourt-20",
         "line": 620,
         "name": "Ruelle des Bouchers / Chemin rural du Bois de Louveaucourt",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-620"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4560168539151164,
             49.33750536963862
           ],
@@ -68,9 +66,8 @@
             2.46097707288385,
             49.34178779571923
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-125.jpg",
-				"line": 725
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.472665881530048,
-          49.31477787744495
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "accès-eglise-125",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-125.jpg",
+        "line": 725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.472665881530048,
+          49.31477787744495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "accès-eglise-125",
         "line": 725,
         "name": "Accès Eglise",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-725"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4725502374815846,
             49.315634070062345
           ],
@@ -47,10 +45,9 @@
           [
             2.472095921573441,
             49.31479403216056
-         ]
-			   ]	   
+          ]
+        ]
       }
     }
-]
+  ]
 }
-

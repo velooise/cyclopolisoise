@@ -1,84 +1,81 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-526.jpg",
-				"line": 526
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				        2.6243921,
-              49.2956949
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "pontpoint->-pont-ste-maxence",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-526.jpg",
+        "line": 526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6243921,
+          49.2956949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pontpoint->-pont-ste-maxence",
         "line": 526,
         "name": "PONTPOINT > PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-526"
-
       },
       "geometry": {
         "coordinates": [
-  [
-              2.6058078,
-              49.3001689
-            ],
-            [
-              2.6121747,
-              49.2985341
-            ],
-            [
-              2.6167347,
-              49.2972436
-            ],
-            [
-              2.621811,
-              49.2956949
-            ],
-            [
-              2.6243921,
-              49.2956949
-            ],
-            [
-              2.6253386,
-              49.2965552
-            ],
-            [
-              2.6265431,
-              49.2985341
-            ],
-            [
-              2.6287801,
-              49.2970715
-            ],
-            [
-              2.6365235,
-              49.2971575
-            ],
-            [
-              2.6439229,
-              49.295953
-            ],
-            [
-              2.6439229,
-              49.295953
-            ]
-          
+          [
+            2.6058078,
+            49.3001689
+          ],
+          [
+            2.6121747,
+            49.2985341
+          ],
+          [
+            2.6167347,
+            49.2972436
+          ],
+          [
+            2.621811,
+            49.2956949
+          ],
+          [
+            2.6243921,
+            49.2956949
+          ],
+          [
+            2.6253386,
+            49.2965552
+          ],
+          [
+            2.6265431,
+            49.2985341
+          ],
+          [
+            2.6287801,
+            49.2970715
+          ],
+          [
+            2.6365235,
+            49.2971575
+          ],
+          [
+            2.6439229,
+            49.295953
+          ],
+          [
+            2.6439229,
+            49.295953
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

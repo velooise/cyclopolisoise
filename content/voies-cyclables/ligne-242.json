@@ -1,77 +1,77 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-242.jpg",
-				"line": 242
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.6618948881907443,
-					49.22742538127167
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "242-Liaison42-01",
-				"line": 242,
-				"name": "Liaison 42-01 - Barbery – Chaussée Brunehaut",
-				"status": "planned",
-				"type": "voie-riverains",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-242"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.6581684934519103,
-						49.2306000863737
-					],
-					[
-						2.6594534571552515,
-						49.23046023581841
-					],
-					[
-						2.659581953526157,
-						49.230264444376445
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "242-Liaison42-02-03",
-				"line": 242,
-				"name": "Liaison 42--02-03 - Barbery – Chaussée Brunehaut",
-				"status": "planned",
-				"type": "pictogramme",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-242"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.6595819535243947,
-						49.23029241463075
-					],
-					[
-						2.662987107339802,
-						49.22602676803942
-					],
-					[
-						2.664678976216038,
-						49.224823928995676
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-242.jpg",
+        "line": 242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6618948881907443,
+          49.22742538127167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "242-Liaison42-01",
+        "line": 242,
+        "name": "Liaison 42-01 - Barbery – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-242"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6581684934519103,
+            49.2306000863737
+          ],
+          [
+            2.6594534571552515,
+            49.23046023581841
+          ],
+          [
+            2.659581953526157,
+            49.230264444376445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "242-Liaison42-02-03",
+        "line": 242,
+        "name": "Liaison 42--02-03 - Barbery – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "pictogramme",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-242"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6595819535243947,
+            49.23029241463075
+          ],
+          [
+            2.662987107339802,
+            49.22602676803942
+          ],
+          [
+            2.664678976216038,
+            49.224823928995676
+          ]
+        ]
+      }
+    }
+  ]
 }

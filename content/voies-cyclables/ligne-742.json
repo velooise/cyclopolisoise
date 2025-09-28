@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-142.jpg",
-				"line": 742
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.466838452882058,
-          49.29862123808459
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "d62-142",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-142.jpg",
+        "line": 742
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.466838452882058,
+          49.29862123808459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "d62-142",
         "line": 742,
         "name": "142 - D62",
         "status": "planned",
         "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-742"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.45966755349599,
             49.29365808255912
           ],
@@ -56,25 +54,23 @@
             2.4647530244368454,
             49.29762531232933
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "d62-143",
+        "id": "d62-143",
         "line": 742,
         "name": "143 - D62",
         "status": "planned",
         "type": "bandes-cyclables",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-743"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-             [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.464849583961069,
             49.297653298697156
           ],
@@ -98,10 +94,8 @@
             2.468848585937536,
             49.300701857659874
           ]
-         ]
+        ]
       }
     }
-	
-]
+  ]
 }
-

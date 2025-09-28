@@ -1,95 +1,93 @@
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C1.jpg",
-				"line": 58
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				 2.5762994259649474,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C1.jpg",
+        "line": 58
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5762994259649474,
           49.208299654108714
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "c1-1--val-d'aunette",
-                "line": 58,
-                "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",
-                "status": "planned",
-                "type": "imp+debouche-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-58"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                     [
-              2.5756257243329497,
-              49.20745740986728
-            ],
-            [
-              2.5759315547741672,
-              49.207862326655984
-            ],
-            [
-              2.576215180927412,
-              49.20823097733203
-            ],
-            [
-              2.5762558887912155,
-              49.20829383803861
-            ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "c1-2--val-d'aunette",
-                "line": 58,
-                "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-58"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                       [
-              2.577331022398675,
-              49.209273578614585
-            ],
-            [
-              2.577284472091529,
-              49.2090266266131
-            ],
-            [
-              2.5771787103473067,
-              49.20877967461162
-            ],
-            [
-              2.577100412592241,
-              49.20852512043379
-            ],
-            [
-              2.5767735841970407,
-              49.208156238927074
-            ],
-            [
-              2.5763222603910694,
-              49.20828884497275
-            ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c1-1--val-d'aunette",
+        "line": 58,
+        "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",
+        "status": "planned",
+        "type": "imp+debouche-cyclable",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-58"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5756257243329497,
+            49.20745740986728
+          ],
+          [
+            2.5759315547741672,
+            49.207862326655984
+          ],
+          [
+            2.576215180927412,
+            49.20823097733203
+          ],
+          [
+            2.5762558887912155,
+            49.20829383803861
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c1-2--val-d'aunette",
+        "line": 58,
+        "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-58"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.577331022398675,
+            49.209273578614585
+          ],
+          [
+            2.577284472091529,
+            49.2090266266131
+          ],
+          [
+            2.5771787103473067,
+            49.20877967461162
+          ],
+          [
+            2.577100412592241,
+            49.20852512043379
+          ],
+          [
+            2.5767735841970407,
+            49.208156238927074
+          ],
+          [
+            2.5763222603910694,
+            49.20828884497275
+          ]
+        ]
+      }
+    }
+  ]
 }
-
-

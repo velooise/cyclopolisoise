@@ -168,13 +168,13 @@
     {
       "type": "Feature",
       "properties": {
-		  "id": "a9-3--centre-ville---quartier-villemetrie-A9",
+        "id": "a9-3--centre-ville---quartier-villemetrie-A9",
         "line": 53,
         "name": "A9 -1- CENTRE-VILLE - QUARTIER VILLEMETRIE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-53"
-	  },
+      },
       "geometry": {
         "coordinates": [
           [

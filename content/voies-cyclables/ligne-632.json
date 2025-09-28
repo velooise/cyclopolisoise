@@ -1,113 +1,113 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "type": "perspective",
-                "name": "Point Repere",
-                "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-32.jpg",
-                "line": 632
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.4337427986899343,
-                    49.31114644496881
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "che-soutraine-a-sailleville-32",
-                "line": 632,
-                "name": "CHE SOUTRAINE A SAILLEVILLE",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4269421604984416,
-                        49.311699116935955
-                    ],
-                    [
-                        2.427884077145478,
-                        49.31157630147905
-                    ],
-                    [
-                        2.4290520537877285,
-                        49.31174824303304
-                    ],
-                    [
-                        2.431350330407099,
-                        49.3115640199164
-                    ],
-                    [
-                        2.4334413853633237,
-                        49.311551738351056
-                    ],
-                    [
-                        2.434194918680305,
-                        49.31152717521047
-                    ],
-                    [
-                        2.435061481995973,
-                        49.31091309272102
-                    ],
-                    [
-                        2.4377930402726804,
-                        49.308911130651836
-                    ],
-                    [
-                        2.438753795251756,
-                        49.30877602598696
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "cauffry-38-43-44",
-                "line": 632,
-                "name": "38-43 Cauffry Cavee Verte et Grande Rue",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
-            },
-            "geometry": {
-                "coordinates": [
-                    [
-                        2.426963247589157,
-                        49.31168989458567
-                    ],
-                    [
-                        2.4262524818210807,
-                        49.31221224663142
-                    ],
-                    [
-                        2.4261361746958983,
-                        49.31258294472306
-                    ],
-                    [
-                        2.426549711141803,
-                        49.31285254158314
-                    ],
-                    [
-                        2.428669085430414,
-                        49.31384666725228
-                    ],
-                    [
-                        2.4305558454672678,
-                        49.31495871626004
-                    ]
-                ],
-                "type": "LineString"
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-32.jpg",
+        "line": 632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4337427986899343,
+          49.31114644496881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "che-soutraine-a-sailleville-32",
+        "line": 632,
+        "name": "CHE SOUTRAINE A SAILLEVILLE",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4269421604984416,
+            49.311699116935955
+          ],
+          [
+            2.427884077145478,
+            49.31157630147905
+          ],
+          [
+            2.4290520537877285,
+            49.31174824303304
+          ],
+          [
+            2.431350330407099,
+            49.3115640199164
+          ],
+          [
+            2.4334413853633237,
+            49.311551738351056
+          ],
+          [
+            2.434194918680305,
+            49.31152717521047
+          ],
+          [
+            2.435061481995973,
+            49.31091309272102
+          ],
+          [
+            2.4377930402726804,
+            49.308911130651836
+          ],
+          [
+            2.438753795251756,
+            49.30877602598696
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cauffry-38-43-44",
+        "line": 632,
+        "name": "38-43 Cauffry Cavee Verte et Grande Rue",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.426963247589157,
+            49.31168989458567
+          ],
+          [
+            2.4262524818210807,
+            49.31221224663142
+          ],
+          [
+            2.4261361746958983,
+            49.31258294472306
+          ],
+          [
+            2.426549711141803,
+            49.31285254158314
+          ],
+          [
+            2.428669085430414,
+            49.31384666725228
+          ],
+          [
+            2.4305558454672678,
+            49.31495871626004
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
 }

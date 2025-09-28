@@ -1,201 +1,201 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-272.jpg",
-				"line": 272
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.5577781880054715,
-					49.19443059676081
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "272-Liaison-72-01-02",
-				"line": 272,
-				"name": "Liaison 72-01-02 - Senlis – Avilly-St-Leonard",
-				"status": "done",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-272"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.469639191226662,
-						49.203279198802704
-					],
-					[
-						2.4725317299099743,
-						49.20734215226361
-					],
-					[
-						2.4638952795354783,
-						49.209924975424144
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "272-Liaison-72-03",
-				"line": 272,
-				"name": "Liaison 72-03 - Senlis – Avilly-St-Leonard",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-272"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.56712046795343,
-						49.198652495933516
-					],
-					[
-						2.5663113014604733,
-						49.19810125280296
-					],
-					[
-						2.5657087306686037,
-						49.197921253715606
-					],
-					[
-						2.565106159875711,
-						49.19712249986196
-					],
-					[
-						2.564933996792206,
-						49.19663874125595
-					],
-					[
-						2.5660874894521726,
-						49.19630123245011
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "272-Liaiso-72-07",
-				"line": 272,
-				"name": "Liaison 72-07 - Senlis – Avilly-St-Leonard",
-				"status": "done",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-272"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5660874894521726,
-						49.1962562311019
-					],
-					[
-						2.5658464611346403,
-						49.19594122051856
-					],
-					[
-						2.5649512131004144,
-						49.19524368994482
-					],
-					[
-						2.565192241416952,
-						49.19505242984323
-					],
-					[
-						2.5648995641756756,
-						49.19486116900211
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "272-Liaiso-72-09-12",
-				"line": 272,
-				"name": "Liaison 72-09-12 - Senlis – Avilly-St-Leonard",
-				"status": "done",
-				"type": "voie-riverains",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-272"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5648306989416767,
-						49.19489492096909
-					],
-					[
-						2.564314209691048,
-						49.19479366499942
-					],
-					[
-						2.563436177964064,
-						49.19504117922605
-					],
-					[
-						2.561680114511148,
-						49.1947711636445
-					],
-					[
-						2.5611905822596555,
-						49.194679577620605
-					],
-					[
-						2.5575880625913783,
-						49.19379997343495
-					],
-					[
-						2.5558864742614276,
-						49.19343500652431
-					],
-					[
-						2.553471598440325,
-						49.193228037033634
-					],
-					[
-						2.552976746838425,
-						49.19302106667661
-					],
-					[
-						2.55216519020928,
-						49.19299519532126
-					],
-					[
-						2.5454328195118876,
-						49.19029127106026
-					],
-					[
-						2.5443897918325717,
-						49.19045166363762
-					],
-					[
-						2.5431627004444692,
-						49.19027122195163
-					],
-					[
-						2.540432422106818,
-						49.19027122195163
-					],
-					[
-						2.5365977615199427,
-						49.19077244723178
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-272.jpg",
+        "line": 272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5577781880054715,
+          49.19443059676081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "272-Liaison-72-01-02",
+        "line": 272,
+        "name": "Liaison 72-01-02 - Senlis – Avilly-St-Leonard",
+        "status": "done",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.469639191226662,
+            49.203279198802704
+          ],
+          [
+            2.4725317299099743,
+            49.20734215226361
+          ],
+          [
+            2.4638952795354783,
+            49.209924975424144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "272-Liaison-72-03",
+        "line": 272,
+        "name": "Liaison 72-03 - Senlis – Avilly-St-Leonard",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.56712046795343,
+            49.198652495933516
+          ],
+          [
+            2.5663113014604733,
+            49.19810125280296
+          ],
+          [
+            2.5657087306686037,
+            49.197921253715606
+          ],
+          [
+            2.565106159875711,
+            49.19712249986196
+          ],
+          [
+            2.564933996792206,
+            49.19663874125595
+          ],
+          [
+            2.5660874894521726,
+            49.19630123245011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "272-Liaiso-72-07",
+        "line": 272,
+        "name": "Liaison 72-07 - Senlis – Avilly-St-Leonard",
+        "status": "done",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5660874894521726,
+            49.1962562311019
+          ],
+          [
+            2.5658464611346403,
+            49.19594122051856
+          ],
+          [
+            2.5649512131004144,
+            49.19524368994482
+          ],
+          [
+            2.565192241416952,
+            49.19505242984323
+          ],
+          [
+            2.5648995641756756,
+            49.19486116900211
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "272-Liaiso-72-09-12",
+        "line": 272,
+        "name": "Liaison 72-09-12 - Senlis – Avilly-St-Leonard",
+        "status": "done",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5648306989416767,
+            49.19489492096909
+          ],
+          [
+            2.564314209691048,
+            49.19479366499942
+          ],
+          [
+            2.563436177964064,
+            49.19504117922605
+          ],
+          [
+            2.561680114511148,
+            49.1947711636445
+          ],
+          [
+            2.5611905822596555,
+            49.194679577620605
+          ],
+          [
+            2.5575880625913783,
+            49.19379997343495
+          ],
+          [
+            2.5558864742614276,
+            49.19343500652431
+          ],
+          [
+            2.553471598440325,
+            49.193228037033634
+          ],
+          [
+            2.552976746838425,
+            49.19302106667661
+          ],
+          [
+            2.55216519020928,
+            49.19299519532126
+          ],
+          [
+            2.5454328195118876,
+            49.19029127106026
+          ],
+          [
+            2.5443897918325717,
+            49.19045166363762
+          ],
+          [
+            2.5431627004444692,
+            49.19027122195163
+          ],
+          [
+            2.540432422106818,
+            49.19027122195163
+          ],
+          [
+            2.5365977615199427,
+            49.19077244723178
+          ]
+        ]
+      }
+    }
+  ]
 }

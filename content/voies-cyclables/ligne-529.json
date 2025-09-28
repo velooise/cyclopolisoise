@@ -1,57 +1,53 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-529.jpg",
-				"line": 529
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					      2.7074192,
-              49.2950066
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rhuis->-verberie",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-529.jpg",
+        "line": 529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7074192,
+          49.2950066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rhuis->-verberie",
         "line": 529,
         "name": "RHUIS > VERBERIE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-529"
-
       },
       "geometry": {
         "coordinates": [
-          
-       [
-              2.6945134,
-              49.2968134
-            ],
-            [
-              2.6955459,
-              49.300427
-            ],
-            [
-              2.7074192,
-              49.2950066
-            ],
-            [
-              2.7116351,
-              49.2940601
-            ]
-          
+          [
+            2.6945134,
+            49.2968134
+          ],
+          [
+            2.6955459,
+            49.300427
+          ],
+          [
+            2.7074192,
+            49.2950066
+          ],
+          [
+            2.7116351,
+            49.2940601
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

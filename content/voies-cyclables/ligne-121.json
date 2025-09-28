@@ -1,37 +1,61 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1307",
-                "line": 121,
-                "name": "Piste 14 - Bois de Plaisance:11 - ZAC Camp du ROY - Bords de l'Oise",
-                "status": "done",
-                "type": "piste-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.7835202833,49.3993688887],[2.7836204084,49.3993343329],[2.7846147964,49.3989645352],[2.7847768613,49.3989035468],[2.7848768575,49.3988763457],[2.7850008199,49.3988504908]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-121.jpg",
-				"line": 121
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7835202833,49.3993688887
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1307",
+        "line": 121,
+        "name": "Piste 14 - Bois de Plaisance:11 - ZAC Camp du ROY - Bords de l'Oise",
+        "status": "done",
+        "type": "piste-cyclable",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.7835202833,
+            49.3993688887
+          ],
+          [
+            2.7836204084,
+            49.3993343329
+          ],
+          [
+            2.7846147964,
+            49.3989645352
+          ],
+          [
+            2.7847768613,
+            49.3989035468
+          ],
+          [
+            2.7848768575,
+            49.3988763457
+          ],
+          [
+            2.7850008199,
+            49.3988504908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-121.jpg",
+        "line": 121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7835202833,
+          49.3993688887
+        ]
+      }
+    }
+  ]
+}

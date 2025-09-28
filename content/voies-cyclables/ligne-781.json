@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-181.jpg",
-				"line": 781
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.5052856634375757,
-          49.339109460587565
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-d'hardencourt-181",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-181.jpg",
+        "line": 781
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5052856634375757,
+          49.339109460587565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-d'hardencourt-181",
         "line": 781,
         "name": "181 - Rue d'Hardencourt",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-781"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.5040878584902657,
             49.339437868514864
@@ -48,9 +46,8 @@
             2.506941728882026,
             49.33866889029417
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

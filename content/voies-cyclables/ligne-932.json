@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "932-kml_133",
-                "line": 932,
-                "name": "kml_133",
-                "status": "planned",
-                "type": "aucun",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-932"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.4620747101373,49.2587495606242,0],[2.46200747628649,49.2587429678645,0],[2.46194446576909,49.2587265049804,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 932
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4620747101373,49.2587495606242
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "932-kml_133",
+        "line": 932,
+        "name": "kml_133",
+        "status": "planned",
+        "type": "aucun",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-932"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4620747101373,
+            49.2587495606242,
+            0
+          ],
+          [
+            2.46200747628649,
+            49.2587429678645,
+            0
+          ],
+          [
+            2.46194446576909,
+            49.2587265049804,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4620747101373,
+          49.2587495606242
+        ]
+      }
+    }
+  ]
+}

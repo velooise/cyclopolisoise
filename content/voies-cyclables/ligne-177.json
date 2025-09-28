@@ -1,52 +1,149 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC934",
-                "line": 177,
-                "name": "4 - Voie Verte (Stade François Louvet):Piste 14 - Bois de Plaisance",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8090769754,49.4196795601],[2.8099870524,49.4199501786],[2.8100606264,49.4199865837]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC935",
-                "line": 177,
-                "name": "4 - Voie Verte (Stade François Louvet):Piste 14 - Bois de Plaisance",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8064237476,49.4196482457],[2.8065061553,49.4196162203],[2.8065889583,49.4195847142],[2.8066860799,49.4195511562],[2.8067640775,49.4195289782],[2.8068907517,49.4194953372],[2.8070370249,49.4194630247],[2.8071064736,49.4194510187],[2.8072418619,49.4194327499],[2.8073507129,49.4194212973],[2.8074729696,49.4194113338],[2.8076005212,49.4194073873],[2.8077597199,49.4194097149],[2.8078813356,49.4194166507],[2.8080420799,49.4194309096],[2.808175447,49.4194483764],[2.8083027166,49.4194678444],[2.808422996,49.4194913112],[2.808571189,49.4195285763],[2.8087053058,49.4195684979],[2.8090769754,49.4196795601]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-177.jpg",
-				"line": 177
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8064237476,49.4196482457
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC934",
+        "line": 177,
+        "name": "4 - Voie Verte (Stade François Louvet):Piste 14 - Bois de Plaisance",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8090769754,
+            49.4196795601
+          ],
+          [
+            2.8099870524,
+            49.4199501786
+          ],
+          [
+            2.8100606264,
+            49.4199865837
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC935",
+        "line": 177,
+        "name": "4 - Voie Verte (Stade François Louvet):Piste 14 - Bois de Plaisance",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8064237476,
+            49.4196482457
+          ],
+          [
+            2.8065061553,
+            49.4196162203
+          ],
+          [
+            2.8065889583,
+            49.4195847142
+          ],
+          [
+            2.8066860799,
+            49.4195511562
+          ],
+          [
+            2.8067640775,
+            49.4195289782
+          ],
+          [
+            2.8068907517,
+            49.4194953372
+          ],
+          [
+            2.8070370249,
+            49.4194630247
+          ],
+          [
+            2.8071064736,
+            49.4194510187
+          ],
+          [
+            2.8072418619,
+            49.4194327499
+          ],
+          [
+            2.8073507129,
+            49.4194212973
+          ],
+          [
+            2.8074729696,
+            49.4194113338
+          ],
+          [
+            2.8076005212,
+            49.4194073873
+          ],
+          [
+            2.8077597199,
+            49.4194097149
+          ],
+          [
+            2.8078813356,
+            49.4194166507
+          ],
+          [
+            2.8080420799,
+            49.4194309096
+          ],
+          [
+            2.808175447,
+            49.4194483764
+          ],
+          [
+            2.8083027166,
+            49.4194678444
+          ],
+          [
+            2.808422996,
+            49.4194913112
+          ],
+          [
+            2.808571189,
+            49.4195285763
+          ],
+          [
+            2.8087053058,
+            49.4195684979
+          ],
+          [
+            2.8090769754,
+            49.4196795601
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-177.jpg",
+        "line": 177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8064237476,
+          49.4196482457
+        ]
+      }
+    }
+  ]
+}

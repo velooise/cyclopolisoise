@@ -1,37 +1,69 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC563",
-                "line": 167,
-                "name": "16 - Pénétrante Cyclable : Mercières vers Centre Ville",
-                "status": "done",
-                "type": "unknown" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8007229195,49.4074167943],[2.8007792521,49.4075280053],[2.8008521095,49.4075598733],[2.8009279727,49.4076078506],[2.8009257415,49.4077643901],[2.8009069635,49.4077834627],[2.8008890428,49.4077911277],[2.8008280254,49.4077976605]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-167.jpg",
-				"line": 167
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8007229195,49.4074167943
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC563",
+        "line": 167,
+        "name": "16 - Pénétrante Cyclable : Mercières vers Centre Ville",
+        "status": "done",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8007229195,
+            49.4074167943
+          ],
+          [
+            2.8007792521,
+            49.4075280053
+          ],
+          [
+            2.8008521095,
+            49.4075598733
+          ],
+          [
+            2.8009279727,
+            49.4076078506
+          ],
+          [
+            2.8009257415,
+            49.4077643901
+          ],
+          [
+            2.8009069635,
+            49.4077834627
+          ],
+          [
+            2.8008890428,
+            49.4077911277
+          ],
+          [
+            2.8008280254,
+            49.4077976605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-167.jpg",
+        "line": 167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8007229195,
+          49.4074167943
+        ]
+      }
+    }
+  ]
+}

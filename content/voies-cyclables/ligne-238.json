@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-       "id": "38-01-02",
+        "id": "38-01-02",
         "line": 238,
         "name": "Liaisons 38 du schéma cyclable de la CCSSO : Aumont - Fleurines 38-01, 38-02",
         "status": "wip",
@@ -14,7 +14,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-     [
+          [
             2.5620620831547853,
             49.225909126389354
           ],
@@ -29,10 +29,10 @@
         ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-       "id": "38-08",
+        "id": "38-08",
         "line": 238,
         "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-08",
         "status": "wip",
@@ -42,7 +42,7 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-      [
+          [
             2.5786003953395493,
             49.24192351123992
           ],
@@ -57,10 +57,10 @@
         ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-       "id": "38-09",
+        "id": "38-09",
         "line": 238,
         "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-09",
         "status": "wip",
@@ -70,8 +70,8 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-   [
-			2.5857530736290926,
+          [
+            2.5857530736290926,
             49.24886092967512
           ],
           [
@@ -97,7 +97,7 @@
         ]
       }
     },
-	 {
+    {
       "type": "Feature",
       "properties": {},
       "geometry": {
@@ -108,6 +108,5 @@
         "type": "Point"
       }
     }
-]
+  ]
 }
-   

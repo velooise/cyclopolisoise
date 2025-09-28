@@ -1,187 +1,409 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1456",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8230451226,49.4156124039],[2.8226657907,49.4158350606]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1457",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8230451226,49.4156124039],[2.8228331833,49.4160388101]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1458",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8228331833,49.4160388101],[2.8228246847,49.4159908501],[2.8228149362,49.4159573191],[2.8227983992,49.4159304089],[2.8227584303,49.4158962868],[2.8226657907,49.4158350606]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1459",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8225908894,49.4165579146],[2.8226096357,49.4164962848],[2.8226329771,49.4164530123],[2.8226903574,49.4163855771],[2.822782824,49.4162611816],[2.8228190308,49.416193769],[2.8228413766,49.4161403551],[2.8228384999,49.4160902528],[2.8228331833,49.4160388101]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1460",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8236064507,49.4170050667],[2.8235511765,49.416980057],[2.8229781203,49.4167207653],[2.8225908894,49.4165579146]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1461",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8241664834,49.4165517674],[2.8235511765,49.416980057]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1462",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8241664834,49.4165517674],[2.8241937531,49.4165243548],[2.8242233409,49.416486272],[2.8244789155,49.4160203],[2.8245062801,49.4159506618]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1463",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8236064507,49.4170050667],[2.8235003652,49.417139969]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1464",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8235003652,49.417139969],[2.8234170216,49.4172527178],[2.8233667717,49.41733796],[2.8233345534,49.4173815239],[2.8233036853,49.4174090681]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1465",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8233036853,49.4174090681],[2.8229724892,49.4177270089],[2.8229396867,49.4177584982]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1468",
-                "line": 146,
-                "name": "106 - Coeur de ville",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8228033508,49.4191517092],[2.8228155194,49.41910711],[2.8228327491,49.419066497],[2.8228599449,49.4190323945],[2.8229641374,49.4189156456],[2.8230438523,49.4188322855],[2.8230768505,49.4188063118],[2.823200349,49.4187291536],[2.8233171087,49.4186523372],[2.8233591605,49.4186389731],[2.8234175715,49.4186350769],[2.8234717703,49.4186424497],[2.8235334924,49.4186593603]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-146.jpg",
-				"line": 146
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8228033508,49.4191517092
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1456",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8230451226,
+            49.4156124039
+          ],
+          [
+            2.8226657907,
+            49.4158350606
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1457",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8230451226,
+            49.4156124039
+          ],
+          [
+            2.8228331833,
+            49.4160388101
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1458",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8228331833,
+            49.4160388101
+          ],
+          [
+            2.8228246847,
+            49.4159908501
+          ],
+          [
+            2.8228149362,
+            49.4159573191
+          ],
+          [
+            2.8227983992,
+            49.4159304089
+          ],
+          [
+            2.8227584303,
+            49.4158962868
+          ],
+          [
+            2.8226657907,
+            49.4158350606
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1459",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8225908894,
+            49.4165579146
+          ],
+          [
+            2.8226096357,
+            49.4164962848
+          ],
+          [
+            2.8226329771,
+            49.4164530123
+          ],
+          [
+            2.8226903574,
+            49.4163855771
+          ],
+          [
+            2.822782824,
+            49.4162611816
+          ],
+          [
+            2.8228190308,
+            49.416193769
+          ],
+          [
+            2.8228413766,
+            49.4161403551
+          ],
+          [
+            2.8228384999,
+            49.4160902528
+          ],
+          [
+            2.8228331833,
+            49.4160388101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1460",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8236064507,
+            49.4170050667
+          ],
+          [
+            2.8235511765,
+            49.416980057
+          ],
+          [
+            2.8229781203,
+            49.4167207653
+          ],
+          [
+            2.8225908894,
+            49.4165579146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1461",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8241664834,
+            49.4165517674
+          ],
+          [
+            2.8235511765,
+            49.416980057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1462",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8241664834,
+            49.4165517674
+          ],
+          [
+            2.8241937531,
+            49.4165243548
+          ],
+          [
+            2.8242233409,
+            49.416486272
+          ],
+          [
+            2.8244789155,
+            49.4160203
+          ],
+          [
+            2.8245062801,
+            49.4159506618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1463",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8236064507,
+            49.4170050667
+          ],
+          [
+            2.8235003652,
+            49.417139969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1464",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8235003652,
+            49.417139969
+          ],
+          [
+            2.8234170216,
+            49.4172527178
+          ],
+          [
+            2.8233667717,
+            49.41733796
+          ],
+          [
+            2.8233345534,
+            49.4173815239
+          ],
+          [
+            2.8233036853,
+            49.4174090681
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1465",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8233036853,
+            49.4174090681
+          ],
+          [
+            2.8229724892,
+            49.4177270089
+          ],
+          [
+            2.8229396867,
+            49.4177584982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1468",
+        "line": 146,
+        "name": "106 - Coeur de ville",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8228033508,
+            49.4191517092
+          ],
+          [
+            2.8228155194,
+            49.41910711
+          ],
+          [
+            2.8228327491,
+            49.419066497
+          ],
+          [
+            2.8228599449,
+            49.4190323945
+          ],
+          [
+            2.8229641374,
+            49.4189156456
+          ],
+          [
+            2.8230438523,
+            49.4188322855
+          ],
+          [
+            2.8230768505,
+            49.4188063118
+          ],
+          [
+            2.823200349,
+            49.4187291536
+          ],
+          [
+            2.8233171087,
+            49.4186523372
+          ],
+          [
+            2.8233591605,
+            49.4186389731
+          ],
+          [
+            2.8234175715,
+            49.4186350769
+          ],
+          [
+            2.8234717703,
+            49.4186424497
+          ],
+          [
+            2.8235334924,
+            49.4186593603
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-146.jpg",
+        "line": 146
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8228033508,
+          49.4191517092
+        ]
+      }
+    }
+  ]
+}

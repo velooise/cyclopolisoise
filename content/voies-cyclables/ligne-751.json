@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-151.jpg",
-				"line": 751
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.456698227355872,
-          49.293301139201986
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-caucriaumont-(d62)-151",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-151.jpg",
+        "line": 751
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.456698227355872,
+          49.293301139201986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-caucriaumont-(d62)-151",
         "line": 751,
         "name": "151 - Rue de Caucriaumont (D62)",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-751"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-[
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4535711818223547,
             49.29337707289858
           ],
@@ -60,11 +58,8 @@
             2.4587925752137494,
             49.29319110654188
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-
-
-

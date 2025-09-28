@@ -1,37 +1,53 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC903",
-                "line": 175,
-                "name": "26 - Connexion Canal Seine Nord Europe",
-                "status": "postponed",
-                "type": "unknown" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8617402494,49.4424038406],[2.8619647454,49.4423845151],[2.8622082782,49.4423581167],[2.8624368578,49.4423264959]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-175.jpg",
-				"line": 175
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8617402494,49.4424038406
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC903",
+        "line": 175,
+        "name": "26 - Connexion Canal Seine Nord Europe",
+        "status": "postponed",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8617402494,
+            49.4424038406
+          ],
+          [
+            2.8619647454,
+            49.4423845151
+          ],
+          [
+            2.8622082782,
+            49.4423581167
+          ],
+          [
+            2.8624368578,
+            49.4423264959
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-175.jpg",
+        "line": 175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8617402494,
+          49.4424038406
+        ]
+      }
+    }
+  ]
+}

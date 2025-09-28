@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "801-kml_2",
-                "line": 801,
-                "name": "kml_2",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-801"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.45451985339362,49.2209266092767,0],[2.4544075141635,49.2207768621697,0],[2.45436147690373,49.2207173179157,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 801
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.45451985339362,49.2209266092767
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "801-kml_2",
+        "line": 801,
+        "name": "kml_2",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-801"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.45451985339362,
+            49.2209266092767,
+            0
+          ],
+          [
+            2.4544075141635,
+            49.2207768621697,
+            0
+          ],
+          [
+            2.45436147690373,
+            49.2207173179157,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 801
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.45451985339362,
+          49.2209266092767
+        ]
+      }
+    }
+  ]
+}

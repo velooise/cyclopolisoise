@@ -1,37 +1,87 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "921-kml_122",
-                "line": 921,
-                "name": "kml_122",
-                "status": "planned",
-                "type": "piste-sur-trottoir",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-921"
-            },
-		"geometry": 
-		{"coordinates":[[2.45838912106049,49.2316604112366,0],[2.45848935560066,49.2319206776678,0],[2.45852077642988,49.2320664596757,0],[2.458550984709,49.2321969529071,0],[2.45883040143989,49.2327825686359,0],[2.45890847912115,49.2329303578367,0],[2.45894205526047,49.2330015308459,0],[2.45904856688907,49.2331872062106,0],[2.45907149030805,49.2332268657869,0],[2.45918147241751,49.2333433322804,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 921
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.45838912106049,49.2316604112366
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "921-kml_122",
+        "line": 921,
+        "name": "kml_122",
+        "status": "planned",
+        "type": "piste-sur-trottoir",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-921"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.45838912106049,
+            49.2316604112366,
+            0
+          ],
+          [
+            2.45848935560066,
+            49.2319206776678,
+            0
+          ],
+          [
+            2.45852077642988,
+            49.2320664596757,
+            0
+          ],
+          [
+            2.458550984709,
+            49.2321969529071,
+            0
+          ],
+          [
+            2.45883040143989,
+            49.2327825686359,
+            0
+          ],
+          [
+            2.45890847912115,
+            49.2329303578367,
+            0
+          ],
+          [
+            2.45894205526047,
+            49.2330015308459,
+            0
+          ],
+          [
+            2.45904856688907,
+            49.2331872062106,
+            0
+          ],
+          [
+            2.45907149030805,
+            49.2332268657869,
+            0
+          ],
+          [
+            2.45918147241751,
+            49.2333433322804,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 921
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.45838912106049,
+          49.2316604112366
+        ]
+      }
+    }
+  ]
+}

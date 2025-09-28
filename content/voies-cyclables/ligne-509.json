@@ -1,77 +1,73 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-509.jpg",
-				"line": 509
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					    2.5776042603039406,
-              49.30577819700324
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "monceaux->-pont-ste-maxence",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-509.jpg",
+        "line": 509
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5776042603039406,
+          49.30577819700324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monceaux->-pont-ste-maxence",
         "line": 509,
         "name": "MONCEAUX > PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-509"
-
       },
       "geometry": {
         "coordinates": [
-          
-             [
-              2.5488540387438134,
-              49.31564044257349
-            ],
-            [
-              2.5598532808116103,
-              49.31048043458025
-            ],
-            [
-              2.566421955419734,
-              49.30688985220609
-            ],
-            [
-              2.5719886265226184,
-              49.304837635764564
-            ],
-            [
-              2.5776042603039406,
-              49.30577819700324
-            ],
-            [
-              2.582718734305733,
-              49.30630933467389
-            ],
-            [
-              2.5963426366231044,
-              49.30778712220773
-            ],
-            [
-              2.602131388220743,
-              49.30786296418347
-            ],
-            [
-              2.6023226,
-              49.3092658
-            ]
-          
+          [
+            2.5488540387438134,
+            49.31564044257349
+          ],
+          [
+            2.5598532808116103,
+            49.31048043458025
+          ],
+          [
+            2.566421955419734,
+            49.30688985220609
+          ],
+          [
+            2.5719886265226184,
+            49.304837635764564
+          ],
+          [
+            2.5776042603039406,
+            49.30577819700324
+          ],
+          [
+            2.582718734305733,
+            49.30630933467389
+          ],
+          [
+            2.5963426366231044,
+            49.30778712220773
+          ],
+          [
+            2.602131388220743,
+            49.30786296418347
+          ],
+          [
+            2.6023226,
+            49.3092658
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

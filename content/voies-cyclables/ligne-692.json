@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-92.jpg",
-				"line": 692
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4464382546080117,
-          49.2931642365362
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "r-douchet-rube-92",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-92.jpg",
+        "line": 692
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4464382546080117,
+          49.2931642365362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-douchet-rube-92",
         "line": 692,
         "name": "92 - R DOUCHET RUBE",
         "status": "planned",
         "type": "zone-de-rencontre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-692"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-      [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.445852880951662,
             49.29305325896499
           ],
@@ -44,9 +42,8 @@
             2.448138123032578,
             49.293333147890564
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

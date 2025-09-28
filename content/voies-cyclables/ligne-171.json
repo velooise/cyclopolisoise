@@ -1,52 +1,137 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC602",
-                "line": 171,
-                "name": "18 - Les Lycées - tranche 1:Piste 17 - Les Lycées",
-                "status": "done",
-                "type": "unknown" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.81587088,49.4000340964],[2.8157840754,49.40002119],[2.8156140001,49.4000464182],[2.8154408963,49.4000693833],[2.8153221448,49.400099529],[2.8152121527,49.4001684031],[2.8150891636,49.4002772629],[2.815007968,49.4003113372],[2.8149060653,49.4003298937],[2.8147430401,49.4003793758],[2.8145597575,49.4004029222]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC603",
-                "line": 171,
-                "name": "18 - Les Lycées - tranche 1:Piste 17 - Les Lycées",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8145597575,49.4004029222],[2.8138447306,49.4000285013],[2.813376271,49.3997501371],[2.8126449168,49.3992976802],[2.8110601183,49.3983216821],[2.8109562772,49.3982488223],[2.8080181188,49.3964591495],[2.8042910443,49.3941895041],[2.8033233901,49.3935846678],[2.8033158283,49.3935470339]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-171.jpg",
-				"line": 171
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8145597575,49.4004029222
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC602",
+        "line": 171,
+        "name": "18 - Les Lycées - tranche 1:Piste 17 - Les Lycées",
+        "status": "done",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.81587088,
+            49.4000340964
+          ],
+          [
+            2.8157840754,
+            49.40002119
+          ],
+          [
+            2.8156140001,
+            49.4000464182
+          ],
+          [
+            2.8154408963,
+            49.4000693833
+          ],
+          [
+            2.8153221448,
+            49.400099529
+          ],
+          [
+            2.8152121527,
+            49.4001684031
+          ],
+          [
+            2.8150891636,
+            49.4002772629
+          ],
+          [
+            2.815007968,
+            49.4003113372
+          ],
+          [
+            2.8149060653,
+            49.4003298937
+          ],
+          [
+            2.8147430401,
+            49.4003793758
+          ],
+          [
+            2.8145597575,
+            49.4004029222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC603",
+        "line": 171,
+        "name": "18 - Les Lycées - tranche 1:Piste 17 - Les Lycées",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8145597575,
+            49.4004029222
+          ],
+          [
+            2.8138447306,
+            49.4000285013
+          ],
+          [
+            2.813376271,
+            49.3997501371
+          ],
+          [
+            2.8126449168,
+            49.3992976802
+          ],
+          [
+            2.8110601183,
+            49.3983216821
+          ],
+          [
+            2.8109562772,
+            49.3982488223
+          ],
+          [
+            2.8080181188,
+            49.3964591495
+          ],
+          [
+            2.8042910443,
+            49.3941895041
+          ],
+          [
+            2.8033233901,
+            49.3935846678
+          ],
+          [
+            2.8033158283,
+            49.3935470339
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-171.jpg",
+        "line": 171
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8145597575,
+          49.4004029222
+        ]
+      }
+    }
+  ]
+}

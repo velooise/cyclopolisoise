@@ -1,37 +1,73 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1394",
-                "line": 139,
-                "name": "25 - Rive Gauche à Rive Droite via Verrerie",
-                "status": "unknown",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8336395273,49.4269440542],[2.8336836556,49.426983619],[2.8338847117,49.427094881],[2.8339486649,49.4271367715],[2.834031885,49.4271661476],[2.8341767699,49.4272847874],[2.8333020012,49.4278920869],[2.8331009772,49.4280451981],[2.8327704756,49.4282831549]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-139.jpg",
-				"line": 139
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8336395273,49.4269440542
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1394",
+        "line": 139,
+        "name": "25 - Rive Gauche à Rive Droite via Verrerie",
+        "status": "unknown",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8336395273,
+            49.4269440542
+          ],
+          [
+            2.8336836556,
+            49.426983619
+          ],
+          [
+            2.8338847117,
+            49.427094881
+          ],
+          [
+            2.8339486649,
+            49.4271367715
+          ],
+          [
+            2.834031885,
+            49.4271661476
+          ],
+          [
+            2.8341767699,
+            49.4272847874
+          ],
+          [
+            2.8333020012,
+            49.4278920869
+          ],
+          [
+            2.8331009772,
+            49.4280451981
+          ],
+          [
+            2.8327704756,
+            49.4282831549
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-139.jpg",
+        "line": 139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8336395273,
+          49.4269440542
+        ]
+      }
+    }
+  ]
+}

@@ -1,39 +1,37 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-59.jpg",
-				"line": 659
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.440323586965974,
-          49.320083953464064
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "vv-le-long-de-la-d1016-59",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-59.jpg",
+        "line": 659
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.440323586965974,
+          49.320083953464064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vv-le-long-de-la-d1016-59",
         "line": 659,
         "name": "VV LE LONG DE LA D1016-59",
-		"doneAt": "08/05/2023",
+        "doneAt": "08/05/2023",
         "status": "done",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-659"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-       [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.441237669108034,
             49.31877068118757
           ],
@@ -41,9 +39,8 @@
             2.4395587427262058,
             49.32125127719905
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

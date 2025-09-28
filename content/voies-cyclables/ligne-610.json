@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-10.jpg",
-				"line": 610
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4573181428471287,
-          49.34742197430441
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-aux-dames-10",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-10.jpg",
+        "line": 610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4573181428471287,
+          49.34742197430441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-aux-dames-10",
         "line": 610,
         "name": "Rue aux Dames",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-610"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4576304955399166,
             49.3450282819756
           ],
@@ -60,9 +58,8 @@
             2.4585406052902954,
             49.34873694023233
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

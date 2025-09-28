@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-5.jpg",
-				"line": 8
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-			       2.4499820898160465,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-5.jpg",
+        "line": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4499820898160465,
           49.18519271735346
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "chantilly-gare---gouvieux-5",
-                "line": 8,
-                "name": "Chantilly Gare-Gouvieux (05-03-05)",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-8"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                            [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chantilly-gare---gouvieux-5",
+        "line": 8,
+        "name": "Chantilly Gare-Gouvieux (05-03-05)",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4314534727395483,
             49.18655590402136
           ],
@@ -66,8 +65,7 @@
           [
             2.4536992254398626,
             49.185153093933025
-          ]
-,
+          ],
           [
             2.453933055857931,
             49.185136792421105
@@ -84,10 +82,8 @@
             2.459293959704155,
             49.18458797078381
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-260.jpg",
-				"line": 260
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.6568081748810357,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-260.jpg",
+        "line": 260
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6568081748810357,
           49.216627296105315
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "260-Liaison-60-01-02",
-                "line": 260,
-                "name": "Liaison 60-01-02 - Barbery – Ancienne voie ferrée",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-      [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "260-Liaison-60-01-02",
+        "line": 260,
+        "name": "Liaison 60-01-02 - Barbery – Ancienne voie ferrée",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.66467358286323,
             49.224703983326236
           ],
@@ -43,23 +42,23 @@
             2.662308555220335,
             49.22052550426034
           ]
-                ]
-            }
-        },
-		{
-            "type": "Feature",
-            "properties": {
-                "id": "260-Liaison-60-03-04",
-                "line": 260,
-                "name": "Liaison 60-03-04 - Barbery – Ancienne voie ferrée",
-                "status": "planned",
-                "type": "imp+debouche-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "260-Liaison-60-03-04",
+        "line": 260,
+        "name": "Liaison 60-03-04 - Barbery – Ancienne voie ferrée",
+        "status": "planned",
+        "type": "imp+debouche-cyclable",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6623238236078635,
             49.220559816976845
           ],
@@ -91,10 +90,8 @@
             2.645887118795031,
             49.20812386600022
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

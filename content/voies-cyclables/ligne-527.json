@@ -1,96 +1,93 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-527.jpg",
-				"line": 527
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					            2.6574309,
-              49.2962111
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rhuis->-pontpoint-(>-pont-ste-maxence)",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-527.jpg",
+        "line": 527
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6574309,
+          49.2962111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rhuis->-pontpoint-(>-pont-ste-maxence)",
         "line": 527,
         "name": "RHUIS > PONTPOINT (> PONT-STE-MAXENCE)",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-527"
-
       },
       "geometry": {
         "coordinates": [
-          
           [
-              2.6440949,
-              49.2956949
-            ],
-            [
-              2.6463319,
-              49.2975017
-            ],
-            [
-              2.6491712,
-              49.2966413
-            ],
-            [
-              2.6539033,
-              49.2967273
-            ],
-            [
-              2.6574309,
-              49.2962111
-            ],
-            [
-              2.6606143,
-              49.2975877
-            ],
-            [
-              2.6639698,
-              49.2987922
-            ],
-            [
-              2.6673253,
-              49.2998247
-            ],
-            [
-              2.673262,
-              49.3003409
-            ],
-            [
-              2.6766175,
-              49.2996526
-            ],
-            [
-              2.6804892,
-              49.2998247
-            ],
-            [
-              2.6849632,
-              49.3003409
-            ],
-            [
-              2.6884047,
-              49.3011153
-            ],
-            [
-              2.6896093,
-              49.2980179
-            ]
+            2.6440949,
+            49.2956949
+          ],
+          [
+            2.6463319,
+            49.2975017
+          ],
+          [
+            2.6491712,
+            49.2966413
+          ],
+          [
+            2.6539033,
+            49.2967273
+          ],
+          [
+            2.6574309,
+            49.2962111
+          ],
+          [
+            2.6606143,
+            49.2975877
+          ],
+          [
+            2.6639698,
+            49.2987922
+          ],
+          [
+            2.6673253,
+            49.2998247
+          ],
+          [
+            2.673262,
+            49.3003409
+          ],
+          [
+            2.6766175,
+            49.2996526
+          ],
+          [
+            2.6804892,
+            49.2998247
+          ],
+          [
+            2.6849632,
+            49.3003409
+          ],
+          [
+            2.6884047,
+            49.3011153
+          ],
+          [
+            2.6896093,
+            49.2980179
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

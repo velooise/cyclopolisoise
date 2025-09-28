@@ -1,37 +1,47 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "836-kml_37",
-                "line": 836,
-                "name": "kml_37",
-                "status": "planned",
-                "type": "chaucidou",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-836"
-            },
-		"geometry": 
-		{"coordinates":[[2.41123442089221,49.2161298040684,0],[2.41136961544017,49.2161889017165,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 836
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.41123442089221,49.2161298040684
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "836-kml_37",
+        "line": 836,
+        "name": "kml_37",
+        "status": "planned",
+        "type": "chaucidou",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-836"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.41123442089221,
+            49.2161298040684,
+            0
+          ],
+          [
+            2.41136961544017,
+            49.2161889017165,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 836
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.41123442089221,
+          49.2161298040684
+        ]
+      }
+    }
+  ]
+}

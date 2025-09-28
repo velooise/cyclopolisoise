@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-16.jpg",
-				"line": 16
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-			  2.516626579391584,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-16.jpg",
+        "line": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.516626579391584,
           49.22563997331423
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "chantilly---base-aerienne-creil-via-55-16",
-                "line": 16,
-                "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-         [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chantilly---base-aerienne-creil-via-55-16",
+        "line": 16,
+        "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5019128914565556,
             49.20145343928806
           ],
@@ -43,22 +42,22 @@
             2.5140690532288943,
             49.221844726289135
           ]
-                ]
-            }
-        },
-	      {
-            "type": "Feature",
-            "properties": {
-                "id": "chantilly---base-aerienne-creil-via-55-16",
-                "line": 16,
-                "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chantilly---base-aerienne-creil-via-55-16",
+        "line": 16,
+        "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
           [
             2.514099529156482,
             49.221815422538896
@@ -99,10 +98,8 @@
             2.5087571638569273,
             49.2440335657482
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

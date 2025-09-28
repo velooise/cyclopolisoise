@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-239.jpg",
-				"line": 239
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-		    2.623294162026724,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-239.jpg",
+        "line": 239
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.623294162026724,
           49.2270684174878
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "239-Liaison39-01-02",
-                "line": 239,
-                "name": "Liaison 39-01-02 - Ognon - Chamant",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "239-Liaison39-01-02",
+        "line": 239,
+        "name": "Liaison 39-01-02 - Ognon - Chamant",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6444806028184473,
             49.236273625315135
           ],
@@ -39,23 +38,23 @@
             2.6408250519310457,
             49.23372966968145
           ]
-                ]
-            }
-        },
-		     {
-            "type": "Feature",
-            "properties": {
-                "id": "239-Liaison39-03-04",
-                "line": 239,
-                "name": "Liaison 39-03-04 - Ognon - Chamant",
-                "status": "planned",
-                "type": "imp+debouche-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                  [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "239-Liaison39-03-04",
+        "line": 239,
+        "name": "Liaison 39-03-04 - Ognon - Chamant",
+        "status": "planned",
+        "type": "imp+debouche-cyclable",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6408491156813625,
             49.23371396619601
           ],
@@ -79,23 +78,23 @@
             2.62454343475369,
             49.22947374763689
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "239-Liaison39-05-06",
-                "line": 239,
-                "name": "Liaison 39-05-06 Ognon - Chamant",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "239-Liaison39-05-06",
+        "line": 239,
+        "name": "Liaison 39-05-06 Ognon - Chamant",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.624696377312631,
             49.22934320971399
           ],
@@ -103,10 +102,8 @@
             2.609659105391728,
             49.22190196887186
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

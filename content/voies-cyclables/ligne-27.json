@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-70.jpg",
-				"line": 27
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-				          2.4158569701588988,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-70.jpg",
+        "line": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4158569701588988,
           49.180379177386044
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "gouvieux---lamorlaye-70-10-06",
-                "line": 27,
-                "name": "La traversée du Lys",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux---lamorlaye-70-10-06",
+        "line": 27,
+        "name": "La traversée du Lys",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.438745393145723,
             49.155822672636276
           ],
@@ -59,23 +58,23 @@
             2.420625553615224,
             49.17405607690225
           ]
-                ]
-            }
-        },
-	      {
-            "type": "Feature",
-            "properties": {
-                "id": "gouvieux---lamorlaye-70-02",
-                "line": 27,
-                "name": "Entrée dans Gouvieux via Av. Aristide Briand",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                  [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux---lamorlaye-70-02",
+        "line": 27,
+        "name": "Entrée dans Gouvieux via Av. Aristide Briand",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4205241016724415,
             49.17401186088375
           ],
@@ -87,23 +86,23 @@
             2.4150452951126624,
             49.182015091717545
           ]
-                ]
-            }
-        },
-	         {
-            "type": "Feature",
-            "properties": {
-                "id": "gouvieux---lamorlaye-70-01",
-                "line": 27,
-                "name": "Gouvieux-Monument aux morts",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                       [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux---lamorlaye-70-01",
+        "line": 27,
+        "name": "Gouvieux-Monument aux morts",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.415011475319261,
             49.182169837570456
           ],
@@ -119,11 +118,8 @@
             2.4117985949295075,
             49.18444675632651
           ]
-                ]
-            }
-        }
-	    
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

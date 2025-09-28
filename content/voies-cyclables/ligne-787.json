@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-187.jpg",
-				"line": 787
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.494727856882207,
-          49.33027333139455
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-jean-jaurès-187",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-187.jpg",
+        "line": 787
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.494727856882207,
+          49.33027333139455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-jean-jaurès-187",
         "line": 787,
         "name": "187 - Rue Jean Jaurès",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-787"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-             [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4941210011634496,
             49.330832464304706
           ],
@@ -52,9 +50,8 @@
             2.4948534132377915,
             49.329073219803405
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

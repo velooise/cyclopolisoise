@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-502.jpg",
-				"line": 502
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					    2.500233226146773,
-              49.3537242172527
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rieux->-brenouille",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-502.jpg",
+        "line": 502
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.500233226146773,
+          49.3537242172527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rieux->-brenouille",
         "line": 502,
         "name": "RIEUX > BRENOUILLE",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-502"
-
       },
       "geometry": {
         "coordinates": [
-          
- [
+          [
             2.540447345309701,
             49.30605676572023
           ],
@@ -111,11 +109,9 @@
             2.516637582872306,
             49.29997010732464
           ]
-          
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

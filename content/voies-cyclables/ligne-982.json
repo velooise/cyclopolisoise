@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "982-kml_183",
-                "line": 982,
-                "name": "kml_183",
-                "status": "planned",
-                "type": "autre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-982"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.47813543218654,49.2678468383558,0],[2.47814099053819,49.2678405695122,0],[2.47882921374752,49.2670263679355,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 982
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.47813543218654,49.2678468383558
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "982-kml_183",
+        "line": 982,
+        "name": "kml_183",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-982"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.47813543218654,
+            49.2678468383558,
+            0
+          ],
+          [
+            2.47814099053819,
+            49.2678405695122,
+            0
+          ],
+          [
+            2.47882921374752,
+            49.2670263679355,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 982
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.47813543218654,
+          49.2678468383558
+        ]
+      }
+    }
+  ]
+}

@@ -1,52 +1,137 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1392",
-                "line": 138,
-                "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8353334567,49.4268876123],[2.835467471,49.4269293372],[2.835585112,49.4269716013],[2.835643922,49.4269960574],[2.8356925494,49.4270175449],[2.8357842305,49.4269967935],[2.8358557462,49.4269764161],[2.8359222102,49.4269667185],[2.8360028679,49.4269639996],[2.8365317676,49.4269918659],[2.836978917,49.4270167899]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1393",
-                "line": 138,
-                "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
-                "status": "done",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8329104646,49.4265276736],[2.833060369,49.426672065],[2.8332111257,49.4268138377],[2.8333669905,49.4269414094],[2.8335439296,49.4269978781],[2.8348074359,49.4270602247],[2.836117083,49.427117721],[2.8361662997,49.4271186794],[2.8366723595,49.4270587213],[2.836978917,49.4270167899]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-138.jpg",
-				"line": 138
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8329104646,49.4265276736
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1392",
+        "line": 138,
+        "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8353334567,
+            49.4268876123
+          ],
+          [
+            2.835467471,
+            49.4269293372
+          ],
+          [
+            2.835585112,
+            49.4269716013
+          ],
+          [
+            2.835643922,
+            49.4269960574
+          ],
+          [
+            2.8356925494,
+            49.4270175449
+          ],
+          [
+            2.8357842305,
+            49.4269967935
+          ],
+          [
+            2.8358557462,
+            49.4269764161
+          ],
+          [
+            2.8359222102,
+            49.4269667185
+          ],
+          [
+            2.8360028679,
+            49.4269639996
+          ],
+          [
+            2.8365317676,
+            49.4269918659
+          ],
+          [
+            2.836978917,
+            49.4270167899
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1393",
+        "line": 138,
+        "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
+        "status": "done",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8329104646,
+            49.4265276736
+          ],
+          [
+            2.833060369,
+            49.426672065
+          ],
+          [
+            2.8332111257,
+            49.4268138377
+          ],
+          [
+            2.8333669905,
+            49.4269414094
+          ],
+          [
+            2.8335439296,
+            49.4269978781
+          ],
+          [
+            2.8348074359,
+            49.4270602247
+          ],
+          [
+            2.836117083,
+            49.427117721
+          ],
+          [
+            2.8361662997,
+            49.4271186794
+          ],
+          [
+            2.8366723595,
+            49.4270587213
+          ],
+          [
+            2.836978917,
+            49.4270167899
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-138.jpg",
+        "line": 138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8329104646,
+          49.4265276736
+        ]
+      }
+    }
+  ]
+}

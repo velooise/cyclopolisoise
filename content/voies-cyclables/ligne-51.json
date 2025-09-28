@@ -1,245 +1,233 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A7.jpg",
-				"line": 51
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.5975068181994345,
-					49.20696971634669
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-1--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.600836652600729,
-							49.20853693064429
-						],
-						[
-							2.60167897470862,
-							49.2086298840596
-						],
-						[
-							2.6015512338925566,
-							49.20891921006966
-						],
-						[
-							2.6016909482769366,
-							49.2090317590118
-						],
-						[
-							2.6018825451772036,
-							49.20922455751408
-						],
-						[
-							2.6021826696631347,
-							49.210715186408706
-						]
-					
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-2--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "piste-sur-trottoir",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.6005610572820608,
-							49.21062473205944
-						],
-						[
-							2.59995770816245,
-							49.21092675598018
-						],
-						[
-							2.5992832185489685,
-							49.21137470516076
-						]
-					
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-3--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.5989050344052687,
-							49.211730990904904
-						],
-						[
-							2.5992389122924195,
-							49.21139141703842
-						]
-					
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-4--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.590620342792084,
-							49.20506049710497
-						],
-						[
-							2.590927324667273,
-							49.2054783448329
-						],
-						[
-							2.592487815866157,
-							49.20628060257252
-						],
-						[
-							2.592769215918414,
-							49.20633074324906
-						],
-						[
-							2.5939308613096066,
-							49.20548375915962
-						],
-						[
-							2.594457616231959,
-							49.20578774284898
-						],
-						[
-							2.594643520421378,
-							49.20581347727325
-						]
-					
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-5--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "chaucidou",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.594682765102093,
-							49.205806829437066
-						],
-						[
-							2.59505958806014,
-							49.20593653068651
-						],
-						[
-							2.595443242447022,
-							49.206088547858315
-						],
-						[
-							2.596183225503629,
-							49.20638365520692
-						],
-						[
-							2.597526563037148,
-							49.20699172174519
-						],
-						[
-							2.6002132381042413,
-							49.208145368303434
-						],
-						[
-							2.6007564087846844,
-							49.208393877347774
-						]
-					
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "a7-6--centre-ville---quartier-bonsecours-A7",
-				"line": 51,
-				"name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
-				"status": "planned",
-				"type": "zone-de-rencontre",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-51"
-			},
-			"geometry": {
-				"coordinates": [
-					
-						[
-							2.6021830832617274,
-							49.21071251901675
-						],
-						[
-							2.601900674290849,
-							49.210709928792966
-						],
-						[
-							2.601231789653179,
-							49.210625550174555
-						],
-						[
-							2.6006365503363877,
-							49.21060883811856
-						]
-					
-				],
-				"type": "LineString"
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A7.jpg",
+        "line": 51
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5975068181994345,
+          49.20696971634669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-1--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.600836652600729,
+            49.20853693064429
+          ],
+          [
+            2.60167897470862,
+            49.2086298840596
+          ],
+          [
+            2.6015512338925566,
+            49.20891921006966
+          ],
+          [
+            2.6016909482769366,
+            49.2090317590118
+          ],
+          [
+            2.6018825451772036,
+            49.20922455751408
+          ],
+          [
+            2.6021826696631347,
+            49.210715186408706
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-2--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "piste-sur-trottoir",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.6005610572820608,
+            49.21062473205944
+          ],
+          [
+            2.59995770816245,
+            49.21092675598018
+          ],
+          [
+            2.5992832185489685,
+            49.21137470516076
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-3--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.5989050344052687,
+            49.211730990904904
+          ],
+          [
+            2.5992389122924195,
+            49.21139141703842
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-4--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.590620342792084,
+            49.20506049710497
+          ],
+          [
+            2.590927324667273,
+            49.2054783448329
+          ],
+          [
+            2.592487815866157,
+            49.20628060257252
+          ],
+          [
+            2.592769215918414,
+            49.20633074324906
+          ],
+          [
+            2.5939308613096066,
+            49.20548375915962
+          ],
+          [
+            2.594457616231959,
+            49.20578774284898
+          ],
+          [
+            2.594643520421378,
+            49.20581347727325
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-5--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "chaucidou",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.594682765102093,
+            49.205806829437066
+          ],
+          [
+            2.59505958806014,
+            49.20593653068651
+          ],
+          [
+            2.595443242447022,
+            49.206088547858315
+          ],
+          [
+            2.596183225503629,
+            49.20638365520692
+          ],
+          [
+            2.597526563037148,
+            49.20699172174519
+          ],
+          [
+            2.6002132381042413,
+            49.208145368303434
+          ],
+          [
+            2.6007564087846844,
+            49.208393877347774
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a7-6--centre-ville---quartier-bonsecours-A7",
+        "line": 51,
+        "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
+        "status": "planned",
+        "type": "zone-de-rencontre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.6021830832617274,
+            49.21071251901675
+          ],
+          [
+            2.601900674290849,
+            49.210709928792966
+          ],
+          [
+            2.601231789653179,
+            49.210625550174555
+          ],
+          [
+            2.6006365503363877,
+            49.21060883811856
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
 }

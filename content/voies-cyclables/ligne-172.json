@@ -1,37 +1,93 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC604",
-                "line": 172,
-                "name": "14 - LACHELLE - REMY via Payelle:Piste 19 - Lachelle - Rémy via Payelle",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.731363478,49.4439679529],[2.7311944403,49.4438775207],[2.7307578315,49.4437307301],[2.7303942202,49.4436279757],[2.7300025788,49.4435870992],[2.7297611625,49.4435813989],[2.7294540823,49.4435957271],[2.729133921,49.4435580599],[2.7288789098,49.4435032904],[2.7282747262,49.4432361037],[2.726886767,49.4426109845],[2.7264717945,49.4424884235],[2.7256793475,49.4421469741],[2.7250187689,49.441831196]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-172.jpg",
-				"line": 172
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.731363478,49.4439679529
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC604",
+        "line": 172,
+        "name": "14 - LACHELLE - REMY via Payelle:Piste 19 - Lachelle - Rémy via Payelle",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.731363478,
+            49.4439679529
+          ],
+          [
+            2.7311944403,
+            49.4438775207
+          ],
+          [
+            2.7307578315,
+            49.4437307301
+          ],
+          [
+            2.7303942202,
+            49.4436279757
+          ],
+          [
+            2.7300025788,
+            49.4435870992
+          ],
+          [
+            2.7297611625,
+            49.4435813989
+          ],
+          [
+            2.7294540823,
+            49.4435957271
+          ],
+          [
+            2.729133921,
+            49.4435580599
+          ],
+          [
+            2.7288789098,
+            49.4435032904
+          ],
+          [
+            2.7282747262,
+            49.4432361037
+          ],
+          [
+            2.726886767,
+            49.4426109845
+          ],
+          [
+            2.7264717945,
+            49.4424884235
+          ],
+          [
+            2.7256793475,
+            49.4421469741
+          ],
+          [
+            2.7250187689,
+            49.441831196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-172.jpg",
+        "line": 172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.731363478,
+          49.4439679529
+        ]
+      }
+    }
+  ]
+}

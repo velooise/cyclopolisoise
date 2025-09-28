@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-71.jpg",
-				"line": 28
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-       2.4025339562356294,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-71.jpg",
+        "line": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4025339562356294,
           49.15818384493363
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "lamorlaye-boran-sur-oise-71-1-2-4-7",
-                "line": 28,
-                "name": "Lamorlaye Est-Ouest le long de la RD",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                      [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamorlaye-boran-sur-oise-71-1-2-4-7",
+        "line": 28,
+        "name": "Lamorlaye Est-Ouest le long de la RD",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.436027131955939,
             49.155680291481616
           ],
@@ -71,23 +70,23 @@
             2.4024457807474278,
             49.158088705655956
           ]
-                ]
-            }
-        },
-	  {
-            "type": "Feature",
-            "properties": {
-                "id": "lamorlaye-boran-sur-oise-71-11",
-                "line": 28,
-                "name": "Le Lys au pont de Boran",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                           [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamorlaye-boran-sur-oise-71-11",
+        "line": 28,
+        "name": "Le Lys au pont de Boran",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4025339562356294,
             49.15811159438326
           ],
@@ -142,11 +141,9 @@
           [
             2.3673224939976762,
             49.168209051689416
-          ]  
-                ]
-            }
-        }   
-     ]
+          ]
+        ]
+      }
+    }
+  ]
 }
-
-

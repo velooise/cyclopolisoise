@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-145.jpg",
-				"line": 745
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.462512119048796,
-          49.29169231505341
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "r-de-la-republique-145",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-145.jpg",
+        "line": 745
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.462512119048796,
+          49.29169231505341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-de-la-republique-145",
         "line": 745,
         "name": "145 R DE LA REPUBLIQUE",
         "status": "planned",
         "type": "zone-de-rencontre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-745"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-                [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4597118928371913,
             49.293385665525136
           ],
@@ -48,9 +46,8 @@
             2.4623833730161664,
             49.29158035594713
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

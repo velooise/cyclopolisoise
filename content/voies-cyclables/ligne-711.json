@@ -1,474 +1,472 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "type": "perspective",
-                "name": "Point Repere",
-                "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-11.jpg",
-                "line": 711
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    2.4647426291613215,
-                    49.324773942341864
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "avenue-de-l'ile-de-france-(d62)-111",
-                "line": 711,
-                "name": "111 Avenue de l'Ile-de-France (D62)",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4611950175057586,
-                        49.327652989560534
-                    ],
-                    [
-                        2.462868784729608,
-                        49.325774895203125
-                    ],
-                    [
-                        2.4651318215408367,
-                        49.32294363906624
-                    ],
-                    [
-                        2.4663914512520932,
-                        49.321330632160084
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "rue-paul-faure-(d62)-121",
-                "line": 711,
-                "name": "121 - Rue Paul Faure (D62)",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4665833712810183,
-                        49.321082577632836
-                    ],
-                    [
-                        2.467463393223568,
-                        49.32009842377951
-                    ],
-                    [
-                        2.469922278063507,
-                        49.318844302084614
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "avenue-louis-aragon-(d62)-109",
-                "line": 711,
-                "name": "109 - Avenue Louis Aragon (D62)",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4566718113465242,
-                        49.331169107968066
-                    ],
-                    [
-                        2.4583064377060566,
-                        49.33015758645735
-                    ],
-                    [
-                        2.459288713179177,
-                        49.32911183705477
-                    ],
-                    [
-                        2.4606377402363933,
-                        49.327979517857614
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "avenue-louis-aragon-(d62)-110",
-                "line": 711,
-                "name": "110 - Avenue Louis Aragon (D62)",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4566416101616255,
-                        49.331181530080755
-                    ],
-                    [
-                        2.4552313548923905,
-                        49.33213552765105
-                    ],
-                    [
-                        2.4546948447537034,
-                        49.33326931122102
-                    ],
-                    [
-                        2.454832804530696,
-                        49.33565664896679
-                    ],
-                    [
-                        2.4550627373496923,
-                        49.33714993405124
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "avenue-louis-aragon-(d62)-108",
-                "line": 711,
-                "name": "108 - Avenue Louis Aragon (D62)",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4550791269588785,
-                        49.3371221936101
-                    ],
-                    [
-                        2.455489435922061,
-                        49.33769510503379
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "d62-128",
-                "line": 711,
-                "name": "128 - D62",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.472024800479403,
-                        49.309822406522756
-                    ],
-                    [
-                        2.4719710486301096,
-                        49.30912151135581
-                    ],
-                    [
-                        2.471469364694599,
-                        49.30798837641069
-                    ],
-                    [
-                        2.4712185227273835,
-                        49.307404276053575
-                    ],
-                    [
-                        2.4712006054439826,
-                        49.30587390027938
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "d62-129",
-                "line": 711,
-                "name": "129 - D62",
-                "status": "planned",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4719531313466803,
-                        49.30984576952335
-                    ],
-                    [
-                        2.4715231165449723,
-                        49.311340978510884
-                    ],
-                    [
-                        2.471936464465699,
-                        49.312937168954335
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "d62-144",
-                "line": 711,
-                "name": "144 - D62",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.469266709812956,
-                        49.300993453909086
-                    ],
-                    [
-                        2.4703404169803207,
-                        49.30280356098726
-                    ],
-                    [
-                        2.4709291618588622,
-                        49.30439103766028
-                    ],
-                    [
-                        2.4712696055947276,
-                        49.30621809492604
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "rue-victor-hugo-/-rue-de-l'ecole-des-arts-et-métiers-(d137)-123",
-                "line": 711,
-                "name": "123 - Rue Victor Hugo / Rue de l'Ecole des Arts et Métiers (D137)",
-                "status": "planned",
-                "type": "bilaterale",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4554646684456998,
-                        49.34133381286611
-                    ],
-                    [
-                        2.453526258882988,
-                        49.345052427028946
-                    ],
-                    [
-                        2.451803228161282,
-                        49.34605804170269
-                    ],
-                    [
-                        2.4501160939130955,
-                        49.34619835839547
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "avenue-du-général-de-gaulle-113",
-                "line": 711,
-                "name": "113 - Avenue du Général de Gaulle 13",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.447330626684021,
-                        49.35154833215725
-                    ],
-                    [
-                        2.4470614031327784,
-                        49.3522498333279
-                    ],
-                    [
-                        2.4470344807787114,
-                        49.352740878195334
-                    ],
-                    [
-                        2.4466575678068807,
-                        49.352939633057986
-                    ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "rue-saint-maurice-14",
-                "line": 711,
-                "name": "14 - Rue Saint Maurice",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.447330626684021,
-                        49.35154833215725
-                    ],
-                    [
-                        2.4470614031327784,
-                        49.3522498333279
-                    ],
-                    [
-                        2.4470344807787114,
-                        49.352740878195334
-                    ],
-                    [
-                        2.4466575678068807,
-                        49.352939633057986
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "souguehain-(d62)-25",
-                "line": 711,
-                "name": "25 - Souguehain (D62)",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.455500728517734,
-                        49.33768052454596
-                    ],
-                    [
-                        2.4559056582194785,
-                        49.33847207436747
-                    ],
-                    [
-                        2.4557706816518987,
-                        49.34084664744887
-                    ],
-                    [
-                        2.4555344726596218,
-                        49.34135232877
-                    ]
-                ]
-            }
-        },
-		{
-            "type": "Feature",
-            "properties": {
-                "id": "Bailleval-(d62)-12",
-                "line": 711,
-                "name": "12 - Bailleval-12",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.455500728517734,
-                        49.33768052454596
-                    ],
-                    [
-                        2.4559056582194785,
-                        49.33847207436747
-                    ],
-                    [
-                        2.4557706816518987,
-                        49.34084664744887
-                    ],
-                    [
-                        2.4555344726596218,
-                        49.34135232877
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "souguehain-(d62)-27",
-                "line": 711,
-                "name": "27 - Souguehain (D62)",
-                "status": "planned",
-                "type": "voie-bus",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        2.4558445340441892,
-                        49.34002202588758
-                    ],
-                    [
-                        2.4557264295474965,
-                        49.340846517447176
-                    ],
-                    [
-                        2.45559145298094,
-                        49.341275247599015
-                    ]
-                ]
-            }
-        },
-		 {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "souguehain-(d62)-26",
-          "line": 711,
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-11.jpg",
+        "line": 711
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4647426291613215,
+          49.324773942341864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-de-l'ile-de-france-(d62)-111",
+        "line": 711,
+        "name": "111 Avenue de l'Ile-de-France (D62)",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4611950175057586,
+            49.327652989560534
+          ],
+          [
+            2.462868784729608,
+            49.325774895203125
+          ],
+          [
+            2.4651318215408367,
+            49.32294363906624
+          ],
+          [
+            2.4663914512520932,
+            49.321330632160084
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-paul-faure-(d62)-121",
+        "line": 711,
+        "name": "121 - Rue Paul Faure (D62)",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4665833712810183,
+            49.321082577632836
+          ],
+          [
+            2.467463393223568,
+            49.32009842377951
+          ],
+          [
+            2.469922278063507,
+            49.318844302084614
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-louis-aragon-(d62)-109",
+        "line": 711,
+        "name": "109 - Avenue Louis Aragon (D62)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4566718113465242,
+            49.331169107968066
+          ],
+          [
+            2.4583064377060566,
+            49.33015758645735
+          ],
+          [
+            2.459288713179177,
+            49.32911183705477
+          ],
+          [
+            2.4606377402363933,
+            49.327979517857614
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-louis-aragon-(d62)-110",
+        "line": 711,
+        "name": "110 - Avenue Louis Aragon (D62)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4566416101616255,
+            49.331181530080755
+          ],
+          [
+            2.4552313548923905,
+            49.33213552765105
+          ],
+          [
+            2.4546948447537034,
+            49.33326931122102
+          ],
+          [
+            2.454832804530696,
+            49.33565664896679
+          ],
+          [
+            2.4550627373496923,
+            49.33714993405124
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-louis-aragon-(d62)-108",
+        "line": 711,
+        "name": "108 - Avenue Louis Aragon (D62)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4550791269588785,
+            49.3371221936101
+          ],
+          [
+            2.455489435922061,
+            49.33769510503379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "d62-128",
+        "line": 711,
+        "name": "128 - D62",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.472024800479403,
+            49.309822406522756
+          ],
+          [
+            2.4719710486301096,
+            49.30912151135581
+          ],
+          [
+            2.471469364694599,
+            49.30798837641069
+          ],
+          [
+            2.4712185227273835,
+            49.307404276053575
+          ],
+          [
+            2.4712006054439826,
+            49.30587390027938
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "d62-129",
+        "line": 711,
+        "name": "129 - D62",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4719531313466803,
+            49.30984576952335
+          ],
+          [
+            2.4715231165449723,
+            49.311340978510884
+          ],
+          [
+            2.471936464465699,
+            49.312937168954335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "d62-144",
+        "line": 711,
+        "name": "144 - D62",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.469266709812956,
+            49.300993453909086
+          ],
+          [
+            2.4703404169803207,
+            49.30280356098726
+          ],
+          [
+            2.4709291618588622,
+            49.30439103766028
+          ],
+          [
+            2.4712696055947276,
+            49.30621809492604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-victor-hugo-/-rue-de-l'ecole-des-arts-et-métiers-(d137)-123",
+        "line": 711,
+        "name": "123 - Rue Victor Hugo / Rue de l'Ecole des Arts et Métiers (D137)",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4554646684456998,
+            49.34133381286611
+          ],
+          [
+            2.453526258882988,
+            49.345052427028946
+          ],
+          [
+            2.451803228161282,
+            49.34605804170269
+          ],
+          [
+            2.4501160939130955,
+            49.34619835839547
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-du-général-de-gaulle-113",
+        "line": 711,
+        "name": "113 - Avenue du Général de Gaulle 13",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.447330626684021,
+            49.35154833215725
+          ],
+          [
+            2.4470614031327784,
+            49.3522498333279
+          ],
+          [
+            2.4470344807787114,
+            49.352740878195334
+          ],
+          [
+            2.4466575678068807,
+            49.352939633057986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-saint-maurice-14",
+        "line": 711,
+        "name": "14 - Rue Saint Maurice",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.447330626684021,
+            49.35154833215725
+          ],
+          [
+            2.4470614031327784,
+            49.3522498333279
+          ],
+          [
+            2.4470344807787114,
+            49.352740878195334
+          ],
+          [
+            2.4466575678068807,
+            49.352939633057986
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "souguehain-(d62)-25",
+        "line": 711,
+        "name": "25 - Souguehain (D62)",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.455500728517734,
+            49.33768052454596
+          ],
+          [
+            2.4559056582194785,
+            49.33847207436747
+          ],
+          [
+            2.4557706816518987,
+            49.34084664744887
+          ],
+          [
+            2.4555344726596218,
+            49.34135232877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Bailleval-(d62)-12",
+        "line": 711,
+        "name": "12 - Bailleval-12",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.455500728517734,
+            49.33768052454596
+          ],
+          [
+            2.4559056582194785,
+            49.33847207436747
+          ],
+          [
+            2.4557706816518987,
+            49.34084664744887
+          ],
+          [
+            2.4555344726596218,
+            49.34135232877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "souguehain-(d62)-27",
+        "line": 711,
+        "name": "27 - Souguehain (D62)",
+        "status": "planned",
+        "type": "voie-bus",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4558445340441892,
+            49.34002202588758
+          ],
+          [
+            2.4557264295474965,
+            49.340846517447176
+          ],
+          [
+            2.45559145298094,
+            49.341275247599015
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "souguehain-(d62)-26",
+        "line": 711,
         "name": "26 - Souguehain (D62)",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-626"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.450080091944102,
             49.34620829499045
           ],
@@ -500,8 +498,8 @@
             2.4476223710385057,
             49.349828149370836
           ]
-         ]
+        ]
       }
     }
-    ]
+  ]
 }

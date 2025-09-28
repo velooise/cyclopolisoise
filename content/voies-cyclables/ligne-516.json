@@ -1,57 +1,53 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-516.jpg",
-				"line": 516
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					         2.6217784,
-              49.3593533
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "bazicourt->-st-martin-longueau",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-516.jpg",
+        "line": 516
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6217784,
+          49.3593533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bazicourt->-st-martin-longueau",
         "line": 516,
         "name": "BAZICOURT > ST-MARTIN-LONGUEAU",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-516"
-
       },
       "geometry": {
         "coordinates": [
-          
-             [
-              2.6125898,
-              49.3582507
-            ],
-            [
-              2.6178579,
-              49.3587408
-            ],
-            [
-              2.6217784,
-              49.3593533
-            ],
-            [
-              2.6281492,
-              49.356903
-            ]
-          
+          [
+            2.6125898,
+            49.3582507
+          ],
+          [
+            2.6178579,
+            49.3587408
+          ],
+          [
+            2.6217784,
+            49.3593533
+          ],
+          [
+            2.6281492,
+            49.356903
+          ]
         ],
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

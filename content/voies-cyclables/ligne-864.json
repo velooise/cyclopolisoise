@@ -1,38 +1,53 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "864-kml_65",
-                "line": 864,
-                "name": "kml_65",
-                "status": "done",
-                "type": "bidirectionnelle",
-				"quality": "satisfactory",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-864"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.50336076128538,49.2868173415252,0],[2.50407252519166,49.2861974862739,0],[2.50410357616893,49.2861704444042,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 864
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.50336076128538,49.2868173415252
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "864-kml_65",
+        "line": 864,
+        "name": "kml_65",
+        "status": "done",
+        "type": "bidirectionnelle",
+        "quality": "satisfactory",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-864"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.50336076128538,
+            49.2868173415252,
+            0
+          ],
+          [
+            2.50407252519166,
+            49.2861974862739,
+            0
+          ],
+          [
+            2.50410357616893,
+            49.2861704444042,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 864
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.50336076128538,
+          49.2868173415252
+        ]
+      }
+    }
+  ]
+}

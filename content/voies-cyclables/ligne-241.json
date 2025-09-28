@@ -1,85 +1,85 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-241.jpg",
-				"line": 241
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.6747609844948386,
-					49.246897976210136
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "241-Liaison 41-01",
-				"line": 241,
-				"name": "Liaison 41-01 - Brasseuse – Chaussée Brunehaut",
-				"status": "planned",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-241"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.681015850146281,
-						49.256281531392744
-					],
-					[
-						2.6807344704621414,
-						49.25297572136907
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "241-Liaison 41-02-03-04",
-				"line": 241,
-				"name": "Liaison 41-02-03-04 - Brasseuse – Chaussée Brunehaut",
-				"status": "planned",
-				"type": "voie-riverains ",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-241"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.6805806090519297,
-						49.2525810359476
-					],
-					[
-						2.674807541492413,
-						49.247657781437624
-					],
-					[
-						2.6736901735779384,
-						49.24635090920597
-					],
-					[
-						2.6665669531204514,
-						49.241852572916684
-					],
-					[
-						2.6643787742877123,
-						49.240849509627935
-					],
-					[
-						2.6705708548153666,
-						49.23674585674598
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-241.jpg",
+        "line": 241
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6747609844948386,
+          49.246897976210136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "241-Liaison 41-01",
+        "line": 241,
+        "name": "Liaison 41-01 - Brasseuse – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-241"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.681015850146281,
+            49.256281531392744
+          ],
+          [
+            2.6807344704621414,
+            49.25297572136907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "241-Liaison 41-02-03-04",
+        "line": 241,
+        "name": "Liaison 41-02-03-04 - Brasseuse – Chaussée Brunehaut",
+        "status": "planned",
+        "type": "voie-riverains ",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-241"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6805806090519297,
+            49.2525810359476
+          ],
+          [
+            2.674807541492413,
+            49.247657781437624
+          ],
+          [
+            2.6736901735779384,
+            49.24635090920597
+          ],
+          [
+            2.6665669531204514,
+            49.241852572916684
+          ],
+          [
+            2.6643787742877123,
+            49.240849509627935
+          ],
+          [
+            2.6705708548153666,
+            49.23674585674598
+          ]
+        ]
+      }
+    }
+  ]
 }

@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "902-kml_103",
-                "line": 902,
-                "name": "kml_103",
-                "status": "planned",
-                "type": "autre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-902"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.4651022582195,49.2596485296433,0],[2.4652706382469,49.2597032155907,0],[2.46534324679147,49.259721517231,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 902
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4651022582195,49.2596485296433
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "902-kml_103",
+        "line": 902,
+        "name": "kml_103",
+        "status": "planned",
+        "type": "autre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-902"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4651022582195,
+            49.2596485296433,
+            0
+          ],
+          [
+            2.4652706382469,
+            49.2597032155907,
+            0
+          ],
+          [
+            2.46534324679147,
+            49.259721517231,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4651022582195,
+          49.2596485296433
+        ]
+      }
+    }
+  ]
+}

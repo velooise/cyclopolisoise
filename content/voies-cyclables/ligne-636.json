@@ -326,7 +326,7 @@
         "type": "LineString"
       }
     },
-     {
+    {
       "type": "Feature",
       "properties": {
         "id": "d916a-103 b",
@@ -338,8 +338,6 @@
       },
       "geometry": {
         "coordinates": [
-         
-          
           [
             2.4453324805266163,
             49.290116424715904

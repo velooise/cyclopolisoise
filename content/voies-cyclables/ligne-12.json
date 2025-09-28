@@ -1,80 +1,80 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-11.jpg",
-				"line": 12
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4154987662950305,
-					49.20482881507783
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux---gare-de-saint-leu---zc-st-m-11",
-				"line": 12,
-				"name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
-				"status": "planned",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-12"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.400476986126449,
-						49.196344827041884
-					],
-					[
-						2.401510833104112,
-						49.19686144957666
-					],
-					[
-						2.4024534582894717,
-						49.196960799445264
-					],
-					[
-						2.404612374038237,
-						49.198351676654426
-					],
-					[
-						2.402118965359307,
-						49.201471077322935
-					],
-					[
-						2.402271001679395,
-						49.20192804247381
-					],
-					[
-						2.404095437523239,
-						49.202385003402725
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "gouvieux---gare-de-saint-leu---zc-st-m-11-28",
-				"line": 12,
-				"name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-12"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-11.jpg",
+        "line": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4154987662950305,
+          49.20482881507783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux---gare-de-saint-leu---zc-st-m-11",
+        "line": 12,
+        "name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-12"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.400476986126449,
+            49.196344827041884
+          ],
+          [
+            2.401510833104112,
+            49.19686144957666
+          ],
+          [
+            2.4024534582894717,
+            49.196960799445264
+          ],
+          [
+            2.404612374038237,
+            49.198351676654426
+          ],
+          [
+            2.402118965359307,
+            49.201471077322935
+          ],
+          [
+            2.402271001679395,
+            49.20192804247381
+          ],
+          [
+            2.404095437523239,
+            49.202385003402725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux---gare-de-saint-leu---zc-st-m-11-28",
+        "line": 12,
+        "name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-12"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.404140041790214,
             49.20241140381182
           ],
@@ -138,8 +138,8 @@
             2.4236108597953034,
             49.213312233041734
           ]
-				]
-			}
-		}
-	]
+        ]
+      }
+    }
+  ]
 }

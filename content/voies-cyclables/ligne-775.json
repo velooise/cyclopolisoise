@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-175.jpg",
-				"line": 775
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4429882526500535,
-          49.32977622148138
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-la-brèche-(d630)-175",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-175.jpg",
+        "line": 775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4429882526500535,
+          49.32977622148138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-la-brèche-(d630)-175",
         "line": 775,
         "name": "175 - Rue de la Brèche (D630)",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-775"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4416446931171834,
             49.33230050032381
           ],
@@ -72,9 +70,8 @@
             2.4421390837616457,
             49.32750842812246
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

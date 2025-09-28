@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-525.jpg",
-				"line": 525
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					     2.604496317081157,
-            49.28961296940588
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "pont-ste-maxence-<>-fleurines",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-525.jpg",
+        "line": 525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.604496317081157,
+          49.28961296940588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pont-ste-maxence-<>-fleurines",
         "line": 525,
         "name": "PONT-STE-MAXENCE <> FLEURINES",
         "status": "planned",
         "type": "voie-verte",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-525"
-
       },
       "geometry": {
         "coordinates": [
-          
-         [
+          [
             2.6049426378250757,
             49.2927190264696
           ],
@@ -51,6 +49,5 @@
         "type": "LineString"
       }
     }
-]
+  ]
 }
-

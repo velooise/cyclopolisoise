@@ -1,81 +1,81 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-245.jpg",
-				"line": 245
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.6470370882471457,
-					49.20847204833149
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "245-Liaison 45-04-08",
-				"line": 245,
-				"name": "Liaison 45-04-08 - Montepilloy – Senlis",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-245"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.6161416289542103,
-						49.202470896219864
-					],
-					[
-						2.6299389667042306,
-						49.20511093708723
-					],
-					[
-						2.6503393269395588,
-						49.208952703580906
-					],
-					[
-						2.665529753188764,
-						49.21173633033774
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "245-Liaison 45-01-03",
-				"line": 245,
-				"name": "Liaison 45-01-03 - Montepilloy – Senlis",
-				"status": "planned",
-				"type": "voie-riverains",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-245"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.6658549094601085,
-						49.21174027041218
-					],
-					[
-						2.6792253240898845,
-						49.214246833308835
-					],
-					[
-						2.682627267809437,
-						49.214970354147965
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-245.jpg",
+        "line": 245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6470370882471457,
+          49.20847204833149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "245-Liaison 45-04-08",
+        "line": 245,
+        "name": "Liaison 45-04-08 - Montepilloy – Senlis",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-245"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6161416289542103,
+            49.202470896219864
+          ],
+          [
+            2.6299389667042306,
+            49.20511093708723
+          ],
+          [
+            2.6503393269395588,
+            49.208952703580906
+          ],
+          [
+            2.665529753188764,
+            49.21173633033774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "245-Liaison 45-01-03",
+        "line": 245,
+        "name": "Liaison 45-01-03 - Montepilloy – Senlis",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-245"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6658549094601085,
+            49.21174027041218
+          ],
+          [
+            2.6792253240898845,
+            49.214246833308835
+          ],
+          [
+            2.682627267809437,
+            49.214970354147965
+          ]
+        ]
+      }
+    }
+  ]
 }

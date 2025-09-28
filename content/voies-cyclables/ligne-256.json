@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-256.jpg",
-				"line": 256
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.5537344568803633,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-256.jpg",
+        "line": 256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5537344568803633,
           49.20151362112213
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "256-Liaison-56-01-02-03",
-                "line": 256,
-                "name": "Liaison 56-01-02-03 - Courteuil - Senlis",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                     [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "256-Liaison-56-01-02-03",
+        "line": 256,
+        "name": "Liaison 56-01-02-03 - Courteuil - Senlis",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.540555592789275,
             49.19954021552704
           ],
@@ -59,23 +58,23 @@
             2.553761462398427,
             49.20145426255536
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "256-Liaison-56-04",
-                "line": 256,
-                "name": "Liaison 56-04 - Courteuil - Senlis",
-                "status": "planned",
-                "type": "imp+debouche-cyclable",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                     [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "256-Liaison-56-04",
+        "line": 256,
+        "name": "Liaison 56-04 - Courteuil - Senlis",
+        "status": "planned",
+        "type": "imp+debouche-cyclable",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5537763869819514,
             49.201423664250996
           ],
@@ -91,23 +90,23 @@
             2.5613860430927957,
             49.20342344693404
           ]
-                ]
-            }
-        },
-			 {
-            "type": "Feature",
-            "properties": {
-                "id": "256-Liaison-56-05-06",
-                "line": 256,
-                "name": "Liaison 56-05-06 - Courteuil - Senlis",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                      [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "256-Liaison-56-05-06",
+        "line": 256,
+        "name": "Liaison 56-05-06 - Courteuil - Senlis",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-256"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5613726212085624,
             49.20341950358605
           ],
@@ -119,10 +118,8 @@
             2.5703658511573337,
             49.20436457829578
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

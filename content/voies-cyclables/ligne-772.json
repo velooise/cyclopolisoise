@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-172.jpg",
-				"line": 772
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.43923320370493,
-          49.32931760876667
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-marcelin-berthelot-172",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-172.jpg",
+        "line": 772
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.43923320370493,
+          49.32931760876667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-marcelin-berthelot-172",
         "line": 772,
         "name": "172 - Rue Marcelin Berthelot",
         "status": "planned",
         "type": "zone-de-rencontre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-772"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.4381388624265696,
             49.33021258865426
@@ -52,9 +50,8 @@
             2.440778156097025,
             49.329107845501994
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

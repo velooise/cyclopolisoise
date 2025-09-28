@@ -1,37 +1,93 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC304",
-                "line": 153,
-                "name": "Eurovélo 3 - La Scandibérique:5 - Rive gauche - Pont Neuf - Zone industrielle Nord: - Trans'Oise:Piste 6 - Compiègne - Le Meux",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8212762709,49.4185532747],[2.8212207395,49.418535485],[2.8211296871,49.4184825603],[2.8209647396,49.4184000508],[2.8208019321,49.4183274729],[2.8205718165,49.4182292642],[2.820311294,49.4181224997],[2.8201158767,49.4180498724],[2.819801058,49.417927424],[2.8195014049,49.4178205995],[2.8193364073,49.4177536898],[2.8192539262,49.4177152705],[2.819173654,49.4176669259],[2.8190964835,49.4176141683]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-153.jpg",
-				"line": 153
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8212762709,49.4185532747
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC304",
+        "line": 153,
+        "name": "Eurovélo 3 - La Scandibérique:5 - Rive gauche - Pont Neuf - Zone industrielle Nord: - Trans'Oise:Piste 6 - Compiègne - Le Meux",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8212762709,
+            49.4185532747
+          ],
+          [
+            2.8212207395,
+            49.418535485
+          ],
+          [
+            2.8211296871,
+            49.4184825603
+          ],
+          [
+            2.8209647396,
+            49.4184000508
+          ],
+          [
+            2.8208019321,
+            49.4183274729
+          ],
+          [
+            2.8205718165,
+            49.4182292642
+          ],
+          [
+            2.820311294,
+            49.4181224997
+          ],
+          [
+            2.8201158767,
+            49.4180498724
+          ],
+          [
+            2.819801058,
+            49.417927424
+          ],
+          [
+            2.8195014049,
+            49.4178205995
+          ],
+          [
+            2.8193364073,
+            49.4177536898
+          ],
+          [
+            2.8192539262,
+            49.4177152705
+          ],
+          [
+            2.819173654,
+            49.4176669259
+          ],
+          [
+            2.8190964835,
+            49.4176141683
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-153.jpg",
+        "line": 153
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8212762709,
+          49.4185532747
+        ]
+      }
+    }
+  ]
+}

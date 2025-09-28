@@ -1,88 +1,85 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A2.jpg",
-				"line": 46
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.5803193851890853,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A2.jpg",
+        "line": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5803193851890853,
           49.20918057783908
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "a2-2--centre-ville---complexe-sportif-A2",
-                "line": 46,
-                "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                       [
-              2.5774916856532406,
-              49.209757956304244
-            ],
-            [
-              2.579706223542291,
-              49.20945495736334
-            ],
-            [
-              2.5815076373677295,
-              49.20889363305051
-            ],
-            [
-              2.581864011505356,
-              49.20867720445391
-            ],
-            [
-              2.5820705735387115,
-              49.208376461754106
-            ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "a2-1--centre-ville---complexe-sportif-A2",
-                "line": 46,
-                "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
-                "status": "planned",
-                "type": "zone-de-rencontre",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
-              2.5820187475183816,
-              49.20830208002715
-            ],
-            [
-              2.582351084590796,
-              49.20798218337924
-            ],
-            [
-              2.582907806921782,
-              49.20776120633031
-            ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a2-2--centre-ville---complexe-sportif-A2",
+        "line": 46,
+        "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5774916856532406,
+            49.209757956304244
+          ],
+          [
+            2.579706223542291,
+            49.20945495736334
+          ],
+          [
+            2.5815076373677295,
+            49.20889363305051
+          ],
+          [
+            2.581864011505356,
+            49.20867720445391
+          ],
+          [
+            2.5820705735387115,
+            49.208376461754106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a2-1--centre-ville---complexe-sportif-A2",
+        "line": 46,
+        "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
+        "status": "planned",
+        "type": "zone-de-rencontre",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5820187475183816,
+            49.20830208002715
+          ],
+          [
+            2.582351084590796,
+            49.20798218337924
+          ],
+          [
+            2.582907806921782,
+            49.20776120633031
+          ]
+        ]
+      }
+    }
+  ]
 }
-
-

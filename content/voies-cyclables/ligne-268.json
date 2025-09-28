@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-268.jpg",
-				"line": 268
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.6931113477141366,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-268.jpg",
+        "line": 268
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6931113477141366,
           49.188327249329916
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "268-Liaison-68-01-05 - Montepilloy – Fontaine Chaalis",
-                "line": 268,
-                "name": "Liaison 68-01-05 - Montepilloy – Fontaine Chaalis",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-268"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                     [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "268-Liaison-68-01-05 - Montepilloy – Fontaine Chaalis",
+        "line": 268,
+        "name": "Liaison 68-01-05 - Montepilloy – Fontaine Chaalis",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-268"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6975264255458455,
             49.20973174190817
           ],
@@ -95,10 +94,8 @@
             2.684212451631595,
             49.17349814603227
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

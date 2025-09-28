@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-265.jpg",
-				"line": 265
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.6137454936555855,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-265.jpg",
+        "line": 265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6137454936555855,
           49.25404894136963
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "265-Liaison-65-01",
-                "line": 265,
-                "name": "Liaison 65-01 - Fleurines – Villers-St-Frambourg",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "265-Liaison-65-01",
+        "line": 265,
+        "name": "Liaison 65-01 - Fleurines – Villers-St-Frambourg",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5839404352199438,
             49.25943640982965
           ],
@@ -43,23 +42,23 @@
             2.589445806830156,
             49.260769277998065
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "265-Liaison-65-02-09",
-                "line": 265,
-                "name": "Liaison 65-02-09 - Fleurines – Villers-St-Frambourg",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-              [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "265-Liaison-65-02-09",
+        "line": 265,
+        "name": "Liaison 65-02-09 - Fleurines – Villers-St-Frambourg",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.58950500449572,
             49.26080791167851
           ],
@@ -147,10 +146,8 @@
             2.6388941982974643,
             49.25423002024465
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

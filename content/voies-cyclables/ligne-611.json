@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-11.jpg",
-				"line": 611
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4474464551772996,
-          49.350556739323224
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-saint-maurice-(d62)-11",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-11.jpg",
+        "line": 611
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4474464551772996,
+          49.350556739323224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-saint-maurice-(d62)-11",
         "line": 611,
         "name": "Rue de Saint-Maurice (D62)-11",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-611"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-              [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4471030300549614,
             49.35129080573816
           ],
@@ -40,9 +38,8 @@
             2.447650363843934,
             49.34982965321936
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

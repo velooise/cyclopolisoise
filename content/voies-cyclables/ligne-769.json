@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-169.jpg",
-				"line": 769
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.445514341211492,
-          49.3235268981127
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "route-de-liancourt-(d137)-169",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-169.jpg",
+        "line": 769
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.445514341211492,
+          49.3235268981127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "route-de-liancourt-(d137)-169",
         "line": 769,
         "name": "Route de Liancourt (D137)",
         "status": "planned",
         "type": "bandes-cyclables",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-769"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4452363101414107,
             49.323406086598595
           ],
@@ -40,9 +38,8 @@
             2.445715141428906,
             49.3235268981127
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

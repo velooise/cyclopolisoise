@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-165.jpg",
-				"line": 765
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4407619200612487,
-          49.331427303501414
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "r-emile-zola-165",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-165.jpg",
+        "line": 765
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4407619200612487,
+          49.331427303501414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-emile-zola-165",
         "line": 765,
         "name": "165 R EMILE ZOLA DSC",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-765"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.440332766619804,
             49.33111267175266
           ],
@@ -40,25 +38,23 @@
             2.441126700488155,
             49.331829330031326
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "r-pasteur-166",
+        "id": "r-pasteur-166",
         "line": 765,
         "name": "166 DSC R PASTEUR",
         "status": "planned",
         "type": "autre",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-766"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-           [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4401354087356992,
             49.33108481299203
           ],
@@ -66,9 +62,8 @@
             2.438129116392446,
             49.33025976861188
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

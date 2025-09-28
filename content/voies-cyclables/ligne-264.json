@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-264.jpg",
-				"line": 264
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7251541093232845,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-264.jpg",
+        "line": 264
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7251541093232845,
           49.22583721098934
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "264-Liaison-64-01",
-                "line": 264,
-                "name": "Liaison 64-01 - Rully – Ancienne voie ferrée",
-                "status": "planned",
-                "type": "voie-riverains",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-264"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                   [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "264-Liaison-64-01",
+        "line": 264,
+        "name": "Liaison 64-01 - Rully – Ancienne voie ferrée",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-264"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.7308244046756727,
             49.23121662125942
           ],
@@ -55,23 +54,23 @@
             2.7238846454421264,
             49.221581173532485
           ]
-                ]
-            }
-        },
-		{
-            "type": "Feature",
-            "properties": {
-                "id": "264-Liaison 64-02",
-                "line": 264,
-                "name": "Liaison 64-02 - Rully – Ancienne voie ferrée",
-                "status": "planned",
-                "type": "voie-riverains",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-264"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "264-Liaison 64-02",
+        "line": 264,
+        "name": "Liaison 64-02 - Rully – Ancienne voie ferrée",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-264"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.7239410662909904,
             49.22150747256657
           ],
@@ -79,10 +78,8 @@
             2.7236025411958167,
             49.22071518024245
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

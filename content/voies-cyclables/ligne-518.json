@@ -76,12 +76,13 @@
     {
       "type": "Feature",
       "properties": {
-      "id": "les-ageux->-pont-ste-maxence-t2",
+        "id": "les-ageux->-pont-ste-maxence-t2",
         "line": 518,
         "name": "LES AGEUX > PONT-STE-MAXENCE",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-518"},
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-518"
+      },
       "geometry": {
         "coordinates": [
           [

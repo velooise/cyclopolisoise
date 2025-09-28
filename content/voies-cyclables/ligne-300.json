@@ -1,37 +1,37 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-273.jpg",
-				"line": 300
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-	2.465042622506047,
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-273.jpg",
+        "line": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.465042622506047,
           49.27462680275312
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "300-Liaison nogent-traversee-1",
-				"line": 300,
-				"name": "Liaison 1 Traversée de Nogent",
-				"status": "done",
-				"doneAt": "01/07/2021",
-				"type": "bidirectionnelle",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-300"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300-Liaison nogent-traversee-1",
+        "line": 300,
+        "name": "Liaison 1 Traversée de Nogent",
+        "status": "done",
+        "doneAt": "01/07/2021",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.473273691151718,
             49.266756640930566
           ],
@@ -95,24 +95,24 @@
             2.4707578972744955,
             49.26971548237549
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "300-Liaison nogent-traversee-2",
-				"line": 300,
-				"name": "Liaison 2 Traversée de Nogent",
-				"status": "done",
-				"doneAt": "01/07/2021",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-300"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-				 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300-Liaison nogent-traversee-2",
+        "line": 300,
+        "name": "Liaison 2 Traversée de Nogent",
+        "status": "done",
+        "doneAt": "01/07/2021",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4707578983171743,
             49.269744832864006
           ],
@@ -168,24 +168,24 @@
             2.4679728875549642,
             49.273043204730556
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "300-Liaison nogent-traversee-3",
-				"line": 300,
-				"name": "Liaison 3 Traversée de Nogent",
-				"status": "done",
-				"doneAt": "01/07/2015",
-				"type": "piste-sur-trottoir",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-300"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-				 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300-Liaison nogent-traversee-3",
+        "line": 300,
+        "name": "Liaison 3 Traversée de Nogent",
+        "status": "done",
+        "doneAt": "01/07/2015",
+        "type": "piste-sur-trottoir",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4682311788478444,
             49.27311931168029
           ],
@@ -205,24 +205,24 @@
             2.466179895419174,
             49.27446940138597
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "300-Liaison nogent-traversee-4",
-				"line": 300,
-				"name": "Liaison 4 kml_60 Traversée de Nogent",
-				"status": "done",
-				"doneAt": "01/07/2020",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-300"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-				 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300-Liaison nogent-traversee-4",
+        "line": 300,
+        "name": "Liaison 4 kml_60 Traversée de Nogent",
+        "status": "done",
+        "doneAt": "01/07/2020",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.465988678713387,
             49.2744032457428
           ],
@@ -254,25 +254,24 @@
             2.462840615873887,
             49.27734616149519
           ]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "300-Liaison nogent-traversee-5",
-				"line": 300,
-				"name": "Liaison 5 kml_55 Traversée de Nogent",
-				"status": "done",
-				"doneAt": "01/07/2020",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-300"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-				
-  [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "300-Liaison nogent-traversee-5",
+        "line": 300,
+        "name": "Liaison 5 kml_55 Traversée de Nogent",
+        "status": "done",
+        "doneAt": "01/07/2020",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.462917089159845,
             49.27737550914895
           ],
@@ -312,11 +311,8 @@
             2.4528473137406195,
             49.28620252661409
           ]
-				]
-			}
-		}
-	]
+        ]
+      }
+    }
+  ]
 }
-
-
-

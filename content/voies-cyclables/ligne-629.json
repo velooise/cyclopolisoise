@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-29.jpg",
-				"line": 629
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-   2.44054891401737,
-          49.32066813162777
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "allée-des-fougères-29",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-29.jpg",
+        "line": 629
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.44054891401737,
+          49.32066813162777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "allée-des-fougères-29",
         "line": 629,
         "name": "Allée des Fougères",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-629"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4394653015751544,
             49.32019258341546
           ],
@@ -60,9 +58,8 @@
             2.442276256622904,
             49.32133948599193
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

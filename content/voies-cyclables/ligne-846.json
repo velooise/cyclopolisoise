@@ -1,37 +1,57 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "846-kml_47",
-                "line": 846,
-                "name": "kml_47",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-846"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.44527509179346,49.2112809462022,0],[2.44511983810229,49.2111705489001,0],[2.44497120488157,49.2110826578233,0],[2.4448550029773,49.2110416659241,0]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 846
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.44527509179346,49.2112809462022
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "846-kml_47",
+        "line": 846,
+        "name": "kml_47",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-846"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.44527509179346,
+            49.2112809462022,
+            0
+          ],
+          [
+            2.44511983810229,
+            49.2111705489001,
+            0
+          ],
+          [
+            2.44497120488157,
+            49.2110826578233,
+            0
+          ],
+          [
+            2.4448550029773,
+            49.2110416659241,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 846
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.44527509179346,
+          49.2112809462022
+        ]
+      }
+    }
+  ]
+}

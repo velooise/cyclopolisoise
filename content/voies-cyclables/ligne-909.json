@@ -1,37 +1,52 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "909-kml_110",
-                "line": 909,
-                "name": "kml_110",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-909"
-            },
-		"geometry": 
-		{"coordinates":[[2.4773431635397,49.2521892854089,0],[2.47769055891085,49.2521952851374,0],[2.47798948087574,49.2522415290032,0]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-				"line": 909
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.4773431635397,49.2521892854089
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "909-kml_110",
+        "line": 909,
+        "name": "kml_110",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-909"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.4773431635397,
+            49.2521892854089,
+            0
+          ],
+          [
+            2.47769055891085,
+            49.2521952851374,
+            0
+          ],
+          [
+            2.47798948087574,
+            49.2522415290032,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
+        "line": 909
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4773431635397,
+          49.2521892854089
+        ]
+      }
+    }
+  ]
+}

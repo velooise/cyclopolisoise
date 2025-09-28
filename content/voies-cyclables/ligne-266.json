@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-266.jpg",
-				"line": 266
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					  2.6445177872131183,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-266.jpg",
+        "line": 266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6445177872131183,
           49.24514886126724
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "266-Liaison-66-01-05",
-                "line": 266,
-                "name": "Liaison 66-01-05 - Villers-St-Frambourg - Ognon",
-                "status": "planned",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [ 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "266-Liaison-66-01-05",
+        "line": 266,
+        "name": "Liaison 66-01-05 - Villers-St-Frambourg - Ognon",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6401637706150893,
             49.25471361231979
           ],
@@ -67,23 +66,23 @@
             2.643827860229152,
             49.23989724448563
           ]
-                ]
-            }
-        },
-		   {
-            "type": "Feature",
-            "properties": {
-                "id": "266-Liaison-66-06-07",
-                "line": 266,
-                "name": "Liaison 66-06-07 - Villers-St-Frambourg - Ognon",
-                "status": "planned",
-                "type": "zone-30",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                     [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "266-Liaison-66-06-07",
+        "line": 266,
+        "name": "Liaison 66-06-07 - Villers-St-Frambourg - Ognon",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-266"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6438957132692167,
             49.23994154517723
           ],
@@ -107,10 +106,8 @@
             2.6449813398448896,
             49.23599862244055
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-17.jpg",
-				"line": 617
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4584183550790613,
-          49.34584020444376
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-des-fortes-terres-17",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-17.jpg",
+        "line": 617
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4584183550790613,
+          49.34584020444376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-des-fortes-terres-17",
         "line": 617,
         "name": "Rue des Fortes Terres",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-617"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.45768857669421,
             49.345036137293704
           ],
@@ -40,9 +38,8 @@
             2.458976420902019,
             49.34565142464106
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

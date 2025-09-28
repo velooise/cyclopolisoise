@@ -1,38 +1,37 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-259.jpg",
-				"line": 259
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					 2.5988372287991126,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-259.jpg",
+        "line": 259
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5988372287991126,
           49.21692462093122
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "259-Liaison-59-01-02",
-                "line": 259,
-                "name": "Liaison 59-01-02 - Chamant – Senlis",
-                "status": "done",
-				"doneAt": "12/12/2018",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                       [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "259-Liaison-59-01-02",
+        "line": 259,
+        "name": "Liaison 59-01-02 - Chamant – Senlis",
+        "status": "done",
+        "doneAt": "12/12/2018",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.6092481902632585,
             49.222123067687704
           ],
@@ -56,24 +55,24 @@
             2.5983551421362563,
             49.216811228948586
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "259-Liaison-59-03",
-                "line": 259,
-                "name": "Liaison 59-03 - Chamant – Senlis",
-                "status": "done",
-				"doneAt": "12/12/2018",
-                "type": "jalonnement",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "259-Liaison-59-03",
+        "line": 259,
+        "name": "Liaison 59-03 - Chamant – Senlis",
+        "status": "done",
+        "doneAt": "12/12/2018",
+        "type": "jalonnement",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.598383786748542,
             49.21673899480663
           ],
@@ -81,23 +80,23 @@
             2.5961827941474382,
             49.21565462570072
           ]
-                ]
-            }
-        },
-		{
-            "type": "Feature",
-            "properties": {
-                "id": "259-Liaison-59-04",
-                "line": 259,
-                "name": "Liaison 59-04 - Chamant – Senlis",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                  [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "259-Liaison-59-04",
+        "line": 259,
+        "name": "Liaison 59-04 - Chamant – Senlis",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.595955456705127,
             49.21541131056452
           ],
@@ -105,23 +104,23 @@
             2.592989705249636,
             49.21136601794697
           ]
-                ]
-            }
-        },
-		{
-            "type": "Feature",
-            "properties": {
-                "id": "259-Liaison-59-05",
-                "line": 259,
-                "name": "Liaison 59-05 - Chamant – Senlis",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                 [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "259-Liaison-59-05",
+        "line": 259,
+        "name": "Liaison 59-05 - Chamant – Senlis",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.59294968569759,
             49.2112480672119
           ],
@@ -129,10 +128,8 @@
             2.5907113881374926,
             49.20822605954862
           ]
-                ]
-            }
-        }
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

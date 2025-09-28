@@ -1,37 +1,36 @@
-
 {
-    "type": "FeatureCollection",
-    "features": [
+  "type": "FeatureCollection",
+  "features": [
     {
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-236.jpg",
-				"line": 236
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-		 2.528534824535825,
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-236.jpg",
+        "line": 236
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.528534824535825,
           49.23700318391232
-				]
-			}
-		},
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "236-Liaison36-01-02-03-04-05Baseaérienne",
-                "line": 236,
-                "name": "Liaison 36 et 36’ - Base aérienne de Creil - Aumont",
-                "status": "planned",
-                "type": "bidirectionnelle",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                        [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "236-Liaison36-01-02-03-04-05Baseaérienne",
+        "line": 236,
+        "name": "Liaison 36 et 36’ - Base aérienne de Creil - Aumont",
+        "status": "planned",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.51258892148428,
             49.24249115565675
           ],
@@ -63,23 +62,23 @@
             2.5467057373149657,
             49.23070740653978
           ]
-                ]
-            }
-        },
-		 {
-            "type": "Feature",
-            "properties": {
-                "id": "236-Liaison36p-Baseaérienne",
-                "line": 236,
-                "name": "Liaison 36’ - Base aérienne de Creil - Aumont",
-                "status": "planned",
-                "type": "voie-riverains",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                        [
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "236-Liaison36p-Baseaérienne",
+        "line": 236,
+        "name": "Liaison 36’ - Base aérienne de Creil - Aumont",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-236"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5448345277973203,
             49.23098398628093
           ],
@@ -123,11 +122,8 @@
             2.5243276313717047,
             49.23918909417898
           ]
-                ]
-            }
-        }
-		
-     ]
+        ]
+      }
+    }
+  ]
 }
-
-

@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-96.jpg",
-				"line": 696
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-    2.449913274271097,
-          49.29328971613302
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-douchet-rube-96",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-96.jpg",
+        "line": 696
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.449913274271097,
+          49.29328971613302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-douchet-rube-96",
         "line": 696,
         "name": "96 - Rue Douchet Rube",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-696"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4487329535710955,
             49.29290816654964
           ],
@@ -52,25 +50,23 @@
             2.450652257665496,
             49.29363779387836
           ]
-         ]
+        ]
       }
     },
-	{
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-caucriaumont-(d62)-149",
+        "id": "rue-de-caucriaumont-(d62)-149",
         "line": 696,
         "name": "149 - Rue de Caucriaumont Monchy (D62)",
         "status": "planned",
         "type": "jalonnement-picto",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-749"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4507705519528713,
             49.293624140948566
           ],
@@ -86,9 +82,8 @@
             2.4515483925670196,
             49.29348419751054
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

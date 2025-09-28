@@ -1,187 +1,541 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1414",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-           "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8229924581,49.4048013718],[2.8229894135,49.404861794],[2.8229744952,49.4049099087],[2.8225465659,49.4058764984]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1415",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-           "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8224329553,49.4066890556],[2.8224397848,49.4066181363],[2.8224634835,49.4063886156],[2.8225049726,49.4060054407],[2.8225198064,49.4059376221],[2.8225465659,49.4058764984],[2.8229744952,49.4049099087],[2.8229894135,49.404861794],[2.8229924581,49.4048013718]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1416",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-               "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8223685192,49.4080844871],[2.8223511491,49.4080250422],[2.8223464961,49.4079969397],[2.8223442978,49.4079762008],[2.8223458489,49.4078554919],[2.8223561614,49.4074978169],[2.8223652735,49.4073582118],[2.8223845438,49.4071657176],[2.8224329553,49.4066890556]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1417",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8223482293,49.4081585974],[2.82234165,49.4081493363],[2.8223376352,49.4081394705],[2.8223363068,49.4081292997],[2.8223377053,49.4081191328],[2.8223417881,49.4081092789],[2.8223484312,49.4081000373],[2.8223574327,49.4080916888],[2.8223685192,49.4080844871],[2.8223813537,49.408078651],[2.8223955463,49.4080743579],[2.8224106658,49.4080717381],[2.8224262527,49.4080708713],[2.8224418335,49.4080717838],[2.8224569348,49.4080744479],[2.8224710977,49.4080787827],[2.8224838919,49.4080846564],[2.8224949286,49.4080918906],[2.8225038724,49.4081002654],[2.8225104518,49.4081095264],[2.8225144666,49.4081193922],[2.822515795,49.408129563],[2.8225143966,49.4081397299],[2.8225103138,49.4081495838],[2.8225036707,49.4081588255],[2.8224946692,49.4081671739],[2.8224835827,49.4081743756],[2.8224707482,49.4081802117],[2.8224565556,49.4081845049],[2.8224414361,49.4081871247],[2.8224258491,49.4081879915],[2.8224102682,49.4081870789],[2.8223951669,49.4081844148],[2.822381004,49.4081800801],[2.8223682099,49.4081742063],[2.8223571732,49.4081669722],[2.8223482293,49.4081585974]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1418",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                 "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.822381004,49.4081800801],[2.8223654858,49.4082496833],[2.8223447586,49.4083362983],[2.8223309813,49.4083821927],[2.8222635106,49.4086986825],[2.8221714397,49.4091467222]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1419",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                  "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8221714397,49.4091467222],[2.8220560124,49.4096933586]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1420",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                 "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8219318541,49.4106613862],[2.8219472636,49.4104414634],[2.8219752206,49.4101478548],[2.8219967306,49.4099898696],[2.8220560124,49.4096933586]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1421",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-             "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8219318541,49.4106613862],[2.8219335416,49.4107397323],[2.8219784446,49.4122884339]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1422",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8219318541,49.4106613862],[2.8208308734,49.4108371519]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1423",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-                   "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8219784446,49.4122884339],[2.8216653944,49.4124639831]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1424",
-                "line": 143,
-                "name": "102 - Coeur de ville - La Victoire",
-               "status": "planned",
-                "type": "unknown",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8216653944,49.4124639831],[2.8216953491,49.4125339593],[2.8217263767,49.4126391366],[2.8217724151,49.4127828721],[2.8217968625,49.4128611787],[2.8217939218,49.4129101951],[2.8217803539,49.4129487682]]}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-143.jpg",
-				"line": 143
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8216653944,49.4124639831
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1414",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8229924581,
+            49.4048013718
+          ],
+          [
+            2.8229894135,
+            49.404861794
+          ],
+          [
+            2.8229744952,
+            49.4049099087
+          ],
+          [
+            2.8225465659,
+            49.4058764984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1415",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8224329553,
+            49.4066890556
+          ],
+          [
+            2.8224397848,
+            49.4066181363
+          ],
+          [
+            2.8224634835,
+            49.4063886156
+          ],
+          [
+            2.8225049726,
+            49.4060054407
+          ],
+          [
+            2.8225198064,
+            49.4059376221
+          ],
+          [
+            2.8225465659,
+            49.4058764984
+          ],
+          [
+            2.8229744952,
+            49.4049099087
+          ],
+          [
+            2.8229894135,
+            49.404861794
+          ],
+          [
+            2.8229924581,
+            49.4048013718
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1416",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8223685192,
+            49.4080844871
+          ],
+          [
+            2.8223511491,
+            49.4080250422
+          ],
+          [
+            2.8223464961,
+            49.4079969397
+          ],
+          [
+            2.8223442978,
+            49.4079762008
+          ],
+          [
+            2.8223458489,
+            49.4078554919
+          ],
+          [
+            2.8223561614,
+            49.4074978169
+          ],
+          [
+            2.8223652735,
+            49.4073582118
+          ],
+          [
+            2.8223845438,
+            49.4071657176
+          ],
+          [
+            2.8224329553,
+            49.4066890556
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1417",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8223482293,
+            49.4081585974
+          ],
+          [
+            2.82234165,
+            49.4081493363
+          ],
+          [
+            2.8223376352,
+            49.4081394705
+          ],
+          [
+            2.8223363068,
+            49.4081292997
+          ],
+          [
+            2.8223377053,
+            49.4081191328
+          ],
+          [
+            2.8223417881,
+            49.4081092789
+          ],
+          [
+            2.8223484312,
+            49.4081000373
+          ],
+          [
+            2.8223574327,
+            49.4080916888
+          ],
+          [
+            2.8223685192,
+            49.4080844871
+          ],
+          [
+            2.8223813537,
+            49.408078651
+          ],
+          [
+            2.8223955463,
+            49.4080743579
+          ],
+          [
+            2.8224106658,
+            49.4080717381
+          ],
+          [
+            2.8224262527,
+            49.4080708713
+          ],
+          [
+            2.8224418335,
+            49.4080717838
+          ],
+          [
+            2.8224569348,
+            49.4080744479
+          ],
+          [
+            2.8224710977,
+            49.4080787827
+          ],
+          [
+            2.8224838919,
+            49.4080846564
+          ],
+          [
+            2.8224949286,
+            49.4080918906
+          ],
+          [
+            2.8225038724,
+            49.4081002654
+          ],
+          [
+            2.8225104518,
+            49.4081095264
+          ],
+          [
+            2.8225144666,
+            49.4081193922
+          ],
+          [
+            2.822515795,
+            49.408129563
+          ],
+          [
+            2.8225143966,
+            49.4081397299
+          ],
+          [
+            2.8225103138,
+            49.4081495838
+          ],
+          [
+            2.8225036707,
+            49.4081588255
+          ],
+          [
+            2.8224946692,
+            49.4081671739
+          ],
+          [
+            2.8224835827,
+            49.4081743756
+          ],
+          [
+            2.8224707482,
+            49.4081802117
+          ],
+          [
+            2.8224565556,
+            49.4081845049
+          ],
+          [
+            2.8224414361,
+            49.4081871247
+          ],
+          [
+            2.8224258491,
+            49.4081879915
+          ],
+          [
+            2.8224102682,
+            49.4081870789
+          ],
+          [
+            2.8223951669,
+            49.4081844148
+          ],
+          [
+            2.822381004,
+            49.4081800801
+          ],
+          [
+            2.8223682099,
+            49.4081742063
+          ],
+          [
+            2.8223571732,
+            49.4081669722
+          ],
+          [
+            2.8223482293,
+            49.4081585974
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1418",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.822381004,
+            49.4081800801
+          ],
+          [
+            2.8223654858,
+            49.4082496833
+          ],
+          [
+            2.8223447586,
+            49.4083362983
+          ],
+          [
+            2.8223309813,
+            49.4083821927
+          ],
+          [
+            2.8222635106,
+            49.4086986825
+          ],
+          [
+            2.8221714397,
+            49.4091467222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1419",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8221714397,
+            49.4091467222
+          ],
+          [
+            2.8220560124,
+            49.4096933586
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1420",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8219318541,
+            49.4106613862
+          ],
+          [
+            2.8219472636,
+            49.4104414634
+          ],
+          [
+            2.8219752206,
+            49.4101478548
+          ],
+          [
+            2.8219967306,
+            49.4099898696
+          ],
+          [
+            2.8220560124,
+            49.4096933586
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1421",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8219318541,
+            49.4106613862
+          ],
+          [
+            2.8219335416,
+            49.4107397323
+          ],
+          [
+            2.8219784446,
+            49.4122884339
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1422",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8219318541,
+            49.4106613862
+          ],
+          [
+            2.8208308734,
+            49.4108371519
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1423",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8219784446,
+            49.4122884339
+          ],
+          [
+            2.8216653944,
+            49.4124639831
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1424",
+        "line": 143,
+        "name": "102 - Coeur de ville - La Victoire",
+        "status": "planned",
+        "type": "unknown",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8216653944,
+            49.4124639831
+          ],
+          [
+            2.8216953491,
+            49.4125339593
+          ],
+          [
+            2.8217263767,
+            49.4126391366
+          ],
+          [
+            2.8217724151,
+            49.4127828721
+          ],
+          [
+            2.8217968625,
+            49.4128611787
+          ],
+          [
+            2.8217939218,
+            49.4129101951
+          ],
+          [
+            2.8217803539,
+            49.4129487682
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-143.jpg",
+        "line": 143
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8216653944,
+          49.4124639831
+        ]
+      }
+    }
+  ]
+}

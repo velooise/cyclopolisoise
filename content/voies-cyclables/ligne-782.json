@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-182.jpg",
-				"line": 782
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-   2.4987883413195675,
-          49.34066273651544
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-l'eglise-182",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-182.jpg",
+        "line": 782
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4987883413195675,
+          49.34066273651544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-l'eglise-182",
         "line": 782,
         "name": "182 - Rue de l'Eglise",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-782"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.49581512615552,
             49.34072818338558
           ],
@@ -60,9 +58,8 @@
             2.5008776276514197,
             49.33978574005752
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

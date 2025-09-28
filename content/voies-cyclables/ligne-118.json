@@ -1,37 +1,61 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1301",
-                "line": 118,
-                "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
-                "status": "planned",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.7855899004,49.3063787877],[2.7854372023,49.3067691694],[2.7852866006,49.3071220972],[2.7852535672,49.307193391],[2.7852022376,49.307290815],[2.7851582917,49.3073620894]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-118.jpg",
-				"line": 118
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7855899004,49.3063787877
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1301",
+        "line": 118,
+        "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.7855899004,
+            49.3063787877
+          ],
+          [
+            2.7854372023,
+            49.3067691694
+          ],
+          [
+            2.7852866006,
+            49.3071220972
+          ],
+          [
+            2.7852535672,
+            49.307193391
+          ],
+          [
+            2.7852022376,
+            49.307290815
+          ],
+          [
+            2.7851582917,
+            49.3073620894
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-118.jpg",
+        "line": 118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7855899004,
+          49.3063787877
+        ]
+      }
+    }
+  ]
+}

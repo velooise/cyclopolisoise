@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-87.jpg",
-				"line": 687
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-  2.4508154576718084,
-          49.305221906046825
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "impasse-faidherbe-87",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-87.jpg",
+        "line": 687
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4508154576718084,
+          49.305221906046825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "impasse-faidherbe-87",
         "line": 687,
         "name": "87 - Impasse Faidherbe",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-687"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-               [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.450794000000684,
             49.3055541919139
           ],
@@ -44,9 +42,8 @@
             2.450791317791669,
             49.30502603122309
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

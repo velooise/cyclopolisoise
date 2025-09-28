@@ -1,64 +1,64 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-29.jpg",
-				"line": 22
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.5261888134636195,
-					49.12249571369253
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "collège-la-chapelle-en-serval-d118-29-04",
-				"line": 22,
-				"name": "collège LA CHAPELLE EN SERVAL - D118",
-				"status": "planned",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-22"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5248394192037438,
-						49.12222096978408
-					],
-					[
-						2.529637265459428,
-						49.12560610105922
-					],
-					[
-						2.5300420837371576,
-						49.125743463826524
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "collège-la-chapelle-en-serval-d118-29-00",
-				"line": 22,
-				"name": "collège LA CHAPELLE EN SERVAL - D118",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-22"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					 [
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-29.jpg",
+        "line": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5261888134636195,
+          49.12249571369253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "collège-la-chapelle-en-serval-d118-29-04",
+        "line": 22,
+        "name": "collège LA CHAPELLE EN SERVAL - D118",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-22"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5248394192037438,
+            49.12222096978408
+          ],
+          [
+            2.529637265459428,
+            49.12560610105922
+          ],
+          [
+            2.5300420837371576,
+            49.125743463826524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "collège-la-chapelle-en-serval-d118-29-00",
+        "line": 22,
+        "name": "collège LA CHAPELLE EN SERVAL - D118",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-22"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             2.5301170500852947,
             49.12575327543814
           ],
@@ -66,8 +66,8 @@
             2.533430562656008,
             49.125498172903974
           ]
-				]
-			}
-		}
-	]
+        ]
+      }
+    }
+  ]
 }

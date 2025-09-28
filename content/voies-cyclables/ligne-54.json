@@ -1,57 +1,57 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B1.jpg",
-				"line": 54
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.5797713330202896,
-					49.2046226481001
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "barreau-complementaire-b1-",
-				"line": 54,
-				"name": "Barreau Complementaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CVCB)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",
-				"status": "planned",
-				"type": "chaucidou",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-54"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.579110689480119,
-						49.20542973146411
-					],
-					[
-						2.580007558611942,
-						49.20436032751969
-					],
-					[
-						2.580792319102288,
-						49.20352529740113
-					],
-					[
-						2.581577079592633,
-						49.203056502382445
-					],
-					[
-						2.582204887984909,
-						49.20291000302769
-					]
-				]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B1.jpg",
+        "line": 54
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5797713330202896,
+          49.2046226481001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "barreau-complementaire-b1-",
+        "line": 54,
+        "name": "Barreau Complementaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CVCB)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",
+        "status": "planned",
+        "type": "chaucidou",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-54"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.579110689480119,
+            49.20542973146411
+          ],
+          [
+            2.580007558611942,
+            49.20436032751969
+          ],
+          [
+            2.580792319102288,
+            49.20352529740113
+          ],
+          [
+            2.581577079592633,
+            49.203056502382445
+          ],
+          [
+            2.582204887984909,
+            49.20291000302769
+          ]
+        ]
+      }
+    }
+  ]
 }

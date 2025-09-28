@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-16.jpg",
-				"line": 616
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.4484010651911206,
-          49.35189976507735
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-la-fontaine-du-tartarin-16",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-16.jpg",
+        "line": 616
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4484010651911206,
+          49.35189976507735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-la-fontaine-du-tartarin-16",
         "line": 616,
         "name": "16 Rue de la Fontaine du Tartarin",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-616"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4474781101750978,
             49.351515260224005
           ],
@@ -48,9 +46,8 @@
             2.449710373469628,
             49.35185082826288
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

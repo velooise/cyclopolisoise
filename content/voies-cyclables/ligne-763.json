@@ -1,37 +1,35 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-163.jpg",
-				"line": 763
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
- 2.4413883151160007,
-          49.33210631295793
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "r-d'uny-163",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-163.jpg",
+        "line": 763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4413883151160007,
+          49.33210631295793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-d'uny-163",
         "line": 763,
         "name": "163 - R D'UNY",
         "status": "planned",
         "type": "jalonnement",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-763"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
+        "type": "LineString",
+        "coordinates": [
           [
             2.4416922193137793,
             49.332083461455824
@@ -48,9 +46,8 @@
             2.441230518705538,
             49.33215201592992
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

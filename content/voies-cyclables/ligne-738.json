@@ -1,38 +1,36 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-138.jpg",
-				"line": 738
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-2.4727734402069643,
-          49.314892602515215
-				]
-			}
-		},
- {
+  "type": "FeatureCollection",
+  "features": [
+    {
       "type": "Feature",
       "properties": {
-		"id": "rue-de-la-colline-des-puits-138",
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-138.jpg",
+        "line": 738
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4727734402069643,
+          49.314892602515215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-de-la-colline-des-puits-138",
         "line": 738,
         "name": "138 - Rue de la Colline des Puits",
         "status": "planned",
         "type": "zone-30",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-738"
-
       },
       "geometry": {
-	  "type": "LineString",
-               "coordinates": [
-          
-            [
+        "type": "LineString",
+        "coordinates": [
+          [
             2.4725276537541845,
             49.31564275757327
           ],
@@ -52,9 +50,8 @@
             2.471957876067421,
             49.31475422314949
           ]
-         ]
+        ]
       }
     }
-]
+  ]
 }
-

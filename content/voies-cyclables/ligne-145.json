@@ -1,217 +1,593 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1442",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.820912077,49.4126653497],[2.8208062546,49.4127428112],[2.8206319398,49.4128712945],[2.8205178472,49.4129509825],[2.8204766057,49.4129688332],[2.8200848945,49.4131141586]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1443",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8200848945,49.4131141586],[2.8200059676,49.4131290593],[2.8199253397,49.4131407882],[2.8197856753,49.413156478],[2.8196267229,49.4131707063]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1444",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8196267229,49.4131707063],[2.8194053652,49.4131894158],[2.8192631323,49.4131986752],[2.8191863624,49.4132010748],[2.8191098991,49.4131999274],[2.8190213032,49.4131967119],[2.818937407,49.4131907828]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1445",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.820912077,49.4126653497],[2.8211031717,49.4127618125],[2.8212410615,49.4128405692],[2.8214788889,49.4129823894],[2.8215276331,49.4130002346],[2.82160531,49.4130210847]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1446",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.818937407,49.4131907828],[2.8185901476,49.4131739706],[2.8181418925,49.4131510812],[2.817841167,49.4131350772],[2.8176697525,49.4131343711],[2.81745495,49.4131419009],[2.8173843338,49.413152601]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1447",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8173843338,49.413152601],[2.8173106789,49.4131764893],[2.8172393806,49.4132155112]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1448",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.82160531,49.4130210847],[2.8216124349,49.4129908969],[2.8216313965,49.4129674015],[2.8216758879,49.4129493549],[2.8217284791,49.4129420358],[2.8217803539,49.4129487682],[2.8218110597,49.4129613435],[2.8218444738,49.4129897941],[2.8219577189,49.4131129389],[2.8219685071,49.4131397402],[2.8219646271,49.4131615787],[2.8219477278,49.4131899602],[2.8219243924,49.4132079917],[2.8218934366,49.4132220857],[2.8218610626,49.4132255529],[2.8218086995,49.413220749],[2.8217718283,49.4132103033],[2.8217417753,49.4131923175],[2.8216877248,49.4131407099],[2.8216250689,49.413072062],[2.8216099543,49.4130517195],[2.82160531,49.4130210847]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1449",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8216877248,49.4131407099],[2.8215280597,49.4131893832],[2.8215581667,49.4132438248],[2.8215735229,49.4132806919],[2.8215761772,49.413303278],[2.8215591701,49.4133206376],[2.8212577332,49.4134165967],[2.8210775548,49.413476273]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1450",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "planned",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8210775548,49.413476273],[2.8210497578,49.4134627124],[2.8210148204,49.413454211],[2.8209792339,49.4134461311],[2.8209410383,49.4134435397],[2.8208977985,49.4134483343]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1451",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"type":"LineString","coordinates":[[2.8198832647,49.4137740445],[2.8204485468,49.413594297],[2.8208977985,49.4134483343]]}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1452",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables" ,
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8204034606,49.4145002265],[2.8205239033,49.4145555658]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1453",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8204034606,49.4145002265],[2.8203996578,49.4144765616],[2.8203848423,49.4144541479],[2.8202623819,49.414289619],[2.8201076972,49.4140815259],[2.8199921716,49.4139250342],[2.8198832647,49.4137740445]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC1454",
-                "line": 145,
-                "name": "105 - Bouclage des Capucins",
-                "status": "done",
-                "type": "bandes-cyclables",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.8198832647,49.4137740445],[2.8196356088,49.4134354163],[2.8196208258,49.4133961965],[2.8196205969,49.4133544361],[2.8196308067,49.4133010501],[2.8196365777,49.4132736581],[2.8196366581,49.4132507011],[2.8196344025,49.4132151892],[2.8196267229,49.4131707063]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-145.jpg",
-				"line": 145
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.8198832647,49.4137740445
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1442",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.820912077,
+            49.4126653497
+          ],
+          [
+            2.8208062546,
+            49.4127428112
+          ],
+          [
+            2.8206319398,
+            49.4128712945
+          ],
+          [
+            2.8205178472,
+            49.4129509825
+          ],
+          [
+            2.8204766057,
+            49.4129688332
+          ],
+          [
+            2.8200848945,
+            49.4131141586
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1443",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8200848945,
+            49.4131141586
+          ],
+          [
+            2.8200059676,
+            49.4131290593
+          ],
+          [
+            2.8199253397,
+            49.4131407882
+          ],
+          [
+            2.8197856753,
+            49.413156478
+          ],
+          [
+            2.8196267229,
+            49.4131707063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1444",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8196267229,
+            49.4131707063
+          ],
+          [
+            2.8194053652,
+            49.4131894158
+          ],
+          [
+            2.8192631323,
+            49.4131986752
+          ],
+          [
+            2.8191863624,
+            49.4132010748
+          ],
+          [
+            2.8191098991,
+            49.4131999274
+          ],
+          [
+            2.8190213032,
+            49.4131967119
+          ],
+          [
+            2.818937407,
+            49.4131907828
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1445",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.820912077,
+            49.4126653497
+          ],
+          [
+            2.8211031717,
+            49.4127618125
+          ],
+          [
+            2.8212410615,
+            49.4128405692
+          ],
+          [
+            2.8214788889,
+            49.4129823894
+          ],
+          [
+            2.8215276331,
+            49.4130002346
+          ],
+          [
+            2.82160531,
+            49.4130210847
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1446",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.818937407,
+            49.4131907828
+          ],
+          [
+            2.8185901476,
+            49.4131739706
+          ],
+          [
+            2.8181418925,
+            49.4131510812
+          ],
+          [
+            2.817841167,
+            49.4131350772
+          ],
+          [
+            2.8176697525,
+            49.4131343711
+          ],
+          [
+            2.81745495,
+            49.4131419009
+          ],
+          [
+            2.8173843338,
+            49.413152601
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1447",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8173843338,
+            49.413152601
+          ],
+          [
+            2.8173106789,
+            49.4131764893
+          ],
+          [
+            2.8172393806,
+            49.4132155112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1448",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.82160531,
+            49.4130210847
+          ],
+          [
+            2.8216124349,
+            49.4129908969
+          ],
+          [
+            2.8216313965,
+            49.4129674015
+          ],
+          [
+            2.8216758879,
+            49.4129493549
+          ],
+          [
+            2.8217284791,
+            49.4129420358
+          ],
+          [
+            2.8217803539,
+            49.4129487682
+          ],
+          [
+            2.8218110597,
+            49.4129613435
+          ],
+          [
+            2.8218444738,
+            49.4129897941
+          ],
+          [
+            2.8219577189,
+            49.4131129389
+          ],
+          [
+            2.8219685071,
+            49.4131397402
+          ],
+          [
+            2.8219646271,
+            49.4131615787
+          ],
+          [
+            2.8219477278,
+            49.4131899602
+          ],
+          [
+            2.8219243924,
+            49.4132079917
+          ],
+          [
+            2.8218934366,
+            49.4132220857
+          ],
+          [
+            2.8218610626,
+            49.4132255529
+          ],
+          [
+            2.8218086995,
+            49.413220749
+          ],
+          [
+            2.8217718283,
+            49.4132103033
+          ],
+          [
+            2.8217417753,
+            49.4131923175
+          ],
+          [
+            2.8216877248,
+            49.4131407099
+          ],
+          [
+            2.8216250689,
+            49.413072062
+          ],
+          [
+            2.8216099543,
+            49.4130517195
+          ],
+          [
+            2.82160531,
+            49.4130210847
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1449",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8216877248,
+            49.4131407099
+          ],
+          [
+            2.8215280597,
+            49.4131893832
+          ],
+          [
+            2.8215581667,
+            49.4132438248
+          ],
+          [
+            2.8215735229,
+            49.4132806919
+          ],
+          [
+            2.8215761772,
+            49.413303278
+          ],
+          [
+            2.8215591701,
+            49.4133206376
+          ],
+          [
+            2.8212577332,
+            49.4134165967
+          ],
+          [
+            2.8210775548,
+            49.413476273
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1450",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "planned",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8210775548,
+            49.413476273
+          ],
+          [
+            2.8210497578,
+            49.4134627124
+          ],
+          [
+            2.8210148204,
+            49.413454211
+          ],
+          [
+            2.8209792339,
+            49.4134461311
+          ],
+          [
+            2.8209410383,
+            49.4134435397
+          ],
+          [
+            2.8208977985,
+            49.4134483343
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1451",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.8198832647,
+            49.4137740445
+          ],
+          [
+            2.8204485468,
+            49.413594297
+          ],
+          [
+            2.8208977985,
+            49.4134483343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1452",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8204034606,
+            49.4145002265
+          ],
+          [
+            2.8205239033,
+            49.4145555658
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1453",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8204034606,
+            49.4145002265
+          ],
+          [
+            2.8203996578,
+            49.4144765616
+          ],
+          [
+            2.8203848423,
+            49.4144541479
+          ],
+          [
+            2.8202623819,
+            49.414289619
+          ],
+          [
+            2.8201076972,
+            49.4140815259
+          ],
+          [
+            2.8199921716,
+            49.4139250342
+          ],
+          [
+            2.8198832647,
+            49.4137740445
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC1454",
+        "line": 145,
+        "name": "105 - Bouclage des Capucins",
+        "status": "done",
+        "type": "bandes-cyclables",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.8198832647,
+            49.4137740445
+          ],
+          [
+            2.8196356088,
+            49.4134354163
+          ],
+          [
+            2.8196208258,
+            49.4133961965
+          ],
+          [
+            2.8196205969,
+            49.4133544361
+          ],
+          [
+            2.8196308067,
+            49.4133010501
+          ],
+          [
+            2.8196365777,
+            49.4132736581
+          ],
+          [
+            2.8196366581,
+            49.4132507011
+          ],
+          [
+            2.8196344025,
+            49.4132151892
+          ],
+          [
+            2.8196267229,
+            49.4131707063
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-145.jpg",
+        "line": 145
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8198832647,
+          49.4137740445
+        ]
+      }
+    }
+  ]
+}

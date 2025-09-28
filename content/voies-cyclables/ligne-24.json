@@ -1,235 +1,235 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Central",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-31.jpg",
-				"line": 24
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.5461221931024625,
-					49.09739959192757
-				]
-			},
-			"id": 0
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "plailly-fosses-31-17",
-				"line": 24,
-				"name": "Fosses-Survilliers",
-				"status": "planned",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5251951640986476,
-						49.100934256962574
-					],
-					[
-						2.52664550813833,
-						49.100934256962574
-					],
-					[
-						2.528557325282577,
-						49.10040191292876
-					],
-					[
-						2.5293484220329674,
-						49.10007099348945
-					],
-					[
-						2.5309965402599914,
-						49.09952425219004
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "plailly-fosses-31-14-15",
-				"line": 24,
-				"name": "Entrée de Survilliers",
-				"status": "planned",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5316936293982337,
-						49.09941735406042
-					],
-					[
-						2.5338093287023753,
-						49.09915016256764
-					],
-					[
-						2.535934465107033,
-						49.09901826175482
-					],
-					[
-						2.5388131782781613,
-						49.09827007206286
-					],
-					[
-						2.539988828903489,
-						49.0979175690712
-					],
-					[
-						2.541120536752686,
-						49.09755066162961
-					]
-				]
-			},
-			"id": 2
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "plailly-za-zi-zc-gare-de-fosses-31-05-06-08",
-				"line": 24,
-				"name": "Survilliers-Plailly",
-				"status": "planned",
-				"type": "bilaterale",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
-			},
-			"geometry": {
-				"type": "LineString",
-				"coordinates": [
-					[
-						2.5485652900531193,
-						49.098947109270114
-					],
-					[
-						2.549620085718203,
-						49.09939314070638
-					],
-					[
-						2.5510374673942238,
-						49.09977442246574
-					],
-					[
-						2.5558071255927075,
-						49.100683834524716
-					],
-					[
-						2.557696967827411,
-						49.10099316850912
-					],
-					[
-						2.5601351645449313,
-						49.10191177160601
-					],
-					[
-						2.5614931081797465,
-						49.10241141952926
-					],
-					[
-						2.565459579382207,
-						49.10318112721856
-					],
-					[
-						2.567265902757555,
-						49.10390722811212
-					],
-					[
-						2.5710236123173047,
-						49.10478481134194
-					],
-					[
-						2.575072199107069,
-						49.105544583327855
-					],
-					[
-						2.577071915890741,
-						49.106076872197775
-					],
-					[
-						2.5802363028873856,
-						49.10663073428475
-					]
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "plaillyfosses-31-12",
-				"line": 24,
-				"name": "Sortie de survilliers",
-				"status": "planned",
-				"type": "voie-verte",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
-			},
-			"geometry": {
-				"coordinates": [
-					[
-						2.548596188765373,
-						49.09892478258797
-					],
-					[
-						2.5462659736689943,
-						49.097435366926476
-					]
-				],
-				"type": "LineString"
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"id": "plaillyfosses-31-13",
-				"line": 24,
-				"name": "Survilliers-Centre",
-				"status": "planned",
-				"type": "zone-30",
-				"link": "https://cyclopolisoise.netlify.app/velo-oise-24"
-			},
-			"geometry": {
-				"coordinates": [
-					[
-						2.541159876472875,
-						49.09755890606698
-					],
-					[
-						2.5420382700430935,
-						49.097227923332696
-					],
-					[
-						2.543024391127318,
-						49.09712482989946
-					],
-					[
-						2.543886211233996,
-						49.09705971814668
-					],
-					[
-						2.544872332317226,
-						49.09709770001277
-					],
-					[
-						2.545825292857188,
-						49.09726591507845
-					],
-					[
-						2.5461484753964783,
-						49.09741241579306
-					]
-				],
-				"type": "LineString"
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Central",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-31.jpg",
+        "line": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5461221931024625,
+          49.09739959192757
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plailly-fosses-31-17",
+        "line": 24,
+        "name": "Fosses-Survilliers",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-24"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5251951640986476,
+            49.100934256962574
+          ],
+          [
+            2.52664550813833,
+            49.100934256962574
+          ],
+          [
+            2.528557325282577,
+            49.10040191292876
+          ],
+          [
+            2.5293484220329674,
+            49.10007099348945
+          ],
+          [
+            2.5309965402599914,
+            49.09952425219004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plailly-fosses-31-14-15",
+        "line": 24,
+        "name": "Entrée de Survilliers",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-24"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5316936293982337,
+            49.09941735406042
+          ],
+          [
+            2.5338093287023753,
+            49.09915016256764
+          ],
+          [
+            2.535934465107033,
+            49.09901826175482
+          ],
+          [
+            2.5388131782781613,
+            49.09827007206286
+          ],
+          [
+            2.539988828903489,
+            49.0979175690712
+          ],
+          [
+            2.541120536752686,
+            49.09755066162961
+          ]
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plailly-za-zi-zc-gare-de-fosses-31-05-06-08",
+        "line": 24,
+        "name": "Survilliers-Plailly",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-24"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5485652900531193,
+            49.098947109270114
+          ],
+          [
+            2.549620085718203,
+            49.09939314070638
+          ],
+          [
+            2.5510374673942238,
+            49.09977442246574
+          ],
+          [
+            2.5558071255927075,
+            49.100683834524716
+          ],
+          [
+            2.557696967827411,
+            49.10099316850912
+          ],
+          [
+            2.5601351645449313,
+            49.10191177160601
+          ],
+          [
+            2.5614931081797465,
+            49.10241141952926
+          ],
+          [
+            2.565459579382207,
+            49.10318112721856
+          ],
+          [
+            2.567265902757555,
+            49.10390722811212
+          ],
+          [
+            2.5710236123173047,
+            49.10478481134194
+          ],
+          [
+            2.575072199107069,
+            49.105544583327855
+          ],
+          [
+            2.577071915890741,
+            49.106076872197775
+          ],
+          [
+            2.5802363028873856,
+            49.10663073428475
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plaillyfosses-31-12",
+        "line": 24,
+        "name": "Sortie de survilliers",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-24"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.548596188765373,
+            49.09892478258797
+          ],
+          [
+            2.5462659736689943,
+            49.097435366926476
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "plaillyfosses-31-13",
+        "line": 24,
+        "name": "Survilliers-Centre",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-24"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.541159876472875,
+            49.09755890606698
+          ],
+          [
+            2.5420382700430935,
+            49.097227923332696
+          ],
+          [
+            2.543024391127318,
+            49.09712482989946
+          ],
+          [
+            2.543886211233996,
+            49.09705971814668
+          ],
+          [
+            2.544872332317226,
+            49.09709770001277
+          ],
+          [
+            2.545825292857188,
+            49.09726591507845
+          ],
+          [
+            2.5461484753964783,
+            49.09741241579306
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
 }

@@ -1,52 +1,113 @@
 {
-"type": "FeatureCollection",
-    "features": [
-
-{
-            "type": "Feature",
-            "properties": {
-                "id": "TC3033",
-                "line": 152,
-                "name": "Piste 10 - Le Meux - Jonquières:107 - Oise - Forêt via Bellicart",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.7362298942,49.3890174886],[2.736447053,49.3890071252],[2.7367582677,49.3889823351],[2.7370386406,49.3889655197],[2.7373601216,49.3889407504],[2.7376713252,49.3889179686],[2.7380277025,49.3888952838],[2.7382413131,49.3888836826],[2.7384692768,49.3888761332],[2.7387434376,49.3888693534],[2.7390072975,49.3888692528],[2.739256104,49.3888699969]],"type":"LineString"}
-		      }
-
-
-,{
-            "type": "Feature",
-            "properties": {
-                "id": "TC3034",
-                "line": 152,
-                "name": "Piste 10 - Le Meux - Jonquières:107 - Oise - Forêt via Bellicart",
-                "status": "done",
-                "type": "voie-verte",
-                "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
-            },
-		"geometry": 
-		{"coordinates":[[2.7392553588,49.3888706959],[2.7393399314,49.3888719807],[2.7394274191,49.3889042884]],"type":"LineString"}
-		      }
-
-,
-{
-			"type": "Feature",
-			"properties": {
-				"type": "perspective",
-				"name": "Point Repere",
-				"imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-152.jpg",
-				"line": 152
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					2.7392553588,49.3888706959
-				]
-			}
-		}
-
-
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC3033",
+        "line": 152,
+        "name": "Piste 10 - Le Meux - Jonquières:107 - Oise - Forêt via Bellicart",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.7362298942,
+            49.3890174886
+          ],
+          [
+            2.736447053,
+            49.3890071252
+          ],
+          [
+            2.7367582677,
+            49.3889823351
+          ],
+          [
+            2.7370386406,
+            49.3889655197
+          ],
+          [
+            2.7373601216,
+            49.3889407504
+          ],
+          [
+            2.7376713252,
+            49.3889179686
+          ],
+          [
+            2.7380277025,
+            49.3888952838
+          ],
+          [
+            2.7382413131,
+            49.3888836826
+          ],
+          [
+            2.7384692768,
+            49.3888761332
+          ],
+          [
+            2.7387434376,
+            49.3888693534
+          ],
+          [
+            2.7390072975,
+            49.3888692528
+          ],
+          [
+            2.739256104,
+            49.3888699969
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TC3034",
+        "line": 152,
+        "name": "Piste 10 - Le Meux - Jonquières:107 - Oise - Forêt via Bellicart",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.7392553588,
+            49.3888706959
+          ],
+          [
+            2.7393399314,
+            49.3888719807
+          ],
+          [
+            2.7394274191,
+            49.3889042884
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "Point Repere",
+        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-152.jpg",
+        "line": 152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7392553588,
+          49.3888706959
+        ]
+      }
+    }
+  ]
+}
