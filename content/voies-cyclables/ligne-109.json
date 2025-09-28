@@ -9,7 +9,7 @@
         "name": "106 - Coeur de ville",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-109"
       },
       "geometry": {
         "type": "LineString",
@@ -41,7 +41,7 @@
         "name": "106 - Coeur de ville",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-109"
       },
       "geometry": {
         "coordinates": [
@@ -89,7 +89,7 @@
         "name": "106 - Coeur de ville",
         "status": "postponed",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-109"
       },
       "geometry": {
         "coordinates": [
