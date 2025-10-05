@@ -12,6 +12,7 @@ Cette liaison vient compléter la liaison historique qui emprunte le chemin de l
 ## Les tronçons (du Nord au Sud)
 
 ###Traversée à chevaux vers le domaine d'Aiglemont
+
 Depuis sa création, la piste cyclable traversait un passage sableux devant le domaine d'Aiglemont. A la demande des usagers le sable a été retiré début octobre 2025.
 
 ## Informations complémentaires
