@@ -10,11 +10,11 @@
         "line": 30
       },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           2.432798799936222,
           49.17991193562568
-        ]
+        ],
+        "type": "Point"
       }
     },
     {
@@ -28,7 +28,6 @@
         "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             2.447754887130287,
@@ -66,7 +65,8 @@
             2.431800788960885,
             49.18147682284203
           ]
-        ]
+        ],
+        "type": "LineString"
       }
     },
     {
@@ -81,25 +81,21 @@
         "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
-            2.4318703019793304,
-            49.181521636022126
+            2.43181591578076,
+            49.18346256127586
           ],
           [
-            2.4316280851217016,
-            49.185031129133904
+            2.431540874911235,
+            49.18629580555012
           ],
           [
-            2.431506976692276,
-            49.18629765199242
-          ],
-          [
-            2.431506976692276,
-            49.1865351214193
+            2.431540874911235,
+            49.186533274976995
           ]
-        ]
+        ],
+        "type": "LineString"
       }
     },
     {
@@ -115,7 +111,6 @@
         "quality": "unsatisfactory"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             2.429762538632417,
@@ -141,7 +136,8 @@
             2.431337112959767,
             49.18651878504943
           ]
-        ]
+        ],
+        "type": "LineString"
       }
     },
     {
@@ -157,7 +153,6 @@
         "quality": "unsatisfactory"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             2.4337025821285465,
@@ -183,7 +178,8 @@
             2.4342923103411636,
             49.18639973332802
           ]
-        ]
+        ],
+        "type": "LineString"
       }
     },
     {
@@ -199,7 +195,6 @@
         "quality": "unsatisfactory"
       },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             2.4331010594455904,
@@ -237,8 +232,64 @@
             2.4339081597408097,
             49.18938238995864
           ]
-        ]
+        ],
+        "type": "LineString"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "id": "gouvieux-centre-nautique---lamorlaye-73-02-math-aig",
+        "line": 30,
+        "name": "Traversée Passage a chevaux Aiglemont (73-02)",
+        "status": "wip",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.4318176828328433,
+            49.18345842667611
+          ],
+          [
+            2.431829643320242,
+            49.183365218164596
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gouvieux-centre-nautique---lamorlaye-73-02-fmat",
+        "line": 30,
+        "name": "De la cavée de Paris (73-02) F.Mathet",
+        "status": "done",
+        "doneAt": "01/10/2016",
+        "type": "bidirectionnelle",
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.4318296307259857,
+            49.18336553634171
+          ],
+          [
+            2.4319084435911975,
+            49.181438608013565
+          ],
+          [
+            2.431857274189497,
+            49.18144232441213
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": 7
     }
   ]
 }
