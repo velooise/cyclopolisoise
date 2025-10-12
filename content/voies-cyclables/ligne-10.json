@@ -5,11 +5,11 @@
       "type": "Feature",
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-03",
-        "line": 9,
+        "line": 10,
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9"
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-10"
       },
       "geometry": {
         "type": "LineString",
@@ -55,7 +55,7 @@
         "type": "perspective",
         "name": "Point Central",
         "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-09.jpg",
-        "line": 9
+        "line": 10
       },
       "geometry": {
         "type": "Point",
@@ -69,8 +69,8 @@
       "type": "Feature",
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-06-07",
-        "line": 9,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9",
+        "line": 10,
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "bandes-cyclables"
@@ -117,8 +117,8 @@
       "type": "Feature",
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
-        "line": 9,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9",
+        "line": 10,
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "voie-verte"
@@ -165,8 +165,8 @@
       "type": "Feature",
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
-        "line": 9,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9",
+        "line": 10,
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
         "name": "Derriere les etangs",
         "status": "planned",
         "type": "voie-verte"
@@ -265,8 +265,8 @@
       "type": "Feature",
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
-        "line": 9,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9",
+        "line": 10,
+        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "voie-verte"

@@ -14456,7 +14456,7 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -14664,7 +14664,7 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -14908,7 +14908,7 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -14968,7 +14968,7 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15140,7 +15140,7 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15196,7 +15196,7 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15312,7 +15312,7 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15368,7 +15368,7 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15588,7 +15588,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15612,7 +15612,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15676,7 +15676,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15732,7 +15732,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15760,7 +15760,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -15832,7 +15832,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16012,7 +16012,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16120,7 +16120,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16188,7 +16188,7 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16420,7 +16420,7 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16536,7 +16536,7 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16600,7 +16600,7 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16768,7 +16768,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16852,7 +16852,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16884,7 +16884,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -16972,7 +16972,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17012,7 +17012,7 @@
         "line": 199,
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17196,7 +17196,7 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17280,7 +17280,7 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17336,7 +17336,7 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17364,7 +17364,7 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17416,7 +17416,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17444,7 +17444,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17468,7 +17468,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17524,7 +17524,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17560,7 +17560,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17588,7 +17588,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17620,7 +17620,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17696,7 +17696,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17856,7 +17856,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17896,7 +17896,7 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17924,7 +17924,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17956,7 +17956,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -17984,7 +17984,7 @@
         "line": 199,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare:Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18136,7 +18136,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18248,7 +18248,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18308,7 +18308,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18868,7 +18868,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18940,7 +18940,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -18972,7 +18972,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -19016,7 +19016,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville:Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -19048,7 +19048,7 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -19092,7 +19092,7 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -19124,7 +19124,7 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -19148,7 +19148,7 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22448,7 +22448,7 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22568,7 +22568,7 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22724,7 +22724,7 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22824,7 +22824,7 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22920,7 +22920,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -22956,7 +22956,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -25884,7 +25884,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -25912,7 +25912,7 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29812,7 +29812,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29844,7 +29844,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29872,7 +29872,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29948,7 +29948,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29972,7 +29972,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -29996,7 +29996,7 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30020,7 +30020,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30252,7 +30252,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30292,7 +30292,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30448,7 +30448,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30496,7 +30496,7 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30580,7 +30580,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -30988,7 +30988,7 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -31012,7 +31012,7 @@
         "line": 199,
         "name": "Piste 17 - Les Lycées",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {
@@ -31520,7 +31520,7 @@
         "line": 199,
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
-        "type": "PISTE CYCLABLE",
+        "type": "piste-cyclable",
         "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
       },
       "geometry": {

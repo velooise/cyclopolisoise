@@ -82,13 +82,14 @@ const statusFilters = ref([
 
 const typeFilters = ref([
   { label: 'Bidirectionnelle', isEnable: true, types: ['bidirectionnelle'] },
-  { label: 'Bilaterale', isEnable: true, types: ['bilaterale'] },
+  { label: 'Bilatérale', isEnable: true, types: ['bilaterale'] },
   { label: 'Voie Bus', isEnable: true, types: ['voie-bus', 'voie-bus-elargie'] },
   { label: 'Voie verte', isEnable: true, types: ['voie-verte'] },
   { label: 'Vélorue', isEnable: true, types: ['velorue'] },
   { label: 'Bandes cyclables', isEnable: true, types: ['bandes-cyclables'] },
   { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
   { label: 'Zone 30', isEnable: true, types: ['zone-30'] },
+  { label: 'Piste cyclable', isEnable: true, types: ['piste-cyclable'] },
   { label: 'Impasse + débouché cyclable', isEnable: true, types: ['imp+debouche-cyclable'] },
   { label: 'Piste sur trottoir', isEnable: true, types: ['piste-sur-trottoir'] },
   { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
@@ -98,7 +99,7 @@ const typeFilters = ref([
   { label: 'Jalonnement', isEnable: true, types: ['jalonnement'] },  
   { label: 'Jalonnement et Pictogramme au sol', isEnable: true, types: ['jalonnement-picto'] },  
   { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
-  { label: 'autre', isEnable: true, types: ['autre'] },
+  { label: 'Autre', isEnable: true, types: ['autre'] },
   { label: 'Aucun', isEnable: true, types: ['aucun'] }
 ]);
 

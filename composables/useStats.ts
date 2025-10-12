@@ -184,6 +184,7 @@ export const useStats = () => {
     'bandes-cyclables': 'Bandes cyclables',
     'zone-de-rencontre': 'Zone de rencontre',
     'zone-30': 'Zone 30',
+    'piste-cyclable': 'Piste cyclable',
     'imp+debouche-cyclable': 'Impasse avec débouché cyclable',
     'piste-sur-trottoir': 'Piste sur trottoir',
     'chaucidou': 'Chaucidou',
@@ -193,7 +194,7 @@ export const useStats = () => {
     'voie-riverains': 'Voie réservée riverains et vélos',
     'unidirectionnelle': 'Piste cyclable unidirectionnelle',
     'aucun': 'Aucun',
-	'autre': 'autre',
+    'autre': 'Autre',
     'inconnu': 'Inconnu'
   };
 
