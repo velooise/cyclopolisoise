@@ -9,7 +9,7 @@
         "name": "14 - LACHELLE - REMY via Payelle:Piste 19 - Lachelle - Rémy via Payelle",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-172"
+        "link": "/velo-oise-172"
       },
       "geometry": {
         "type": "LineString",

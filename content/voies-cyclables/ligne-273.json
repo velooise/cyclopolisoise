@@ -25,7 +25,7 @@
         "name": "Liaison 45’-01-04 - Connexion vv du Valois",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-273"
+        "link": "/velo-oise-273"
       },
       "geometry": {
         "type": "LineString",

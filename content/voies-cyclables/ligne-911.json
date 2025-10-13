@@ -9,7 +9,7 @@
         "name": "kml_112",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-911"
+        "link": "/velo-oise-911"
       },
       "geometry": {
         "type": "LineString",

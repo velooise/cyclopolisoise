@@ -25,7 +25,7 @@
         "name": "VILLENEUVE > Usine SCHLUTER",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-531"
+        "link": "/velo-oise-531"
       },
       "geometry": {
         "coordinates": [

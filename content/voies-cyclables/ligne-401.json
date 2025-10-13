@@ -24,7 +24,7 @@
         "name": "De Neuilly Sous Clermont à la ZA de la Tuilerie",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-400"
+        "link": "/velo-oise-400"
       },
       "geometry": {
         "type": "LineString",

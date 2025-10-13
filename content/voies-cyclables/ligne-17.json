@@ -25,7 +25,7 @@
         "name": "COYE - ETANG DE COMELLE",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+        "link": "/velo-oise-17"
       },
       "geometry": {
         "type": "LineString",
@@ -86,7 +86,7 @@
         "status": "done",
         "doneAt": "21/11/2016",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+        "link": "/velo-oise-17"
       },
       "geometry": {
         "type": "LineString",
@@ -114,7 +114,7 @@
         "name": "COYE - ETANG DE COMELLE",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-17"
+        "link": "/velo-oise-17"
       },
       "geometry": {
         "type": "LineString",

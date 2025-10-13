@@ -25,7 +25,7 @@
         "name": "PONT-STE-MAXENCE <> FLEURINES",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-525"
+        "link": "/velo-oise-525"
       },
       "geometry": {
         "coordinates": [

@@ -25,7 +25,7 @@
         "name": "Rd Point du Mont de Po à f.Mathet (73-03-04-05)",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+        "link": "/velo-oise-30"
       },
       "geometry": {
         "coordinates": [
@@ -78,7 +78,7 @@
         "status": "done",
         "doneAt": "01/10/2016",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+        "link": "/velo-oise-30"
       },
       "geometry": {
         "coordinates": [
@@ -107,7 +107,7 @@
         "status": "done",
         "doneAt": "01/10/2016",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "link": "/velo-oise-30",
         "quality": "unsatisfactory"
       },
       "geometry": {
@@ -149,7 +149,7 @@
         "status": "done",
         "doneAt": "01/10/2016",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "link": "/velo-oise-30",
         "quality": "unsatisfactory"
       },
       "geometry": {
@@ -191,7 +191,7 @@
         "status": "done",
         "doneAt": "01/10/2016",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30",
+        "link": "/velo-oise-30",
         "quality": "unsatisfactory"
       },
       "geometry": {
@@ -239,12 +239,12 @@
     {
       "type": "Feature",
       "properties": {
-      "id": "gouvieux-centre-nautique---lamorlaye-73-02-math-aig",
+        "id": "gouvieux-centre-nautique---lamorlaye-73-02-math-aig",
         "line": 30,
         "name": "Traversée Passage a chevaux Aiglemont (73-02)",
         "status": "wip",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+        "link": "/velo-oise-30"
       },
       "geometry": {
         "coordinates": [
@@ -270,7 +270,7 @@
         "status": "done",
         "doneAt": "01/10/2016",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-30"
+        "link": "/velo-oise-30"
       },
       "geometry": {
         "coordinates": [

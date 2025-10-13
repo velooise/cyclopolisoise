@@ -25,7 +25,7 @@
         "name": "La traversée du Lys",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+        "link": "/velo-oise-27"
       },
       "geometry": {
         "type": "LineString",
@@ -69,7 +69,7 @@
         "name": "Entrée dans Gouvieux via Av. Aristide Briand",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+        "link": "/velo-oise-27"
       },
       "geometry": {
         "type": "LineString",
@@ -97,7 +97,7 @@
         "name": "Gouvieux-Monument aux morts",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-27"
+        "link": "/velo-oise-27"
       },
       "geometry": {
         "type": "LineString",

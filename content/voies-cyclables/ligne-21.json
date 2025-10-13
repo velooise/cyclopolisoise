@@ -25,7 +25,7 @@
         "name": "ORRY CENTRE - LA CHAPELLE EN SERVAL",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-21"
+        "link": "/velo-oise-21"
       },
       "geometry": {
         "type": "LineString",
@@ -65,7 +65,7 @@
         "name": "ORRY CENTRE - LA CHAPELLE EN SERVAL",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-21"
+        "link": "/velo-oise-21"
       },
       "geometry": {
         "type": "LineString",
@@ -97,7 +97,7 @@
         "name": "ORRY CENTRE - LA CHAPELLE EN SERVAL",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-21"
+        "link": "/velo-oise-21"
       },
       "geometry": {
         "type": "LineString",

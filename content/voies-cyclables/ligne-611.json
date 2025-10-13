@@ -25,7 +25,7 @@
         "name": "Rue de Saint-Maurice (D62)-11",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-611"
+        "link": "/velo-oise-611"
       },
       "geometry": {
         "type": "LineString",

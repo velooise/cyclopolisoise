@@ -25,7 +25,7 @@
         "name": "C2 -1- COLLEGE FONTAINE DES PRES – VILLEVERT  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-59"
+        "link": "/velo-oise-59"
       },
       "geometry": {
         "coordinates": [
@@ -105,7 +105,7 @@
         "name": "C2 -2- COLLEGE FONTAINE DES PRES – VILLEVERT  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-59"
+        "link": "/velo-oise-59"
       },
       "geometry": {
         "coordinates": [
@@ -133,7 +133,7 @@
         "name": "C2 -3- COLLEGE FONTAINE DES PRES – VILLEVERT  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-59"
+        "link": "/velo-oise-59"
       },
       "geometry": {
         "coordinates": [

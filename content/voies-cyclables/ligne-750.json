@@ -25,7 +25,7 @@
         "name": "150 - Rue de Caucriaumont (D62)",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-750"
+        "link": "/velo-oise-750"
       },
       "geometry": {
         "type": "LineString",

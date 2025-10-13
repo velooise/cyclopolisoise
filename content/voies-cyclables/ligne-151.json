@@ -9,7 +9,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-151"
+        "link": "/velo-oise-151"
       },
       "geometry": {
         "type": "LineString",
@@ -37,7 +37,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-151"
+        "link": "/velo-oise-151"
       },
       "geometry": {
         "type": "LineString",

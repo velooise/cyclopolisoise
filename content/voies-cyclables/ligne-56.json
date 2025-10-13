@@ -25,7 +25,7 @@
         "name": "Barreau Complementaire B3 - AVENUE CLEMENCEAU (PROJET DE CHAUSSEE A VOIE CENTRALE BANALISEE)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-56"
+        "link": "/velo-oise-56"
       },
       "geometry": {
         "coordinates": [

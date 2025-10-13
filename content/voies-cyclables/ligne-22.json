@@ -25,7 +25,7 @@
         "name": "collège LA CHAPELLE EN SERVAL - D118",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-22"
+        "link": "/velo-oise-22"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "collège LA CHAPELLE EN SERVAL - D118",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-22"
+        "link": "/velo-oise-22"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "BAZICOURT > ST-MARTIN-LONGUEAU",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-516"
+        "link": "/velo-oise-516"
       },
       "geometry": {
         "coordinates": [

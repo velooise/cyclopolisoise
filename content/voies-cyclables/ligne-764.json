@@ -25,7 +25,7 @@
         "name": "164 R DU CIMETIERE",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-764"
+        "link": "/velo-oise-764"
       },
       "geometry": {
         "type": "LineString",

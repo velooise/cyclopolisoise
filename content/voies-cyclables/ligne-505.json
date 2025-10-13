@@ -25,7 +25,7 @@
         "name": "CINQUEUX > RIEUX",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-505"
+        "link": "/velo-oise-505"
       },
       "geometry": {
         "coordinates": [

@@ -10,7 +10,7 @@
         "status": "done",
         "type": "piste-sur-trottoir",
         "quality": "unsatisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-858"
+        "link": "/velo-oise-858"
       },
       "geometry": {
         "type": "LineString",

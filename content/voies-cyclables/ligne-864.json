@@ -10,7 +10,7 @@
         "status": "done",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-864"
+        "link": "/velo-oise-864"
       },
       "geometry": {
         "type": "LineString",

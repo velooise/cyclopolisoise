@@ -9,7 +9,7 @@
         "name": "kml_28",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "coordinates": [
@@ -55,7 +55,7 @@
         "name": "kml_171",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "coordinates": [
@@ -97,7 +97,7 @@
         "name": "kml_148",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "type": "LineString",
@@ -138,7 +138,7 @@
         "name": "kml_169",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "type": "LineString",
@@ -204,7 +204,7 @@
         "name": "kml_27",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "coordinates": [
@@ -240,7 +240,7 @@
         "name": "kml_17",
         "status": "planned",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-827"
+        "link": "/velo-oise-827"
       },
       "geometry": {
         "coordinates": [

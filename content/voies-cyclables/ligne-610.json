@@ -25,7 +25,7 @@
         "name": "Rue aux Dames",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-610"
+        "link": "/velo-oise-610"
       },
       "geometry": {
         "type": "LineString",

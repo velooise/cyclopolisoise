@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "12/12/2018",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+        "link": "/velo-oise-259"
       },
       "geometry": {
         "type": "LineString",
@@ -67,7 +67,7 @@
         "status": "done",
         "doneAt": "12/12/2018",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+        "link": "/velo-oise-259"
       },
       "geometry": {
         "type": "LineString",
@@ -91,7 +91,7 @@
         "name": "Liaison 59-04 - Chamant – Senlis",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+        "link": "/velo-oise-259"
       },
       "geometry": {
         "type": "LineString",
@@ -115,7 +115,7 @@
         "name": "Liaison 59-05 - Chamant – Senlis",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-259"
+        "link": "/velo-oise-259"
       },
       "geometry": {
         "type": "LineString",

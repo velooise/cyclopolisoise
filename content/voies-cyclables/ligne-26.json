@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+        "link": "/velo-oise-26",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -56,7 +56,7 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+        "link": "/velo-oise-26",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -86,7 +86,7 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+        "link": "/velo-oise-26",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -116,7 +116,7 @@
         "status": "done",
         "doneAt": "01/01/2016",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26",
+        "link": "/velo-oise-26",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -193,7 +193,7 @@
         "name": "55-07 Traversée de Vineuil dans les quartiers",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26"
+        "link": "/velo-oise-26"
       },
       "geometry": {
         "type": "LineString",
@@ -257,7 +257,7 @@
         "name": "55-08-9-11-12-13 l'ancienne voie ferrée",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-26"
+        "link": "/velo-oise-26"
       },
       "geometry": {
         "type": "LineString",

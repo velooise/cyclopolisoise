@@ -9,7 +9,7 @@
         "name": "Liaisons 38 du schéma cyclable de la CCSSO : Aumont - Fleurines 38-01, 38-02",
         "status": "wip",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+        "link": "/velo-oise-238"
       },
       "geometry": {
         "type": "LineString",
@@ -37,7 +37,7 @@
         "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-08",
         "status": "wip",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+        "link": "/velo-oise-238"
       },
       "geometry": {
         "type": "LineString",
@@ -65,7 +65,7 @@
         "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-09",
         "status": "wip",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-238"
+        "link": "/velo-oise-238"
       },
       "geometry": {
         "type": "LineString",

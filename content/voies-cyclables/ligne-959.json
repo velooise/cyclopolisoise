@@ -9,7 +9,7 @@
         "name": "kml_160",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-959"
+        "link": "/velo-oise-959"
       },
       "geometry": {
         "coordinates": [

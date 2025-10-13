@@ -9,7 +9,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-164"
+        "link": "/velo-oise-164"
       },
       "geometry": {
         "type": "LineString",
@@ -81,7 +81,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-164"
+        "link": "/velo-oise-164"
       },
       "geometry": {
         "coordinates": [
@@ -189,7 +189,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-164"
+        "link": "/velo-oise-164"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "Chemin le long de La Brèche",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-715"
+        "link": "/velo-oise-715"
       },
       "geometry": {
         "type": "LineString",

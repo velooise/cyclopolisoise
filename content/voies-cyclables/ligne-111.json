@@ -9,7 +9,7 @@
         "name": "21 - Oise - ForĂȘt via Boulevard Gambetta:Piste 18 - Oise - Foret (Boulevard des Etats-Unis)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "coordinates": [
@@ -61,7 +61,7 @@
         "name": "Piste 18 - Oise - Foret (Boulevard des Etats-Unis):21 - Oise - Foret via Boulevard Gambetta",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "type": "LineString",
@@ -97,7 +97,7 @@
         "name": "21 - Oise - Foret via Boulevard Gambetta",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "coordinates": [
@@ -129,7 +129,7 @@
         "name": "101 - Liaison Etudiante:21 - Oise - Foret via Boulevard Gambetta",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "type": "LineString",
@@ -161,7 +161,7 @@
         "name": "21 - Oise - ForĂȘt via Boulevard Gambetta",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "coordinates": [
@@ -201,7 +201,7 @@
         "name": "21 - Oise - ForĂȘt via Boulevard Gambetta",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-111"
+        "link": "/velo-oise-111"
       },
       "geometry": {
         "coordinates": [

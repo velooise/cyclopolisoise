@@ -9,7 +9,7 @@
         "name": "kml_69",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-868"
+        "link": "/velo-oise-868"
       },
       "geometry": {
         "type": "LineString",

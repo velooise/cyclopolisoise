@@ -25,7 +25,7 @@
         "name": "A10 -1- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-42"
+        "link": "/velo-oise-42"
       },
       "geometry": {
         "coordinates": [
@@ -57,7 +57,7 @@
         "name": "A10 -2- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-42"
+        "link": "/velo-oise-42"
       },
       "geometry": {
         "coordinates": [
@@ -81,7 +81,7 @@
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-42"
+        "link": "/velo-oise-42"
       },
       "geometry": {
         "coordinates": [
@@ -109,7 +109,7 @@
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-42"
+        "link": "/velo-oise-42"
       },
       "geometry": {
         "coordinates": [
@@ -137,7 +137,7 @@
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-42"
+        "link": "/velo-oise-42"
       },
       "geometry": {
         "coordinates": [

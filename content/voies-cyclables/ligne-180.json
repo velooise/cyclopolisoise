@@ -9,7 +9,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite):3 - Parc Technologique des Rives de l'Oise - Rives de l'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-180"
+        "link": "/velo-oise-180"
       },
       "geometry": {
         "coordinates": [

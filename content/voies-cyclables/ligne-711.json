@@ -25,7 +25,7 @@
         "name": "111 Avenue de l'Ile-de-France (D62)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "121 - Rue Paul Faure (D62)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -85,7 +85,7 @@
         "name": "109 - Avenue Louis Aragon (D62)",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -117,7 +117,7 @@
         "name": "110 - Avenue Louis Aragon (D62)",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -153,7 +153,7 @@
         "name": "108 - Avenue Louis Aragon (D62)",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -177,7 +177,7 @@
         "name": "128 - D62",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -213,7 +213,7 @@
         "name": "129 - D62",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -241,7 +241,7 @@
         "name": "144 - D62",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -273,7 +273,7 @@
         "name": "123 - Rue Victor Hugo / Rue de l'Ecole des Arts et Métiers (D137)",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -305,7 +305,7 @@
         "name": "113 - Avenue du Général de Gaulle 13",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -337,7 +337,7 @@
         "name": "14 - Rue Saint Maurice",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -369,7 +369,7 @@
         "name": "25 - Souguehain (D62)",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -401,7 +401,7 @@
         "name": "12 - Bailleval-12",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -433,7 +433,7 @@
         "name": "27 - Souguehain (D62)",
         "status": "planned",
         "type": "voie-bus",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-711"
+        "link": "/velo-oise-711"
       },
       "geometry": {
         "type": "LineString",
@@ -461,7 +461,7 @@
         "name": "26 - Souguehain (D62)",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-626"
+        "link": "/velo-oise-626"
       },
       "geometry": {
         "type": "LineString",

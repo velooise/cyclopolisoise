@@ -25,7 +25,7 @@
         "name": "ST-MARTIN-LONGUEAU <> SACY-LE-GRAND",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-513"
+        "link": "/velo-oise-513"
       },
       "geometry": {
         "coordinates": [

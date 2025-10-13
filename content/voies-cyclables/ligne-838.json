@@ -9,7 +9,7 @@
         "name": "kml_39",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-838"
+        "link": "/velo-oise-838"
       },
       "geometry": {
         "type": "LineString",

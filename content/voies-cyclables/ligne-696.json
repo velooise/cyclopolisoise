@@ -25,7 +25,7 @@
         "name": "96 - Rue Douchet Rube",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-696"
+        "link": "/velo-oise-696"
       },
       "geometry": {
         "type": "LineString",
@@ -61,7 +61,7 @@
         "name": "149 - Rue de Caucriaumont Monchy (D62)",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-749"
+        "link": "/velo-oise-749"
       },
       "geometry": {
         "type": "LineString",

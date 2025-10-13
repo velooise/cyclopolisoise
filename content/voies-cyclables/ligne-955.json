@@ -9,7 +9,7 @@
         "name": "kml_156",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-955"
+        "link": "/velo-oise-955"
       },
       "geometry": {
         "type": "LineString",

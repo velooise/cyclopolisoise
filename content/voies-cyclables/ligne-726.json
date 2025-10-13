@@ -25,7 +25,7 @@
         "name": "Accès Mairie et complexe sportif",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-726"
+        "link": "/velo-oise-726"
       },
       "geometry": {
         "type": "LineString",

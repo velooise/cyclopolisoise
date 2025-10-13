@@ -25,7 +25,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [
@@ -65,7 +65,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [
@@ -93,7 +93,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [
@@ -117,7 +117,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [
@@ -161,7 +161,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [
@@ -205,7 +205,7 @@
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-51"
+        "link": "/velo-oise-51"
       },
       "geometry": {
         "coordinates": [

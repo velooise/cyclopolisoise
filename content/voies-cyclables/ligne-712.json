@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "01/09/2022",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-712"
+        "link": "/velo-oise-712"
       },
       "geometry": {
         "type": "LineString",

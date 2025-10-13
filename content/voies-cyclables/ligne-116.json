@@ -9,7 +9,7 @@
         "name": "Piste 17 - Les Lycées:18 - Les Lycées - tranche 1",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-116"
+        "link": "/velo-oise-116"
       },
       "geometry": {
         "coordinates": [

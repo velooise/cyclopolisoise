@@ -25,7 +25,7 @@
         "name": "MONCEAUX > CINQUEUX centre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-506"
+        "link": "/velo-oise-506"
       },
       "geometry": {
         "coordinates": [

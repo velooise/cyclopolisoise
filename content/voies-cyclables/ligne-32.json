@@ -25,7 +25,7 @@
         "name": "Orry Ouest (75) mise en impasse ",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+        "link": "/velo-oise-32"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "ORRY contournement ouest (75)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+        "link": "/velo-oise-32"
       },
       "geometry": {
         "type": "LineString",
@@ -89,7 +89,7 @@
         "name": "ORRY ouest (75) cvcb hérivaux",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+        "link": "/velo-oise-32"
       },
       "geometry": {
         "type": "LineString",
@@ -113,7 +113,7 @@
         "name": "ORRY ouest (75)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+        "link": "/velo-oise-32"
       },
       "geometry": {
         "type": "LineString",
@@ -145,7 +145,7 @@
         "name": "ORRY ouest (75) mise en impasse",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-32"
+        "link": "/velo-oise-32"
       },
       "geometry": {
         "type": "LineString",

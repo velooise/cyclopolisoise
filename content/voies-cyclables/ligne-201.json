@@ -9,7 +9,7 @@
         "line": 201,
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -61,7 +61,7 @@
         "line": 201,
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -121,7 +121,7 @@
         "line": 201,
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -165,7 +165,7 @@
         "line": 201,
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -257,7 +257,7 @@
         "line": 201,
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -293,7 +293,7 @@
         "line": 201,
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -317,7 +317,7 @@
         "line": 201,
         "status": "planned",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",
@@ -377,7 +377,7 @@
         "line": 201,
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-201"
+        "link": "/velo-oise-201"
       },
       "geometry": {
         "type": "LineString",

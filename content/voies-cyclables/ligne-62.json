@@ -25,7 +25,7 @@
         "name": "C5 -1- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+        "link": "/velo-oise-62"
       },
       "geometry": {
         "type": "LineString",
@@ -85,7 +85,7 @@
         "name": "C5 -2- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+        "link": "/velo-oise-62"
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +129,7 @@
         "name": "C5 -3- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-62"
+        "link": "/velo-oise-62"
       },
       "geometry": {
         "type": "LineString",

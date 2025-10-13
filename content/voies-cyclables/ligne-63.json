@@ -25,7 +25,7 @@
         "name": "C6 - FOUR A CHAUX – BRICHEBAY  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-63"
+        "link": "/velo-oise-63"
       },
       "geometry": {
         "type": "LineString",

@@ -9,7 +9,7 @@
         "name": "kml_159",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-958"
+        "link": "/velo-oise-958"
       },
       "geometry": {
         "type": "LineString",

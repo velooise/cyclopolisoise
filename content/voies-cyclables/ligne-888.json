@@ -9,7 +9,7 @@
         "name": "kml_89",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "type": "LineString",
@@ -51,7 +51,7 @@
         "name": "kml_199",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -237,7 +237,7 @@
         "name": "kml_72",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -1188,7 +1188,7 @@
         "name": "kml_73",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -1294,7 +1294,7 @@
         "name": "kml_81",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "type": "LineString",
@@ -1340,7 +1340,7 @@
         "name": "kml_93",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "type": "LineString",
@@ -1456,7 +1456,7 @@
         "name": "kml_127",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -1697,7 +1697,7 @@
         "name": "kml_128",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "type": "LineString",
@@ -1778,7 +1778,7 @@
         "name": "kml_147",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -1820,7 +1820,7 @@
         "status": "done",
         "type": "voie-riverains",
         "quality": "unsatisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "type": "LineString",
@@ -2086,7 +2086,7 @@
         "name": "kml_199",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [
@@ -2272,7 +2272,7 @@
         "name": "kml_198",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-888"
+        "link": "/velo-oise-888"
       },
       "geometry": {
         "coordinates": [

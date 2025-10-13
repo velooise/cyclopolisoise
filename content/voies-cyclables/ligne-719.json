@@ -25,7 +25,7 @@
         "name": "119-120-R JULES MICHELET",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-719"
+        "link": "/velo-oise-719"
       },
       "geometry": {
         "type": "LineString",

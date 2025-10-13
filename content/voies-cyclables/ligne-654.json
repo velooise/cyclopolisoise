@@ -25,7 +25,7 @@
         "name": "54 - Rue De Sailleville",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-654"
+        "link": "/velo-oise-654"
       },
       "geometry": {
         "type": "LineString",
@@ -89,7 +89,7 @@
         "name": "53 - Rue De Sailleville",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-653"
+        "link": "/velo-oise-653"
       },
       "geometry": {
         "type": "LineString",
@@ -117,7 +117,7 @@
         "name": "95 - Rue De Sailleville",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-695"
+        "link": "/velo-oise-695"
       },
       "geometry": {
         "type": "LineString",

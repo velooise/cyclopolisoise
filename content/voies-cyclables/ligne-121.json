@@ -9,7 +9,7 @@
         "name": "Piste 14 - Bois de Plaisance:11 - ZAC Camp du ROY - Bords de l'Oise",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-121"
+        "link": "/velo-oise-121"
       },
       "geometry": {
         "type": "LineString",

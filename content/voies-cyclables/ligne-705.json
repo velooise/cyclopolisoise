@@ -25,7 +25,7 @@
         "name": "105 - Rue du Vieux Fort",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-705"
+        "link": "/velo-oise-705"
       },
       "geometry": {
         "type": "LineString",

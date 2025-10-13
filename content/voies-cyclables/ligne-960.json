@@ -10,7 +10,7 @@
         "status": "done",
         "type": "voie-verte",
         "quality": "unsatisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-960"
+        "link": "/velo-oise-960"
       },
       "geometry": {
         "type": "LineString",

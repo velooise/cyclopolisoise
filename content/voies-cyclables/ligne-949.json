@@ -9,7 +9,7 @@
         "name": "kml_150",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-949"
+        "link": "/velo-oise-949"
       },
       "geometry": {
         "type": "LineString",

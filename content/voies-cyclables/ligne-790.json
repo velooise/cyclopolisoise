@@ -25,7 +25,7 @@
         "name": "190 - Rue du Château d'Eau (D59) / Rue du Pontceau / Rue de l'Eglise",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-790"
+        "link": "/velo-oise-790"
       },
       "geometry": {
         "type": "LineString",

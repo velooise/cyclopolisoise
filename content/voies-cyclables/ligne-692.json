@@ -25,7 +25,7 @@
         "name": "92 - R DOUCHET RUBE",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-692"
+        "link": "/velo-oise-692"
       },
       "geometry": {
         "type": "LineString",

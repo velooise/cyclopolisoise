@@ -25,7 +25,7 @@
         "name": "CINQUEUX > SACY-LE-GRAND (via liaison 7)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-533"
+        "link": "/velo-oise-533"
       },
       "geometry": {
         "coordinates": [

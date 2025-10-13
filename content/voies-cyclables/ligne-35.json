@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "01/07/2015",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-35"
+        "link": "/velo-oise-35"
       },
       "geometry": {
         "type": "LineString",
@@ -128,7 +128,7 @@
         "status": "done",
         "doneAt": "01/07/2015",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-35"
+        "link": "/velo-oise-35"
       },
       "geometry": {
         "coordinates": [
@@ -188,7 +188,7 @@
         "doneAt": "01/08/2023",
         "type": "bidirectionnelle",
         "quality": "satisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-35#Bertinval-Sud"
+        "link": "/velo-oise-35#Bertinval-Sud"
       },
       "geometry": {
         "coordinates": [

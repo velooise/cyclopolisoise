@@ -25,7 +25,7 @@
         "name": "172 - Rue Marcelin Berthelot",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-772"
+        "link": "/velo-oise-772"
       },
       "geometry": {
         "type": "LineString",

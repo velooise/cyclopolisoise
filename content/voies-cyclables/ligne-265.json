@@ -25,7 +25,7 @@
         "name": "Liaison 65-01 - Fleurines – Villers-St-Frambourg",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
+        "link": "/velo-oise-265"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "Liaison 65-02-09 - Fleurines – Villers-St-Frambourg",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-265"
+        "link": "/velo-oise-265"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "Liaison 39-01-02 - Ognon - Chamant",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+        "link": "/velo-oise-239"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "Liaison 39-03-04 - Ognon - Chamant",
         "status": "planned",
         "type": "imp+debouche-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+        "link": "/velo-oise-239"
       },
       "geometry": {
         "type": "LineString",
@@ -89,7 +89,7 @@
         "name": "Liaison 39-05-06 Ognon - Chamant",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-239"
+        "link": "/velo-oise-239"
       },
       "geometry": {
         "type": "LineString",

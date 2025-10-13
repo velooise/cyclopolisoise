@@ -9,7 +9,7 @@
         "name": "Pontarmé - Thiers-sur-Thève - Parc Astérix",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
+        "link": "/velo-oise-202"
       },
       "geometry": {
         "type": "LineString",
@@ -61,7 +61,7 @@
         "name": "Pontarmé - Thiers-sur-Thève - Parc Astérix",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
+        "link": "/velo-oise-202"
       },
       "geometry": {
         "type": "LineString",
@@ -93,7 +93,7 @@
         "name": "Pontarmé - Thiers-sur-Thève - Parc Astérix",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
+        "link": "/velo-oise-202"
       },
       "geometry": {
         "type": "LineString",
@@ -161,7 +161,7 @@
         "name": "Thiers-sur-Thève - Parc Astérix",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-202"
+        "link": "/velo-oise-202"
       },
       "geometry": {
         "type": "LineString",

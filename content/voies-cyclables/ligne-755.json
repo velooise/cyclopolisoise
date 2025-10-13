@@ -25,7 +25,7 @@
         "name": "155 Rue de la Passerelle",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-755"
+        "link": "/velo-oise-755"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "141 - Chemin entre Monchy-Saint-Eloi et Nogent-Sur-Oise (Passerelle)",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-751"
+        "link": "/velo-oise-751"
       },
       "geometry": {
         "type": "LineString",

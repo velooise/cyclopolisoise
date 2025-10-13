@@ -25,7 +25,7 @@
         "name": "LAMORLAYE COLLEGE - COYE",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-13"
+        "link": "/velo-oise-13"
       },
       "geometry": {
         "type": "LineString",
@@ -61,7 +61,7 @@
         "name": "LAMORLAYE COLLEGE - COYE",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-13"
+        "link": "/velo-oise-13"
       },
       "geometry": {
         "type": "LineString",
@@ -93,7 +93,7 @@
         "name": "LAMORLAYE COLLEGE - COYE",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-13"
+        "link": "/velo-oise-13"
       },
       "geometry": {
         "type": "LineString",
@@ -117,7 +117,7 @@
         "name": "LAMORLAYE COLLEGE - COYE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-13"
+        "link": "/velo-oise-13"
       },
       "geometry": {
         "type": "LineString",
@@ -149,7 +149,7 @@
         "name": "LAMORLAYE COLLEGE - COYE",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-13"
+        "link": "/velo-oise-13"
       },
       "geometry": {
         "type": "LineString",

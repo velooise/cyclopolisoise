@@ -25,7 +25,7 @@
         "name": "CHE SOUTRAINE A SAILLEVILLE",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
+        "link": "/velo-oise-632"
       },
       "geometry": {
         "type": "LineString",
@@ -77,7 +77,7 @@
         "name": "38-43 Cauffry Cavee Verte et Grande Rue",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-632"
+        "link": "/velo-oise-632"
       },
       "geometry": {
         "coordinates": [

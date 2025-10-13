@@ -9,7 +9,7 @@
         "name": "A9 -1- CENTRE-VILLE - QUARTIER VILLEMETRIE",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-53"
+        "link": "/velo-oise-53"
       },
       "geometry": {
         "coordinates": [
@@ -137,7 +137,7 @@
         "name": "A9 - CENTRE-VILLE - QUARTIER VILLEMETRIE",
         "status": "done",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-53"
+        "link": "/velo-oise-53"
       },
       "geometry": {
         "coordinates": [
@@ -173,7 +173,7 @@
         "name": "A9 -1- CENTRE-VILLE - QUARTIER VILLEMETRIE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-53"
+        "link": "/velo-oise-53"
       },
       "geometry": {
         "coordinates": [

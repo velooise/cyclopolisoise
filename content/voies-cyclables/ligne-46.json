@@ -25,7 +25,7 @@
         "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
+        "link": "/velo-oise-46"
       },
       "geometry": {
         "type": "LineString",
@@ -61,7 +61,7 @@
         "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-46"
+        "link": "/velo-oise-46"
       },
       "geometry": {
         "type": "LineString",

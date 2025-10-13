@@ -25,7 +25,7 @@
         "name": "ST-MARTIN-LONGUEAU <> ZAC VAL D'HALATTE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-515"
+        "link": "/velo-oise-515"
       },
       "geometry": {
         "coordinates": [

@@ -9,7 +9,7 @@
         "name": "6 - Lacroix - Verberie via étangs:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "coordinates": [
@@ -73,7 +73,7 @@
         "name": "6 - Lacroix - Verberie via étangs:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",
@@ -205,7 +205,7 @@
         "name": "28 - Collège Verberie - Zone industrielle Verberie:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",
@@ -289,7 +289,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
         "status": "done",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",
@@ -313,7 +313,7 @@
         "name": "28 - Collège Verberie - Zone industrielle Verberie:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "inconnu",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "coordinates": [
@@ -341,7 +341,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "coordinates": [
@@ -397,7 +397,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",
@@ -465,7 +465,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:28 - Collège Verberie - Zone industrielle Verberie",
         "status": "done",
         "type": "inconnu",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "MONCEAUX > PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-509"
+        "link": "/velo-oise-509"
       },
       "geometry": {
         "coordinates": [

@@ -25,7 +25,7 @@
         "name": "Liaisons 46 et 47 du schéma cyclable de la CCSSO : Senlis - Mont-l'Évêque - Borest",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-205"
+        "link": "/velo-oise-205"
       },
       "geometry": {
         "type": "LineString",
@@ -65,7 +65,7 @@
         "name": "Liaisons 46 et 47 du schéma cyclable de la CCSSO : Senlis - Mont-l'Évêque - Borest",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-205"
+        "link": "/velo-oise-205"
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +129,7 @@
         "name": "Liaison 47 du schéma cyclable de la CCSSO : Senlis - Mont-l'Évêque - Borest",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-205"
+        "link": "/velo-oise-205"
       },
       "geometry": {
         "type": "LineString",
@@ -177,7 +177,7 @@
         "name": "Liaison 47 du schéma cyclable de la CCSSO : Senlis - Mont-l'Évêque - Borest",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-205"
+        "link": "/velo-oise-205"
       },
       "geometry": {
         "type": "LineString",
@@ -221,7 +221,7 @@
         "name": "Liaison 47 du schéma cyclable de la CCSSO : Senlis - Mont-l'Évêque - Borest",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-205"
+        "link": "/velo-oise-205"
       },
       "geometry": {
         "type": "LineString",

@@ -9,7 +9,7 @@
         "name": "Traversée de Lamorlaye par la RD1016",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
+        "link": "/velo-oise-1#la-travers%C3%A9e-de-lamorlaye-le-long-de-la-rd1016",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -121,7 +121,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4480000000,
+          2.448,
           49.1615305556
         ]
       }
@@ -135,7 +135,7 @@
         "status": "done",
         "doneAt": "31/10/2020",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
+        "link": "/velo-oise-1#la-c%C3%B4te-du-mont-de-p%C3%B4",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -217,7 +217,7 @@
         "status": "done",
         "doneAt": "01/03/2021",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-rond-point-%C3%A0-lentr%C3%A9e-de-chantilly",
+        "link": "/velo-oise-1#du-rond-point-%C3%A0-lentr%C3%A9e-de-chantilly",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -251,7 +251,7 @@
         "status": "done",
         "doneAt": "30/09/2024",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#la-continuit%C3%A9-jusquau-carrefour-avec-lavenue-de-bourbon",
+        "link": "/velo-oise-1#la-continuit%C3%A9-jusquau-carrefour-avec-lavenue-de-bourbon",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -328,7 +328,7 @@
         "name": "Chantilly-Rond Point de Sylvie",
         "status": "wip",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-lavenue-de-bourbon-au-rond-point-de-sylvie",
+        "link": "/velo-oise-1#de-lavenue-de-bourbon-au-rond-point-de-sylvie",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -402,7 +402,7 @@
         "status": "done",
         "doneAt": "30/09/2010",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
+        "link": "/velo-oise-1#du-rond-point-de-sylvie-au-boulevard-de-la-lib%C3%A9ration",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -432,7 +432,7 @@
         "status": "done",
         "doneAt": "30/09/2019",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#du-boulevard-de-la-lib%C3%A9ration-%C3%A0-la-mairie",
+        "link": "/velo-oise-1#du-boulevard-de-la-lib%C3%A9ration-%C3%A0-la-mairie",
         "quality": "unsatisfactory"
       },
       "geometry": {
@@ -478,7 +478,7 @@
         "status": "done",
         "doneAt": "30/09/2019",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-la-place-omer-vallon-%C3%A0-la-nonette",
+        "link": "/velo-oise-1#de-la-place-omer-vallon-%C3%A0-la-nonette",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -600,7 +600,7 @@
         "status": "done",
         "doneAt": "30/09/2015",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-1#de-la-nonette-au-rond-point-de-leurope",
+        "link": "/velo-oise-1#de-la-nonette-au-rond-point-de-leurope",
         "quality": "satisfactory"
       },
       "geometry": {

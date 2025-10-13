@@ -25,7 +25,7 @@
         "name": "RHUIS > PONTPOINT (> PONT-STE-MAXENCE)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-527"
+        "link": "/velo-oise-527"
       },
       "geometry": {
         "coordinates": [

@@ -25,7 +25,7 @@
         "name": "PONTPOINT > PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-526"
+        "link": "/velo-oise-526"
       },
       "geometry": {
         "coordinates": [

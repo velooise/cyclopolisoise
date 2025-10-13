@@ -25,7 +25,7 @@
         "name": "LCES-Pontarmé",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-25"
+        "link": "/velo-oise-25"
       },
       "geometry": {
         "type": "LineString",

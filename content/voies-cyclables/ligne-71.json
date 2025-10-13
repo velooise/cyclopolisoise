@@ -10,7 +10,7 @@
         "status": "done",
         "doneAt": "13/09/2024",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-71",
+        "link": "/velo-oise-71",
         "quality": "satisfactory",
         "coordinateProperties": {}
       },

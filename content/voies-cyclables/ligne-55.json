@@ -25,7 +25,7 @@
         "name": "Barreau Complementaire B2 - RUE DU HAUT DE VILLEVERT (PROJET DE CVCB)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-55"
+        "link": "/velo-oise-55"
       },
       "geometry": {
         "type": "LineString",

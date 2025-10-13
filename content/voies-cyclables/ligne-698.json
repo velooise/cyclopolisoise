@@ -25,7 +25,7 @@
         "name": "98 - Rue Forget Crauet",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-698"
+        "link": "/velo-oise-698"
       },
       "geometry": {
         "type": "LineString",

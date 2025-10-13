@@ -25,7 +25,7 @@
         "name": "LE ROCHER > MARAIS DE SACY",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-512"
+        "link": "/velo-oise-512"
       },
       "geometry": {
         "coordinates": [

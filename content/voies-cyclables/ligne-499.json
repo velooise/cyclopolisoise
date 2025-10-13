@@ -10,7 +10,7 @@
         "status": "done",
         "type": "bidirectionnelle",
         "doneAt": "01/08/2022",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-499"
+        "link": "/velo-oise-499"
       },
       "geometry": {
         "type": "LineString",

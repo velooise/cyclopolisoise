@@ -9,7 +9,7 @@
         "name": "106 - C?ur de ville",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-169"
+        "link": "/velo-oise-169"
       },
       "geometry": {
         "type": "LineString",

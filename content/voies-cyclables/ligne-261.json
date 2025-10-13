@@ -25,7 +25,7 @@
         "name": "Liaison 61-01-05 - Plateforme logistique - Senlis",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-261"
+        "link": "/velo-oise-261"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "Liaison 61-06-08 - Plateforme logistique - Senlis",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-261"
+        "link": "/velo-oise-261"
       },
       "geometry": {
         "type": "LineString",

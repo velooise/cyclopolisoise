@@ -9,7 +9,7 @@
         "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-138"
+        "link": "/velo-oise-138"
       },
       "geometry": {
         "coordinates": [
@@ -69,7 +69,7 @@
         "name": "24 - Rive Gauche à Rive Droite via Pont de Soissons",
         "status": "done",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-138"
+        "link": "/velo-oise-138"
       },
       "geometry": {
         "type": "LineString",

@@ -9,7 +9,7 @@
         "name": "Liaison 35-01 - Aumont - Senlis",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-235"
+        "link": "/velo-oise-235"
       },
       "geometry": {
         "coordinates": [
@@ -57,7 +57,7 @@
         "name": "Liaison 35-02 - Aumont - Senlis",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-235"
+        "link": "/velo-oise-235"
       },
       "geometry": {
         "coordinates": [
@@ -109,7 +109,7 @@
         "name": "Liaison 35-03-04 - Aumont - Senlis",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-235"
+        "link": "/velo-oise-235"
       },
       "geometry": {
         "coordinates": [
@@ -177,7 +177,7 @@
         "name": "Liaison 35-05 - Aumont - Senlis",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-235"
+        "link": "/velo-oise-235"
       },
       "geometry": {
         "coordinates": [
@@ -214,7 +214,7 @@
         "name": "Liaison 35-06 - Aumont - Senlis",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-235"
+        "link": "/velo-oise-235"
       },
       "geometry": {
         "coordinates": [

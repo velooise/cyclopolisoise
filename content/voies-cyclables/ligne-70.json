@@ -24,7 +24,7 @@
         "name": "ARC-34 Pont SNCF",
         "status": "wip",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-70"
+        "link": "/velo-oise-70"
       },
       "geometry": {
         "coordinates": [

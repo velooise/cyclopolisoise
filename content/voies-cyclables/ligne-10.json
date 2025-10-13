@@ -9,7 +9,7 @@
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-10"
+        "link": "/velo-oise-10"
       },
       "geometry": {
         "type": "LineString",
@@ -70,7 +70,7 @@
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-06-07",
         "line": 10,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
+        "link": "/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "bandes-cyclables"
@@ -118,7 +118,7 @@
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
         "line": 10,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
+        "link": "/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "voie-verte"
@@ -166,7 +166,7 @@
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
         "line": 10,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
+        "link": "/velo-oise-10",
         "name": "Derriere les etangs",
         "status": "planned",
         "type": "voie-verte"
@@ -266,7 +266,7 @@
       "properties": {
         "id": "sc-ccac-gouvieux-precy-09-08-12",
         "line": 10,
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-10",
+        "link": "/velo-oise-10",
         "name": "De Gouvieux à Precy",
         "status": "planned",
         "type": "voie-verte"

@@ -25,7 +25,7 @@
         "name": "142 - D62",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-742"
+        "link": "/velo-oise-742"
       },
       "geometry": {
         "type": "LineString",
@@ -65,7 +65,7 @@
         "name": "143 - D62",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-743"
+        "link": "/velo-oise-743"
       },
       "geometry": {
         "type": "LineString",

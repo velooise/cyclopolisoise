@@ -9,7 +9,7 @@
         "name": "kml_8",
         "status": "planned",
         "type": "imp+debouche-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-807"
+        "link": "/velo-oise-807"
       },
       "geometry": {
         "coordinates": [

@@ -9,7 +9,7 @@
         "name": "De Chantilly à la Zone Commerciale Saint Maximin",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101"
+        "link": "/velo-oise-101"
       },
       "geometry": {
         "type": "LineString",
@@ -51,7 +51,7 @@
         "line": 7,
         "name": "Liaison Chantilly-ZC Saint-Maximin (le long de la rd)",
         "status": "planned",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-101",
+        "link": "/velo-oise-101",
         "type": "bidirectionnelle"
       },
       "geometry": {

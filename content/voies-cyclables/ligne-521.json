@@ -25,7 +25,7 @@
         "name": "VERNEUIL-EN-H. > CREIL",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-521"
+        "link": "/velo-oise-521"
       },
       "geometry": {
         "coordinates": [

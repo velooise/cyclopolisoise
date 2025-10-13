@@ -9,7 +9,7 @@
         "name": "kml_131 Allee a Cricri",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-930"
+        "link": "/velo-oise-930"
       },
       "geometry": {
         "type": "LineString",

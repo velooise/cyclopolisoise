@@ -9,7 +9,7 @@
         "name": "12 - Venette - ZAC Jaux Venette Nord",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -109,7 +109,7 @@
         "name": "12 - Venette - ZAC Jaux Venette Nord",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -225,7 +225,7 @@
         "name": "12 - Venette - ZAC Jaux Venette Nord",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -269,7 +269,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -477,7 +477,7 @@
         "name": "13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -521,7 +521,7 @@
         "name": "13 - Venette - ZAC de Jaux Venette Sud",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -553,7 +553,7 @@
         "name": "13 - Venette - ZAC de Jaux Venette Sud:Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -581,7 +581,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -649,7 +649,7 @@
         "name": "13 - Venette - ZAC de Jaux Venette Sud:Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -677,7 +677,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -705,7 +705,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -741,7 +741,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "coordinates": [
@@ -769,7 +769,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -817,7 +817,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",
@@ -841,7 +841,7 @@
         "name": "Piste 14 - Bois de Plaisance:13 - Venette - ZAC de Jaux Venette Sud",
         "status": "done",
         "type": "piste-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-124"
+        "link": "/velo-oise-124"
       },
       "geometry": {
         "type": "LineString",

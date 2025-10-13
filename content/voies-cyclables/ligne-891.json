@@ -9,7 +9,7 @@
         "name": "kml_92",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-891"
+        "link": "/velo-oise-891"
       },
       "geometry": {
         "type": "LineString",

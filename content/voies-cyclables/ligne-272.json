@@ -25,7 +25,7 @@
         "name": "Liaison 72-01-02 - Senlis – Avilly-St-Leonard",
         "status": "done",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+        "link": "/velo-oise-272"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "Liaison 72-03 - Senlis – Avilly-St-Leonard",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+        "link": "/velo-oise-272"
       },
       "geometry": {
         "type": "LineString",
@@ -93,7 +93,7 @@
         "name": "Liaison 72-07 - Senlis – Avilly-St-Leonard",
         "status": "done",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+        "link": "/velo-oise-272"
       },
       "geometry": {
         "type": "LineString",
@@ -129,7 +129,7 @@
         "name": "Liaison 72-09-12 - Senlis – Avilly-St-Leonard",
         "status": "done",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-272"
+        "link": "/velo-oise-272"
       },
       "geometry": {
         "type": "LineString",
