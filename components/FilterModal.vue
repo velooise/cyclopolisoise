@@ -77,7 +77,8 @@ const statusFilters = ref([
   { label: 'En travaux', isEnable: true, statuses: ['wip', 'tested'] },
   { label: 'Prévu', isEnable: true, statuses: ['planned', 'variante'] },
   { label: 'Reporté', isEnable: true, statuses: ['postponed', 'variante-postponed'] },
-  { label: 'Inconnu', isEnable: true, statuses: ['unknown'] }
+  { label: 'Inconnu', isEnable: true, statuses: ['unknown'] },
+  { label: 'Souhaité', isEnable: true, statuses: ['wished'] }
 ]);
 
 const typeFilters = ref([

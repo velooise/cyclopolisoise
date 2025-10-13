@@ -118,12 +118,14 @@ export const useStats = () => {
     const postponedFeatures = features.filter(feature =>
       ['postponed', 'variante-postponed'].includes(feature.properties.status ?? '')
     );
+    const wishedFeatures = features.filter(feature => feature.properties.status === 'wished');
 
     const totalDistance = getDistance({ features });
     const doneDistance = getDistance({ features: doneFeatures });
     const wipDistance = getDistance({ features: wipFeatures });
     const plannedDistance = getDistance({ features: plannedFeatures });
     const postponedDistance = getDistance({ features: postponedFeatures });
+    const wishedDistance = getDistance({ features: wishedFeatures });
 
     function getPercent(distance: number) {
       return Math.round((distance / totalDistance) * 100);
@@ -152,6 +154,12 @@ export const useStats = () => {
         name: 'Reportés',
         distance: postponedDistance,
         percent: getPercent(postponedDistance),
+        class: 'text-lvv-pink font-semibold'
+      },
+      wished: {
+        name: 'Souhaités',
+        distance: wishedDistance,
+        percent: getPercent(wishedDistance),
         class: 'text-lvv-pink font-semibold'
       }
     };

@@ -45,7 +45,7 @@ export default defineContentConfig({
                 id: z.string().optional(),
                 line: z.number(),
                 name: z.string(),
-                status: z.enum(["planned", "postponed", "variante-postponed", "done", "wip", "variante", "tested", "unknown"]),
+                status: z.enum(["planned", "postponed", "variante-postponed", "done", "wip", "variante", "tested", "unknown", "wished"]),
                 type: z.enum([
                   "bidirectionnelle",
                   "bilaterale",

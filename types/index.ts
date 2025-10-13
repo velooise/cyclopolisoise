@@ -23,7 +23,7 @@ export type LaneType =
 | 'autre'
 | 'inconnu';
 
-export type LaneStatus = 'done' | 'wip' | 'planned' | 'tested' | 'postponed' | 'unknown' | 'variante' | 'variante-postponed';
+export type LaneStatus = 'done' | 'wip' | 'planned' | 'tested' | 'postponed' | 'unknown' | 'variante' | 'variante-postponed' | 'wished';
 
 export type LaneQuality = 'unsatisfactory' | 'satisfactory';
 

@@ -92,6 +92,9 @@ export const useMap = () => {
     const camera = await map.loadImage('/icons/camera.png');
     map.addImage('camera-icon', camera.data, { sdf: true });
 
+    const question = await map.loadImage('/icons/question.png');
+    map.addImage('question-icon', question.data, { sdf: true });
+
     const pump = await map.loadImage('/icons/pump.png');
     map.addImage('pump-icon', pump.data, { sdf: true });
 
@@ -293,6 +296,57 @@ export const useMap = () => {
         'line-dasharray': [2, 2]
       }
     });
+  }
+
+  function plotWishedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
+    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'wished');
+
+    if (sections.length === 0 && !map.getLayer('wished-sections')) {
+          return;
+              }
+    if (upsertMapSource(map, 'wished-sections', sections)) {
+          return;
+              }
+
+    const featuresByColor = groupFeaturesByColor(sections);
+    for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
+      if (upsertMapSource(map, `wished-sections-${color}`, sameColorFeatures as Collections['voiesCyclablesGeojson']['features'])) {
+        continue;
+      }
+
+      console.log(color);
+      console.log(sameColorFeatures);
+      map.addLayer({
+        id: `wished-symbols-${color}`,
+        type: 'symbol',
+        source: `wished-sections-${color}`,
+        layout: {
+          'symbol-placement': 'line',
+          'symbol-spacing': 1,
+          'icon-image': 'question-icon',
+          'icon-size': 0.3
+        },
+        paint: {
+          'icon-color': color
+        }
+      });
+      map.addLayer({
+        id: `wished-text-${color}`,
+        type: 'symbol',
+        source: `wished-sections-${color}`,
+        paint: {
+          'text-halo-color': '#fff',
+          'text-halo-width': 3
+        },
+        layout: {
+          'symbol-placement': 'line',
+          'symbol-spacing': 150,
+          'text-font': ['Open Sans Regular'],
+          'text-field': 'souhaits futur plan vélo',
+          'text-size': 14
+        }
+      });
+    };
   }
 
   function plotVarianteSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
@@ -654,6 +708,7 @@ export const useMap = () => {
     plotUnsatisfactorySections({ map, features: lineStringFeatures });
     plotDoneSections({ map, features: lineStringFeatures });
     plotPlannedSections({ map, features: lineStringFeatures });
+    plotWishedSections({ map, features: lineStringFeatures });
     plotVarianteSections({ map, features: lineStringFeatures });
     plotVariantePostponedSections({ map, features: lineStringFeatures });
     plotWipSections({ map, features: lineStringFeatures });
