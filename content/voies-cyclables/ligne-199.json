@@ -9,7 +9,7 @@
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -57,7 +57,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -109,7 +109,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -133,7 +133,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -197,7 +197,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -225,7 +225,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -281,7 +281,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -329,7 +329,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -357,7 +357,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -413,7 +413,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -493,7 +493,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -537,7 +537,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -577,7 +577,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -629,7 +629,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -725,7 +725,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -777,7 +777,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -817,7 +817,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -849,7 +849,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -893,7 +893,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -941,7 +941,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -973,7 +973,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -997,7 +997,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -1025,7 +1025,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -1073,7 +1073,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1129,7 +1129,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1357,7 +1357,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1437,7 +1437,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -1489,7 +1489,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1533,7 +1533,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -1641,7 +1641,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1677,7 +1677,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1721,7 +1721,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -1757,7 +1757,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1801,7 +1801,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1853,7 +1853,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -1885,7 +1885,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -2185,7 +2185,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -2297,7 +2297,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2341,7 +2341,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -2365,7 +2365,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2413,7 +2413,7 @@
         "name": "2 - Lacroix Trans'Oise:Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2545,7 +2545,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2581,7 +2581,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -2717,7 +2717,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -2745,7 +2745,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2781,7 +2781,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -2949,7 +2949,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3037,7 +3037,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3069,7 +3069,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3101,7 +3101,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3161,7 +3161,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3217,7 +3217,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3257,7 +3257,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3297,7 +3297,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3333,7 +3333,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3373,7 +3373,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3433,7 +3433,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3469,7 +3469,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3513,7 +3513,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3557,7 +3557,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -3605,7 +3605,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -3713,7 +3713,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4057,7 +4057,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -4097,7 +4097,7 @@
         "name": "",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4125,7 +4125,7 @@
         "name": "",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4161,7 +4161,7 @@
         "name": "",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4197,7 +4197,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -4233,7 +4233,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4305,7 +4305,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4389,7 +4389,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4433,7 +4433,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4541,7 +4541,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4609,7 +4609,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4677,7 +4677,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -4829,7 +4829,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -4881,7 +4881,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -4973,7 +4973,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5009,7 +5009,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5129,7 +5129,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5213,7 +5213,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5237,7 +5237,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5313,7 +5313,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5441,7 +5441,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5485,7 +5485,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5577,7 +5577,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5605,7 +5605,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5765,7 +5765,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -5797,7 +5797,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5881,7 +5881,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -5929,7 +5929,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6001,7 +6001,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -6081,7 +6081,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6133,7 +6133,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6221,7 +6221,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6329,7 +6329,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6429,7 +6429,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -6521,7 +6521,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -6545,7 +6545,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6609,7 +6609,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6637,7 +6637,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -6661,7 +6661,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6825,7 +6825,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -6897,7 +6897,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -6969,7 +6969,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7137,7 +7137,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7253,7 +7253,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7409,7 +7409,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7437,7 +7437,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7469,7 +7469,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7545,7 +7545,7 @@
         "name": "Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7569,7 +7569,7 @@
         "name": "Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7593,7 +7593,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7641,7 +7641,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7669,7 +7669,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7697,7 +7697,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7729,7 +7729,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7761,7 +7761,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7805,7 +7805,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7829,7 +7829,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7853,7 +7853,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7877,7 +7877,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7901,7 +7901,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -7933,7 +7933,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -7985,7 +7985,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8017,7 +8017,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8045,7 +8045,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8069,7 +8069,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8093,7 +8093,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8129,7 +8129,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8185,7 +8185,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8233,7 +8233,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8281,7 +8281,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8329,7 +8329,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8373,7 +8373,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8433,7 +8433,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8481,7 +8481,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8521,7 +8521,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8553,7 +8553,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8589,7 +8589,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8657,7 +8657,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8689,7 +8689,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8725,7 +8725,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8769,7 +8769,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8809,7 +8809,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8837,7 +8837,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8861,7 +8861,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8889,7 +8889,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8933,7 +8933,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -8957,7 +8957,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -8993,7 +8993,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -9109,7 +9109,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -9189,7 +9189,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9225,7 +9225,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9257,7 +9257,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -9297,7 +9297,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9321,7 +9321,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9361,7 +9361,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9393,7 +9393,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -9481,7 +9481,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9529,7 +9529,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9565,7 +9565,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9625,7 +9625,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9669,7 +9669,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9717,7 +9717,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9777,7 +9777,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -9937,7 +9937,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -9981,7 +9981,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10049,7 +10049,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10081,7 +10081,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10109,7 +10109,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10137,7 +10137,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10169,7 +10169,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10197,7 +10197,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10221,7 +10221,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10253,7 +10253,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10277,7 +10277,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10301,7 +10301,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10325,7 +10325,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10369,7 +10369,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10409,7 +10409,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10445,7 +10445,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10469,7 +10469,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10493,7 +10493,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10549,7 +10549,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -10609,7 +10609,7 @@
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10869,7 +10869,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10905,7 +10905,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10933,7 +10933,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -10969,7 +10969,7 @@
         "name": "",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11013,7 +11013,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11081,7 +11081,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11133,7 +11133,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11201,7 +11201,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11261,7 +11261,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11297,7 +11297,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11357,7 +11357,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11469,7 +11469,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11501,7 +11501,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11553,7 +11553,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11577,7 +11577,7 @@
         "name": "",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -11837,7 +11837,7 @@
         "name": "",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11861,7 +11861,7 @@
         "name": "Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11885,7 +11885,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11913,7 +11913,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11937,7 +11937,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11965,7 +11965,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -11997,7 +11997,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12045,7 +12045,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12069,7 +12069,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12101,7 +12101,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12133,7 +12133,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12193,7 +12193,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12257,7 +12257,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12313,7 +12313,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12341,7 +12341,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12381,7 +12381,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12413,7 +12413,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12437,7 +12437,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12477,7 +12477,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12501,7 +12501,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12549,7 +12549,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12577,7 +12577,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12617,7 +12617,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12653,7 +12653,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12693,7 +12693,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12717,7 +12717,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12741,7 +12741,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12765,7 +12765,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12789,7 +12789,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12821,7 +12821,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12849,7 +12849,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12873,7 +12873,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12897,7 +12897,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -12933,7 +12933,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -12981,7 +12981,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13017,7 +13017,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13049,7 +13049,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13073,7 +13073,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13097,7 +13097,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13121,7 +13121,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13149,7 +13149,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13197,7 +13197,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13221,7 +13221,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13245,7 +13245,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13329,7 +13329,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13373,7 +13373,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13397,7 +13397,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13465,7 +13465,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13517,7 +13517,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13561,7 +13561,7 @@
         "name": "",
         "status": "done",
         "type": "DOUBLE SENS CYCLABLE NON MATERIALISE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13593,7 +13593,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13629,7 +13629,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13693,7 +13693,7 @@
         "name": "Piste 17 - Les Lycées",
         "status": "done",
         "type": "aucun",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13725,7 +13725,7 @@
         "name": "Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13761,7 +13761,7 @@
         "name": "Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13793,7 +13793,7 @@
         "name": "",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13821,7 +13821,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13861,7 +13861,7 @@
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -13905,7 +13905,7 @@
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -13961,7 +13961,7 @@
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -14169,7 +14169,7 @@
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
         "type": "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -14317,7 +14317,7 @@
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
         "type": "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -14456,8 +14456,8 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -14664,8 +14664,8 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -14908,8 +14908,8 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -14968,8 +14968,8 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15140,8 +15140,8 @@
         "line": 199,
         "name": "Piste 4 - Compiègne - Pierrefonds (par Vieux-Moulin)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15196,8 +15196,8 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15312,8 +15312,8 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15368,8 +15368,8 @@
         "line": 199,
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -15493,7 +15493,7 @@
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -15565,7 +15565,7 @@
         "name": "Piste 3 - Pierrefonds - Compiègne (par Saint-Jean-aux-Bois)",
         "status": "done",
         "type": "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15588,8 +15588,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -15612,8 +15612,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -15676,8 +15676,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -15732,8 +15732,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15760,8 +15760,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -15832,8 +15832,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -16012,8 +16012,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -16120,8 +16120,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -16188,8 +16188,8 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -16420,8 +16420,8 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -16536,8 +16536,8 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -16600,8 +16600,8 @@
         "line": 199,
         "name": "Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -16768,8 +16768,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -16852,8 +16852,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -16884,8 +16884,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -16972,8 +16972,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17012,8 +17012,8 @@
         "line": 199,
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17196,8 +17196,8 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17280,8 +17280,8 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17336,8 +17336,8 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17364,8 +17364,8 @@
         "line": 199,
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17416,8 +17416,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17444,8 +17444,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17468,8 +17468,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17524,8 +17524,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17560,8 +17560,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17588,8 +17588,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17620,8 +17620,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17696,8 +17696,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17856,8 +17856,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17896,8 +17896,8 @@
         "line": 199,
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17924,8 +17924,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -17956,8 +17956,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -17984,8 +17984,8 @@
         "line": 199,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare:Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -18136,8 +18136,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -18248,8 +18248,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -18308,8 +18308,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -18868,8 +18868,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -18940,8 +18940,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -18972,8 +18972,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19016,8 +19016,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville:Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19048,8 +19048,8 @@
         "line": 199,
         "name": "Piste 8 - Margny-lès-Compiègne - Janville",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19092,8 +19092,8 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19124,8 +19124,8 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19148,8 +19148,8 @@
         "line": 199,
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19181,7 +19181,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19313,7 +19313,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19405,7 +19405,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19453,7 +19453,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19545,7 +19545,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19605,7 +19605,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19653,7 +19653,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19677,7 +19677,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19701,7 +19701,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19733,7 +19733,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19757,7 +19757,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19781,7 +19781,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19805,7 +19805,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19829,7 +19829,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -19957,7 +19957,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -19985,7 +19985,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -20053,7 +20053,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20169,7 +20169,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20229,7 +20229,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20257,7 +20257,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20289,7 +20289,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20369,7 +20369,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20433,7 +20433,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -20465,7 +20465,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20545,7 +20545,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -20597,7 +20597,7 @@
         "name": "Piste 15 - Mercières - Parc Tertiaire",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -20621,7 +20621,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20645,7 +20645,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -20821,7 +20821,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -20893,7 +20893,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21005,7 +21005,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21209,7 +21209,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21245,7 +21245,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21309,7 +21309,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21349,7 +21349,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21405,7 +21405,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21529,7 +21529,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21569,7 +21569,7 @@
         "name": "Piste 14 - Bois de Plaisance",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21657,7 +21657,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21681,7 +21681,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21717,7 +21717,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -21825,7 +21825,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -21921,7 +21921,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22233,7 +22233,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22448,8 +22448,8 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22568,8 +22568,8 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22724,8 +22724,8 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22824,8 +22824,8 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22920,8 +22920,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22956,8 +22956,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -22989,7 +22989,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23165,7 +23165,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -23293,7 +23293,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23409,7 +23409,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23493,7 +23493,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23553,7 +23553,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23641,7 +23641,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23697,7 +23697,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23753,7 +23753,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -23869,7 +23869,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -24129,7 +24129,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -24377,7 +24377,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -24441,7 +24441,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -24485,7 +24485,7 @@
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -24621,7 +24621,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -24773,7 +24773,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -24837,7 +24837,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -24921,7 +24921,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25093,7 +25093,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25121,7 +25121,7 @@
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25205,7 +25205,7 @@
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25321,7 +25321,7 @@
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -25565,7 +25565,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25657,7 +25657,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -25737,7 +25737,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -25884,8 +25884,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -25912,8 +25912,8 @@
         "line": 199,
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -26193,7 +26193,7 @@
         "name": " - Trans'Oise:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -26265,7 +26265,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -26385,7 +26385,7 @@
         "name": " - Trans'Oise:Piste 6 - Compiègne - Le Meux:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -26741,7 +26741,7 @@
         "name": "Piste 6 - Compiègne - Le Meux:Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27205,7 +27205,7 @@
         "name": " - Trans'Oise:Piste 6 - Compiègne - Le Meux:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27421,7 +27421,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -27461,7 +27461,7 @@
         "name": " - Trans'Oise:Eurovélo 3 - La Scandibérique:5 - Rive gauche - Pont Neuf - Zone industrielle Nord",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27497,7 +27497,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines: - Trans'Oise:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "AMENAGEMENT MIXTE PIETON VELO HORS VOIE VERTE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27545,7 +27545,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -27625,7 +27625,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27821,7 +27821,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Eurovélo 3 - La Scandibérique: - Trans'Oise",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -27925,7 +27925,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -28337,7 +28337,7 @@
         "name": " - Trans'Oise:Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -28401,7 +28401,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 6 - Compiègne - Le Meux",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29081,7 +29081,7 @@
         "name": " - Trans'Oise:Eurovélo 3 - La Scandibérique:Piste 6 - Compiègne - Le Meux",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29109,7 +29109,7 @@
         "name": "Eurovélo 3 - La Scandibérique: - Trans'Oise:Piste 6 - Compiègne - Le Meux",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29249,7 +29249,7 @@
         "name": " - Trans'Oise:Piste 5 - Compiègne - Choisy - Clairière de l'Armistice:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29377,7 +29377,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice:Eurovélo 3 - La Scandibérique",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29437,7 +29437,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29569,7 +29569,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29601,7 +29601,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29645,7 +29645,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29709,7 +29709,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29812,8 +29812,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29844,8 +29844,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29872,8 +29872,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29905,7 +29905,7 @@
         "name": " - Trans'Oise:Piste 6 - Compiègne - Le Meux:Eurovélo 3 - La Scandibérique:5 - Rive gauche - Pont Neuf - Zone industrielle Nord",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29948,8 +29948,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -29972,8 +29972,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -29996,8 +29996,8 @@
         "line": 199,
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30020,8 +30020,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30252,8 +30252,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30292,8 +30292,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30448,8 +30448,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -30496,8 +30496,8 @@
         "line": 199,
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30580,8 +30580,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30633,7 +30633,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30701,7 +30701,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -30725,7 +30725,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -30849,7 +30849,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -30945,7 +30945,7 @@
         "name": "Piste 18 - Oise - Forêt (Boulevard des Etats-Unis)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -30988,8 +30988,8 @@
         "line": 199,
         "name": "",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31012,8 +31012,8 @@
         "line": 199,
         "name": "Piste 17 - Les Lycées",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31093,7 +31093,7 @@
         "name": "Piste 13 - Verberie - Saint-Vaast-de-Longmont - Saintines",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31121,7 +31121,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31169,7 +31169,7 @@
         "name": "Piste 10 - Le Meux - Jonquières",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31229,7 +31229,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31253,7 +31253,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31277,7 +31277,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31317,7 +31317,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31345,7 +31345,7 @@
         "name": "Piste 17 - Les Lycées",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31369,7 +31369,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31397,7 +31397,7 @@
         "name": "",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "type": "LineString",
@@ -31485,7 +31485,7 @@
         "name": "Piste 2 - Voie Verte (Rive Droite)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31520,8 +31520,8 @@
         "line": 199,
         "name": "Piste 12 - Saintines - Néry - Béthisy-Saint-Martin - Béthisy-Saint-Pierre",
         "status": "done",
-        "type": "PISTE CYCLABLE",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "type": "piste-cyclable",
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [
@@ -31609,7 +31609,7 @@
         "name": "Piste 7 - Compiègne - Lacroix-Saint-Ouen",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-199"
+        "link": "/velo-oise-199"
       },
       "geometry": {
         "coordinates": [

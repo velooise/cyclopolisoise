@@ -10,7 +10,7 @@
         "status": "done",
         "type": "voie-verte",
         "quality": "satisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-989"
+        "link": "/velo-oise-989"
       },
       "geometry": {
         "coordinates": [

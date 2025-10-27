@@ -9,7 +9,7 @@
         "name": "Piste 14 - Bois de Plaisance:4 - Voie Verte (Stade François Louvet)",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-178"
+        "link": "/velo-oise-178"
       },
       "geometry": {
         "type": "LineString",

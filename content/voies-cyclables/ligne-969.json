@@ -9,7 +9,7 @@
         "name": "kml_170",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-969"
+        "link": "/velo-oise-969"
       },
       "geometry": {
         "coordinates": [

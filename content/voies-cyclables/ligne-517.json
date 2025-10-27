@@ -9,7 +9,7 @@
         "name": "SACY-LE-PETIT <> ST-MARTIN-LONGUEAU",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-517"
+        "link": "/velo-oise-517"
       },
       "geometry": {
         "coordinates": [

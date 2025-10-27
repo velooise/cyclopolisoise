@@ -25,7 +25,7 @@
         "name": "Liaison 44-01-02-03 - Montepilloy – Ancienne voie ferrée",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-244"
+        "link": "/velo-oise-244"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "Liaison 44-04 - Montepilloy – Ancienne voie ferrée",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-244"
+        "link": "/velo-oise-244"
       },
       "geometry": {
         "type": "LineString",

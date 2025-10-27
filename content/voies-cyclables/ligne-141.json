@@ -9,7 +9,7 @@
         "name": "30 - Traversee de la RD932A:Piste 9 - Lacroix-Saint-Ouen - Saint-Sauveur",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-141"
+        "link": "/velo-oise-141"
       },
       "geometry": {
         "type": "LineString",

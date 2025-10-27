@@ -25,7 +25,7 @@
         "name": "VERNEUIL-EN-H. > PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-524"
+        "link": "/velo-oise-524"
       },
       "geometry": {
         "coordinates": [

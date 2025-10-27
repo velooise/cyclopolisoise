@@ -25,7 +25,7 @@
         "name": "Route de Liancourt (D137)",
         "status": "planned",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-769"
+        "link": "/velo-oise-769"
       },
       "geometry": {
         "type": "LineString",

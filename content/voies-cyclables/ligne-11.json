@@ -27,7 +27,7 @@
         "name": "GARE DE BORAN - GOUVIEUX",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-11"
+        "link": "/velo-oise-11"
       },
       "geometry": {
         "type": "LineString",
@@ -91,7 +91,7 @@
         "name": "GARE DE BORAN - GOUVIEUX",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-11"
+        "link": "/velo-oise-11"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "Rue des Fortes Terres",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-617"
+        "link": "/velo-oise-617"
       },
       "geometry": {
         "type": "LineString",

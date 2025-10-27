@@ -25,7 +25,7 @@
         "name": "PISTE VERS LA DEVIATION-42",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+        "link": "/velo-oise-642"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "PISTE VERS LA DEVIATION-88",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+        "link": "/velo-oise-642"
       },
       "geometry": {
         "type": "LineString",
@@ -77,7 +77,7 @@
         "name": "PISTE VERS LA DEVIATION-130",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-642"
+        "link": "/velo-oise-642"
       },
       "geometry": {
         "type": "LineString",

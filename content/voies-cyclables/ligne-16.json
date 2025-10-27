@@ -25,7 +25,7 @@
         "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
+        "link": "/velo-oise-16"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "CHANTILLY - BASE AERIENNE CREIL via 55",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-16"
+        "link": "/velo-oise-16"
       },
       "geometry": {
         "type": "LineString",

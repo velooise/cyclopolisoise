@@ -25,7 +25,7 @@
         "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+        "link": "/velo-oise-18"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "ORRY LA VILLE CENTRE - MONTGRESIN",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-18"
+        "link": "/velo-oise-18"
       },
       "geometry": {
         "type": "LineString",

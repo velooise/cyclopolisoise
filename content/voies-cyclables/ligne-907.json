@@ -10,7 +10,7 @@
         "status": "done",
         "doneAt": "01/07/2023",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-907"
+        "link": "/velo-oise-907"
       },
       "geometry": {
         "type": "LineString",

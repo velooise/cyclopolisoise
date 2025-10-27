@@ -9,7 +9,7 @@
         "name": "kml_158",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-957"
+        "link": "/velo-oise-957"
       },
       "geometry": {
         "type": "LineString",

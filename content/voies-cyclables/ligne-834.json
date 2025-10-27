@@ -9,7 +9,7 @@
         "name": "kml_35",
         "status": "done",
         "type": "voie-bus",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-834"
+        "link": "/velo-oise-834"
       },
       "geometry": {
         "type": "LineString",

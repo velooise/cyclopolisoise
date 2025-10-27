@@ -9,7 +9,7 @@
         "name": "kml_101",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-900"
+        "link": "/velo-oise-900"
       },
       "geometry": {
         "coordinates": [

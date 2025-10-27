@@ -9,7 +9,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-118"
+        "link": "/velo-oise-118"
       },
       "geometry": {
         "coordinates": [

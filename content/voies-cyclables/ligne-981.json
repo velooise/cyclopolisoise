@@ -10,7 +10,7 @@
         "status": "done",
         "type": "bandes-cyclables",
         "quality": "unsatisfactory",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-981"
+        "link": "/velo-oise-981"
       },
       "geometry": {
         "type": "LineString",

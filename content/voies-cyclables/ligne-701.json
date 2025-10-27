@@ -25,7 +25,7 @@
         "name": "101 - Rue Victor Hugo",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-701"
+        "link": "/velo-oise-701"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "102 - Rue Victor Hugo",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-702"
+        "link": "/velo-oise-702"
       },
       "geometry": {
         "type": "LineString",

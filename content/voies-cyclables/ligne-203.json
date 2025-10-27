@@ -9,7 +9,7 @@
         "name": "Liaison 48 du schéma cyclable de la CCSSO : Senlis - Ermenonville via Borest, Fontaine-Chaalis et Montlognon",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-203"
+        "link": "/velo-oise-203"
       },
       "geometry": {
         "type": "LineString",
@@ -73,7 +73,7 @@
         "name": "Liaison 48 du schéma cyclable de la CCSSO : Senlis - Ermenonville via Borest, Fontaine-Chaalis et Montlognon",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-203"
+        "link": "/velo-oise-203"
       },
       "geometry": {
         "type": "LineString",
@@ -181,7 +181,7 @@
         "name": "Liaison 48 du schéma cyclable de la CCSSO : Senlis - Ermenonville via Borest, Fontaine-Chaalis et Montlognon",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-203"
+        "link": "/velo-oise-203"
       },
       "geometry": {
         "type": "LineString",

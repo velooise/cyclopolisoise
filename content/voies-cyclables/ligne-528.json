@@ -25,7 +25,7 @@
         "name": "PONTPOINT <> LES ETANGS",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-528"
+        "link": "/velo-oise-528"
       },
       "geometry": {
         "coordinates": [

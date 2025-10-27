@@ -25,7 +25,7 @@
         "name": "C7 -1- BRICHEBAY - VAL D'AUNETTE  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-64"
+        "link": "/velo-oise-64"
       },
       "geometry": {
         "coordinates": [
@@ -129,7 +129,7 @@
         "name": "C7 -2- BRICHEBAY - VAL D'AUNETTE  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-64"
+        "link": "/velo-oise-64"
       },
       "geometry": {
         "coordinates": [
@@ -157,7 +157,7 @@
         "name": "C7 -3- BRICHEBAY - VAL D'AUNETTE  (Liaison de ceinture périphérique)",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-64"
+        "link": "/velo-oise-64"
       },
       "geometry": {
         "coordinates": [

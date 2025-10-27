@@ -9,7 +9,7 @@
         "name": "828 kml_29",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-828"
+        "link": "/velo-oise-828"
       },
       "geometry": {
         "type": "LineString",
@@ -90,7 +90,7 @@
         "name": "828 kml_154",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-828"
+        "link": "/velo-oise-828"
       },
       "geometry": {
         "coordinates": [

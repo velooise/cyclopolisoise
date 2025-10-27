@@ -9,7 +9,7 @@
         "name": "kml_9",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -76,7 +76,7 @@
         "name": "kml_43 Berges Nord",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -132,7 +132,7 @@
         "name": "kml_176 Berges Nord",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -283,7 +283,7 @@
         "name": "kml_175 Berges Nord",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -394,7 +394,7 @@
         "name": "kml_177 Berges Nord",
         "status": "planned",
         "type": "imp+debouche-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "coordinates": [
@@ -440,7 +440,7 @@
         "name": "kml_42 Berges Nord",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -531,7 +531,7 @@
         "name": "kml_94 Berges Nord",
         "status": "planned",
         "type": "pictogramme",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",
@@ -657,7 +657,7 @@
         "name": "kml_95 Berges Nord",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-808"
+        "link": "/velo-oise-808"
       },
       "geometry": {
         "type": "LineString",

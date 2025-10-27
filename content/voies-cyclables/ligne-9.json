@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "01/05/2010",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-9"
+        "link": "/velo-oise-9"
       },
       "geometry": {
         "type": "LineString",

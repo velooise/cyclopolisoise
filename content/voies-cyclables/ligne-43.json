@@ -25,7 +25,7 @@
         "name": "A10bis - CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE PARIS)",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-43"
+        "link": "/velo-oise-43"
       },
       "geometry": {
         "type": "LineString",

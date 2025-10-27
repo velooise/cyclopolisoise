@@ -25,7 +25,7 @@
         "name": "MONCEAUX > LE ROCHER",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-511"
+        "link": "/velo-oise-511"
       },
       "geometry": {
         "coordinates": [

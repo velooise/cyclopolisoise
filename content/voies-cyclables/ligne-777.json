@@ -25,7 +25,7 @@
         "name": "177 - D59 Labruyère - Rosoy",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-777"
+        "link": "/velo-oise-777"
       },
       "geometry": {
         "type": "LineString",
@@ -85,7 +85,7 @@
         "name": "178 - D59 Labruyère - Rosoy",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-778"
+        "link": "/velo-oise-778"
       },
       "geometry": {
         "type": "LineString",
@@ -117,7 +117,7 @@
         "name": "179 - D59 Rosoy - Verderonne",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-779"
+        "link": "/velo-oise-779"
       },
       "geometry": {
         "type": "LineString",
@@ -149,7 +149,7 @@
         "name": "180 - D59 Rosoy - Verderonne",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-780"
+        "link": "/velo-oise-780"
       },
       "geometry": {
         "type": "LineString",
@@ -177,7 +177,7 @@
         "name": "183 - Rue de la Croix Dupuis (D59)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-783"
+        "link": "/velo-oise-783"
       },
       "geometry": {
         "type": "LineString",
@@ -205,7 +205,7 @@
         "name": "185 - D59",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-785"
+        "link": "/velo-oise-785"
       },
       "geometry": {
         "type": "LineString",
@@ -293,7 +293,7 @@
         "name": "186 - D59 Rosoy - Verderonne",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-786"
+        "link": "/velo-oise-786"
       },
       "geometry": {
         "type": "LineString",
@@ -333,7 +333,7 @@
         "name": "191 - Rue du Château d'Eau (D59) / Rue du Pontceau / Rue de l'Eglise",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-791"
+        "link": "/velo-oise-791"
       },
       "geometry": {
         "type": "LineString",

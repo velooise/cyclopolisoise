@@ -25,7 +25,7 @@
         "name": "18-Rue du Clos de Saveuse",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-618"
+        "link": "/velo-oise-618"
       },
       "geometry": {
         "type": "LineString",

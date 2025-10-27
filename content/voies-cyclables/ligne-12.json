@@ -25,7 +25,7 @@
         "name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-12"
+        "link": "/velo-oise-12"
       },
       "geometry": {
         "type": "LineString",
@@ -69,7 +69,7 @@
         "name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-12"
+        "link": "/velo-oise-12"
       },
       "geometry": {
         "type": "LineString",

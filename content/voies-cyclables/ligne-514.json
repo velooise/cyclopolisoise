@@ -25,7 +25,7 @@
         "name": "SACY-LE-GRAND > ZA LA MOTTE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-514"
+        "link": "/velo-oise-514"
       },
       "geometry": {
         "coordinates": [

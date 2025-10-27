@@ -25,7 +25,7 @@
         "name": "Liaison 45-04-08 - Montepilloy – Senlis",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-245"
+        "link": "/velo-oise-245"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "Liaison 45-01-03 - Montepilloy – Senlis",
         "status": "planned",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-245"
+        "link": "/velo-oise-245"
       },
       "geometry": {
         "type": "LineString",

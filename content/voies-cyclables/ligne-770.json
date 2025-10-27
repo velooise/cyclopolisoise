@@ -25,7 +25,7 @@
         "name": "170 - Rue Edouard Vaillant",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-770"
+        "link": "/velo-oise-770"
       },
       "geometry": {
         "type": "LineString",

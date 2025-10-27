@@ -25,7 +25,7 @@
         "name": "151 - Rue de Caucriaumont (D62)",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-751"
+        "link": "/velo-oise-751"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "Chantilly vers le chateau",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+        "link": "/velo-oise-29"
       },
       "geometry": {
         "type": "LineString",
@@ -81,7 +81,7 @@
         "name": "Chantilly vers le chateau",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+        "link": "/velo-oise-29"
       },
       "geometry": {
         "type": "LineString",
@@ -133,7 +133,7 @@
         "name": "Dans Avilly",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+        "link": "/velo-oise-29"
       },
       "geometry": {
         "type": "LineString",
@@ -157,7 +157,7 @@
         "name": "Vers Saint Léonard",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+        "link": "/velo-oise-29"
       },
       "geometry": {
         "type": "LineString",
@@ -197,7 +197,7 @@
         "name": "Direction Courteuil",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-29"
+        "link": "/velo-oise-29"
       },
       "geometry": {
         "type": "LineString",

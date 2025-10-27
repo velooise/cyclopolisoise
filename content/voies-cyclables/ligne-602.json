@@ -25,7 +25,7 @@
         "name": "Allée des Frênes (D630)",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-602"
+        "link": "/velo-oise-602"
       },
       "geometry": {
         "type": "LineString",

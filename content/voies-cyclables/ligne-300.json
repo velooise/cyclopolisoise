@@ -26,7 +26,7 @@
         "status": "done",
         "doneAt": "01/07/2021",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+        "link": "/velo-oise-300"
       },
       "geometry": {
         "type": "LineString",
@@ -107,7 +107,7 @@
         "status": "done",
         "doneAt": "01/07/2021",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+        "link": "/velo-oise-300"
       },
       "geometry": {
         "type": "LineString",
@@ -180,7 +180,7 @@
         "status": "done",
         "doneAt": "01/07/2015",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+        "link": "/velo-oise-300"
       },
       "geometry": {
         "type": "LineString",
@@ -217,7 +217,7 @@
         "status": "done",
         "doneAt": "01/07/2020",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+        "link": "/velo-oise-300"
       },
       "geometry": {
         "type": "LineString",
@@ -266,7 +266,7 @@
         "status": "done",
         "doneAt": "01/07/2020",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-300"
+        "link": "/velo-oise-300"
       },
       "geometry": {
         "type": "LineString",

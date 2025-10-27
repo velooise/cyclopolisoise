@@ -10,7 +10,7 @@
         "status": "done",
         "doneAt": "01/07/2025",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-6",
+        "link": "/velo-oise-6",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -127,7 +127,7 @@
         "name": "Creil a Saint Leu par les berges",
         "status": "wip",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-6"
+        "link": "/velo-oise-6"
       },
       "geometry": {
         "coordinates": [
@@ -888,7 +888,7 @@
         "name": "kml_140 Creil a Saint Leu par les berges - Saint Leu",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-939"
+        "link": "/velo-oise-939"
       },
       "geometry": {
         "type": "LineString",

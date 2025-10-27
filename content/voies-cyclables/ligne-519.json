@@ -25,7 +25,7 @@
         "name": "RIEUX <> BRENOUILLE <> PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-519"
+        "link": "/velo-oise-519"
       },
       "geometry": {
         "coordinates": [

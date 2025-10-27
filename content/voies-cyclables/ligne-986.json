@@ -9,7 +9,7 @@
         "name": "kml_187",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-986"
+        "link": "/velo-oise-986"
       },
       "geometry": {
         "type": "LineString",

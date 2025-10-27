@@ -25,7 +25,7 @@
         "name": "97 Rue Thiebaut (Faidherbe?)",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-697"
+        "link": "/velo-oise-697"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "99 - Rue Henri Thebaut",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-699"
+        "link": "/velo-oise-699"
       },
       "geometry": {
         "type": "LineString",
@@ -97,7 +97,7 @@
         "name": "97 - Rue Henri Thebaut",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-700"
+        "link": "/velo-oise-700"
       },
       "geometry": {
         "type": "LineString",

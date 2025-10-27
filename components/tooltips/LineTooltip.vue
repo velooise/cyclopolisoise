@@ -141,6 +141,10 @@ function getStatus(properties: LineStringFeature['properties']): { label: string
     unknown: {
       label: 'à définir',
       class: 'text-gray-900 bg-gray-200 rounded-xl px-2'
+    },
+    wished: {
+      label: 'souhaits pour futur plan vélo',
+      class: 'text-white bg-lvv-pink rounded-xl px-2'
     }
   };
   return statusMapping[properties.status];

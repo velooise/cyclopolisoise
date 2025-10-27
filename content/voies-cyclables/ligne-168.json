@@ -9,7 +9,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "coordinates": [
@@ -188,8 +188,8 @@
         "line": 168,
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "type": "inconnu",
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "coordinates": [
@@ -477,7 +477,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "coordinates": [
@@ -552,8 +552,8 @@
         "line": 168,
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "type": "inconnu",
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "coordinates": [
@@ -621,7 +621,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "type": "LineString",
@@ -724,8 +724,8 @@
         "line": 168,
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "type": "inconnu",
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "type": "LineString",
@@ -769,7 +769,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "type": "LineString",
@@ -861,7 +861,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "coordinates": [
@@ -885,7 +885,7 @@
         "name": "7 - Saint-Sauveur - Béthisy-Saint-Pierre",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-168"
+        "link": "/velo-oise-168"
       },
       "geometry": {
         "type": "LineString",

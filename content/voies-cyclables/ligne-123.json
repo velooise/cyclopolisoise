@@ -9,7 +9,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [
@@ -45,7 +45,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [
@@ -173,7 +173,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [
@@ -197,7 +197,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "type": "LineString",
@@ -265,7 +265,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [
@@ -309,7 +309,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "type": "LineString",
@@ -385,7 +385,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "type": "LineString",
@@ -433,7 +433,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [
@@ -581,7 +581,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "type": "LineString",
@@ -681,7 +681,7 @@
         "name": "11bis - Bois de Plaisance - ZAC de Jaux Venette - ZAC du Camp du Roy",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-123"
+        "link": "/velo-oise-123"
       },
       "geometry": {
         "coordinates": [

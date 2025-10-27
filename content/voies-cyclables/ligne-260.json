@@ -25,7 +25,7 @@
         "name": "Liaison 60-01-02 - Barbery – Ancienne voie ferrée",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
+        "link": "/velo-oise-260"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "Liaison 60-03-04 - Barbery – Ancienne voie ferrée",
         "status": "planned",
         "type": "imp+debouche-cyclable",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-260"
+        "link": "/velo-oise-260"
       },
       "geometry": {
         "type": "LineString",

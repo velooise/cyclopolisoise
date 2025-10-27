@@ -25,7 +25,7 @@
         "name": "Barreau Complementaire B4 - RUE YVES CARLIER (VOLONTE DAMENAGEMENT. TYPE A DEFINIR) LIAISONS DE CEINTURE PERIPHERIQUE",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-57"
+        "link": "/velo-oise-57"
       },
       "geometry": {
         "type": "LineString",

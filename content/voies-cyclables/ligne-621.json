@@ -25,7 +25,7 @@
         "name": "21 Residence Yvette Joly",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-621"
+        "link": "/velo-oise-621"
       },
       "geometry": {
         "type": "LineString",

@@ -9,7 +9,7 @@
         "name": "kml_102",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-901"
+        "link": "/velo-oise-901"
       },
       "geometry": {
         "coordinates": [

@@ -25,7 +25,7 @@
         "name": "Chemin des Etangs-4",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-604"
+        "link": "/velo-oise-604"
       },
       "geometry": {
         "type": "LineString",

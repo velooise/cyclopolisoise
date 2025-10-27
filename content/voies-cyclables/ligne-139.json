@@ -8,8 +8,8 @@
         "line": 139,
         "name": "25 - Rive Gauche à Rive Droite via Verrerie",
         "status": "unknown",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-139"
+        "type": "inconnu",
+        "link": "/velo-oise-139"
       },
       "geometry": {
         "type": "LineString",

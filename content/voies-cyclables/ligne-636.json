@@ -10,7 +10,7 @@
         "status": "done",
         "doneAt": "01/05/2023",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -46,7 +46,7 @@
         "name": "D916a 34 35",
         "status": "done",
         "doneAt": "01/08/2024",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636",
+        "link": "/velo-oise-636",
         "type": "bidirectionnelle"
       },
       "geometry": {
@@ -75,7 +75,7 @@
         "line": 636,
         "name": "D916a 30-31",
         "status": "planned",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -100,7 +100,7 @@
         "status": "done",
         "doneAt": "01/09/2024",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -124,7 +124,7 @@
         "line": 636,
         "name": "D916a 39",
         "status": "planned",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -168,7 +168,7 @@
         "line": 636,
         "name": "D916a 40-41",
         "status": "planned",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -201,7 +201,7 @@
         "name": "D916a 40",
         "status": "done",
         "doneAt": "01/05/2023",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -249,7 +249,7 @@
         "line": 636,
         "name": "D916a 156",
         "status": "planned",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -278,7 +278,7 @@
         "name": "D916a 104",
         "status": "done",
         "doneAt": "30/05/2025",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -302,7 +302,7 @@
         "name": "D916a-103 a",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -334,7 +334,7 @@
         "name": "D916a-103 b",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-636"
+        "link": "/velo-oise-636"
       },
       "geometry": {
         "coordinates": [
@@ -362,7 +362,7 @@
         "name": "157 - Avenue Pierre Curie (D916a)",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-757"
+        "link": "/velo-oise-757"
       },
       "geometry": {
         "coordinates": [

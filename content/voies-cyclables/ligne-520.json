@@ -25,7 +25,7 @@
         "name": "BRENOUILLE > RIEUX > VILLERS-ST-PAUl > VERNEUIL",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-520"
+        "link": "/velo-oise-520"
       },
       "geometry": {
         "coordinates": [

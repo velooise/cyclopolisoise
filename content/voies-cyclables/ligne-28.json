@@ -25,7 +25,7 @@
         "name": "Lamorlaye Est-Ouest le long de la RD",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
+        "link": "/velo-oise-28"
       },
       "geometry": {
         "type": "LineString",
@@ -81,7 +81,7 @@
         "name": "Le Lys au pont de Boran",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-28"
+        "link": "/velo-oise-28"
       },
       "geometry": {
         "type": "LineString",

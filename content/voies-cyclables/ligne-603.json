@@ -25,7 +25,7 @@
         "name": "CHE DE BAILLEVAL A BETHENCOURT",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-603"
+        "link": "/velo-oise-603"
       },
       "geometry": {
         "type": "LineString",

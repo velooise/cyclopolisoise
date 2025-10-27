@@ -25,7 +25,7 @@
         "name": "Ruelle des Bouchers / Chemin rural du Bois de Louveaucourt",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-724"
+        "link": "/velo-oise-724"
       },
       "geometry": {
         "type": "LineString",

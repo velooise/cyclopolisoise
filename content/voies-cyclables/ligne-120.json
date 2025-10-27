@@ -9,7 +9,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-120"
+        "link": "/velo-oise-120"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-120"
+        "link": "/velo-oise-120"
       },
       "geometry": {
         "coordinates": [
@@ -97,7 +97,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-120"
+        "link": "/velo-oise-120"
       },
       "geometry": {
         "type": "LineString",
@@ -141,7 +141,7 @@
         "name": "10 - Lacroix - Le Meux",
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-120"
+        "link": "/velo-oise-120"
       },
       "geometry": {
         "type": "LineString",

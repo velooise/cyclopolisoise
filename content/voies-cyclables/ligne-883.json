@@ -9,7 +9,7 @@
         "name": "kml_84",
         "status": "done",
         "type": "voie-bus",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-883"
+        "link": "/velo-oise-883"
       },
       "geometry": {
         "coordinates": [

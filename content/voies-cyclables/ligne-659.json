@@ -26,7 +26,7 @@
         "doneAt": "08/05/2023",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-659"
+        "link": "/velo-oise-659"
       },
       "geometry": {
         "type": "LineString",

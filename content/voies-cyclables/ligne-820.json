@@ -9,7 +9,7 @@
         "name": "kml_21",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-820"
+        "link": "/velo-oise-820"
       },
       "geometry": {
         "type": "LineString",

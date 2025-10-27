@@ -25,7 +25,7 @@
         "name": "ANGICOURT > CINQUEUX",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-503"
+        "link": "/velo-oise-503"
       },
       "geometry": {
         "coordinates": [

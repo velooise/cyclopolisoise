@@ -9,7 +9,7 @@
         "name": "kml_86",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-885"
+        "link": "/velo-oise-885"
       },
       "geometry": {
         "type": "LineString",

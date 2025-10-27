@@ -9,7 +9,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -85,7 +85,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -249,7 +249,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -277,7 +277,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -309,7 +309,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -332,8 +332,8 @@
         "line": 137,
         "name": "23 - Venette - Margny - Clairoix",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "type": "inconnu",
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -400,8 +400,8 @@
         "line": 137,
         "name": "23 - Venette - Margny - Clairoix",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "type": "inconnu",
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -469,7 +469,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -493,7 +493,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -533,7 +533,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -569,7 +569,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -737,7 +737,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -901,7 +901,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -945,7 +945,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -989,7 +989,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "coordinates": [
@@ -1013,7 +1013,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "done",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -1073,7 +1073,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -1105,7 +1105,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",
@@ -1137,7 +1137,7 @@
         "name": "23 - Venette - Margny - Clairoix",
         "status": "EN PROJET",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-137"
+        "link": "/velo-oise-137"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "122 - Rue Victor Hugo / Rue de l'Ecole des Arts et Métiers (D137)",
         "status": "planned",
         "type": "zone-de-rencontre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-722"
+        "link": "/velo-oise-722"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "123 -  Rue de l'Ecole des Arts et Métiers (D137)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-723"
+        "link": "/velo-oise-723"
       },
       "geometry": {
         "type": "LineString",
@@ -93,7 +93,7 @@
         "name": "123 - Rue Victor Hugo  (D137)",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-723"
+        "link": "/velo-oise-723"
       },
       "geometry": {
         "type": "LineString",

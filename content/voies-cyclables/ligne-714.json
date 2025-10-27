@@ -20,7 +20,7 @@
         "name": "114-160 - Chemin du Marais",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-714"
+        "link": "/velo-oise-714"
       },
       "geometry": {
         "type": "LineString",

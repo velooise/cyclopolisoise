@@ -25,7 +25,7 @@
         "name": "Accès Eglise",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-725"
+        "link": "/velo-oise-725"
       },
       "geometry": {
         "type": "LineString",

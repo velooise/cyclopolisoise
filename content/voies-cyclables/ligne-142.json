@@ -9,7 +9,7 @@
         "name": "101 - Liaison étudiante",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -53,7 +53,7 @@
         "name": "101 - Liaison étudiante",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -88,8 +88,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -160,8 +160,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -276,8 +276,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -316,8 +316,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -376,8 +376,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -432,8 +432,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -456,8 +456,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -512,8 +512,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -676,8 +676,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -712,7 +712,7 @@
         "line": 142,
         "status": "planned",
         "type": "",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -751,8 +751,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",
@@ -915,8 +915,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -947,8 +947,8 @@
         "line": 142,
         "name": "101 - Liaison étudiante",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "type": "inconnu",
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "coordinates": [
@@ -988,7 +988,7 @@
         "name": "101 - Liaison étudiante",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-142"
+        "link": "/velo-oise-142"
       },
       "geometry": {
         "type": "LineString",

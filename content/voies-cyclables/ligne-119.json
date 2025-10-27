@@ -9,7 +9,7 @@
         "name": "9 - Béthisy-Saint-Pierre - Néry",
         "status": "postponed",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-119"
+        "link": "/velo-oise-119"
       },
       "geometry": {
         "type": "LineString",

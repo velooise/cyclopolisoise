@@ -9,7 +9,7 @@
         "name": "kml_155",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-954"
+        "link": "/velo-oise-954"
       },
       "geometry": {
         "coordinates": [

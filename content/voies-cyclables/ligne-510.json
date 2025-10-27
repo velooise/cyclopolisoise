@@ -25,7 +25,7 @@
         "name": "LES AGEUX > GARE DE PONT-STE-MAXENCE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-510"
+        "link": "/velo-oise-510"
       },
       "geometry": {
         "coordinates": [

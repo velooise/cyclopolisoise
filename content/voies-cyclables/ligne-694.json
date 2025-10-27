@@ -25,7 +25,7 @@
         "name": "94 - Rue Andre Gourdin",
         "status": "planned",
         "type": "autre",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-694"
+        "link": "/velo-oise-694"
       },
       "geometry": {
         "type": "LineString",

@@ -25,7 +25,7 @@
         "name": "Accès résidence Yvette Joly",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-601"
+        "link": "/velo-oise-601"
       },
       "geometry": {
         "type": "LineString",

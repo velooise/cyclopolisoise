@@ -25,7 +25,7 @@
         "name": "Allée des Fougères",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-629"
+        "link": "/velo-oise-629"
       },
       "geometry": {
         "type": "LineString",

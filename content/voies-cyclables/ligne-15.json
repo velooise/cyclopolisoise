@@ -25,7 +25,7 @@
         "name": "GARE DE COYE ORRY - COYE",
         "status": "planned",
         "type": "bilaterale",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-15"
+        "link": "/velo-oise-15"
       },
       "geometry": {
         "type": "LineString",

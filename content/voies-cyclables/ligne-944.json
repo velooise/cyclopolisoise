@@ -8,8 +8,8 @@
         "line": 944,
         "name": "kml_145",
         "status": "done",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-944"
+        "type": "inconnu",
+        "link": "/velo-oise-944"
       },
       "geometry": {
         "type": "LineString",

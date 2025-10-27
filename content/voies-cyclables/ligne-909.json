@@ -9,7 +9,7 @@
         "name": "kml_110",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-909"
+        "link": "/velo-oise-909"
       },
       "geometry": {
         "coordinates": [

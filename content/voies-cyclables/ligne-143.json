@@ -8,8 +8,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",
@@ -40,8 +40,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",
@@ -92,8 +92,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "coordinates": [
@@ -144,8 +144,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "coordinates": [
@@ -308,8 +308,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",
@@ -348,8 +348,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",
@@ -372,8 +372,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "coordinates": [
@@ -408,8 +408,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "coordinates": [
@@ -437,7 +437,7 @@
         "name": "102 - Coeur de ville - La Victoire",
         "status": "done",
         "type": "bandes-cyclables",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "coordinates": [
@@ -460,8 +460,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",
@@ -484,8 +484,8 @@
         "line": 143,
         "name": "102 - Coeur de ville - La Victoire",
         "status": "planned",
-        "type": "unknown",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-143"
+        "type": "inconnu",
+        "link": "/velo-oise-143"
       },
       "geometry": {
         "type": "LineString",

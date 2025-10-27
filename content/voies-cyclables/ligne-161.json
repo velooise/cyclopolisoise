@@ -9,7 +9,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice:27 - Armistice - Vieux Moulin",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-161"
+        "link": "/velo-oise-161"
       },
       "geometry": {
         "type": "LineString",
@@ -169,7 +169,7 @@
         "name": "Piste 5 - Compiègne - Choisy - Clairière de l'Armistice:27 - Armistice - Vieux Moulin",
         "status": "done",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-161"
+        "link": "/velo-oise-161"
       },
       "geometry": {
         "coordinates": [

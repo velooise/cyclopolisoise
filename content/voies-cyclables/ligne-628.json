@@ -25,7 +25,7 @@
         "name": "28- VV SANS NOM",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-628"
+        "link": "/velo-oise-628"
       },
       "geometry": {
         "type": "LineString",

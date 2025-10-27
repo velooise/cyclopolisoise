@@ -9,7 +9,7 @@
         "name": "kml_75",
         "status": "planned",
         "type": "piste-sur-trottoir",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-874"
+        "link": "/velo-oise-874"
       },
       "geometry": {
         "coordinates": [

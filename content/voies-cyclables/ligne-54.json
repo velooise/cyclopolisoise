@@ -25,7 +25,7 @@
         "name": "Barreau Complementaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CVCB)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-54"
+        "link": "/velo-oise-54"
       },
       "geometry": {
         "type": "LineString",

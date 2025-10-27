@@ -25,7 +25,7 @@
         "name": "CREIL > VERNEUIL PARC TECHN.",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-522"
+        "link": "/velo-oise-522"
       },
       "geometry": {
         "coordinates": [

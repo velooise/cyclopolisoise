@@ -25,7 +25,7 @@
         "name": "89 - PL DE LA GARE",
         "status": "planned",
         "type": "voie-bus",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-689"
+        "link": "/velo-oise-689"
       },
       "geometry": {
         "type": "LineString",

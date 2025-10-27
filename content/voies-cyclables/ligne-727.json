@@ -25,7 +25,7 @@
         "name": "Cheminement menant au Parc de Chédeville-127-133",
         "status": "wip",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-727"
+        "link": "/velo-oise-727"
       },
       "geometry": {
         "type": "LineString",

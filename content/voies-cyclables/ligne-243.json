@@ -25,7 +25,7 @@
         "name": "Liaison 43 – Rully – Bray – Chaussée Brunehaut",
         "status": "planned",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+        "link": "/velo-oise-243"
       },
       "geometry": {
         "type": "LineString",
@@ -49,7 +49,7 @@
         "name": "Liaison 43-02-03 – Rully – Bray – Chaussée Brunehaut",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+        "link": "/velo-oise-243"
       },
       "geometry": {
         "type": "LineString",
@@ -77,7 +77,7 @@
         "name": "Liaison 43-04 – Rully – Bray – Chaussée Brunehaut",
         "status": "planned",
         "type": "jalonnement",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+        "link": "/velo-oise-243"
       },
       "geometry": {
         "type": "LineString",
@@ -133,7 +133,7 @@
         "name": "Liaison 43-05 – Rully – Bray – Chaussée Brunehaut",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-243"
+        "link": "/velo-oise-243"
       },
       "geometry": {
         "type": "LineString",

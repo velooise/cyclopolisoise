@@ -25,7 +25,7 @@
         "name": "A3 - ANTENNE COLLEGE FONTAINE DES PRES",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-47"
+        "link": "/velo-oise-47"
       },
       "geometry": {
         "type": "LineString",
@@ -77,7 +77,7 @@
         "name": "A3 - ANTENNE COLLEGE FONTAINE DES PRES",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-47"
+        "link": "/velo-oise-47"
       },
       "geometry": {
         "type": "LineString",

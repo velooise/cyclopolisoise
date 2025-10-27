@@ -25,7 +25,7 @@
         "name": "Liaison 58-01-02 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "voie-riverains",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",
@@ -57,7 +57,7 @@
         "name": "Liaison 58-04-05 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",
@@ -97,7 +97,7 @@
         "name": "Liaison 58-06 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "chaucidou",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",
@@ -121,7 +121,7 @@
         "name": "Liaison 58-07-08 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "zone-30",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",
@@ -161,7 +161,7 @@
         "name": "Liaison 58-09 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "bidirectionnelle",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",
@@ -186,7 +186,7 @@
         "status": "done",
         "doneAt": "01/09/2024",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-258"
+        "link": "/velo-oise-258"
       },
       "geometry": {
         "type": "LineString",

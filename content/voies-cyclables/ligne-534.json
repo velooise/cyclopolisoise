@@ -25,7 +25,7 @@
         "name": "PONTPOINT > VILLENEUVE-SUR-VERBERIE",
         "status": "planned",
         "type": "voie-verte",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-534"
+        "link": "/velo-oise-534"
       },
       "geometry": {
         "coordinates": [

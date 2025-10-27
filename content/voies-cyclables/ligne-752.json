@@ -25,7 +25,7 @@
         "name": "152 - Rue de Caucriaumont (D62)",
         "status": "planned",
         "type": "jalonnement-picto",
-        "link": "https://cyclopolisoise.netlify.app/velo-oise-752"
+        "link": "/velo-oise-752"
       },
       "geometry": {
         "type": "LineString",
