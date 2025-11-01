@@ -144,7 +144,7 @@ function getStatus(properties: LineStringFeature['properties']): { label: string
     },
     wished: {
       label: 'souhaits pour futur plan vélo',
-      class: 'text-white bg-lvv-pink rounded-xl px-2'
+      class: 'text-white bg-lvv-orange rounded-xl px-2'
     }
   };
   return statusMapping[properties.status];
