@@ -1,0 +1,5 @@
+./node_modules/
+./.output/
+./Dockerfile
+./.env
+./docker-compose.yml
