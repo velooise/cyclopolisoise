@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-167.jpg",
-        "line": 767
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.439221694443262,
-          49.32826832956198
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-sacco-et-vanzetti-167",
         "line": 767,
         "name": "167 R SACCO ET VANZETTI",

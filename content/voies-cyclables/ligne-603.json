@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-3.jpg",
-        "line": 603
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4670282803699024,
-          49.350333939924184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "che-de-bailleval-a-bethencourt-3",
         "line": 603,
         "name": "CHE DE BAILLEVAL A BETHENCOURT",

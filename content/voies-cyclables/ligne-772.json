@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-172.jpg",
-        "line": 772
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.43923320370493,
-          49.32931760876667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-marcelin-berthelot-172",
         "line": 772,
         "name": "172 - Rue Marcelin Berthelot",

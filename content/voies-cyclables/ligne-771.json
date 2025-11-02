@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-171.jpg",
-        "line": 771
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4477952453606804,
-          49.33494929759155
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-emile-zola-(d650)-171",
         "line": 771,
         "name": "171 - Rue Emile Zola (D650)",

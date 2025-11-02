@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-54.jpg",
-        "line": 654
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.449546698749515,
-          49.316191002026386
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-sailleville-54",
         "line": 654,
         "name": "54 - Rue De Sailleville",

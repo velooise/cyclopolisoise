@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-124.jpg",
-        "line": 724
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4555731148330437,
-          49.3373266238558
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "ruelle-des-bouchers-/-chemin-rural-du-bois-de-louveaucourt-124",
         "line": 724,
         "name": "Ruelle des Bouchers / Chemin rural du Bois de Louveaucourt",

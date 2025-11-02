@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-520.jpg",
-        "line": 520
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.514054714957049,
-          49.29493185179156
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "brenouille->-rieux->-villers-st-paul->-verneuil",
         "line": 520,
         "name": "BRENOUILLE > RIEUX > VILLERS-ST-PAUl > VERNEUIL",

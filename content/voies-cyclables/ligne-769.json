@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-169.jpg",
-        "line": 769
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.445514341211492,
-          49.3235268981127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "route-de-liancourt-(d137)-169",
         "line": 769,
         "name": "Route de Liancourt (D137)",

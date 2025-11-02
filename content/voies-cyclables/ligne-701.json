@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-101.jpg",
-        "line": 701
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.449510294496463,
-          49.309223193783964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-victor-hugo-101",
         "line": 701,
         "name": "101 - Rue Victor Hugo",

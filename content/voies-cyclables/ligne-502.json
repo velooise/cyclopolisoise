@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-502.jpg",
-        "line": 502
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.500233226146773,
-          49.3537242172527
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rieux->-brenouille",
         "line": 502,
         "name": "RIEUX > BRENOUILLE",

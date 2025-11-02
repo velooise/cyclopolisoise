@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-17.jpg",
-        "line": 617
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4584183550790613,
-          49.34584020444376
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-des-fortes-terres-17",
         "line": 617,
         "name": "Rue des Fortes Terres",

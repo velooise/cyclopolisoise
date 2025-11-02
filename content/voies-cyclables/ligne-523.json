@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-523.jpg",
-        "line": 523
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5076339,
-          49.26302
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "verneuil-en-h.->-ba110",
         "line": 523,
         "name": "VERNEUIL-EN-H. > BA110",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-510.jpg",
-        "line": 510
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5921168934628014,
-          49.31397919212905
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "les-ageux->-gare-de-pont-ste-maxence",
         "line": 510,
         "name": "LES AGEUX > GARE DE PONT-STE-MAXENCE",

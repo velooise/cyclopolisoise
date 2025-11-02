@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-602.jpg",
-        "line": 602
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4528435749963364,
-          49.33656665584542
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "allée-des-frênes-(d630)-2",
         "line": 602,
         "name": "Allée des Frênes (D630)",

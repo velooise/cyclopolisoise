@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-164.jpg",
-        "line": 764
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4390036183853,
-          49.32773831947037
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-du-cimetiere-164",
         "line": 764,
         "name": "164 R DU CIMETIERE",

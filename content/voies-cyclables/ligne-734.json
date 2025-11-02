@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-134.jpg",
-        "line": 734
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4638268677299493,
-          49.31436091254457
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-du-lavoir-134",
         "line": 734,
         "name": "R DU LAVOIR",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-10.jpg",
-        "line": 610
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4573181428471287,
-          49.34742197430441
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-aux-dames-10",
         "line": 610,
         "name": "Rue aux Dames",

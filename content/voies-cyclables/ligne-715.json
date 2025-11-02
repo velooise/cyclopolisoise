@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-115.jpg",
-        "line": 715
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4535662193866585,
-          49.319073888337044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "chemin-le-long-de-la-brèche-115",
         "line": 715,
         "name": "Chemin le long de La Brèche",

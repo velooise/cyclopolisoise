@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-505.jpg",
-        "line": 505
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.521358626152372,
-          49.30966302247204
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "cinqueux->-rieux",
         "line": 505,
         "name": "CINQUEUX > RIEUX",

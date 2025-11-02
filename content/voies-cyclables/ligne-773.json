@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-173.jpg",
-        "line": 773
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4460812297064365,
-          49.32639050062278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-parmentier-173",
         "line": 773,
         "name": "173 - Rue Parmentier",

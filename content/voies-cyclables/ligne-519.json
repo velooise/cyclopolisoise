@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-519.jpg",
-        "line": 519
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.55232412911229,
-          49.30029023010167
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rieux-<>-brenouille-<>-pont-ste-maxence",
         "line": 519,
         "name": "RIEUX <> BRENOUILLE <> PONT-STE-MAXENCE",

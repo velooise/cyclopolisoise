@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-174.jpg",
-        "line": 774
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4373833483160183,
-          49.34238832863625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-breuil-le-vert-174",
         "line": 774,
         "name": "174 - Rue de Breuil le Vert",

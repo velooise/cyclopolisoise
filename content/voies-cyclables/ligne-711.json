@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-11.jpg",
-        "line": 711
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4647426291613215,
-          49.324773942341864
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "avenue-de-l'ile-de-france-(d62)-111",
         "line": 711,
         "name": "111 Avenue de l'Ile-de-France (D62)",

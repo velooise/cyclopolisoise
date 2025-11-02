@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-81.jpg",
-        "line": 681
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.507709883156082,
-          49.35089801885749
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "d59-labruyère---rosoy-81",
         "line": 681,
         "name": "D59 Labruyère - Rosoy",

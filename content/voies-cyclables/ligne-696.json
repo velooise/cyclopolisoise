@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-96.jpg",
-        "line": 696
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.449913274271097,
-          49.29328971613302
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-douchet-rube-96",
         "line": 696,
         "name": "96 - Rue Douchet Rube",

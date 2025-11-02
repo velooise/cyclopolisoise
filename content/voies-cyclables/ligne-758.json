@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-158.jpg",
-        "line": 758
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.439302842099522,
-          49.32608652213696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "clos-du-chateau-158",
         "line": 758,
         "name": "158 CLOS DU CHATEAU",

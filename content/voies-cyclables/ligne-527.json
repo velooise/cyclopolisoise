@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-527.jpg",
-        "line": 527
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6574309,
-          49.2962111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rhuis->-pontpoint-(>-pont-ste-maxence)",
         "line": 527,
         "name": "RHUIS > PONTPOINT (> PONT-STE-MAXENCE)",

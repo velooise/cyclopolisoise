@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-530.jpg",
-        "line": 530
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6828122,
-          49.2715181
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "villeneuve->-roberval->-rhuis",
         "line": 530,
         "name": "VILLENEUVE > ROBERVAL > RHUIS",

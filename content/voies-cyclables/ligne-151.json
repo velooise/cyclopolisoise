@@ -56,22 +56,6 @@
           ]
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-151.jpg",
-        "line": 151
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8178425172,
-          49.4071962746
-        ]
-      }
     }
   ]
 }

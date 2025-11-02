@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-42.jpg",
-        "line": 642
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4528844602708944,
-          49.29279823789247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "piste-vers-la-deviation-42",
         "line": 642,
         "name": "PISTE VERS LA DEVIATION-42",

@@ -206,22 +206,6 @@
         ],
         "type": "LineString"
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-acso-default.jpg",
-        "line": 809
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.47034585676287,
-          49.2460356661095
-        ]
-      }
     }
   ]
 }

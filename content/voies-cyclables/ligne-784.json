@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-184.jpg",
-        "line": 784
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4803877582194787,
-          49.32570599846096
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "d29-184",
         "line": 784,
         "name": "184 - D29",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-56.jpg",
-        "line": 656
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.448214096263314,
-          49.31729138319929
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-jean-rival-56",
         "line": 656,
         "name": "Rue Jean Rival",

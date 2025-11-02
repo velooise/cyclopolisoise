@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-175.jpg",
-        "line": 775
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4429882526500535,
-          49.32977622148138
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-la-brèche-(d630)-175",
         "line": 775,
         "name": "175 - Rue de la Brèche (D630)",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-727.jpg",
-        "line": 727
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4609290741325935,
-          49.31317899391303
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "cheminement-menant-au-parc-de-chédeville-127-133",
         "line": 727,
         "name": "Cheminement menant au Parc de Chédeville-127-133",
