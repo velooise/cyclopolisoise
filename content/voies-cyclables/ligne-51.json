@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A7.jpg",
-        "line": 51
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5975068181994345,
-          49.20696971634669
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a7-1--centre-ville---quartier-bonsecours-A7",
         "line": 51,
         "name": "A7 - CENTRE-VILLE - QUARTIER BONSECOURS",

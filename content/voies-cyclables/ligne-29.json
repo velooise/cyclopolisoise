@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-72p.jpg",
-        "line": 29
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4964142981540363,
-          49.1893804406437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gare-chantilly-avilly-st-leonard-72-23-24-25",
         "line": 29,
         "name": "Chantilly vers le chateau",

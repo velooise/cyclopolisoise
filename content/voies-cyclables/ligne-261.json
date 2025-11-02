@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-261.jpg",
-        "line": 261
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6084935367306343,
-          49.20940065695851
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "261-Liaison-61-01-05",
         "line": 261,
         "name": "Liaison 61-01-05 - Plateforme logistique - Senlis",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A2.jpg",
-        "line": 46
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5803193851890853,
-          49.20918057783908
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a2-2--centre-ville---complexe-sportif-A2",
         "line": 46,
         "name": "A2 - CENTRE-VILLE - COMPLEXE SPORTIF",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-53.jpg",
-        "line": 25
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.539733725996541,
-          49.14173813809464
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "la-chapelle-en-serval---pontarme-53",
         "line": 25,
         "name": "53-LA CHAPELLE EN SERVAL - PONTARME",

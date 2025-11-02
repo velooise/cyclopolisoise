@@ -4,21 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "line": 400
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.3378373664183414,
-          49.309743078421064
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "mouy-bury-d137",
         "line": 400,
         "name": "De Mouy à Bury D137",

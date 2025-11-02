@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-243.jpg",
-        "line": 243
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.704392913097905,
-          49.24050306081813
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "243-Liaison 43 – Rully – Bray – Chaussée Brunehaut",
         "line": 243,
         "name": "Liaison 43 – Rully – Bray – Chaussée Brunehaut",

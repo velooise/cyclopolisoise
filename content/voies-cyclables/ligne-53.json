@@ -116,22 +116,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A9.jpg",
-        "line": 53
-      },
-      "geometry": {
-        "coordinates": [
-          2.599231067836996,
-          49.197199195644316
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a9-2--centre-ville---quartier-villemetrie-A9",
         "line": 53,
         "name": "A9 - CENTRE-VILLE - QUARTIER VILLEMETRIE",

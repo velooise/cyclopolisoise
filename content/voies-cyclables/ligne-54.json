@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B1.jpg",
-        "line": 54
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5797713330202896,
-          49.2046226481001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "barreau-complementaire-b1-",
         "line": 54,
         "name": "Barreau Complementaire B1 - BD MONTAUBAN - BD DES OTAGES (PROJET DE CVCB)(CE BARREAU SERA INTEGRE A LA LIAISON A10)",

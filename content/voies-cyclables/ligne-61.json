@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C4.jpg",
-        "line": 61
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5981649636611337,
-          49.201942111533555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c4-1--zae-de-senlis-la-bigue",
         "line": 61,
         "name": "C4 -1- ZAE DE SENLIS LA BIGUE  (Liaison de ceinture périphérique)",

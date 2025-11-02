@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A8.jpg",
-        "line": 52
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6009011133146487,
-          49.2053611958265
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a8-1--centre-ville---zae-de-senlis-(+dessertes-internes-a-la-zae)-A8",
         "line": 52,
         "name": "A8 - CENTRE-VILLE - ZAE DE SENLIS (+DESSERTES INTERNES A LA ZAE)",

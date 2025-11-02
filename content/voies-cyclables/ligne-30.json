@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-73.jpg",
-        "line": 30
-      },
-      "geometry": {
-        "coordinates": [
-          2.432798799936222,
-          49.17991193562568
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gouvieux-cente-nautique---lamorlaye-73-03-04-05",
         "line": 30,
         "name": "Rd Point du Mont de Po à f.Mathet (73-03-04-05)",

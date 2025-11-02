@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-16.jpg",
-        "line": 16
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.516626579391584,
-          49.22563997331423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "chantilly---base-aerienne-creil-via-55-16",
         "line": 16,
         "name": "CHANTILLY - BASE AERIENNE CREIL via 55",

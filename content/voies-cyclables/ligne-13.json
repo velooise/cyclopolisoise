@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-12.jpg",
-        "line": 13
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4299433786390807,
-          49.15035769095968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "lamorlaye-college---coye-12-12",
         "line": 13,
         "name": "LAMORLAYE COLLEGE - COYE",

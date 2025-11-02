@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A5.jpg",
-        "line": 49
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.591231251078767,
-          49.21220037760841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a5-1--centre-ville---villevert---parc-ecologique---zc-du-poteau-A5",
         "line": 49,
         "name": "A5 - CENTRE-VILLE - VILLEVERT - PARC ECOLOGIQUE - ZC DU POTEAU",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-273.jpg",
-        "line": 273
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7032109982247334,
-          49.21841084295295
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "273-Liaison 45p01-04",
         "line": 273,
         "name": "Liaison 45’-01-04 - Connexion vv du Valois",

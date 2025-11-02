@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-240.jpg",
-        "line": 240
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6599122776141257,
-          49.2311342085799
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "240-Liaison40-01",
         "line": 240,
         "name": "Liaison 40-01 - Raray - Chamant",

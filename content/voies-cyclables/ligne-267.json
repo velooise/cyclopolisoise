@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-267.jpg",
-        "line": 267
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6708809708293018,
-          49.22041381225094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "267-Liaison-67-01",
         "line": 267,
         "name": "Liaison 67-01 - Barbery – Ancienne voie ferrée",

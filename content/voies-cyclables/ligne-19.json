@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-22.jpg",
-        "line": 19
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4958993954506354,
-          49.138773518929156
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gare-de-coye-orry---orry-la-ville-22",
         "line": 19,
         "name": "GARE DE COYE ORRY - ORRY LA VILLE",

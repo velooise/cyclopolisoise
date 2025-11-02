@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-245.jpg",
-        "line": 245
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6470370882471457,
-          49.20847204833149
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "245-Liaison 45-04-08",
         "line": 245,
         "name": "Liaison 45-04-08 - Montepilloy – Senlis",

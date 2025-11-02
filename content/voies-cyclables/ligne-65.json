@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-senlis-voie-verte.jpg",
-        "line": 65
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5845508602197924,
-          49.20632647007881
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "voie-verte-senlis",
         "line": 65,
         "name": "Voie Verte de Senlis",

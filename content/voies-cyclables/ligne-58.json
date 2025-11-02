@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C1.jpg",
-        "line": 58
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5762994259649474,
-          49.208299654108714
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c1-1--val-d'aunette",
         "line": 58,
         "name": "C1 - VAL D'AUNETTE - COMPLEXE SPORTIF (Liaison de ceinture périphérique)",

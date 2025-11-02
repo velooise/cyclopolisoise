@@ -52,22 +52,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-09.jpg",
-        "line": 10
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4006012033979687,
-          49.19650945673175
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "sc-ccac-gouvieux-precy-09-06-07",
         "line": 10,
         "link": "/velo-oise-10",

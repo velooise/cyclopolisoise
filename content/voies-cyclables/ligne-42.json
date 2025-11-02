@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A10.jpg",
-        "line": 42
-      },
-      "geometry": {
-        "coordinates": [
-          2.5808680932060213,
-          49.20104960230509
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a10-1--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10",
         "line": 42,
         "name": "A10 -1- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",

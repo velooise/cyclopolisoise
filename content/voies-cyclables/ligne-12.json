@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-11.jpg",
-        "line": 12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4154987662950305,
-          49.20482881507783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gouvieux---gare-de-saint-leu---zc-st-m-11",
         "line": 12,
         "name": "GOUVIEUX - GARE DE SAINT LEU - ZC ST-M",

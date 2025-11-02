@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-76.jpg",
-        "line": 33
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.508566750934591,
-          49.194443792540824
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "saint-firmin---avilly-76-02",
         "line": 33,
         "name": "Saint Firmin vers Avilly (76-02) impasse",

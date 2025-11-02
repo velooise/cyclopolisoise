@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-264.jpg",
-        "line": 264
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7251541093232845,
-          49.22583721098934
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "264-Liaison-64-01",
         "line": 264,
         "name": "Liaison 64-01 - Rully – Ancienne voie ferrée",
