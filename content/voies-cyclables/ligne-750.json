@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-150.jpg",
-        "line": 750
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.459551663725108,
-          49.293455513238
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-caucriaumont-(d62)-150",
         "line": 750,
         "name": "150 - Rue de Caucriaumont (D62)",

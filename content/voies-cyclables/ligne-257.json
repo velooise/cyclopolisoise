@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-257.jpg",
-        "line": 257
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5510256246794256,
-          49.20534478549769
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "257-Liaison-57-01",
         "line": 257,
         "name": "Liaison 57-01 - Courteuil – Voie Verte (Chantilly)",

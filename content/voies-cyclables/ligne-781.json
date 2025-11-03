@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-181.jpg",
-        "line": 781
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5052856634375757,
-          49.339109460587565
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-d'hardencourt-181",
         "line": 781,
         "name": "181 - Rue d'Hardencourt",

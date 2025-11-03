@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-21.jpg",
-        "line": 18
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.515475259572753,
-          49.1425832722978
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "orry-la-ville-centre---montgresin-21-01",
         "line": 18,
         "name": "ORRY LA VILLE CENTRE - MONTGRESIN",

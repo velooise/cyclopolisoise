@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-45.jpg",
-        "line": 645
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4414627809130707,
-          49.322489799908794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rte-de-mouy-45",
         "line": 645,
         "name": "RTE DE MOUY",

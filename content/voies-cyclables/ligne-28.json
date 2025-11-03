@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-71.jpg",
-        "line": 28
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4025339562356294,
-          49.15818384493363
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "lamorlaye-boran-sur-oise-71-1-2-4-7",
         "line": 28,
         "name": "Lamorlaye Est-Ouest le long de la RD",

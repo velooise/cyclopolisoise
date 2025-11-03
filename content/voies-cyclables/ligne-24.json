@@ -4,23 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-31.jpg",
-        "line": 24
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5461221931024625,
-          49.09739959192757
-        ]
-      },
-      "id": 0
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "plailly-fosses-31-17",
         "line": 24,
         "name": "Fosses-Survilliers",

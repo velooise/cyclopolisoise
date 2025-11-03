@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-526.jpg",
-        "line": 526
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6243921,
-          49.2956949
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "pontpoint->-pont-ste-maxence",
         "line": 526,
         "name": "PONTPOINT > PONT-STE-MAXENCE",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A6.jpg",
-        "line": 50
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.594520919278523,
-          49.21836002434165
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a6--antenne-zc-villevert-A6",
         "line": 50,
         "name": "A6- ANTENNE ZC VILLEVERT",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-7.jpg",
-        "line": 607
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4528844602708944,
-          49.29279823789247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "les-mains-fermes-7",
         "line": 607,
         "name": "LES MAINS FERMES 7",

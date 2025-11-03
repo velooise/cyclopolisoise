@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-515.jpg",
-        "line": 515
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6078117,
-          49.3453866
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "st-martin-longueau-<>-zac-val-d'halatte",
         "line": 515,
         "name": "ST-MARTIN-LONGUEAU <> ZAC VAL D'HALATTE",

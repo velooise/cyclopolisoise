@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-24.jpg",
-        "line": 21
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5223255961688835,
-          49.131503663184816
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "orry-centre---la-chapelle-en-serval-24-03",
         "line": 21,
         "name": "ORRY CENTRE - LA CHAPELLE EN SERVAL",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-524.jpg",
-        "line": 524
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.578974213751137,
-          49.293869878021425
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "verneuil-en-h.->-pont-ste-maxence",
         "line": 524,
         "name": "VERNEUIL-EN-H. > PONT-STE-MAXENCE",

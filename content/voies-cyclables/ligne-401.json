@@ -4,21 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "line": 401
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4272049981414057,
-          49.348453393711765
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "ccc-neuilly-za-tuilerie",
         "line": 401,
         "name": "De Neuilly Sous Clermont à la ZA de la Tuilerie",

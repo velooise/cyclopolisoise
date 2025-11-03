@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-513.jpg",
-        "line": 513
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.565009908506368,
-          49.351757671443764
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "st-martin-longueau-<>-sacy-le-grand",
         "line": 513,
         "name": "ST-MARTIN-LONGUEAU <> SACY-LE-GRAND",

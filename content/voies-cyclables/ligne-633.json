@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-33.jpg",
-        "line": 633
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.441279351564617,
-          49.31467564220654
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "chemin-du-marais-de-soutraine-33",
         "line": 633,
         "name": "Chemin du Marais de Soutraine",

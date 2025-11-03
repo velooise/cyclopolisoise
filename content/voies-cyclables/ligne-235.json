@@ -156,22 +156,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-235.jpg",
-        "line": 235
-      },
-      "geometry": {
-        "coordinates": [
-          2.469639191226662,
-          49.203279198802704
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "235-Liaison35-05-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-05 - Aumont - Senlis",

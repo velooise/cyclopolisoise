@@ -4,24 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/07/cyclopolis-ccac-10.jpg",
-        "line": 11
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          [
-            2.38487633494492,
-            49.17691540023631
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gare-de-boran---gouvieux-10-04-05",
         "line": 11,
         "name": "GARE DE BORAN - GOUVIEUX",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-70.jpg",
-        "line": 27
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4158569701588988,
-          49.180379177386044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "gouvieux---lamorlaye-70-10-06",
         "line": 27,
         "name": "La traversée du Lys",

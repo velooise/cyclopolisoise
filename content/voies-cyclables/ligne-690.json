@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-90.jpg",
-        "line": 690
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.440790715124507,
-          49.308432453488734
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-de-soutraine-90",
         "line": 690,
         "name": "R DE SOUTRAINE",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-236.jpg",
-        "line": 236
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.528534824535825,
-          49.23700318391232
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "236-Liaison36-01-02-03-04-05Baseaérienne",
         "line": 236,
         "name": "Liaison 36 et 36’ - Base aérienne de Creil - Aumont",

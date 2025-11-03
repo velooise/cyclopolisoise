@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-761.jpg",
-        "line": 761
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.44549329634026,
-          49.32493512233523
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "pl-de-la-gare-161-1",
         "line": 761,
         "name": "PL DE LA GARE 161.1",

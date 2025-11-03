@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-266.jpg",
-        "line": 266
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6445177872131183,
-          49.24514886126724
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "266-Liaison-66-01-05",
         "line": 266,
         "name": "Liaison 66-01-05 - Villers-St-Frambourg - Ognon",

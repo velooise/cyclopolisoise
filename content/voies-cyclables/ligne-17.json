@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-17.jpg",
-        "line": 17
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.477508215356835,
-          49.15462310540809
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "coye---etang-de-comelle-17-01",
         "line": 17,
         "name": "COYE - ETANG DE COMELLE",

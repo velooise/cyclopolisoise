@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-94.jpg",
-        "line": 694
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.446426122140821,
-          49.29237160499633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-andrĂ©-gourdin-94",
         "line": 694,
         "name": "94 - Rue Andre Gourdin",

@@ -32,21 +32,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "line": 7
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4654554654005665,
-          49.20971553900941
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "sc-ccac-chantilly-zc-st-maximin-01-04",
         "line": 7,
         "name": "Liaison Chantilly-ZC Saint-Maximin (le long de la rd)",

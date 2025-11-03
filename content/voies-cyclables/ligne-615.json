@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-15.jpg",
-        "line": 615
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4596363235312424,
-          49.34338702619797
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-l'ourmelet-15",
         "line": 615,
         "name": "Rue de l'Ourmelet-15",

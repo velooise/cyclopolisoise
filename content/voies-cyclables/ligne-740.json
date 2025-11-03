@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-140.jpg",
-        "line": 740
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4722649312136014,
-          49.315561406595634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-du-château-d'eau-140",
         "line": 740,
         "name": "140 - Rue du Château d'Eau",

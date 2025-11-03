@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-272.jpg",
-        "line": 272
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5577781880054715,
-          49.19443059676081
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "272-Liaison-72-01-02",
         "line": 272,
         "name": "Liaison 72-01-02 - Senlis – Avilly-St-Leonard",

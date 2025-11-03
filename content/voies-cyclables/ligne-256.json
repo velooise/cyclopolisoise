@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-256.jpg",
-        "line": 256
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5537344568803633,
-          49.20151362112213
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "256-Liaison-56-01-02-03",
         "line": 256,
         "name": "Liaison 56-01-02-03 - Courteuil - Senlis",

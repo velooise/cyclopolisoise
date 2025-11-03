@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-153.jpg",
-        "line": 753
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4733730489361108,
-          49.28685912324951
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-villiers-153",
         "line": 753,
         "name": "153-154 - Rue de Villiers",

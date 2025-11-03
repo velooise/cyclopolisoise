@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-533.jpg",
-        "line": 533
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.535172193801577,
-          49.32166710518885
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "cinqueux->-sacy-le-grand-(via-liaison-7)",
         "line": 533,
         "name": "CINQUEUX > SACY-LE-GRAND (via liaison 7)",

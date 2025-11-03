@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-32.jpg",
-        "line": 632
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4337427986899343,
-          49.31114644496881
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "che-soutraine-a-sailleville-32",
         "line": 632,
         "name": "CHE SOUTRAINE A SAILLEVILLE",

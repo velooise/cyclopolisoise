@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-503.jpg",
-        "line": 503
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5101801561049255,
-          49.318669575881664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "angicourt->-cinqueux",
         "line": 503,
         "name": "ANGICOURT > CINQUEUX",

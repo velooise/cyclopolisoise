@@ -4,21 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "line": 70
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8191636564088185,
-          49.42086831996215
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "arc-34",
         "line": 70,
         "name": "ARC-34 Pont SNCF",

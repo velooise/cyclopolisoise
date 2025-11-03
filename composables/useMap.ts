@@ -220,6 +220,7 @@ export const useMap = () => {
       source: 'done-sections',
       paint: {
         'line-width': 4,
+        'line-opacity': 0.6,
         'line-color': ['get', 'color']
       }
     });
@@ -314,8 +315,15 @@ export const useMap = () => {
         continue;
       }
 
-      console.log(color);
-      console.log(sameColorFeatures);
+      map.addLayer({
+        id: `wished-lines-${color}`,
+        type: 'line',
+        source: `wished-sections-${color}`,
+        paint: {
+          'line-width': 4,
+          'line-color': '#ff7200',
+        }
+      });
       map.addLayer({
         id: `wished-symbols-${color}`,
         type: 'symbol',
@@ -689,7 +697,6 @@ export const useMap = () => {
     if (allLineStringsCoordinates.length === 0) return;
 
     const allPointsCoordinates: [number, number][] = features.filter(isPointFeature).map(feature => feature.geometry.coordinates);
-    if (allPointsCoordinates.length === 0) return;
 
     if (features.length === 1 && allPointsCoordinates.length === 1) {
       map.flyTo({ center: allPointsCoordinates[0] as [number, number] });

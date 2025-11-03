@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A4.jpg",
-        "line": 48
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5839657889709713,
-          49.2109607997111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a4-1--centre-ville---quartier-villevert-A4",
         "line": 48,
         "name": "A4 - CENTRE-VILLE - QUARTIER VILLEVERT",

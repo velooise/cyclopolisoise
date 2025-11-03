@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-163.jpg",
-        "line": 763
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4413883151160007,
-          49.33210631295793
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-d'uny-163",
         "line": 763,
         "name": "163 - R D'UNY",

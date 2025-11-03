@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C5.jpg",
-        "line": 62
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.581864843336575,
-          49.19729820251544
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c5-1--la-bigue---four-a-chaux",
         "line": 62,
         "name": "C5 -1- LA BIGUE - FOUR A CHAUX  (Liaison de ceinture périphérique)",

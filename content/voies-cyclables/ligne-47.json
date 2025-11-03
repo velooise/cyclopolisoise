@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A3.jpg",
-        "line": 47
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5772006431103875,
-          49.21080487867488
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a3-1--antenne-college-fontaine-des-pres-A3",
         "line": 47,
         "name": "A3 - ANTENNE COLLEGE FONTAINE DES PRES",

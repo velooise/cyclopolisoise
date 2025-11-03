@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-B4.jpg",
-        "line": 57
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5790513727637574,
-          49.20804366212437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "barreau-b4",
         "line": 57,
         "name": "Barreau Complementaire B4 - RUE YVES CARLIER (VOLONTE DAMENAGEMENT. TYPE A DEFINIR) LIAISONS DE CEINTURE PERIPHERIQUE",

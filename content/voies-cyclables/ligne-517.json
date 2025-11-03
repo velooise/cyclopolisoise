@@ -44,22 +44,6 @@
         ],
         "type": "LineString"
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-517.jpg",
-        "line": 517
-      },
-      "geometry": {
-        "coordinates": [
-          2.6272916,
-          49.3712373
-        ],
-        "type": "Point"
-      }
     }
   ]
 }

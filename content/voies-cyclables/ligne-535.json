@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-535.jpg",
-        "line": 535
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6190831,
-          49.3357079
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "sarron->-villette->-st-martin-longueau",
         "line": 535,
         "name": "SARRON > VILLETTE > ST-MARTIN-LONGUEAU",

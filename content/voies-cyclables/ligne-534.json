@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-534.jpg",
-        "line": 534
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6496874,
-          49.2849401
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "pontpoint->-villeneuve-sur-verberie",
         "line": 534,
         "name": "PONTPOINT > VILLENEUVE-SUR-VERBERIE",

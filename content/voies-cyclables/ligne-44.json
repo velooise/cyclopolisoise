@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-A11.jpg",
-        "line": 44
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5690767634787335,
-          49.195182318054066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a11-1",
         "line": 44,
         "name": "A11 -1- CENTRE-VILLE - QUARTIER BRICHEBAY - LYCEES",

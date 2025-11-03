@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-119.jpg",
-        "line": 719
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4771448451231777,
-          49.3271405943174
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "r-jules-michelet-119-120",
         "line": 719,
         "name": "119-120-R JULES MICHELET",

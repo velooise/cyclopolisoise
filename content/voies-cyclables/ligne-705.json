@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-105.jpg",
-        "line": 705
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.451553136245508,
-          49.30646187983305
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-du-vieux-fort-105",
         "line": 705,
         "name": "105 - Rue du Vieux Fort",

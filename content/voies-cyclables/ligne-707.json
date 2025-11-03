@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-107.jpg",
-        "line": 707
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.455234361767566,
-          49.32614313226662
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "avenue-albert-1er-(d137)-107",
         "line": 707,
         "name": "107 - Avenue Albert 1er (D137)",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-521.jpg",
-        "line": 521
-      },
-      "geometry": {
-        "coordinates": [
-          2.495517592234119,
-          49.275715869345674
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "verneuil-en-h.->-creil",
         "line": 521,
         "name": "VERNEUIL-EN-H. > CREIL",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-242.jpg",
-        "line": 242
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6618948881907443,
-          49.22742538127167
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "242-Liaison42-01",
         "line": 242,
         "name": "Liaison 42-01 - Barbery – Chaussée Brunehaut",

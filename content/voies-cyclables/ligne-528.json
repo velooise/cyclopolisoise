@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccpoh-528.jpg",
-        "line": 528
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.6455576,
-          49.3147524
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "pontpoint-<>-les-etangs",
         "line": 528,
         "name": "PONTPOINT <> LES ETANGS",

@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-139.jpg",
-        "line": 739
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4699820620830053,
-          49.314228999594434
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-de-la-fontaine-saint-denis-139",
         "line": 739,
         "name": "139 - Rue de la Fontaine Saint-Denis",

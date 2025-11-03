@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-senlis-C2.jpg",
-        "line": 59
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5855476773643318,
-          49.212332007616766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c2-1--college-fontaine-des-pres",
         "line": 59,
         "name": "C2 -1- COLLEGE FONTAINE DES PRES – VILLEVERT  (Liaison de ceinture périphérique)",

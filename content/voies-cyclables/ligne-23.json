@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Central",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccac-30.jpg",
-        "line": 23
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5916267461060727,
-          49.11008427698897
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30-08",
         "line": 23,
         "name": "MORTEFONTAINE collège lycée - PLAILLY",

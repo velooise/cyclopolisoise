@@ -4,22 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "perspective",
-        "name": "Point Repere",
-        "imgUrl": "https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-190.jpg",
-        "line": 790
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4973988540926086,
-          49.32975402639215
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "rue-du-château-d'eau-(d59)-/-rue-du-pontceau-/-rue-de-l'eglise-190",
         "line": 790,
         "name": "190 - Rue du Château d'Eau (D59) / Rue du Pontceau / Rue de l'Eglise",
