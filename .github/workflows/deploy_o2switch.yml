@@ -26,8 +26,6 @@ jobs:
     - name: Build project
       run: npm run generate
 
-    - run: which rsync
-
     # - name: Deploy to o2switch
     #   env:
     #     O2SWITCH_HOST: ${{ secrets.O2SWITCH_HOST }}
