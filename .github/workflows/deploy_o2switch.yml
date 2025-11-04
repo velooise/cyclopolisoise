@@ -26,10 +26,12 @@ jobs:
     - name: Build project
       run: npm run generate
 
-    # - name: Deploy to o2switch
-    #   env:
-    #     O2SWITCH_HOST: ${{ secrets.O2SWITCH_HOST }}
-    #     O2SWITCH_USER: ${{ secrets.O2SWITCH_USER }}
-    #     O2SWITCH_PASSWORD: ${{ secrets.O2SWITCH_PASSWORD }}
-    #   run: |
-    #     rsync -avz --delete dist/ $O2SWITCH_USER@$O2SWITCH_HOST:/path/to/your/remote/directory
+    - name: Deploy to o2switch
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      with:
+        server: ${{ secrets.O2SWITCH_HOST }}
+        username: ${{ secrets.O2SWITCH_USER }}
+        password: ${{ secrets.O2SWITCH_PASSWORD }}
+        protocol: ftps
+        local-dir: dist/
+        server-dir: ${{ secrets.O2SWITCH_REMOTE_PATH }}/
