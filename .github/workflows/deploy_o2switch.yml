@@ -1,0 +1,37 @@
+name: Deploy to o2switch
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v5
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: 24
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run generate
+
+    - run: which rsync
+
+    # - name: Deploy to o2switch
+    #   env:
+    #     O2SWITCH_HOST: ${{ secrets.O2SWITCH_HOST }}
+    #     O2SWITCH_USER: ${{ secrets.O2SWITCH_USER }}
+    #     O2SWITCH_PASSWORD: ${{ secrets.O2SWITCH_PASSWORD }}
+    #   run: |
+    #     rsync -avz --delete dist/ $O2SWITCH_USER@$O2SWITCH_HOST:/path/to/your/remote/directory
