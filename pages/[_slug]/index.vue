@@ -45,7 +45,7 @@ const { data: voie } = await useAsyncData(`${path}`, () => {
     .first();
 });
 
-const description = `Tout savoir sur la ${getRevName('singular')} ${line}. Avancement, carte interactive, détail rue par rue, calendrier des travaux et photos du projet.`;
+const description = `Tout savoir sur le ${getRevName('singular')} ${line}. Avancement, carte interactive, détail rue par rue, calendrier des travaux et photos du projet.`;
 
 useHead({
   title: `${getRevName('singular')} ${line}`,
