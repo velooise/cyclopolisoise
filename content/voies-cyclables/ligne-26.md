@@ -22,6 +22,6 @@ Ce n'est pas un long fleuve tranquille cette liaison a visée plutôt touristiqu
 C'est l'une des dernières voies vertes dont le financement est porté par le Département de l'Oise et pas une intercommunalité.
 
 Budget estimé : 595 866 € HT (dont travaux : 518 145 € - Acquisitions foncières : 0 € - MOE et aléas : 77 722 €) (CCAC : 4 379 €, CD60 : 473 765 €)  (hors coût du souterrain pour la traversée : +- 100 000)
-
+Réévaluation du budget en 2024 5,7km 3 millions d’euros , 1 million le coût d’un tunnel ! (on est passé de 100000€ à 1 000 000)
 Linéaire : 8 285 m
 

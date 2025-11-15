@@ -5,7 +5,7 @@ from: Lamorlaye
 to: Chantilly
 doneat: 30/09/2024
 description: La ligne 1 des voies de l'Oise relie Lamorlaye à Chantilly
-trafic: inconnu vélos/jour
+trafic: inconnu
 cover: https://www.velooise.fr/wp-content/uploads/2025/04/cyclopolis-lamorlaye-chantilly.jpg
 ---
 
@@ -27,10 +27,10 @@ A l’occasion de la réalisation d’un rond point sur le mont de Pô en novemb
 
 ![en 2021](https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ligne1-2021.jpg)
 
-La ville de Chantilly a déployé en mars 2021 la continuité sur le rond point et jusqu'à l'avenue d'Orléans à l'aide d'un aménagement provisoire en attendant du définitif.
+- La ville de Chantilly a déployé en mars 2021 la continuité sur le rond point et jusqu'à l'avenue d'Orléans à l'aide d'un aménagement provisoire en attendant du définitif.
 
-En 2024 l'ensemble a été pérénisé par un aménagement en dur à l'occasion de l'aménagement de la suite.
-
+- En 2024 l'ensemble a été pérénisé par un aménagement en dur à l'occasion de l'aménagement de la suite.
+- En 2025 la fréquentation serait de 110 véhicules/jour 
 
 ### la continuité jusqu'au carrefour avec l'avenue de Bourbon
 

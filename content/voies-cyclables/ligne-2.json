@@ -23,7 +23,8 @@
         "id": "lces-fosses",
         "line": 2,
         "name": "La Chapelle-en-Serval - Fosses",
-        "status": "wip",
+        "status": "done",
+		"doneAt": "22/11/2025"
         "type": "voie-verte",
         "link": "/velo-oise-2#lces-fosses",
         "quality": "satisfactory"
