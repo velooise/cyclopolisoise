@@ -39,6 +39,8 @@ Aménagement cyclable pour le franchissement des 3 rond-points de la ZAC Merciè
 
 Certains tronçons de la piste cyclable en forêt reliant Compiègne à Pierrefonds en passant par Vieux-Moulin sont devenus dangereux à pratiquer à cause des bosses causées par les racines des arbres.
 
+### Liaison Clairière de l’Armistice - Trosly-Breuil
+
 ### Eurovélo 3
 
 Amélioration de la continuité cyclable de l’Eurovélo 3 sur les bords de l’Oise dans Compiègne :
