@@ -3,7 +3,7 @@
     <ClientOnly>
       <Map
         :features="filteredFeatures"
-        :options="{ geolocation: true, canUseSidePanel: true, showLineFilters: true }"
+        :options="{ geolocation: true, canUseSidePanel: true, showLineFilters: false }"
         class="h-full flex-1"
         :total-distance="totalDistance"
         :filtered-distance="filteredDistance"
