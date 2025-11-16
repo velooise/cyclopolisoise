@@ -1,8 +1,13 @@
 <template>
   <div class="relative">
     <LegendModal ref="legendModalComponent" />
-    <FilterModal ref="filterModalComponent" @update="refreshFilters" />
+    <FilterModal :show-line-filters="options.showLineFilters" ref="filterModalComponent" @update="refreshFilters" />
     <div id="map" class="rounded-lg h-full w-full" />
+    <div
+      v-if="totalDistance"
+      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow">
+      Réseau affiché: {{ displayDistanceInKm(filteredDistance) }} ({{ displayPercent(Math.round(filteredDistance / totalDistance * 100)) }})
+    </div>
     <img
       v-if="options.logo"
       class="my-0 absolute bottom-0 right-0 z-10"
@@ -24,8 +29,16 @@ import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
 
-import { isLineStringFeature, type CompteurFeature, type LaneQuality, type LaneStatus, type LaneType } from '~/types';
+import {
+  isLineStringFeature,
+  type CompteurFeature,
+  type LaneQuality,
+  type LaneStatus,
+  type LaneType,
+  isPointFeature
+} from '~/types';
 import config from '~/config.json';
+const { getAllUniqLineStrings, getDistance, displayDistanceInKm, displayPercent } = useStats();
 
 // const config = useRuntimeConfig();
 // const maptilerKey = config.public.maptilerKey;
@@ -38,6 +51,7 @@ const defaultOptions = {
   fullscreen: false,
   onFullscreenControlClick: () => { },
   shrink: false,
+  showLineFilters: false,
   onShrinkControlClick: () => { }
 };
 
@@ -61,21 +75,40 @@ const {
 const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested', 'wished']);
 const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre','zone-30', 'piste-cyclable', 'imp+debouche-cyclable', 'piste-sur-trottoir','chaucidou', 'jalonnement', 'pictogramme', 'jalonnement-picto','voie-riverains', 'unidirectionnelle', 'aucun', 'autre', 'inconnu']);
 const qualities = ref(['satisfactory', 'unsatisfactory']);
+const lines = ref<number[]>(Array.from(Array(1000).keys()));
 
 const features = computed(() => {
   return (props.features ?? []).filter(feature => {
-    if (isLineStringFeature(feature)) {
-      return statuses.value.includes(feature.properties.status) &&
-        types.value.includes(feature.properties.type) && (!feature.properties.quality || qualities.value.includes(feature.properties.quality));
+    if (isLineStringFeature(feature) || isPointFeature(feature)) {
+      if (feature.properties.line && !lines.value.includes(feature.properties.line)) {
+        return false;
+      }
     }
+
+    if (isLineStringFeature(feature)) {
+      return statuses.value.includes(feature.properties.status)
+        && types.value.includes(feature.properties.type)
+        && (!feature.properties.quality || qualities.value.includes(feature.properties.quality));
+    }
+
     return true;
   });
 });
 
-function refreshFilters({ visibleStatuses, visibleTypes, visibleQualities }: { visibleStatuses: LaneStatus[]; visibleTypes: LaneType[]; visibleQualities: LaneQuality[] }) {
+const totalDistance = computeDistance(props.features);
+const filteredDistance = computed(() => computeDistance(features.value));
+
+function refreshFilters({ visibleStatuses, visibleTypes, visibleQualities, visibleLines }: { visibleStatuses: LaneStatus[]; visibleTypes: LaneType[]; visibleQualities: LaneQuality[], visibleLines: number[] }) {
   statuses.value = visibleStatuses;
   types.value = visibleTypes;
   qualities.value = visibleQualities;
+  lines.value = visibleLines;
+}
+
+function computeDistance(selectedFeatures: typeof features.value) {
+  if (!props.features) return 0;
+  const allUniqFeatures = getAllUniqLineStrings([{ ...props.features[0], features: selectedFeatures }]);
+  return getDistance({ features: allUniqFeatures });
 }
 
 onMounted(() => {
@@ -132,7 +165,7 @@ onMounted(() => {
     map.addControl(filterControl, 'top-right');
   }
 
-  map.on('load', async() => {
+  map.on('load', async () => {
     await loadImages({ map });
     plotFeatures({ map, features: features.value });
 
