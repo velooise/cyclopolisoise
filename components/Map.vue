@@ -1,8 +1,22 @@
 <template>
   <div class="relative">
     <LegendModal ref="legendModalComponent" />
-    <FilterModal ref="filterModalComponent" @update="refreshFilters" />
-    <div id="map" class="rounded-lg h-full w-full" />
+
+    <div class="flex rounded-lg h-full w-full">
+      <div id="map" class="rounded-lg h-full w-full" />
+      <FilterModal
+        :show-line-filters="options.showLineFilters"
+        :can-use-side-panel="options.canUseSidePanel"
+        @update="handleUpdate"
+      />
+    </div>
+
+    <div
+      v-if="totalDistance"
+      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow">
+      Réseau affiché: {{ displayDistanceInKm(filteredDistance || 0) }} ({{ displayPercent(Math.round((filteredDistance || 0) / totalDistance * 100)) }})
+    </div>
+
     <img
       v-if="options.logo"
       class="my-0 absolute bottom-0 right-0 z-10"
@@ -24,11 +38,9 @@ import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
 
-import { isLineStringFeature, type CompteurFeature, type LaneStatus, type LaneType } from '~/types';
+import type { CompteurFeature, } from '~/types';
 import config from '~/config.json';
-
-// const config = useRuntimeConfig();
-// const maptilerKey = config.public.maptilerKey;
+const { displayDistanceInKm, displayPercent } = useStats();
 
 const defaultOptions = {
   logo: true,
@@ -38,18 +50,26 @@ const defaultOptions = {
   fullscreen: false,
   onFullscreenControlClick: () => { },
   shrink: false,
+  showLineFilters: false,
+  canUseSidePanel: false,
   onShrinkControlClick: () => { }
 };
 
 const props = defineProps<{
   features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[]
   options?: Partial<typeof defaultOptions>;
+  totalDistance?: number;
+  filteredDistance?: number;
 }>();
 
 const options = { ...defaultOptions, ...props.options };
 
 const legendModalComponent = ref<{ openModal: () => void } | null>(null);
-const filterModalComponent = ref<{ openModal: () => void } | null>(null);
+
+const emit = defineEmits(['update']);
+function handleUpdate(payload: { lines: number[]; years: number[] }) {
+  emit('update', payload);
+}
 
 const {
   loadImages,
@@ -58,22 +78,17 @@ const {
   handleMapClick
 } = useMap();
 
-const statuses = ref(['planned', 'variante', 'done', 'postponed', 'variante-postponed', 'unknown', 'wip', 'tested', 'wished']);
-const types = ref(['bidirectionnelle', 'bilaterale', 'voie-bus', 'voie-bus-elargie', 'velorue', 'voie-verte', 'bandes-cyclables', 'zone-de-rencontre','zone-30', 'piste-cyclable', 'imp+debouche-cyclable', 'piste-sur-trottoir','chaucidou', 'jalonnement', 'pictogramme', 'jalonnement-picto','voie-riverains', 'unidirectionnelle', 'aucun', 'autre', 'inconnu']);
+const router = useRouter();
+const route = useRoute();
 
-const features = computed(() => {
-  return (props.features ?? []).filter(feature => {
-    if (isLineStringFeature(feature)) {
-      return statuses.value.includes(feature.properties.status) &&
-        types.value.includes(feature.properties.type);
-    }
-    return true;
-  });
-});
-
-function refreshFilters({ visibleStatuses, visibleTypes }: { visibleStatuses: LaneStatus[]; visibleTypes: LaneType[] }) {
-  statuses.value = visibleStatuses;
-  types.value = visibleTypes;
+function toggleFilterSidebar() {
+  const query = { ...route.query };
+  if (query.modal === 'filters') {
+    delete query.modal;
+  } else {
+    query.modal = 'filters';
+  }
+  router.replace({ query });
 }
 
 onMounted(() => {
@@ -85,14 +100,17 @@ onMounted(() => {
     zoom: config.zoom,
     attributionControl: false
   });
+
   map.addControl(new NavigationControl({ showCompass: false }), 'top-left');
   map.addControl(new AttributionControl({ compact: false }), 'bottom-left');
+
   if (options.fullscreen) {
     const fullscreenControl = new FullscreenControl({
       onClick: () => options.onFullscreenControlClick()
     });
     map.addControl(fullscreenControl, 'top-right');
   }
+
   if (options.geolocation) {
     map.addControl(
       new GeolocateControl({
@@ -103,12 +121,14 @@ onMounted(() => {
       'top-right'
     );
   }
+
   if (options.shrink) {
     const shrinkControl = new ShrinkControl({
       onClick: () => options.onShrinkControlClick()
     });
     map.addControl(shrinkControl, 'top-right');
   }
+
   if (options.legend) {
     const legendControl = new LegendControl({
       onClick: () => {
@@ -119,12 +139,11 @@ onMounted(() => {
     });
     map.addControl(legendControl, 'top-right');
   }
+
   if (options.filter) {
     const filterControl = new FilterControl({
       onClick: () => {
-        if (filterModalComponent.value) {
-          (filterModalComponent.value).openModal();
-        }
+        toggleFilterSidebar();
       }
     });
     map.addControl(filterControl, 'top-right');
@@ -132,16 +151,12 @@ onMounted(() => {
 
   map.on('load', async() => {
     await loadImages({ map });
-    plotFeatures({ map, features: features.value });
+    plotFeatures({ map, features: props.features });
 
     const tailwindMdBreakpoint = 768;
     if (window.innerWidth > tailwindMdBreakpoint) {
-      fitBounds({ map, features: features.value });
+      fitBounds({ map, features: props.features });
     }
-  });
-
-  watch(features, newFeatures => {
-    plotFeatures({ map, features: newFeatures });
   });
 
   watch(() => props.features, newFeatures => {
@@ -149,7 +164,7 @@ onMounted(() => {
   });
 
   map.on('click', clickEvent => {
-    handleMapClick({ map, features: features.value, clickEvent });
+    handleMapClick({ map, features: props.features, clickEvent });
   });
 });
 </script>

@@ -302,12 +302,12 @@ export const useMap = () => {
   function plotWishedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
     const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'wished');
 
-    if (sections.length === 0 && !map.getLayer('wished-sections')) {
-          return;
-              }
-    if (upsertMapSource(map, 'wished-sections', sections)) {
-          return;
-              }
+    if (sections.length === 0) {
+      for (let line = 1; line <= getNbVoiesCyclables(); line++) {
+        upsertMapSource(map, `wished-sections-${getLineColor(line)}`, []);
+      }
+      return;
+    }
 
     const featuresByColor = groupFeaturesByColor(sections);
     for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
@@ -354,6 +354,8 @@ export const useMap = () => {
           'text-size': 14
         }
       });
+      map.on('mouseenter', `wished-symbols-${color}`, () => (map.getCanvas().style.cursor = 'pointer'));
+      map.on('mouseleave', `wished-symbols-${color}`, () => (map.getCanvas().style.cursor = ''));
     };
   }
 

@@ -1,129 +1,66 @@
 <template>
-  <Dialog :open="isOpen" class="relative z-50" @close="closeModal">
-    <!-- backdrop-->
-    <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
+  <div>
+    <!-- Dialog view small screens -->
+    <Dialog v-if="!isLargeScreen || !props.canUseSidePanel" :open="isOpen" class="relative z-50" @close="closeModal">
+      <!-- backdrop-->
+      <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
 
-    <!-- dialog itself-->
-    <div class="fixed inset-0 flex items-center justify-center p-4">
-      <DialogPanel class="relative p-4 w-full max-w-sm rounded bg-white">
-        <button
-          type="button"
-          class="absolute top-1 right-1 bg-white rounded-md p-1 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100"
-          @click="closeModal"
-        >
-          <Icon name="mdi:close" class="h-6 w-6" aria-hidden="true" />
-        </button>
-        <DialogTitle class="text-lg font-medium leading-6 text-gray-900">
-          Filtres
-        </DialogTitle>
+      <div class="fixed inset-0 flex items-center justify-center p-4">
+        <DialogPanel class="relative p-4 w-full max-w-sm rounded bg-white overflow-y-auto max-h-[80vh]">
+          <button
+            type="button"
+            class="absolute top-1 right-1 bg-white rounded-md p-1 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100"
+            @click="closeModal"
+          >
+            <Icon name="mdi:close" class="h-6 w-6" aria-hidden="true" />
+          </button>
+          <DialogTitle class="text-lg font-medium leading-6 text-gray-900 mb-4"> Filtres </DialogTitle>
+          <FilterForm :show-line-filters="showLineFilters" @update="handleUpdate" />
+        </DialogPanel>
+      </div>
+    </Dialog>
 
-        <div class="mt-2 text-base font-medium">
-          Filtrer par statut d'avancement
-        </div>
-        <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
-          <div
-            v-for="(statusFilter, index) in statusFilters"
-            :key="statusFilter.label"
-            class="px-2 py-1 border rounded-2xl text-sm cursor-pointer focus:outline-none ring-lvv-blue-600 ring-2"
-            :class="{
-              'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500': statusFilter.isEnable,
-              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !statusFilter.isEnable
-            }"
-            @click="toogleStatusFilter(index)"
-          >
-            {{ statusFilter.label }}
-          </div>
-        </div>
-        <div class="mt-2 text-base font-medium">
-          Filtrer par type d'aménagement
-        </div>
-        <div class="mt-2 flex flex-wrap gap-x-2 gap-y-3">
-          <div
-            v-for="(typeFilter, index) in typeFilters"
-            :key="typeFilter.label"
-            class="px-2 py-1 border rounded-2xl text-sm cursor-pointer focus:outline-none ring-lvv-blue-600 ring-2"
-            :class="{
-              'bg-lvv-blue-600 border-transparent text-white ring-offset-1 hover:bg-lvv-blue-500': typeFilter.isEnable,
-              'bg-white border-gray-200 text-gray-900 hover:bg-gray-50': !typeFilter.isEnable
-            }"
-            @click="toogleTypeFilter(index)"
-          >
-            {{ typeFilter.label }}
-          </div>
-        </div>
-      </DialogPanel>
+    <!-- Sidebar on large screens -->
+    <div v-if="isOpen && props.canUseSidePanel && isLargeScreen" class="hidden lg:flex flex-col h-full w-96 p-4 overflow-y-auto bg-white border-l">
+      <h2 class="text-lg font-medium leading-6 text-gray-900 mb-4"> Filtres </h2>
+      <FilterForm :show-line-filters="showLineFilters" @update="handleUpdate" />
     </div>
-  </Dialog>
+  </div>
 </template>
 
 <script setup lang="ts">
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue';
+import { useRoute, useRouter } from 'vue-router';
+import FilterForm from '~/components/filter/FilterForm.vue';
+import { useMediaQuery } from '@vueuse/core';
+
+const props = defineProps<{
+  showLineFilters: boolean
+  canUseSidePanel?: boolean
+}>();
+
+const route = useRoute();
+const router = useRouter();
+
+const isLargeScreen = useMediaQuery('(min-width: 1024px)');
 
 const isOpen = ref(false);
 
 function closeModal() {
-  isOpen.value = false;
-}
-function openModal() {
-  isOpen.value = true;
-}
-
-defineExpose({
-  openModal
-});
-
-const statusFilters = ref([
-  { label: 'Terminé', isEnable: true, statuses: ['done'] },
-  { label: 'En travaux', isEnable: true, statuses: ['wip', 'tested'] },
-  { label: 'Prévu', isEnable: true, statuses: ['planned', 'variante'] },
-  { label: 'Reporté', isEnable: true, statuses: ['postponed', 'variante-postponed'] },
-  { label: 'Inconnu', isEnable: true, statuses: ['unknown'] },
-  { label: 'Souhaité', isEnable: true, statuses: ['wished'] }
-]);
-
-const typeFilters = ref([
-  { label: 'Bidirectionnelle', isEnable: true, types: ['bidirectionnelle'] },
-  { label: 'Bilatérale', isEnable: true, types: ['bilaterale'] },
-  { label: 'Voie Bus', isEnable: true, types: ['voie-bus', 'voie-bus-elargie'] },
-  { label: 'Voie verte', isEnable: true, types: ['voie-verte'] },
-  { label: 'Vélorue', isEnable: true, types: ['velorue'] },
-  { label: 'Bandes cyclables', isEnable: true, types: ['bandes-cyclables'] },
-  { label: 'Zone de rencontre', isEnable: true, types: ['zone-de-rencontre'] },
-  { label: 'Zone 30', isEnable: true, types: ['zone-30'] },
-  { label: 'Piste cyclable', isEnable: true, types: ['piste-cyclable'] },
-  { label: 'Impasse + débouché cyclable', isEnable: true, types: ['imp+debouche-cyclable'] },
-  { label: 'Piste sur trottoir', isEnable: true, types: ['piste-sur-trottoir'] },
-  { label: 'Chaucidou', isEnable: true, types: ['chaucidou'] },
-  { label: 'Unidirectionnelle', isEnable: true, types: ['unidirectionnelle'] },
-  { label: 'Voie réservée riverains et vélos', isEnable: true, types: ['voie-riverains'] },
-  { label: 'Simple Pictogramme au sol', isEnable: true, types: ['pictogramme'] },
-  { label: 'Jalonnement', isEnable: true, types: ['jalonnement'] },  
-  { label: 'Jalonnement et Pictogramme au sol', isEnable: true, types: ['jalonnement-picto'] },  
-  { label: 'Inconnu', isEnable: true, types: ['inconnu'] },
-  { label: 'Autre', isEnable: true, types: ['autre'] },
-  { label: 'Aucun', isEnable: true, types: ['aucun'] }
-]);
-
-function toogleStatusFilter(index: number) {
-  statusFilters.value[index].isEnable = !statusFilters.value[index].isEnable;
+  const query = { ...route.query };
+  delete query.modal;
+  router.replace({ query });
 }
 
-function toogleTypeFilter(index: number) {
-  typeFilters.value[index].isEnable = !typeFilters.value[index].isEnable;
-}
+watch(() => route.query.modal, (newVal) => {
+  isOpen.value = newVal === 'filters';
+}, { immediate: true });
+
 
 const emit = defineEmits(['update']);
 
-watch([statusFilters, typeFilters], () => {
-  const visibleStatuses = statusFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.statuses);
-
-  const visibleTypes = typeFilters.value
-    .filter(item => item.isEnable)
-    .flatMap(item => item.types);
-
-  emit('update', { visibleStatuses, visibleTypes });
-}, { deep: true });
+function handleUpdate(payload: { lines: number[]; years: number[] }) {
+  emit('update', payload);
+}
 
 </script>
