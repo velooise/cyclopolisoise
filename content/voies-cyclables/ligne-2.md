@@ -3,19 +3,18 @@ name: La Chapelle-en-Serval - Fosses
 line: 2
 from: La Chapelle-en-Serval
 to: Fosses (95)
-description: Cette voie verte reliera la Chapelle à la gare de Fosses dans le val d'Oise le long de la RD1017.
+doneAt : 22/11/2025
+description: Cette voie verte relie la Chapelle à la gare de Fosses (Val d'Oise) le long de la RD1017.
 trafic: 
 cover: https://www.velooise.fr/wp-content/uploads/2025/07/LcesFossesAvant.jpg
 ---
 
-## Un seul tronçon
-
-
 ## Budget prévisionnel
+1 913 000 € (Source C'est dans l'Aire no7)
 
 ## Calendrier prévisionnel
+Début des travaux en janvier 2025
 
-## Fil d'actu
 
 ### Historique
 - Janvier 2025 - début des travaux

@@ -1,0 +1,57 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "name": "RD316-95-RD1016-60",
+        "line": 36,
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         2.436800682751027,
+          49.135586490200865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lamorlaye-chaumontel",
+        "line": 2,
+        "name": "Lamorlaye - Chaumontel",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "/velo-oise-36",
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.4408853401549777,
+            49.145254291417245
+          ],
+          [
+            2.438174966530397,
+            49.1394725185402
+          ],
+          [
+            2.435965437048708,
+            49.1345189411864
+          ],
+          [
+            2.4356708312196247,
+            49.13382501376512
+          ],
+          [
+            2.4301027757624354,
+            49.12703943623282
+          ]
+        ]
+      }
+    }
+  ]
+}
