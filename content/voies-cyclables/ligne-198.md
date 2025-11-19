@@ -9,6 +9,8 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-arc-199.jpg
 
 Voici un descriptif des différents projets souhaités pour le Plan Vélo 2027-2032 de l’ARC.
 
+**Ces souhaits s’appuient sur les résultats du baromètre vélo où près de 300 cyclistes ont répondu sur l’ARC : [lien vers les réponses au baromètre vélo](https://www.barometre-velo.fr/2025/carte/#13.07/49.41255/2.81469).**
+
 # Priorités 1
 
 ## Compiègne
