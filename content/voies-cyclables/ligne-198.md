@@ -18,29 +18,52 @@ Voici un descriptif des différents projets souhaités pour le Plan Vélo 2027-2
 Aménagement cyclable pour la traversée du pont :
 
 - Passerelle cyclable en encorbellement ?
+
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://agencedevillers.com/sites/agencedevillers.com/files/styles/w800/public/projet/00-Header-Pont%20National%20%E2%88%8F%20D%26A.JPG?itok=Ld8XKXAX" alt="Exemple de passerelle en encorbellement">
+        <div class="caption">Exemple de passerelle en encorbellement</div>
+    </div>
+</div>
+
 - Passage à une voie de circulation pour les automobiles ?
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763585487298!6m8!1m7!1sDHc0P4MXNG6rUNKjFlvCqg!2m2!1d49.41972312475939!2d2.823699836909349!3f324.40920335390297!4f-3.1761265046625056!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### Eurovélo 3
 
 Amélioration de la continuité cyclable de l’Eurovélo 3 sur les bords de l’Oise dans Compiègne :
 
 - Passage autour du barrage de Venette (allée George et Bernard Woimant le long du Quai du Clos des Roses)
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763585598166!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGF5N1hqRkE.!2m2!1d49.41289688735814!2d2.808419210411718!3f251.48380047851512!4f-3.8922189234174596!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 - Traversée du Pont Louis XV pour rejoindre le bord de l’Oise vers l’Ouest en aménageant la rue du Harlay et la rue James de Rothschild
-- Portion avec des racines (à compléter)
-![Courrier EV3 1](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-ev3-lettre1.jpeg)
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763585734048!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRGFvOG1sX1FF!2m2!1d49.41979259303476!2d2.823555820936916!3f245.3351419040895!4f-13.924262369495167!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+- La portion de piste entre la piscine et la passerelle menant à Jaux est rendue dangereuse par la présence de racines
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763585793106!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRGFpOG12NkFF!2m2!1d49.38682633013376!2d2.780229548617547!3f208.98971693589766!4f-2.595951635040734!5f0.4345072124031745" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+Scan d’échanges sur le sujet de l’Eurovélo 3 :
+
+![Courrier EV3 1](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-ev3-lettre1-e1763585311248.jpeg)
 ![Courrier EV3 2](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-ev3-lettre2.jpeg)
 
 ### Rue Saint-Lazare
 
 Aménagement cyclable pour cette rue fortement empruntée par des lycéens dans laquelle les automobilistes ne se déportent pas pour doubler en raison du terre-plein central en pavés.
 
-(photo)
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763586100916!6m8!1m7!1s6Y61I5eagKM9RqK9dH4DKg!2m2!1d49.41319725263317!2d2.830411321265816!3f332.25751364367864!4f-3.37941319989838!5f1.8466161024203207" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Margny-lès-Compiègne
 
 ### Margny - Rond-point entre les rues de Beauvais et de Clermont
 
-Aménagement cyclable pour le franchissement du rond-point qui relie les rues de Beauvais, de Clermont, et le Pont Neuf
+Aménagement cyclable pour le franchissement du rond-point qui relie les rues de Beauvais, de Clermont, et le Pont Neuf.
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763586197314!6m8!1m7!1soAbp2tVKS74OULIEaFU5_w!2m2!1d49.41862792951809!2d2.816486809983466!3f243.3946149043341!4f2.67223524043672!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## ZAC Le Camp du Roy
 
@@ -48,25 +71,51 @@ Aménagement cyclable pour le franchissement du rond-point qui relie les rues de
 
 Le chemin rural reliant Jonquières au Majestic en passant par Varanval (ancienne route de Compiègne à Clermont) est empierré en partie. La communauté de communes Plaine d’Estrées prévoit déjà la réalisation de la jonction cyclable Canly-Jonquières. Notre proposition serait dans la continuité de cette jonction.
 
-![Départ route de Jaux](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-depart-route-de-jaux.jpg)
+<div class="image-container">
+    <div class="image-item">
+        <img src="https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-depart-route-de-jaux.jpg" alt="Départ route de Jaux">
+        <div class="caption">Départ route de Jaux</div>
+    </div>
+    <div class="image-item">
+        <img src="https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-montee-vers-varanval.jpg" alt="Montée vers Varanval">
+        <div class="caption">Montée vers Varanval</div>
+    </div>
+    <div class="image-item">
+        <img src="https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-varanval.jpg" alt="Du côté de Varanval">
+        <div class="caption">Du côté de Varanval</div>
+    </div>
+    <div class="image-item">
+        <img src="https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-centre-commercial.jpg" alt="Du côté du centre commercial">
+        <div class="caption">Du côté du centre commercial</div>
+    </div>
+    <div class="image-item">
+        <img src="https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-bas-des-tartres.jpg" alt="Bas des Tartres">
+        <div class="caption">Bas des Tartres</div>
+    </div>
+</div>
 
-Départ route de Jaux
-
-![Montée vers Varanval](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-montee-vers-varanval.jpg)
-
-Montée vers Varanval
-
-![Du côté de Varanval](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-varanval.jpg)
-
-Du côté de Varanval
-
-![Du côté du centre commercial](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-centre-commercial.jpg)
-
-Du côté du centre commercial
-
-![Bas des Tartres](https://www.velooise.fr/wp-content/uploads/2025/11/cyclopolis-arc-198-clermont-bas-des-tartres.jpg)
-
-Bas des Tartres
+<style>
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .image-item {
+        flex: 1 1 45%;
+        max-width: 45%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .image-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    .caption {
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+</style>
 
 # Priorités 2 / 3
 
@@ -75,6 +124,8 @@ Bas des Tartres
 ### Piste cyclable forêt
 
 Certains tronçons de la piste cyclable en forêt reliant Compiègne à Pierrefonds en passant par Vieux-Moulin sont devenus dangereux à pratiquer à cause des bosses causées par les racines des arbres.
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763586338473!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGFzN2ZXUVE.!2m2!1d49.39322534414818!2d2.898173804343294!3f252.51294732815538!4f-11.777061123280191!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### Sous pont Louis XV rive droite
 
@@ -93,6 +144,8 @@ Ces rues pourraient être passées en zone 30 pour apaiser la circulation dans c
 ### Rue des Capucins
 
 La continuité cyclable de la piste remontant la rue du Port à Bateaux est rompue au niveau de l’intersection avec la rue Notre-Dame-de-Bon-Secours lorsque l’on rejoint la rue des Capucins.
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763586480428!6m8!1m7!1sOAM_sRCp5XFrkm7Su6NDxQ!2m2!1d49.41467767914641!2d2.820608227332384!3f153.36391641190826!4f-5.968352864313545!5f0.4850102935064365" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ### Rue des frères Greban / Roger Couttolenc
 
@@ -152,6 +205,8 @@ L'équipement de 800m de route plateau entre Venette village (haut) et Carrefour
 ### Continuité de la piste cyclable à Janville
 
 La piste cyclable longeant la D932 s’arrête abruptement dans Janville, obligeant les cyclistes à rejoindre la départementale pour les 120 mètres restants jusqu’au feu où ils tournent dans la rue Armand Luisin pour rejoindre les bords de l’Oise. Une continuité de la piste cyclable permettrait aux cyclistes de rester en sécurité.
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1763586583030!6m8!1m7!1sTas1cQiRcv9R-1UT3mQ99w!2m2!1d49.45054729035041!2d2.864935348733979!3f51.554489124220076!4f-1.1744128425842746!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Trosly-Breuil
 
