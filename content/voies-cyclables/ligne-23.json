@@ -6,7 +6,7 @@
       "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30-08",
         "line": 23,
-        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-08",
         "status": "planned",
         "type": "zone-30",
         "link": "/velo-oise-23"
@@ -30,8 +30,8 @@
       "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30-05",
         "line": 23,
-        "name": "MORTEFONTAINE collège lycée - PLAILLY",
-        "status": "planned",
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-05",
+        "status": "wip",
         "type": "voie-verte",
         "link": "/velo-oise-23"
       },
@@ -58,7 +58,7 @@
       "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30-01",
         "line": 23,
-        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-01",
         "status": "planned",
         "type": "zone-30",
         "link": "/velo-oise-23"
@@ -118,7 +118,7 @@
       "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30-00",
         "line": 23,
-        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-00",
         "status": "planned",
         "type": "zone-30",
         "link": "/velo-oise-23"
@@ -162,7 +162,7 @@
       "properties": {
         "id": "mortefontaine-collège-lycée-plailly-30",
         "line": 23,
-        "name": "MORTEFONTAINE collège lycée - PLAILLY",
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-??",
         "status": "planned",
         "type": "bilaterale",
         "link": "/velo-oise-23"

@@ -12,6 +12,12 @@ Ligne 30 du schéma cyclable de la CCAC
 
 ## Informations complémentaires
 
+## Historique 
+
+- début des travaux : décembre 2025
+![Communication Instagram de l'aire cantilienne](https://www.velooise.fr/wp-content/uploads/2025/12/cyclopolis-23.jpg)
+Il s'agit du tronçon 30-05.
+
 Budget estimé : 185 358 € dont 185 358 € pour la CCAC (EPCI Voisine : , CD60 : )
 
 Linéaire : 2 006 m
