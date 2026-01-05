@@ -5,11 +5,11 @@
       "type": "Feature",
       "properties": {
         "id": "TC269",
-        "line": 199,
+        "line": 102,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "",
         "type": "",
-        "link": "/velo-oise-199"
+        "link": "/velo-oise-102"
       },
       "geometry": {
         "coordinates": [
@@ -49,11 +49,11 @@
       "type": "Feature",
       "properties": {
         "id": "TC270",
-        "line": 199,
+        "line": 102,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "/velo-oise-199"
+        "link": "/velo-oise-102"
       },
       "geometry": {
         "coordinates": [
@@ -133,11 +133,11 @@
       "type": "Feature",
       "properties": {
         "id": "TC271",
-        "line": 199,
+        "line": 102,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "/velo-oise-199"
+        "link": "/velo-oise-102"
       },
       "geometry": {
         "coordinates": [
@@ -249,11 +249,11 @@
       "type": "Feature",
       "properties": {
         "id": "TC272",
-        "line": 199,
+        "line": 102,
         "name": "Piste 16 - Bienville - Clairoix - Margny Gare",
         "status": "done",
         "type": "voie-verte",
-        "link": "/velo-oise-199"
+        "link": "/velo-oise-102"
       },
       "geometry": {
         "coordinates": [
@@ -497,7 +497,8 @@
         "name": "Compiegne-Roye-Villers-Coudun-Vignemont",
         "status": "planned",
         "type": "voie-verte",
-        "link": "/velo-oise-102"},
+        "link": "/velo-oise-102"
+		},
       "geometry": {
         "coordinates": [
           [
@@ -614,7 +615,14 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+	          "id": "compiegne-roye-vignemont-b",
+        "line": 102,
+        "name": "Compiegne-Roye-Villers-Coudun-Vignemont-b",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "/velo-oise-102"
+	  },
       "geometry": {
         "coordinates": [
           [
