@@ -28,6 +28,9 @@ Achevé en aout 2025, pas encore complètement ouvert.
 
 ## de l'usine EDF à Saint Leu
 
+Le 20 juin 2025, nous avons participé à la présentation du projet, prévu pour 2026.
+![l'annonce du lancement ](https://www.velooise.fr/wp-content/uploads/2026/01/cyclopolis-a-nous-les-berges.jpg)
+
 Date actualisation : 17/08/2025
 Description : 
 Commentaires : A compléter

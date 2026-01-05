@@ -18,6 +18,10 @@ Quatre parents de collégien·nes qui souhaitaient que leurs enfants puissent al
 
 C'est l'acte fondateur de l'AU5V (devenue Vélooise). Cette remarque a motivé nos mousquetaires à se constituer en association pour porter un projet au-delà du mandat d'un maire rétif au vélo. Muni·es de sécateurs et de scies, ils et elles ont dessiné le début de cette voie verte, inaugurée en 2017. 
 
+
+### Passerelle au dessus de la rue Audibert
+Le 21 juin 2025, un camion visiblement trop haut a arraché la passerelle en bois de la voie verte. Par chance il n’y avait aucun piéton ni cycliste sur la passerelle. Six mois plus tard, le 27 décembre une nouvelle passerelle était installée par la CCSSO. 
+
 ## Informations complémentaires
 
 

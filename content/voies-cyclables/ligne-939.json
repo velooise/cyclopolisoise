@@ -10,7 +10,7 @@
         "status": "done",
         "doneAt": "01/07/2025",
         "type": "voie-verte",
-        "link": "/velo-oise-6",
+        "link": "/velo-oise-939",
         "quality": "satisfactory"
       },
       "geometry": {
@@ -127,7 +127,7 @@
         "name": "Creil a Saint Leu par les berges",
         "status": "wip",
         "type": "voie-verte",
-        "link": "/velo-oise-6"
+        "link": "/velo-oise-939"
       },
       "geometry": {
         "coordinates": [

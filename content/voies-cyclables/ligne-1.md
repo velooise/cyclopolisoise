@@ -37,6 +37,8 @@ A l’occasion de la réalisation d’un rond point sur le mont de Pô en novemb
 En 2024 la continuité jusque la Pizzeria La Napoli a été réalisée, et la piste inaugurée en octobre 2024.
 
 ### de l'avenue de Bourbon au rond point de Sylvie
+Une piste cyclable installée sur un trottoir large existait depuis au moins 2009. En 2025 la largeur de la route a été réduite pour refaire en l'agrandissant la voie verte sous le pont et aménager le rond point de Sylvie en rond point à la Hollandaise.
+
 ![la suite en 2025-2026](https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg "Mag de Chantilly du 30/4/2025").
 
 ### du rond point de Sylvie au Boulevard de la Libération
