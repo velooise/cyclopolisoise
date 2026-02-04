@@ -7,7 +7,8 @@
         "id": "266-Liaison-66-01-05",
         "line": 266,
         "name": "Liaison 66-01-05 - Villers-St-Frambourg - Ognon",
-        "status": "planned",
+        "status": "done",
+		"doneAT": "26/01/2025",
         "type": "jalonnement",
         "link": "/velo-oise-266"
       },
@@ -59,7 +60,8 @@
         "id": "266-Liaison-66-06-07",
         "line": 266,
         "name": "Liaison 66-06-07 - Villers-St-Frambourg - Ognon",
-        "status": "planned",
+        "status": "done",
+		"doneAT": "26/01/2025",
         "type": "zone-30",
         "link": "/velo-oise-266"
       },

@@ -10,14 +10,14 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-127.j
 **Point(s) d'intérêt** : Parc Chédeville, Zone D'activités Du Marais, École Primaire Chantal Mauduit, Mairie De Mogneville, Piscine La Vallée Dorée
 
 **Phasage** : Réalisation en 2022 + 0 - 3 ans
-Début des travaux en septembre 2025
-![Courrier Picard](https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-727-2025-09-04.CP_.PISTE-CHEDEVILLE.jpg)
+
 ## Les tronçons (du Nord au Sud)
 
 ## Historique
-
+Début des travaux en septembre 2025
+![Courrier Picard](https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-cclvd-727-2025-09-04.CP_.PISTE-CHEDEVILLE.jpg)
 27/11/2025 La passerelle sur la Béronelle est posée nous informe la CCLVD
-
+16/01/2025 ![Post FB de la mairie de Liancourt] (https://www.velooise.fr/wp-content/uploads/2026/01/cyclopolis-2026-01-16.LIANCOURT-VV.jpg)
 
 ## Informations complémentaires
 

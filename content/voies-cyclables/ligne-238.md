@@ -11,6 +11,7 @@ Ligne 38 du schéma cyclable de la CCSSO
 
 ![J.Bascher sur FB](https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-38-25082025.jpg)
 
+Le 27 janvier 26 en réunion, la CCSSO nous informe que la traversée de le RD 1017 se fera via un ilot central.
 
 ## Echéances : source https://ccsso.fr/projet/schema-voies-cyclables/)
 Liaison 38 : Aumont / Fleurines – 4 km - Travaux prévus pour novembre 2023​​

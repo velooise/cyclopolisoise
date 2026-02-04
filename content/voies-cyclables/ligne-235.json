@@ -7,7 +7,8 @@
         "id": "235-Liaison35-01-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-01 - Aumont - Senlis",
-        "status": "planned",
+        "status": "done",
+		"doneAt": "01/12/2025",
         "type": "zone-30",
         "link": "/velo-oise-235"
       },
@@ -55,7 +56,8 @@
         "id": "235-Liaison35-02-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-02 - Aumont - Senlis",
-        "status": "planned",
+        "status": "done",
+		"doneAt": "01/12/2025",
         "type": "chaucidou",
         "link": "/velo-oise-235"
       },
@@ -107,7 +109,9 @@
         "id": "235-Liaison35-03-04-Aumont-Senlis",
         "line": 235,
         "name": "Liaison 35-03-04 - Aumont - Senlis",
-        "status": "planned",
+        "status": "done",
+		"doneAt": "01/12/2025",
+		"quality": "unsatisfactory",
         "type": "chaucidou",
         "link": "/velo-oise-235"
       },
