@@ -9,8 +9,9 @@ cover: https://www.velooise.fr/wp-content/uploads/2025/09/cyclopolis-ccsso-265.j
 Ligne 65 du schéma cyclable de ccsso
 ## Les tronçons (du Nord au Sud)
 
-## Echéances : source https://ccsso.fr/projet/schema-voies-cyclables/
-Liaison 65-66 : Fleurines / Villers Saint Frambourg – 2 km En cours, avec achèvement prévu en février 2024​​.
+## Echéances : 
+source https://ccsso.fr/projet/schema-voies-cyclables/
+Liaison 65-66 : Fleurines / Villers Saint Frambourg – 2 km Achèvement prévu en février 2024​​, réalisé en 2025. Simple jalonnement.
 
 
 ## Informations complémentaires

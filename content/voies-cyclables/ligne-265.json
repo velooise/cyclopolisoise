@@ -38,6 +38,7 @@
         "name": "Liaison 65-02-09 - Fleurines – Villers-St-Frambourg",
         "status": "done",
 		"doneAT": "26/01/2025",
+		 "type": "jalonnement",
         "link": "/velo-oise-265"
       },
       "geometry": {
