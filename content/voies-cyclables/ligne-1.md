@@ -23,7 +23,7 @@ Réalisée par le département de l'Oise lors de la réfection de l'enrobé et l
 
 A l’occasion de la réalisation d’un rond point sur le mont de Pô en novembre 2020, le Département a décidé de réaliser et de financer une piste cyclable bidirectionnelle dans la côte, en supprimant une voie de dépassement. Le Département a suivi nos préconisations de ne pas envoyer les cyclistes sur le rond point mais de leur proposer un contournement à la hollandaise pour garantir leur sécurité. Nous avons défendu une continuité coté Est (sur la commune de Chantilly) plutôt que côté Ouest (sur la commune de Gouvieux) pour éviter les innombrables pertes de temps à franchir les intersections. Nous avons été écoutés, c'est suffisament rare pour le signaler.
 
-### du rond point à l'entrée de Chantilly
+### du rond point du Mont de Pô à l'entrée de Chantilly
 
 ![en 2021](https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ligne1-2021.jpg)
 
@@ -40,6 +40,10 @@ En 2024 la continuité jusque la Pizzeria La Napoli a été réalisée, et la pi
 Une piste cyclable installée sur un trottoir large existait depuis au moins 2009. En 2025 la largeur de la route a été réduite pour refaire en l'agrandissant la voie verte sous le pont et aménager le rond point de Sylvie en rond point à la Hollandaise.
 
 ![la suite en 2025-2026](https://www.velooise.fr/wp-content/uploads/2025/05/2025-04-30.MAG-CHANTILLY.jpg "Mag de Chantilly du 30/4/2025").
+Cette portion a été inaugurée le 14 fevrier 2026.
+![Inauguration](https://www.velooise.fr/wp-content/uploads/2026/02/cyclopolis-1-20260214-Wojto-inaug-pc-chantilly.jpeg "A l'inauguration la maire arrive à vélo").
+
+Entendu à l'inauguration "Merci aux asso qui nous titillent, on sait que vous êtes actifs auprès des enfants, les jeunes c’est l’avenir du velo"
 
 ### du rond point de Sylvie au Boulevard de la Libération
 
@@ -47,7 +51,7 @@ Cette allée cavalière est assez ancienne, elle a été aménagée en voie vert
 
 ### du Boulevard de la Libération à la mairie
 
-Deux bandes cyclables de part et d'autre de la chaussée conduisent jusqu'à la mairie. Elles sont proches du stationnement et s'interrompent à l'entrée de la zone 30.
+Deux bandes cyclables de part et d'autre de la chaussée conduisent jusqu'à la mairie. Elles sont proches du stationnement et s'interrompent à l'entrée de la zone 30. Dans le schéma cyclable communal il est prévu un chantier de réaménagement du trottoir pour y laisser la place à une voie verte (compliqué, déplacement d'arbres ...)
 
 ### de la place Omer Vallon à la Nonette 
 Une piste bidirectionnelle longe la route de l'autre coté de la chaussée

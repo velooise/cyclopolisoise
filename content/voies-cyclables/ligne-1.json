@@ -326,7 +326,8 @@
         "id": "chantilly-rdp-sylvie",
         "line": 1,
         "name": "Chantilly-Rond Point de Sylvie",
-        "status": "wip",
+        "status": "done",
+		"doneAt": "14/02/2026" ,
         "type": "voie-verte",
         "link": "/velo-oise-1#de-lavenue-de-bourbon-au-rond-point-de-sylvie",
         "quality": "satisfactory"
