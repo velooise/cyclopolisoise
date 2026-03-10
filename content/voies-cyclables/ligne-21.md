@@ -12,6 +12,8 @@ Ligne 24 du schéma cyclable de la CCAC
 
 ## Informations complémentaires
 
+
+![Mars 2026](https://www.velooise.fr/wp-content/uploads/2026/03/cyclopolis-21-orry-chapelle.jpg)
 Budget estimé : 276 818 € dont 276 818 € pour la CCAC (EPCI Voisine : , CD60 : )
 Linéaire : 1 634 m
 
