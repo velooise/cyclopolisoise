@@ -1,81 +1,84 @@
 import type { Collections } from '@nuxt/content';
-import type { GeoJSONSource, Map} from 'maplibre-gl';
+import type maplibregl from 'maplibre-gl';
+import type { GeoJSONSource, Map as MaplibreType } from 'maplibre-gl';
 import { LngLatBounds, Popup } from 'maplibre-gl';
-import { createApp, defineComponent, h, Suspense } from 'vue';
-import { isCompteurFeature, isDangerFeature, isLineStringFeature, isPerspectiveFeature, isPointFeature, type CompteurFeature } from '~/types';
-
+import { createApp, defineComponent, h, Suspense, watch, onUnmounted } from 'vue';
+import {
+  type CompteurFeature,
+  isCompteurFeature,
+  isDangerFeature,
+  isLineStringFeature,
+  isPerspectiveFeature,
+  isPointFeature,
+} from '~/types';
 // Tooltips
 import PerspectiveTooltip from '~/components/tooltips/PerspectiveTooltip.vue';
 import CounterTooltip from '~/components/tooltips/CounterTooltip.vue';
 import DangerTooltip from '~/components/tooltips/DangerTooltip.vue';
 import LineTooltip from '~/components/tooltips/LineTooltip.vue';
+import LineHoverTooltip from '~/components/tooltips/LineHoverTooltip.vue';
 
-type ColoredLineStringFeature = Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }> & { properties: { color: string } };
+import type { LocationQueryRaw } from 'vue-router';
+import {
+  sortByLine,
+  getCrossIconUrl,
+  createLineShieldIcon,
+  createCompositeLineShieldIcon,
+  createConstructionIcon,
+  normalizeLineDirection,
+  addCompositeIconNames,
+  getUsedCompositeIcons,
+  groupFeaturesByColor,
+} from '~/helpers/map-utils';
+import { type CanvasDashAnimator, createCanvasDashAnimator } from '~/helpers/canvas-animator';
+
+const DIMMED_OPACITY = 0.2;
+const NORMAL_OPACITY = 1;
+const HIGHLIGHTED_SECTION_OPACITY = 1;
+
+type ColoredLineStringFeature = Extract<
+  Collections['voiesCyclablesGeojson']['features'][0],
+  { geometry: { type: 'LineString' } }
+> & { properties: { color: string; showLabel?: boolean } };
 const { getNbVoiesCyclables } = useConfig();
 
-// features plotted last are on top
-const sortOrder = [1, 3, 2, 4, 5, 6, 7, 12, 8, 9, 10, 11].reverse();
-
-function sortByLine(featureA: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>, featureB: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>) {
-  const lineA = featureA.properties.line;
-  const lineB = featureB.properties.line;
-  return sortOrder.indexOf(lineA) - sortOrder.indexOf(lineB);
-}
-
-function getCrossIconUrl(): string {
-  const canvas = document.createElement('canvas');
-  canvas.width = 8; // Set the desired width of your icon
-  canvas.height = 8; // Set the desired height of your icon
-  const context = canvas.getContext('2d');
-  if (!context) {
-    return '';
-  }
-
-  // Draw the first diagonal line of the "X"
-  context.beginPath();
-  context.moveTo(0, 0);
-  context.lineTo(canvas.width, canvas.height);
-  context.lineWidth = 3;
-  context.stroke();
-
-  // Draw the second diagonal line of the "X"
-  context.beginPath();
-  context.moveTo(0, canvas.height);
-  context.lineTo(canvas.width, 0);
-  context.lineWidth = 3;
-  context.stroke();
-
-  return canvas.toDataURL();
-}
-
-function groupFeaturesByColor(features: ColoredLineStringFeature[]) {
-  const featuresByColor: Record<string, ColoredLineStringFeature[]> = {};
-  for (const feature of features) {
-    const color = feature.properties.color;
-
-    if (featuresByColor[color]) {
-      featuresByColor[color].push(feature);
-    } else {
-      featuresByColor[color] = [feature];
-    }
-  }
-  return featuresByColor;
-}
-
-export const useMap = () => {
+export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: boolean } = {}) => {
   const { getLineColor } = useColors();
+  const { getLineStringDistance } = useStats();
+  const router = useRouter();
+  const route = useRoute();
+  const { extractLineAndAnchorFromPath } = useUrl();
 
-  function addLineColor(feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: "LineString" } }>): ColoredLineStringFeature {
+  let currentHoverPopup: maplibregl.Popup | null = null;
+  let currentClickPopup: maplibregl.Popup | null = null;
+  let lastHoveredFeatureId: string | null = null;
+  let lastClickedFeatureId: string | null = null;
+  let popupCloseHandledByMapClick = false;
+  let wipAnimator: CanvasDashAnimator | null = null;
+  let currentMap: MaplibreType | null = null;
+  const shieldImages: Map<string, HTMLCanvasElement> = new Map();
+
+  function addLineColor(
+    feature: Extract<Collections['voiesCyclablesGeojson']['features'][0], { geometry: { type: 'LineString' } }>,
+  ): ColoredLineStringFeature {
     return {
       ...feature,
       properties: {
         color: getLineColor(feature.properties.line),
-        ...feature.properties
-      }
+        ...feature.properties,
+      },
     };
   }
 
-  function upsertMapSource(map: Map, sourceName: string, features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[] ) {
+  function upsertMapSource(
+    map: MaplibreType,
+    sourceName: string,
+    features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[],
+  ) {
+    if (!map || !map.getSource) {
+      return false;
+    }
+
     const source = map.getSource(sourceName) as GeoJSONSource;
     if (source) {
       source.setData({ type: 'FeatureCollection', features });
@@ -83,41 +86,97 @@ export const useMap = () => {
     }
     map.addSource(sourceName, {
       type: 'geojson',
-      data: { type: 'FeatureCollection', features }
+      data: { type: 'FeatureCollection', features },
     });
     return false;
   }
 
-  async function loadImages({ map }: { map: Map }) {
-    const camera = await map.loadImage('/icons/camera.png');
-    map.addImage('camera-icon', camera.data, { sdf: true });
+  async function loadImages({
+    map,
+    features,
+    force = false,
+  }: {
+    map: MaplibreType;
+    features?: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    force?: boolean;
+  }) {
+    const imagesToLoad = [
+      { id: 'camera-icon', url: '/icons/camera.png', sdf: true },
+      { id: 'pump-icon', url: '/icons/pump.png', sdf: true },
+      { id: 'danger-icon', url: '/icons/danger.png', sdf: false },
+      { id: 'cross-icon', url: getCrossIconUrl(), sdf: true },
+    ];
 
-    const question = await map.loadImage('/icons/question.png');
-    map.addImage('question-icon', question.data, { sdf: true });
+    await Promise.all(
+      imagesToLoad.map(async ({ id, url, sdf }) => {
+        if (map.hasImage(id)) {
+          return;
+        }
+        const image = await map.loadImage(url);
+        if (image) {
+          map.addImage(id, image.data, { sdf });
+        }
+      }),
+    );
 
-    const pump = await map.loadImage('/icons/pump.png');
-    map.addImage('pump-icon', pump.data, { sdf: true });
+    const constructionIconId = 'construction-icon';
+    if (!map.hasImage(constructionIconId) || force) {
+      if (force && map.hasImage(constructionIconId)) map.removeImage(constructionIconId);
+      const canvas = createConstructionIcon();
+      const imageData = canvas.getContext('2d')?.getImageData(0, 0, canvas.width, canvas.height);
+      if (imageData) {
+        map.addImage(constructionIconId, imageData, { sdf: false });
+      }
+    }
 
-    const danger = await map.loadImage('/icons/danger.png');
-    map.addImage('danger-icon', danger.data, { sdf: false });
+    const totalLines = getNbVoiesCyclables();
 
-    const crossIconUrl = getCrossIconUrl();
-    const cross = await map.loadImage(crossIconUrl);
-    map.addImage('cross-icon', cross.data, { sdf: true });
+    for (let line = 1; line <= totalLines; line++) {
+      const id = `line-shield-${line}`;
+      if (map.hasImage(id)) {
+        if (!force) {
+          continue;
+        }
+        map.removeImage(id);
+      }
+
+      const color = getLineColor(line);
+      const canvas = createLineShieldIcon(line, color);
+      const imageData = canvas.getContext('2d')?.getImageData(0, 0, canvas.width, canvas.height);
+      if (imageData) {
+        map.addImage(id, imageData);
+        shieldImages.set(id, canvas);
+      }
+    }
+
+    const compositeIcons = getUsedCompositeIcons(features as Collections['voiesCyclablesGeojson']['features']);
+
+    compositeIcons.forEach((combo) => {
+      const id = `line-shield-${combo}`;
+      if (map.hasImage(id)) {
+        if (!force) {
+          return;
+        }
+        map.removeImage(id);
+      }
+
+      const lineNumbers = combo.split('-').map(Number);
+      const colors = lineNumbers.map((line) => getLineColor(line));
+      const canvas = createCompositeLineShieldIcon(lineNumbers, colors);
+      const imageData = canvas.getContext('2d')?.getImageData(0, 0, canvas.width, canvas.height);
+      if (imageData) {
+        map.addImage(id, imageData);
+        shieldImages.set(id, canvas);
+      }
+    });
   }
 
-  function plotUnsatisfactorySections({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
-    const sections = features.filter(feature => {
-      return 'quality' in feature.properties &&
-        feature.properties.quality === 'unsatisfactory' &&
-        'status' in feature.properties &&
-        feature.properties.status !== 'postponed';
-    });
-
-    if (sections.length === 0 && !map.getLayer('unsatisfactory-sections')) {
+  function plotUnsatisfactorySections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    if (features.length === 0 && !map.getLayer('unsatisfactory-sections')) {
       return;
     }
-    if (upsertMapSource(map, 'unsatisfactory-sections', sections)) {
+
+    if (upsertMapSource(map, 'unsatisfactory-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
@@ -125,67 +184,161 @@ export const useMap = () => {
       id: 'unsatisfactory-sections',
       type: 'line',
       source: 'unsatisfactory-sections',
-      minzoom: 14,
+      minzoom: 13,
       paint: {
         'line-gap-width': 5,
         'line-width': 4,
         'line-color': '#c84271',
-        'line-dasharray': [0.8, 0.8]
-      }
+        'line-dasharray': [0.8, 0.8],
+      },
     });
   }
 
-  function plotUnderlinedSections({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
-    const sections = features.map((feature, index) => ({ id: index, ...feature }));
-
-    if (sections.length === 0 && !map.getLayer('highlight')) {
+  function plotUnderlinedSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    if (features.length === 0 && !map.getLayer('highlight-layer')) {
       return;
     }
-    if (upsertMapSource(map, 'all-sections', sections)) {
+
+    const allButWipTestedFeatures = features.filter(
+      (feature) => feature.properties.status !== 'wip' && feature.properties.status !== 'tested',
+    );
+
+    upsertMapSource(
+      map,
+      'all-but-wip-sections',
+      allButWipTestedFeatures as Collections['voiesCyclablesGeojson']['features'],
+    );
+
+    const allButWipTestedFeaturesLowZoom = allButWipTestedFeatures.filter((feature) => {
+      const distance = getLineStringDistance(feature);
+      return distance >= 900;
+    });
+    upsertMapSource(
+      map,
+      'all-but-wip-sections-low-zoom',
+      allButWipTestedFeaturesLowZoom as Collections['voiesCyclablesGeojson']['features'],
+    );
+
+    const allButWipTestedFeaturesHighZoom = allButWipTestedFeatures.filter((feature) => feature.properties.showLabel);
+    upsertMapSource(
+      map,
+      'all-but-wip-sections-high-zoom',
+      allButWipTestedFeaturesHighZoom as Collections['voiesCyclablesGeojson']['features'],
+    );
+
+    if (upsertMapSource(map, 'all-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
     map.addLayer({
-      id: 'highlight',
+      id: 'selected-layer',
       type: 'line',
       source: 'all-sections',
       layout: { 'line-cap': 'round' },
       paint: {
         'line-gap-width': 5,
         'line-width': 4,
-        'line-color': ['case', ['boolean', ['feature-state', 'hover'], false], '#9ca3af', '#FFFFFF']
-      }
+        'line-color': 'rgba(0, 0, 0, 0.0)',
+      },
     });
+
     map.addLayer({
-      id: 'contour',
+      id: 'highlight-layer',
+      type: 'line',
+      source: 'all-sections',
+      layout: { 'line-cap': 'round' },
+      paint: {
+        'line-gap-width': 5,
+        'line-width': 4,
+        'line-color': ['case', ['boolean', ['feature-state', 'hover'], false], '#433E61', 'rgba(255,255,255,0)'],
+      },
+    });
+
+    map.addLayer({
+      id: 'contour-layer',
       type: 'line',
       source: 'all-sections',
       layout: { 'line-cap': 'round' },
       paint: {
         'line-gap-width': 4,
         'line-width': 1,
-        'line-color': '#6b7280'
-      }
+        'line-color': 'rgba(0, 0, 0, 0.0)',
+      },
     });
+
     map.addLayer({
-      id: 'underline',
+      id: 'underline-layer',
       type: 'line',
       source: 'all-sections',
       paint: {
         'line-width': 4,
-        'line-color': '#ffffff'
-      }
+        'line-color': '#ffffff',
+      },
     });
 
+    // Count unique lines to determine if section-names layers should be added
+    const uniqueLines = new Set(
+      features.map((feature) => ('line' in feature.properties ? feature.properties.line : null)).filter(Boolean),
+    );
+    const shouldAddSectionNames = uniqueLines.size > 2;
+
+    if (shouldAddSectionNames) {
+      map.addLayer({
+        id: 'section-names-low-zoom',
+        type: 'symbol',
+        source: 'all-but-wip-sections-low-zoom',
+        maxzoom: 13,
+        layout: {
+          'icon-image': ['coalesce', ['get', 'compositeIconName'], ['concat', 'line-shield-', ['get', 'line']]],
+          'icon-size': 0.3,
+          'symbol-spacing': 1000000,
+          'symbol-placement': 'line-center',
+          'symbol-sort-key': ['-', ['get', 'line']],
+          'icon-rotation-alignment': 'viewport',
+        },
+      });
+
+      map.addLayer({
+        id: 'section-names',
+        type: 'symbol',
+        source: 'all-but-wip-sections-high-zoom',
+        minzoom: 13,
+        maxzoom: 17,
+        layout: {
+          'icon-image': ['coalesce', ['get', 'compositeIconName'], ['concat', 'line-shield-', ['get', 'line']]],
+          'icon-size': ['interpolate', ['linear'], ['zoom'], 13, 0.3, 15, 0.3, 17, 0.4],
+          'symbol-spacing': 1000000,
+          'symbol-placement': 'line-center',
+          'symbol-sort-key': ['-', ['get', 'line']],
+        },
+      });
+
+      map.addLayer({
+        id: 'section-names-high-zoom',
+        type: 'symbol',
+        source: 'all-but-wip-sections',
+        minzoom: 17,
+        layout: {
+          'icon-image': ['coalesce', ['get', 'compositeIconName'], ['concat', 'line-shield-', ['get', 'line']]],
+          'icon-size': 0.4,
+          'symbol-spacing': 1000000,
+          'symbol-placement': 'line-center',
+          'symbol-sort-key': ['-', ['get', 'line']],
+        },
+      });
+    }
+
+    map.setPaintProperty('contour-layer', 'line-color', '#000');
+
     let hoveredLineId: string | number | null = null;
-    map.on('mousemove', 'highlight', (e: maplibregl.MapMouseEvent) => {
+    map.on('mousemove', 'highlight-layer', (e: maplibregl.MapMouseEvent) => {
       map.getCanvas().style.cursor = 'pointer';
-      const features = map.queryRenderedFeatures(e.point, { layers: ['highlight'] });
+      const features = map.queryRenderedFeatures(e.point, { layers: ['highlight-layer'] });
       if (features.length > 0) {
         if (hoveredLineId !== null) {
           map.setFeatureState({ source: 'all-sections', id: hoveredLineId }, { hover: false });
         }
-        if (features[0].id !== undefined) {
+        if (features[0]?.id !== undefined) {
           hoveredLineId = features[0].id;
           if (hoveredLineId !== null) {
             map.setFeatureState({ source: 'all-sections', id: hoveredLineId }, { hover: true });
@@ -193,7 +346,7 @@ export const useMap = () => {
         }
       }
     });
-    map.on('mouseleave', 'highlight', () => {
+    map.on('mouseleave', 'highlight-layer', () => {
       map.getCanvas().style.cursor = '';
       if (hoveredLineId !== null) {
         map.setFeatureState({ source: 'all-sections', id: hoveredLineId }, { hover: false });
@@ -202,15 +355,13 @@ export const useMap = () => {
     });
   }
 
-  function plotDoneSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'done');
-
+  function plotDoneSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
     // si il n'y a rien a afficher et que la couche n'existe pas, on ne fait rien
     // si elle existe déjà, on la maj (carte dynamique par année)
-    if (sections.length === 0 && !map.getLayer('done-sections')) {
+    if (features.length === 0 && !map.getLayer('done-sections')) {
       return;
     }
-    if (upsertMapSource(map, 'done-sections', sections)) {
+    if (upsertMapSource(map, 'done-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
@@ -220,22 +371,26 @@ export const useMap = () => {
       source: 'done-sections',
       paint: {
         'line-width': 4,
-        'line-opacity': 0.6,
-        'line-color': ['get', 'color']
-      }
+        'line-color': ['get', 'color'],
+      },
     });
   }
 
-  function plotWipSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => {
-      // on considère les sections en test comme en travaux
-      return 'status' in feature.properties && (feature.properties.status === 'wip' || feature.properties.status === 'tested');
-    });
-
-    if (sections.length === 0 && !map.getLayer('wip-sections')) {
+  function plotWipSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    currentMap = map;
+    if (features.length === 0 && !map.getLayer('wip-sections')) {
       return;
     }
-    if (upsertMapSource(map, 'wip-sections', sections)) {
+
+    if (wipAnimator) {
+      wipAnimator.setFeatures(features);
+    } else {
+      wipAnimator = createCanvasDashAnimator(map, features);
+    }
+    wipAnimator.setImages(shieldImages);
+    wipAnimator.setVisible(!reduceMotion.value);
+
+    if (upsertMapSource(map, 'wip-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
@@ -243,47 +398,82 @@ export const useMap = () => {
       id: 'wip-sections',
       type: 'line',
       source: 'wip-sections',
+      layout: {
+        visibility: reduceMotion.value ? 'visible' : 'none',
+      },
       paint: {
         'line-width': 4,
         'line-color': ['get', 'color'],
-        'line-dasharray': [0, 2, 2]
-      }
+        'line-dasharray': [2, 2],
+      },
     });
 
-    const dashArraySequence = [
-      [0, 2, 2],
-      [0.5, 2, 1.5],
-      [1, 2, 1],
-      [1.5, 2, 0.5],
-      [2, 2, 0],
-      [0, 0.5, 2, 1.5],
-      [0, 1, 2, 1],
-      [0, 1.5, 2, 0.5]
-    ];
-    let step = 0;
-    function animateDashArray(timestamp: number) {
-      // Update line-dasharray using the next value in dashArraySequence. The
-      // divisor in the expression `timestamp / 45` controls the animation speed.
-      const newStep = Math.floor((timestamp / 45) % dashArraySequence.length);
+    map.addLayer({
+      id: 'wip-node-icons',
+      type: 'symbol',
+      source: 'wip-sections',
+      layout: {
+        'icon-image': 'construction-icon',
+        'icon-size': 0.5,
+        'symbol-placement': 'line',
+        'symbol-spacing': ['interpolate', ['linear'], ['zoom'], 13, 80, 16, 250],
+        'icon-allow-overlap': true,
+        'icon-anchor': 'bottom',
+        visibility: reduceMotion.value ? 'visible' : 'none',
+      },
+    });
 
-      if (newStep !== step) {
-        map.setPaintProperty('wip-sections', 'line-dasharray', dashArraySequence[step]);
-        step = newStep;
-      }
-
-      // Request the next frame of the animation.
-      requestAnimationFrame(animateDashArray);
-    }
-    animateDashArray(0);
+    map.addLayer({
+      id: 'wip-shields',
+      type: 'symbol',
+      source: 'wip-sections',
+      layout: {
+        'icon-image': ['coalesce', ['get', 'compositeIconName'], ['concat', 'line-shield-', ['get', 'line']]],
+        'icon-size': ['interpolate', ['linear'], ['zoom'], 13, 0.3, 15, 0.3, 17, 0.4],
+        'symbol-placement': 'line-center',
+        'symbol-spacing': 1000000,
+        visibility: reduceMotion.value ? 'visible' : 'none',
+      },
+    });
   }
 
-  function plotPlannedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'planned');
+  const { reduceMotion } = useSettings();
 
-    if (sections.length === 0 && !map.getLayer('planned-sections')) {
+  watch(
+    reduceMotion,
+    (shouldReduce) => {
+      if (!currentMap) return;
+
+      const visibility = shouldReduce ? 'visible' : 'none';
+      if (currentMap.getLayer('wip-node-icons')) {
+        currentMap.setLayoutProperty('wip-node-icons', 'visibility', visibility);
+      }
+      if (currentMap.getLayer('wip-shields')) {
+        currentMap.setLayoutProperty('wip-shields', 'visibility', visibility);
+      }
+
+      if (currentMap.getLayer('wip-sections')) {
+        currentMap.setLayoutProperty('wip-sections', 'visibility', visibility);
+      }
+
+      if (wipAnimator) {
+        wipAnimator.setVisible(!shouldReduce);
+      }
+    },
+    { immediate: true },
+  );
+
+  onUnmounted(() => {
+    if (wipAnimator) {
+      wipAnimator.destroy();
+    }
+  });
+
+  function plotPlannedSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    if (features.length === 0 && !map.getLayer('planned-sections')) {
       return;
     }
-    if (upsertMapSource(map, 'planned-sections', sections)) {
+    if (upsertMapSource(map, 'planned-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
@@ -294,78 +484,16 @@ export const useMap = () => {
       paint: {
         'line-width': 4,
         'line-color': ['get', 'color'],
-        'line-dasharray': [2, 2]
-      }
+        'line-dasharray': [2, 4],
+      },
     });
   }
 
-  function plotWishedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'wished');
-
-    if (sections.length === 0) {
-      for (let line = 1; line <= getNbVoiesCyclables(); line++) {
-        upsertMapSource(map, `wished-sections-${getLineColor(line)}`, []);
-      }
+  function plotVarianteSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    if (features.length === 0 && !map.getLayer('variante-sections')) {
       return;
     }
-
-    const featuresByColor = groupFeaturesByColor(sections);
-    for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
-      if (upsertMapSource(map, `wished-sections-${color}`, sameColorFeatures as Collections['voiesCyclablesGeojson']['features'])) {
-        continue;
-      }
-
-      map.addLayer({
-        id: `wished-lines-${color}`,
-        type: 'line',
-        source: `wished-sections-${color}`,
-        paint: {
-          'line-width': 4,
-          'line-color': '#ff7200',
-        }
-      });
-      map.addLayer({
-        id: `wished-symbols-${color}`,
-        type: 'symbol',
-        source: `wished-sections-${color}`,
-        layout: {
-          'symbol-placement': 'line',
-          'symbol-spacing': 1,
-          'icon-image': 'question-icon',
-          'icon-size': 0.3
-        },
-        paint: {
-          'icon-color': color
-        }
-      });
-      map.addLayer({
-        id: `wished-text-${color}`,
-        type: 'symbol',
-        source: `wished-sections-${color}`,
-        paint: {
-          'text-halo-color': '#fff',
-          'text-halo-width': 3
-        },
-        layout: {
-          'symbol-placement': 'line',
-          'symbol-spacing': 150,
-          'text-font': ['Open Sans Regular'],
-          'text-field': 'souhaits futur plan vélo',
-          'text-size': 14
-        }
-      });
-      map.on('mouseenter', `wished-symbols-${color}`, () => (map.getCanvas().style.cursor = 'pointer'));
-      map.on('mouseleave', `wished-symbols-${color}`, () => (map.getCanvas().style.cursor = ''));
-    };
-  }
-
-  function plotVarianteSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'variante');
-
-    if (sections.length === 0 && !map.getLayer('variante-sections')) {
-      return;
-    }
-    if (upsertMapSource(map, 'variante-sections', sections)) {
+    if (upsertMapSource(map, 'variante-sections', features as Collections['voiesCyclablesGeojson']['features'])) {
       return;
     }
 
@@ -377,8 +505,8 @@ export const useMap = () => {
         'line-width': 4,
         'line-color': ['get', 'color'],
         'line-dasharray': [2, 2],
-        'line-opacity': 0.5
-      }
+        'line-opacity': 0.5,
+      },
     });
     map.addLayer({
       id: 'variante-symbols',
@@ -386,28 +514,34 @@ export const useMap = () => {
       source: 'variante-sections',
       paint: {
         'text-halo-color': '#fff',
-        'text-halo-width': 4
+        'text-halo-width': 4,
       },
       layout: {
         'symbol-placement': 'line',
         'symbol-spacing': 120,
         'text-font': ['Open Sans Regular'],
         'text-field': ['coalesce', ['get', 'text'], 'variante'],
-        'text-size': 14
-      }
+        'text-size': 14,
+      },
     });
 
     map.on('mouseenter', 'variante-sections', () => (map.getCanvas().style.cursor = 'pointer'));
     map.on('mouseleave', 'variante-sections', () => (map.getCanvas().style.cursor = ''));
   }
 
-  function plotVariantePostponedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'variante-postponed');
-
-    if (sections.length === 0 && !map.getLayer('variante-postponed-sections')) {
+  function plotVariantePostponedSections({
+    map,
+    features,
+  }: {
+    map: MaplibreType;
+    features: ColoredLineStringFeature[];
+  }) {
+    if (features.length === 0 && !map.getLayer('variante-postponed-sections')) {
       return;
     }
-    if (upsertMapSource(map, 'variante-postponed-sections', sections)) {
+    if (
+      upsertMapSource(map, 'variante-postponed-sections', features as Collections['voiesCyclablesGeojson']['features'])
+    ) {
       return;
     }
 
@@ -419,8 +553,8 @@ export const useMap = () => {
         'line-width': 4,
         'line-color': ['get', 'color'],
         'line-dasharray': [2, 2],
-        'line-opacity': 0.5
-      }
+        'line-opacity': 0.5,
+      },
     });
     map.addLayer({
       id: 'variante-postponed-symbols',
@@ -428,94 +562,39 @@ export const useMap = () => {
       source: 'variante-postponed-sections',
       paint: {
         'text-halo-color': '#fff',
-        'text-halo-width': 4
+        'text-halo-width': 4,
       },
       layout: {
         'symbol-placement': 'line',
         'symbol-spacing': 120,
         'text-font': ['Open Sans Regular'],
         'text-field': ['coalesce', ['get', 'text'], 'variante reportée'],
-        'text-size': 14
-      }
+        'text-size': 14,
+      },
     });
 
     map.on('mouseenter', 'variante-postponed-sections', () => (map.getCanvas().style.cursor = 'pointer'));
     map.on('mouseleave', 'variante-postponed-sections', () => (map.getCanvas().style.cursor = ''));
   }
 
-  function plotUnknownSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'unknown');
+  function plotPostponedSections({ map, features }: { map: MaplibreType; features: ColoredLineStringFeature[] }) {
+    const featuresByColor = groupFeaturesByColor(features);
 
-    if (sections.length === 0 && !map.getLayer('unknown-sections')) {
-      return;
-    }
-    if (upsertMapSource(map, 'unknown-sections', sections)) {
-      return;
-    }
-
-    map.addLayer({
-      id: 'unknown-sections',
-      type: 'line',
-      source: 'unknown-sections',
-      layout: {
-        'line-cap': 'round'
-      },
-      paint: {
-        'line-width': [
-          'interpolate',
-          ['linear'],
-          ['zoom'],
-          11,
-          4, // width 4 at low zoom
-          14,
-          25 // progressively reach width 25 at high zoom
-        ],
-        'line-color': ['get', 'color'],
-        'line-opacity': [
-          'interpolate',
-          ['linear'],
-          ['zoom'],
-          11,
-          0.5, // opacity 0.4 at low zoom
-          14,
-          0.35 // opacity 0.35 at high zoom
-        ]
+    for (let line = 1; line <= getNbVoiesCyclables(); line++) {
+      const lineColor = getLineColor(line);
+      if (!featuresByColor[lineColor]) {
+        upsertMapSource(map, `postponed-sections-${lineColor}`, []);
       }
-    });
-    map.addLayer({
-      id: 'unknown-symbols',
-      type: 'symbol',
-      source: 'unknown-sections',
-      paint: {
-        'text-halo-color': '#fff',
-        'text-halo-width': 3
-      },
-      layout: {
-        'symbol-placement': 'line',
-        'symbol-spacing': 120,
-        'text-font': ['Open Sans Regular'],
-        'text-field': 'tracé à définir',
-        'text-size': 14
-      }
-    });
-
-    map.on('mouseenter', 'unknown-sections', () => (map.getCanvas().style.cursor = 'pointer'));
-    map.on('mouseleave', 'unknown-sections', () => (map.getCanvas().style.cursor = ''));
-  }
-
-  function plotPostponedSections({ map, features }: { map: Map; features: ColoredLineStringFeature[] }) {
-    const sections = features.filter(feature => 'status' in feature.properties && feature.properties.status === 'postponed');
-
-    if (sections.length === 0) {
-      for (let line = 1; line <= getNbVoiesCyclables(); line++) {
-        upsertMapSource(map, `postponed-sections-${getLineColor(line)}`, []);
-      }
-      return;
     }
 
-    const featuresByColor = groupFeaturesByColor(sections);
     for (const [color, sameColorFeatures] of Object.entries(featuresByColor)) {
-      if (upsertMapSource(map, `postponed-sections-${color}`, sameColorFeatures as Collections['voiesCyclablesGeojson']['features'])) {
+      upsertMapSource(
+        map,
+        `postponed-sections-${color}`,
+        sameColorFeatures as Collections['voiesCyclablesGeojson']['features'],
+      );
+
+      if (map.getLayer(`postponed-symbols-${color}`)) {
         continue;
       }
 
@@ -527,11 +606,11 @@ export const useMap = () => {
           'symbol-placement': 'line',
           'symbol-spacing': 1,
           'icon-image': 'cross-icon',
-          'icon-size': 1.2
+          'icon-size': 1.2,
         },
         paint: {
-          'icon-color': color
-        }
+          'icon-color': color,
+        },
       });
       map.addLayer({
         id: `postponed-text-${color}`,
@@ -539,29 +618,34 @@ export const useMap = () => {
         source: `postponed-sections-${color}`,
         paint: {
           'text-halo-color': '#fff',
-          'text-halo-width': 3
+          'text-halo-width': 3,
         },
         layout: {
           'symbol-placement': 'line',
           'symbol-spacing': 150,
           'text-font': ['Open Sans Regular'],
           'text-field': 'reporté',
-          'text-size': 14
-        }
+          'text-size': 14,
+        },
       });
-
       map.on('mouseenter', `postponed-symbols-${color}`, () => (map.getCanvas().style.cursor = 'pointer'));
       map.on('mouseleave', `postponed-symbols-${color}`, () => (map.getCanvas().style.cursor = ''));
     }
   }
 
-  function plotPerspective({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
-    const perspectives = features.filter(isPerspectiveFeature).map(feature => ({
+  function plotPerspective({
+    map,
+    features,
+  }: {
+    map: MaplibreType;
+    features: Collections['voiesCyclablesGeojson']['features'];
+  }) {
+    const perspectives = features.filter(isPerspectiveFeature).map((feature) => ({
       ...feature,
       properties: {
         color: getLineColor(feature.properties.line),
-        ...feature.properties
-      }
+        ...feature.properties,
+      },
     }));
     if (perspectives.length === 0) {
       return;
@@ -579,11 +663,11 @@ export const useMap = () => {
       layout: {
         'icon-image': 'camera-icon',
         'icon-size': 0.5,
-        'icon-offset': [-25, -25]
+        'icon-offset': [-25, -25],
       },
       paint: {
-        'icon-color': ['get', 'color']
-      }
+        'icon-color': ['get', 'color'],
+      },
     });
 
     // la souris devient un pointer au survol
@@ -595,7 +679,13 @@ export const useMap = () => {
     });
   }
 
-  function plotDangers({ map, features }: { map: Map; features: Collections['voiesCyclablesGeojson']['features'] }) {
+  function plotDangers({
+    map,
+    features,
+  }: {
+    map: MaplibreType;
+    features: Collections['voiesCyclablesGeojson']['features'];
+  }) {
     const dangers = features.filter(isDangerFeature);
     if (dangers.length === 0) {
       return;
@@ -612,8 +702,8 @@ export const useMap = () => {
       minzoom: 14,
       layout: {
         'icon-image': 'danger-icon',
-        'icon-size': 0.7
-      }
+        'icon-size': 0.7,
+      },
     });
 
     // la souris devient un pointer au survol
@@ -625,105 +715,321 @@ export const useMap = () => {
     });
   }
 
-  function plotCompteurs({ map, features }: { map: Map; features?: CompteurFeature[] }) {
-    if (!features) return;
+  function createBicolorCircleIcon(size: number, strokeWidth: number): HTMLCanvasElement {
+    const scale = 2;
+    const canvas = document.createElement('canvas');
+    const totalSize = (size + strokeWidth) * 2 * scale;
+    canvas.width = totalSize;
+    canvas.height = totalSize;
+    const ctx = canvas.getContext('2d')!;
+    const cx = totalSize / 2;
+    const cy = totalSize / 2;
+    const r = size * scale;
 
-    const compteurs = features.filter(isCompteurFeature);
-    if (compteurs.length === 0) return;
+    if (strokeWidth > 0) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, r + strokeWidth * scale * 0.5, 0, Math.PI * 2);
+      ctx.fillStyle = '#fff';
+      ctx.fill();
+    }
 
-    compteurs
-      .sort((c1, c2) => (c2.properties.counts.at(-1)?.count ?? 0) - (c1.properties.counts.at(-1)?.count ?? 0))
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + r * 1.5, cy - r * 1.5);
+    ctx.lineTo(cx - r * 1.5, cy - r * 1.5);
+    ctx.lineTo(cx - r * 1.5, cy + r * 1.5);
+    ctx.closePath();
+    ctx.clip();
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fillStyle = '#C84271';
+    ctx.fill();
+    ctx.restore();
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + r * 1.5, cy - r * 1.5);
+    ctx.lineTo(cx + r * 1.5, cy + r * 1.5);
+    ctx.lineTo(cx - r * 1.5, cy + r * 1.5);
+    ctx.closePath();
+    ctx.clip();
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fillStyle = '#152B68';
+    ctx.fill();
+    ctx.restore();
+
+    return canvas;
+  }
+
+  function plotCompteurs({ map, features }: { map: MaplibreType; features?: CompteurFeature[] }) {
+    const compteurs = (features || [])
+      .sort((c1, c2) => {
+        const last1 = c1.properties.counts.at(-1);
+        const last2 = c2.properties.counts.at(-1);
+        const v1 = last1 && 'count' in last1 ? last1.count : 0;
+        const v2 = last2 && 'count' in last2 ? last2.count : 0;
+        return v2 - v1;
+      })
       .map((c, i) => {
-        // top counters are bigger and drawn above others
         const top = 10;
         c.properties.circleSortKey = i < top ? 1 : 0;
         c.properties.circleRadius = i < top ? 10 : 7;
-        c.properties.circleStrokeWidth = i < top ? 3 : 0;
+        c.properties.circleStrokeWidth = i < top ? 3 : 2;
         return c;
       });
 
-    map.addSource('compteurs', {
-      type: 'geojson',
-      data: {
-        type: 'FeatureCollection',
-        features: compteurs
+    const regularCompteurs = compteurs.filter((c) => !c.properties.isMixed);
+    const mixedCompteurs = compteurs.filter((c) => c.properties.isMixed);
+
+    upsertMapSource(map, 'compteurs', regularCompteurs);
+    if (!map.getLayer('compteurs')) {
+      map.addLayer({
+        id: 'compteurs',
+        source: 'compteurs',
+        type: 'circle',
+        layout: {
+          'circle-sort-key': ['get', 'circleSortKey'],
+        },
+        paint: {
+          'circle-color': [
+            'match',
+            ['get', 'type'],
+            'compteur-velo',
+            '#C84271',
+            'compteur-voiture',
+            '#152B68',
+            '#152B68',
+          ],
+          'circle-stroke-color': '#fff',
+          'circle-stroke-width': ['get', 'circleStrokeWidth'],
+          'circle-radius': ['get', 'circleRadius'],
+        },
+      });
+      map.on('mouseenter', 'compteurs', () => (map.getCanvas().style.cursor = 'pointer'));
+      map.on('mouseleave', 'compteurs', () => (map.getCanvas().style.cursor = ''));
+
+      map.addLayer({
+        id: 'compteurs-labels',
+        source: 'compteurs',
+        type: 'symbol',
+        minzoom: 13,
+        layout: {
+          'text-field': ['get', 'name'],
+          'text-size': 11,
+          'text-offset': [0, 1.5],
+          'text-anchor': 'top',
+          'text-max-width': 10,
+          'text-allow-overlap': false,
+        },
+        paint: {
+          'text-color': '#333',
+          'text-halo-color': '#fff',
+          'text-halo-width': 1.5,
+        },
+      });
+    }
+
+    if (mixedCompteurs.length > 0) {
+      const sizes = [
+        { name: 'bicolor-circle-large', radius: 10, stroke: 3 },
+        { name: 'bicolor-circle-small', radius: 7, stroke: 2 },
+      ];
+      for (const { name, radius, stroke } of sizes) {
+        if (!map.hasImage(name)) {
+          const canvas = createBicolorCircleIcon(radius, stroke);
+          const imageData = canvas.getContext('2d')?.getImageData(0, 0, canvas.width, canvas.height);
+          if (imageData) {
+            map.addImage(name, imageData, { sdf: false });
+          }
+        }
       }
-    });
-    map.addLayer({
-      id: 'compteurs',
-      source: 'compteurs',
-      type: 'circle',
-      layout: {
-        'circle-sort-key': ['get', 'circleSortKey']
-      },
-      paint: {
-        'circle-color': '#152B68',
-        'circle-stroke-color': '#fff',
-        'circle-stroke-width': ['get', 'circleStrokeWidth'],
-        'circle-radius': ['get', 'circleRadius']
+    }
+
+    if (mixedCompteurs.length > 0 || map.getSource('compteurs-mixed')) {
+      upsertMapSource(map, 'compteurs-mixed', mixedCompteurs);
+      if (!map.getLayer('compteurs-mixed') && mixedCompteurs.length > 0) {
+        map.addLayer({
+          id: 'compteurs-mixed',
+          source: 'compteurs-mixed',
+          type: 'symbol',
+          layout: {
+            'icon-image': ['case', ['==', ['get', 'circleRadius'], 10], 'bicolor-circle-large', 'bicolor-circle-small'],
+            'icon-size': 0.5,
+            'icon-allow-overlap': true,
+            'symbol-sort-key': ['get', 'circleSortKey'],
+          },
+        });
+        map.on('mouseenter', 'compteurs-mixed', () => (map.getCanvas().style.cursor = 'pointer'));
+        map.on('mouseleave', 'compteurs-mixed', () => (map.getCanvas().style.cursor = ''));
+
+        map.addLayer({
+          id: 'compteurs-mixed-labels',
+          source: 'compteurs-mixed',
+          type: 'symbol',
+          minzoom: 13,
+          layout: {
+            'text-field': ['get', 'name'],
+            'text-size': 11,
+            'text-offset': [0, 1.5],
+            'text-anchor': 'top',
+            'text-max-width': 10,
+            'text-allow-overlap': false,
+          },
+          paint: {
+            'text-color': '#333',
+            'text-halo-color': '#fff',
+            'text-halo-width': 1.5,
+          },
+        });
       }
-    });
-    map.on('mouseenter', 'compteurs', () => (map.getCanvas().style.cursor = 'pointer'));
-    map.on('mouseleave', 'compteurs', () => (map.getCanvas().style.cursor = ''));
+    }
   }
 
   function getCompteursFeatures({
     counters,
-    type
+    type,
+    isMixed = false,
   }: {
     counters: Collections['compteurs'][] | null;
-    type: 'compteur-velo' | 'compteur-voiture';
+    type: 'compteur-velo' | 'compteur-voiture' | 'compteur-comparaison';
+    isMixed?: boolean;
   }): CompteurFeature[] {
-    if (!counters) { return []; }
-    if (counters.length === 0) { return []; }
+    if (!counters) {
+      return [];
+    }
 
-    return counters.map(counter => ({
+    if (counters.length === 0) {
+      return [];
+    }
+
+    return counters.map((counter) => ({
       type: 'Feature',
       properties: {
         type,
+        isMixed,
         name: counter.name,
         link: counter.path,
-        counts: counter.counts
+        counts: counter.counts || [],
       },
       geometry: {
         type: 'Point',
-        coordinates: [counter.coordinates[0], counter.coordinates[1]]
-      }
+        coordinates: [counter.coordinates[0], counter.coordinates[1]],
+      },
     }));
   }
 
-  function fitBounds({ map, features }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature> }) {
+  function fitBounds({
+    map,
+    features,
+    padding = 20,
+  }: {
+    map: MaplibreType;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    padding?: number | { top: number; bottom: number; left: number; right: number };
+  }) {
     const allLineStringsCoordinates: [number, number][] = features
       .filter(isLineStringFeature)
-      .flatMap(feature => feature.geometry.coordinates);
-    if (allLineStringsCoordinates.length === 0) return;
+      .flatMap((feature) => feature.geometry.coordinates as [number, number][]);
 
-    const allPointsCoordinates: [number, number][] = features.filter(isPointFeature).map(feature => feature.geometry.coordinates);
+    const allPointsCoordinates: [number, number][] = features
+      .filter(isPointFeature)
+      .map((feature) => feature.geometry.coordinates);
 
-    if (features.length === 1 && allPointsCoordinates.length === 1) {
-      map.flyTo({ center: allPointsCoordinates[0] as [number, number] });
+    if (allLineStringsCoordinates.length === 0 && allPointsCoordinates.length === 0) {
+      return;
+    }
+
+    if (features.length === 1 && allPointsCoordinates.length === 1 && allLineStringsCoordinates.length === 0) {
+      map.flyTo({ center: allPointsCoordinates[0] as [number, number], zoom: 14, duration: 300 });
     } else {
-      const bounds = new LngLatBounds(allLineStringsCoordinates[0], allLineStringsCoordinates[0]);
-      for (const coord of [...allLineStringsCoordinates, ...allPointsCoordinates]) {
+      const allCoordinates = [...allLineStringsCoordinates, ...allPointsCoordinates];
+      const bounds = new LngLatBounds(allCoordinates[0], allCoordinates[0]);
+      for (const coord of allCoordinates) {
         bounds.extend(coord);
       }
-      map.fitBounds(bounds, { padding: 20 });
+      map.fitBounds(bounds, { padding, maxZoom: 14 });
     }
   }
 
-  function plotFeatures({ map, features }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature> }) {
-    const lineStringFeatures = features.filter(isLineStringFeature).sort(sortByLine).map(addLineColor);
-    plotUnderlinedSections({ map, features: lineStringFeatures });
-    plotUnsatisfactorySections({ map, features: lineStringFeatures });
-    plotDoneSections({ map, features: lineStringFeatures });
-    plotPlannedSections({ map, features: lineStringFeatures });
-    plotWishedSections({ map, features: lineStringFeatures });
-    plotVarianteSections({ map, features: lineStringFeatures });
-    plotVariantePostponedSections({ map, features: lineStringFeatures });
-    plotWipSections({ map, features: lineStringFeatures });
-    plotUnknownSections({ map, features: lineStringFeatures });
-    plotPostponedSections({ map, features: lineStringFeatures });
+  function plotFeatures({
+    map,
+    features,
+  }: {
+    map: MaplibreType;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+  }) {
+    const lineStringFeatures = features
+      .filter(isLineStringFeature)
+      .sort(sortByLine)
+      .map(addLineColor)
+      .map((feature) => {
+        const distance = getLineStringDistance(feature);
+        return {
+          ...feature,
+          properties: {
+            ...feature.properties,
+            distance, // distance in meters
+          },
+          geometry: {
+            ...feature.geometry,
+            coordinates: normalizeLineDirection(feature.geometry.coordinates as [number, number][]),
+          },
+        };
+      });
 
+    const processedFeatures = addCompositeIconNames(lineStringFeatures);
+    const sections: ColoredLineStringFeature[] = processedFeatures.map((feature, index) => ({
+      ...feature,
+      id: index,
+    })) as unknown as ColoredLineStringFeature[];
+
+    const unsatisfactory: ColoredLineStringFeature[] = [];
+    const done: ColoredLineStringFeature[] = [];
+    const wip: ColoredLineStringFeature[] = [];
+    const planned: ColoredLineStringFeature[] = [];
+    const variante: ColoredLineStringFeature[] = [];
+    const variantePostponed: ColoredLineStringFeature[] = [];
+    const postponed: ColoredLineStringFeature[] = [];
+
+    for (const feature of sections) {
+      if (feature.properties.quality === 'unsatisfactory' && feature.properties.status !== 'postponed') {
+        unsatisfactory.push(feature);
+      }
+
+      switch (feature.properties.status) {
+        case 'done':
+          done.push(feature);
+          break;
+        case 'wip':
+        case 'tested':
+          wip.push(feature);
+          break;
+        case 'planned':
+          planned.push(feature);
+          break;
+        case 'variante':
+          variante.push(feature);
+          break;
+        case 'variante-postponed':
+          variantePostponed.push(feature);
+          break;
+        case 'postponed':
+          postponed.push(feature);
+          break;
+      }
+    }
+
+    plotUnderlinedSections({ map, features: sections });
+    plotUnsatisfactorySections({ map, features: unsatisfactory });
+    plotDoneSections({ map, features: done });
+    plotPlannedSections({ map, features: planned });
+    plotVarianteSections({ map, features: variante });
+    plotVariantePostponedSections({ map, features: variantePostponed });
+    plotWipSections({ map, features: wip });
+    plotPostponedSections({ map, features: postponed });
 
     const compteurFeature = features.filter(isCompteurFeature);
     plotCompteurs({ map, features: compteurFeature });
@@ -735,114 +1041,841 @@ export const useMap = () => {
     plotPerspective({ map, features: perspectiveFeatures });
   }
 
-  function handleMapClick({ map, features, clickEvent }: { map: Map; features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>; clickEvent: maplibregl.MapMouseEvent }) {
+  function createPopup({
+    map,
+    features,
+    event,
+    hasDetailsPanel,
+    isHover = false,
+  }: {
+    map: MaplibreType;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    event: maplibregl.MapMouseEvent;
+    hasDetailsPanel: boolean;
+    isHover?: boolean;
+  }) {
+    if (!map) {
+      return;
+    }
+
+    if (map.getZoom() < 11 && isHover) {
+      return;
+    }
+
     const layers = [
       {
-        id: 'dangers',
+        id: 'compteurs',
         isClicked: () => {
-          if (!map.getLayer('dangers')) { return false; }
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['dangers'] });
+          if (!map.getLayer('compteurs')) {
+            return false;
+          }
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs'] });
           return mapFeature.length > 0;
         },
         getTooltipProps: () => {
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['dangers'] })[0];
-          const feature = features.find(f => f.properties.name === mapFeature.properties.name);
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find(
+            (f) => f.properties.name === mapFeature.properties.name && isCompteurFeature(f),
+          );
           return { feature };
         },
-        component: DangerTooltip
+        component: CounterTooltip,
+        hoverComponent: CounterTooltip,
+        getHoverTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs'] })[0];
+
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find(
+            (f) => f.properties.name === mapFeature.properties.name && isCompteurFeature(f),
+          );
+          return { feature };
+        },
+      },
+      {
+        id: 'compteurs-mixed',
+        isClicked: () => {
+          if (!map.getLayer('compteurs-mixed')) {
+            return false;
+          }
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs-mixed'] });
+          return mapFeature.length > 0;
+        },
+        getTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs-mixed'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find(
+            (f) => f.properties.name === mapFeature.properties.name && isCompteurFeature(f),
+          );
+          return { feature };
+        },
+        component: CounterTooltip,
+        hoverComponent: CounterTooltip,
+        getHoverTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['compteurs-mixed'] })[0];
+
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find(
+            (f) => f.properties.name === mapFeature.properties.name && isCompteurFeature(f),
+          );
+          return { feature };
+        },
+      },
+      {
+        id: 'dangers',
+        isClicked: () => {
+          if (!map.getLayer('dangers')) {
+            return false;
+          }
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['dangers'] });
+          return mapFeature.length > 0;
+        },
+        getTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['dangers'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find((f) => f.properties.name === mapFeature.properties.name);
+          return { feature };
+        },
+        component: DangerTooltip,
+        hoverComponent: DangerTooltip,
+        getHoverTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['dangers'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find((f) => f.properties.name === mapFeature.properties.name);
+          return { feature };
+        },
       },
       {
         id: 'perspectives',
         isClicked: () => {
-          if (!map.getLayer('perspectives')) { return false; }
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['perspectives'] });
+          if (!map.getLayer('perspectives')) {
+            return false;
+          }
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['perspectives'] });
           return mapFeature.length > 0;
         },
         getTooltipProps: () => {
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['perspectives'] })[0];
-          const feature = features.find(f => {
-            return f.properties.type === 'perspective' &&
-            f.properties.line === mapFeature.properties.line &&
-            f.properties.imgUrl === mapFeature.properties.imgUrl;
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['perspectives'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find((f) => {
+            return (
+              f.properties.type === 'perspective' &&
+              f.properties.line === mapFeature.properties.line &&
+              f.properties.imgUrl === mapFeature.properties.imgUrl
+            );
           });
 
           return { feature };
         },
-        component: PerspectiveTooltip
+        component: PerspectiveTooltip,
+        hoverComponent: PerspectiveTooltip,
+        getHoverTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, { layers: ['perspectives'] })[0];
+          if (!mapFeature) {
+            return;
+          }
+
+          const feature = features.find((f) => {
+            return (
+              f.properties.type === 'perspective' &&
+              f.properties.line === mapFeature.properties.line &&
+              f.properties.imgUrl === mapFeature.properties.imgUrl
+            );
+          });
+
+          return { feature };
+        },
       },
       {
         id: 'linestring', // not really a layer id. gather all linestrings.
         isClicked: () => {
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, {
+          const mapFeature = map.queryRenderedFeatures(event.point, {
             filter: [
               'all',
               ['==', ['geometry-type'], 'LineString'],
               ['!=', ['get', 'source'], 'openmaptiles'], // Exclude base map features
-              ['has', 'status'] // All sections in geojson LineStrings have a status
-            ]
+              ['has', 'status'], // All sections in geojson LineStrings have a status
+            ],
           });
           return mapFeature.length > 0;
         },
         getTooltipProps: () => {
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, {
+          const mapFeature = map.queryRenderedFeatures(event.point, {
             filter: [
               'all',
               ['==', ['geometry-type'], 'LineString'],
               ['!=', ['get', 'source'], 'openmaptiles'], // Exclude base map features
-              ['has', 'status'] // All sections in geojson LineStrings have a status
-            ]
+              ['has', 'status'], // All sections in geojson LineStrings have a status
+            ],
           })[0];
+
+          if (!mapFeature) {
+            return;
+          }
 
           const line = mapFeature.properties.line;
           const name = mapFeature.properties.name;
 
           const lineStringFeatures = features.filter(isLineStringFeature);
 
-          const feature = lineStringFeatures
-            .find(f => f.properties.line === line && f.properties.name === name);
+          const feature = lineStringFeatures.find((f) => f.properties.line === line && f.properties.name === name);
 
-          const lines = feature!.properties.id
-            ? [...new Set(lineStringFeatures.filter(f => f.properties.id === feature!.properties.id).map(f => f.properties.line))]
+          if (!feature) {
+            return;
+          }
+
+          const lines = feature.properties.id
+            ? [
+                ...new Set(
+                  lineStringFeatures
+                    .filter((f) => f.properties.id === feature!.properties.id)
+                    .map((f) => f.properties.line),
+                ),
+              ]
             : [feature!.properties.line];
 
-          return { feature, lines };
+          return { feature, lines, hasDetailsPanel };
         },
-        component: LineTooltip
+        component: window.innerWidth > 1024 ? LineTooltip : LineHoverTooltip,
+        getHoverTooltipProps: () => {
+          const mapFeature = map.queryRenderedFeatures(event.point, {
+            filter: [
+              'all',
+              ['==', ['geometry-type'], 'LineString'],
+              ['!=', ['get', 'source'], 'openmaptiles'], // Exclude base map features
+              ['has', 'status'], // All sections in geojson LineStrings have a status
+            ],
+          })[0];
+
+          if (!mapFeature) {
+            return;
+          }
+
+          const line = mapFeature.properties.line;
+          const name = mapFeature.properties.name;
+
+          const lineStringFeatures = features.filter(isLineStringFeature);
+
+          const feature = lineStringFeatures.find((f) => f.properties.line === line && f.properties.name === name);
+
+          if (!feature) {
+            return;
+          }
+
+          const lines = feature.properties.id
+            ? [
+                ...new Set(
+                  lineStringFeatures
+                    .filter((f) => f.properties.id === feature!.properties.id)
+                    .map((f) => f.properties.line),
+                ),
+              ]
+            : [feature!.properties.line];
+
+          return { feature, lines, hasDetailsPanel };
+        },
+        hoverComponent: LineHoverTooltip,
       },
-      {
-        id: 'compteurs',
-        isClicked: () => {
-          if (!map.getLayer('compteurs')) { return false; }
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] });
-          return mapFeature.length > 0;
-        },
-        getTooltipProps: () => {
-          const mapFeature = map.queryRenderedFeatures(clickEvent.point, { layers: ['compteurs'] })[0];
-          const feature = features.find(f => f.properties.name === mapFeature.properties.name);
-          return { feature };
-        },
-        component: CounterTooltip
-      }
     ];
 
-    const clickedLayer = layers.find(layer => layer.isClicked());
-    if (!clickedLayer) { return; }
+    const clickedLayer = layers.find((layer) => layer.isClicked());
+    if (!clickedLayer) {
+      if (isHover && currentHoverPopup) {
+        currentHoverPopup.remove();
+        currentHoverPopup = null;
+        lastHoveredFeatureId = null;
+      }
+      if (!isHover) {
+        popupCloseHandledByMapClick = true;
+        if (currentClickPopup) {
+          currentClickPopup.remove();
+          currentClickPopup = null;
+          lastClickedFeatureId = null;
+        }
+        highlightLines({ map, selections: null });
+        highlightCounter({ map, counterName: null });
+        if (updateUrlOnFeatureClick && (route.query.modal === 'counter' || route.query.modal === 'details')) {
+          const restoreFilters = route.query.modal === 'counter' || sessionStorage.getItem('wasFiltersOpen') === 'true';
+          void router.replace({
+            query: {
+              ...route.query,
+              modal: restoreFilters ? 'filters' : undefined,
+              line: undefined,
+              sectionName: undefined,
+              sectionAnchor: undefined,
+              counterLink: undefined,
+            },
+          });
+        }
+      }
+      return;
+    }
 
-    new Popup({ closeButton: false, closeOnClick: true })
-      .setLngLat(clickEvent.lngLat)
-      .setHTML(`<div id="${clickedLayer.id}-tooltip-content"></div>`)
+    const props = isHover ? clickedLayer.getHoverTooltipProps?.() : clickedLayer.getTooltipProps();
+    if (!props) {
+      return;
+    }
+
+    const featureId = props.feature ? `${clickedLayer.id}-${JSON.stringify(props.feature.properties)}` : null;
+    if (isHover) {
+      if (featureId === lastClickedFeatureId) {
+        return;
+      }
+
+      if (featureId === lastHoveredFeatureId && currentHoverPopup) {
+        currentHoverPopup.setLngLat(event.lngLat);
+        return;
+      }
+      if (currentHoverPopup) {
+        currentHoverPopup.remove();
+        currentHoverPopup = null;
+      }
+      lastHoveredFeatureId = featureId;
+    } else {
+      lastClickedFeatureId = featureId;
+    }
+
+    if (
+      !isHover &&
+      updateUrlOnFeatureClick &&
+      props.feature &&
+      !['danger', 'perspective'].includes(props.feature.properties.type) &&
+      'name' in props.feature.properties &&
+      'line' in props.feature.properties
+    ) {
+      //@ts-expect-error: todo - fix this
+      const link = props.feature?.properties.link;
+
+      const query: LocationQueryRaw = {
+        ...route.query,
+        line: String(props.feature.properties.line),
+        sectionName: props.feature.properties.name,
+      };
+
+      const mapFeatures = map.queryRenderedFeatures(event.point, {
+        filter: [
+          'all',
+          ['==', ['geometry-type'], 'LineString'],
+          ['!=', ['get', 'source'], 'openmaptiles'], // Exclude base map features
+          ['has', 'status'], // All sections in geojson LineStrings have a status
+        ],
+      });
+
+      const selectedLinesAndSections: Array<{ line: number; sectionName?: string | null }> = [];
+      for (const mapFeature of mapFeatures) {
+        const line = mapFeature.properties.line;
+        selectedLinesAndSections.push({ line: +line, sectionName: mapFeature.properties.name });
+      }
+
+      highlightLines({
+        map,
+        selections: query.line ? selectedLinesAndSections : null,
+      });
+
+      if (link) {
+        const { line: extractedLine, anchor } = extractLineAndAnchorFromPath(link);
+        if (query.modal === 'filters') {
+          sessionStorage.setItem('wasFiltersOpen', 'true');
+        }
+
+        query.modal = 'details';
+        query.line = extractedLine ?? query.line;
+        query.sectionAnchor = anchor ?? null;
+      }
+      void router.replace({ query });
+    }
+
+    if (
+      !isHover &&
+      updateUrlOnFeatureClick &&
+      props.feature &&
+      isCompteurFeature(props.feature) &&
+      props.feature.properties.link
+    ) {
+      highlightCounter({ map, counterName: props.feature.properties.name });
+      const query: LocationQueryRaw = {
+        ...route.query,
+        modal: 'counter',
+        counters: '1',
+        counterLink: props.feature.properties.link,
+      };
+      if (route.query.modal === 'filters') {
+        sessionStorage.setItem('wasFiltersOpen', 'true');
+      }
+      delete query.line;
+      delete query.sectionName;
+      delete query.sectionAnchor;
+      void router.replace({ query });
+    }
+
+    const tooltipContentId = `${clickedLayer.id}-tooltip-${isHover ? 'hover' : 'click'}-${Date.now()}`;
+    const popup = new Popup({
+      closeButton: false,
+      closeOnClick: !isHover,
+      closeOnMove: isHover,
+    })
+      .setLngLat(event.lngLat)
+      // set min dimensions so that the tooltip has some height/width before Vue mounts the component
+      // otherwise, if the popup is too close to the top of the map, it is not fully visible
+      .setHTML(
+        `<div class="transition-all duration-100 ${isHover ? 'delay-100' : ''}"  style="opacity: 0; min-height: 200px; min-width: 100px" id="${tooltipContentId}"></div>`,
+      )
       .addTo(map);
 
-    const props = clickedLayer.getTooltipProps();
+    if (isHover) {
+      currentHoverPopup = popup;
+    } else {
+      currentClickPopup = popup;
+    }
+
+    popup.on('close', () => {
+      if (isHover && currentHoverPopup === popup) {
+        currentHoverPopup = null;
+        lastHoveredFeatureId = null;
+      } else if (!isHover && currentClickPopup === popup) {
+        currentClickPopup = null;
+        lastClickedFeatureId = null;
+      }
+
+      if (isHover) {
+        return;
+      }
+
+      setTimeout(() => {
+        if (popupCloseHandledByMapClick) {
+          popupCloseHandledByMapClick = false;
+          return;
+        }
+
+        if (currentClickPopup) {
+          return;
+        }
+
+        const popups = document.querySelectorAll('.maplibregl-popup');
+        if (popups.length === 0) {
+          if (currentMap) {
+            highlightCounter({ map: currentMap, counterName: null });
+          }
+          const restoreFilters =
+            updateUrlOnFeatureClick &&
+            (route.query.modal === 'counter' || sessionStorage.getItem('wasFiltersOpen') === 'true');
+          void router.replace({
+            query: {
+              ...route.query,
+              modal: restoreFilters ? 'filters' : undefined,
+              line: undefined,
+              sectionName: undefined,
+              counterLink: undefined,
+            },
+          });
+        }
+      }, 50);
+    });
+
     // @ts-expect-error:next - The component type is dynamically determined and may not match the expected type
-    const component = defineComponent(clickedLayer.component);
-    nextTick(() => {
+    const component = defineComponent(isHover ? clickedLayer.hoverComponent : clickedLayer.component);
+    if (!component) {
+      return;
+    }
+
+    void nextTick(() => {
       createApp({
-        render: () => h(Suspense, null, {
-          default: h(component, props),
-          fallback: 'Chargement...'
-        })
-      }).mount(`#${clickedLayer.id}-tooltip-content`);
+        render: () =>
+          h(Suspense, null, {
+            default: h(component, props),
+            fallback: 'Chargement...',
+          }),
+      }).mount(`#${tooltipContentId}`);
+
+      // reset dimensions set initially to position the popup in case the popup content ends up being smaller than the initial min dimensions
+      const tooltipContentEl = document.getElementById(tooltipContentId);
+      if (tooltipContentEl) {
+        tooltipContentEl.style.minHeight = 'initial';
+        tooltipContentEl.style.minWidth = 'initial';
+        tooltipContentEl.style.opacity = '1';
+      }
+    });
+  }
+
+  function highlightLines({
+    map,
+    selections,
+  }: {
+    map: MaplibreType;
+    selections: Array<{ line: number; sectionName?: string | null }> | null;
+  }) {
+    // highlight-layer is used for hover effect only, so we don't need to handle it here
+    const layerIds = [
+      'done-sections',
+      'wip-sections',
+      'wip-node-icons',
+      'planned-sections',
+      'variante-sections',
+      'variante-symbols',
+      'variante-postponed-sections',
+      'variante-postponed-symbols',
+      'unsatisfactory-sections',
+      'section-names',
+      'section-names-low-zoom',
+      'section-names-high-zoom',
+      'selected-layer',
+      'contour-layer',
+      'underline-layer',
+      'perspectives',
+      'dangers',
+    ];
+
+    const moveLayerToTop = (layerId: string) => {
+      if (map.getLayer(layerId)) {
+        map.moveLayer(layerId);
+      }
+    };
+
+    const { getLineColor } = useColors();
+    const { getNbVoiesCyclables } = useConfig();
+    const postponedLayerIds: string[] = [];
+    for (let line = 1; line <= getNbVoiesCyclables(); line++) {
+      const lineColor = getLineColor(line);
+      postponedLayerIds.push(`postponed-symbols-${lineColor}`, `postponed-text-${lineColor}`);
+    }
+
+    const allLayerIds = [...layerIds, ...postponedLayerIds];
+
+    if (!selections || selections.length === 0) {
+      if (wipAnimator) {
+        wipAnimator.setSelectedLines(null);
+      }
+      for (const layerId of allLayerIds) {
+        if (!map.getLayer(layerId)) continue;
+
+        const layer = map.getLayer(layerId);
+        const layerType = layer?.type;
+
+        if (layerType === 'line') {
+          map.setPaintProperty(
+            layerId,
+            'line-opacity',
+            ['variante-sections', 'variante-postponed-sections'].includes(layerId) ? 0.5 : NORMAL_OPACITY,
+          );
+          if (layerId === 'selected-layer') {
+            map.setPaintProperty(layerId, 'line-color', 'rgba(255,255,255,0)');
+          }
+          if (layerId === 'contour-layer') {
+            map.setLayoutProperty(layerId, 'line-cap', 'round');
+          }
+        } else if (layerType === 'symbol') {
+          const filter = map.getFilter(layerId);
+          // if the filter is an all expression, remove the isSelectedLineExpression part
+          if (filter && Array.isArray(filter) && filter.length > 2 && filter[0] === 'all') {
+            map.setFilter(layerId, filter[1]);
+          } else if (
+            filter &&
+            Array.isArray(filter) &&
+            filter[0] === 'in' &&
+            JSON.stringify(filter[1]) === JSON.stringify(['get', 'line'])
+          ) {
+            map.setFilter(layerId, null);
+          }
+
+          map.setPaintProperty(layerId, 'icon-opacity', NORMAL_OPACITY);
+          map.setPaintProperty(layerId, 'text-opacity', NORMAL_OPACITY);
+        } else if (layerType === 'circle') {
+          map.setPaintProperty(layerId, 'circle-opacity', NORMAL_OPACITY);
+          map.setPaintProperty(layerId, 'circle-stroke-opacity', NORMAL_OPACITY);
+        }
+      }
+
+      const colors = Array.from({ length: getNbVoiesCyclables() }, (_, i) => getLineColor(i + 1)).reverse();
+
+      for (const color of colors) {
+        if (!map.getLayer(`postponed-text-${color}`)) {
+          continue;
+        }
+        map.moveLayer(`postponed-symbols-${color}`);
+        map.moveLayer(`postponed-text-${color}`);
+      }
+    } else {
+      const selectedLines = [...new Set(selections.map((s) => s.line))];
+      if (wipAnimator) {
+        wipAnimator.setSelectedLines(selectedLines);
+      }
+      const isSelectedLineExpression = ['in', ['get', 'line'], ['literal', selectedLines]];
+
+      for (const layerId of allLayerIds) {
+        if (!map.getLayer(layerId)) {
+          continue;
+        }
+
+        const layerType = map.getLayer(layerId)?.type;
+
+        if (layerType === 'line') {
+          const currentOpacity = map.getPaintProperty(layerId, 'line-opacity');
+          const baseOpacity = typeof currentOpacity === 'number' ? currentOpacity : NORMAL_OPACITY;
+
+          if (layerId === 'selected-layer') {
+            const selectionsWithSections = selections.filter((s) => s.sectionName);
+            const isSelectedSectionExpression =
+              selectionsWithSections.length > 0
+                ? [
+                    'any',
+                    ...selectionsWithSections.map((s) => [
+                      'all',
+                      ['==', ['get', 'line'], s.line],
+                      ['==', ['get', 'name'], s.sectionName],
+                    ]),
+                  ]
+                : null;
+
+            if (isSelectedSectionExpression) {
+              map.setPaintProperty(layerId, 'line-opacity', [
+                'case',
+                isSelectedSectionExpression,
+                HIGHLIGHTED_SECTION_OPACITY,
+                isSelectedLineExpression,
+                baseOpacity,
+                DIMMED_OPACITY,
+              ]);
+              map.setPaintProperty(layerId, 'line-color', ['case', isSelectedSectionExpression, '#665E7B', '#FFFFFF']);
+            }
+          } else if (layerId === 'contour-layer') {
+            map.setLayoutProperty(layerId, 'line-cap', null);
+            map.setPaintProperty(layerId, 'line-opacity', [
+              'case',
+              isSelectedLineExpression,
+              HIGHLIGHTED_SECTION_OPACITY,
+              ['case', ['has', 'id'], 0.2, 0.4],
+            ]);
+          } else {
+            const hasIdOpacityExpression = ['case', ['has', 'id'], DIMMED_OPACITY / 2, DIMMED_OPACITY];
+
+            map.setPaintProperty(layerId, 'line-opacity', [
+              'case',
+              isSelectedLineExpression,
+              baseOpacity,
+              hasIdOpacityExpression,
+            ]);
+          }
+        } else if (layerType === 'symbol') {
+          const currentIconOpacity = map.getPaintProperty(layerId, 'icon-opacity');
+          const baseIconOpacity = typeof currentIconOpacity === 'number' ? currentIconOpacity : NORMAL_OPACITY;
+
+          const currentTextOpacity = map.getPaintProperty(layerId, 'text-opacity');
+          const baseTextOpacity = typeof currentTextOpacity === 'number' ? currentTextOpacity : NORMAL_OPACITY;
+
+          map.setPaintProperty(layerId, 'icon-opacity', ['case', isSelectedLineExpression, baseIconOpacity, 0]);
+          map.setPaintProperty(layerId, 'text-opacity', ['case', isSelectedLineExpression, baseTextOpacity, 0]);
+        } else if (layerType === 'circle') {
+          map.setPaintProperty(layerId, 'circle-opacity', [
+            'case',
+            isSelectedLineExpression,
+            NORMAL_OPACITY,
+            DIMMED_OPACITY,
+          ]);
+          map.setPaintProperty(layerId, 'circle-stroke-opacity', [
+            'case',
+            isSelectedLineExpression,
+            NORMAL_OPACITY,
+            DIMMED_OPACITY,
+          ]);
+        }
+      }
+
+      // we need to bring highlighted postponed layers to the front otherwise they are hidden under dimmed layers
+      const colors = selectedLines.map((line) => getLineColor(line));
+
+      for (const color of colors.reverse()) {
+        if (!map.getLayer(`postponed-text-${color}`)) {
+          continue;
+        }
+        map.moveLayer(`postponed-symbols-${color}`);
+        map.moveLayer(`postponed-text-${color}`);
+      }
+    }
+
+    moveLayerToTop('dangers');
+    moveLayerToTop('perspectives');
+    moveLayerToTop('section-names');
+    moveLayerToTop('section-names-low-zoom');
+    moveLayerToTop('section-names-high-zoom');
+    moveLayerToTop('compteurs');
+    moveLayerToTop('compteurs-labels');
+    moveLayerToTop('compteurs-mixed');
+    moveLayerToTop('compteurs-mixed-labels');
+  }
+
+  function highlightCounter({ map, counterName }: { map: MaplibreType; counterName: string | null }) {
+    if (map.getLayer('compteurs')) {
+      if (counterName) {
+        map.setPaintProperty('compteurs', 'circle-radius', [
+          'case',
+          ['==', ['get', 'name'], counterName],
+          14,
+          ['get', 'circleRadius'],
+        ]);
+        map.setPaintProperty('compteurs', 'circle-stroke-width', [
+          'case',
+          ['==', ['get', 'name'], counterName],
+          4,
+          ['get', 'circleStrokeWidth'],
+        ]);
+        map.setPaintProperty('compteurs', 'circle-stroke-color', [
+          'case',
+          ['==', ['get', 'name'], counterName],
+          '#FFD700',
+          '#fff',
+        ]);
+      } else {
+        map.setPaintProperty('compteurs', 'circle-radius', ['get', 'circleRadius']);
+        map.setPaintProperty('compteurs', 'circle-stroke-width', ['get', 'circleStrokeWidth']);
+        map.setPaintProperty('compteurs', 'circle-stroke-color', '#fff');
+      }
+    }
+
+    if (map.getSource('compteurs-mixed')) {
+      if (!map.getLayer('compteurs-mixed-highlight')) {
+        map.addLayer(
+          {
+            id: 'compteurs-mixed-highlight',
+            source: 'compteurs-mixed',
+            type: 'circle',
+            filter: ['==', ['get', 'name'], ''],
+            paint: {
+              'circle-radius': 16,
+              'circle-color': 'transparent',
+              'circle-stroke-color': '#FFD700',
+              'circle-stroke-width': 4,
+            },
+          },
+          'compteurs-mixed',
+        );
+      }
+
+      if (counterName) {
+        map.setFilter('compteurs-mixed-highlight', ['==', ['get', 'name'], counterName]);
+        if (map.getLayer('compteurs-mixed')) {
+          map.setLayoutProperty('compteurs-mixed', 'icon-size', [
+            'case',
+            ['==', ['get', 'name'], counterName],
+            0.75,
+            0.5,
+          ]);
+        }
+      } else {
+        map.setFilter('compteurs-mixed-highlight', ['==', ['get', 'name'], '']);
+        if (map.getLayer('compteurs-mixed')) {
+          map.setLayoutProperty('compteurs-mixed', 'icon-size', 0.5);
+        }
+      }
+    }
+  }
+
+  function handleMapClick({
+    map,
+    features,
+    clickEvent,
+    hasDetailsPanel,
+  }: {
+    map: MaplibreType;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    clickEvent: maplibregl.MapMouseEvent;
+    hasDetailsPanel: boolean;
+  }) {
+    createPopup({ map, features, event: clickEvent, hasDetailsPanel, isHover: false });
+  }
+
+  function handleMapHover({
+    map,
+    features,
+    hoverEvent,
+    hasDetailsPanel,
+  }: {
+    map: MaplibreType;
+    features: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    hoverEvent: maplibregl.MapMouseEvent;
+    hasDetailsPanel: boolean;
+  }) {
+    createPopup({ map, features, event: hoverEvent, hasDetailsPanel, isHover: true });
+  }
+
+  function showFeatureTooltip({
+    map,
+    feature,
+    allFeatures,
+    hasDetailsPanel,
+  }: {
+    map: MaplibreType;
+    feature: Collections['voiesCyclablesGeojson']['features'][0];
+    allFeatures: Array<Collections['voiesCyclablesGeojson']['features'][0] | CompteurFeature>;
+    hasDetailsPanel: boolean;
+  }) {
+    if (feature.geometry.type !== 'LineString') {
+      return;
+    }
+
+    if (currentClickPopup) {
+      currentClickPopup.remove();
+      currentClickPopup = null;
+    }
+
+    const lineStringFeatures = allFeatures.filter(isLineStringFeature);
+    const lines = feature.properties.id
+      ? [
+          ...new Set(
+            lineStringFeatures.filter((f) => f.properties.id === feature.properties.id).map((f) => f.properties.line),
+          ),
+        ]
+      : [feature.properties.line];
+
+    const coords = feature.geometry.coordinates;
+    const midCoord = coords[Math.floor(coords.length / 2)] as [number, number];
+
+    const tooltipContentId = `search-tooltip-${Date.now()}`;
+    const popup = new Popup({ closeButton: false, closeOnClick: true })
+      .setLngLat(midCoord)
+      .setHTML(`<div style="opacity: 0; min-height: 200px; min-width: 100px" id="${tooltipContentId}"></div>`)
+      .addTo(map);
+
+    currentClickPopup = popup;
+    lastClickedFeatureId = `search-${feature.properties.name}`;
+
+    const component = defineComponent(window.innerWidth > 1024 ? LineTooltip : LineHoverTooltip);
+
+    void nextTick(() => {
+      createApp({
+        render: () =>
+          h(Suspense, null, {
+            default: h(component, { feature, lines, hasDetailsPanel }),
+            fallback: 'Chargement...',
+          }),
+      }).mount(`#${tooltipContentId}`);
+
+      const el = document.getElementById(tooltipContentId);
+      if (el) {
+        el.style.minHeight = 'initial';
+        el.style.minWidth = 'initial';
+        el.style.opacity = '1';
+      }
     });
   }
 
@@ -851,6 +1884,10 @@ export const useMap = () => {
     plotFeatures,
     getCompteursFeatures,
     fitBounds,
-    handleMapClick
+    handleMapClick,
+    handleMapHover,
+    highlightLines,
+    highlightCounter,
+    showFeatureTooltip,
   };
 };

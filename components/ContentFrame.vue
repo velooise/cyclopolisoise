@@ -18,14 +18,7 @@
               height="20"
               patternUnits="userSpaceOnUse"
             >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
             </pattern>
           </defs>
           <rect width="404" height="384" fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
@@ -46,14 +39,7 @@
               height="20"
               patternUnits="userSpaceOnUse"
             >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
             </pattern>
           </defs>
           <rect width="404" height="384" fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
@@ -74,14 +60,7 @@
               height="20"
               patternUnits="userSpaceOnUse"
             >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
             </pattern>
           </defs>
           <rect width="404" height="384" fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
@@ -89,21 +68,26 @@
       </div>
     </div>
     <div class="relative px-4 sm:px-6 lg:px-8">
-      <div class="text-lg max-w-prose mx-auto">
-        <span
-          v-if="header"
-          class="block text-base text-center text-lvv-blue-600 font-semibold tracking-wide uppercase"
-        >{{ header }}</span>
-        <h1 v-if="title" class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+      <div class="text-lg max-w-3xl mx-auto">
+        <div v-if="header" class="text-base text-center text-lvv-blue-600 font-semibold tracking-wide uppercase">
+          {{ header }}
+        </div>
+        <h1
+          v-if="title"
+          class="mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+        >
           {{ title }}
         </h1>
+        <h2 v-if="subTitle" class="text-2xl text-center leading-8 font-bold tracking-tight text-gray-500 sm:text-2xl">
+          {{ subTitle }}
+        </h2>
         <slot name="header" />
         <p class="mt-8 text-xl text-gray-500 leading-8 text-justify">
           {{ description }}
         </p>
       </div>
-      <div class="mt-6 prose prose-lg text-gray-500 mx-auto">
-        <img v-if="imageUrl" class="w-full rounded-lg" :src="imageUrl" width="1310" height="873">
+      <div class="mt-6 prose prose-lg max-w-3xl text-gray-500 mx-auto">
+        <FullscreenImage v-if="imageUrl" :image-url="imageUrl" :alt="title || 'Image'" image-class="w-full mb-6" />
         <slot />
       </div>
     </div>
@@ -114,7 +98,8 @@
 defineProps({
   header: { type: String, required: false, default: undefined },
   title: { type: String, required: false, default: undefined },
+  subTitle: { type: String, required: false, default: undefined },
   description: { type: String, required: true },
-  imageUrl: { type: String, required: false }
+  imageUrl: { type: String, required: false, default: undefined },
 });
 </script>

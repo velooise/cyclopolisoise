@@ -1,5 +1,5 @@
 <template>
-  <div class="not-prose text-gray-900 w-48">
+  <div class="bg-white not-prose text-gray-900 w-48">
     <div class="py-1 bg-zinc-100 flex flex-col items-center justify-center">
       <div class="font-bold text-base">
         {{ title }}
@@ -11,23 +11,21 @@
           class="h-8 w-8 rounded-full flex items-center justify-center text-white text-base font-bold"
           :style="`background-color: ${getLineColor(line)}`"
         >
-          {{ line }}
+          <a :href="`/voie-lyonnaise-${line}`">
+            {{ line }}
+          </a>
         </div>
       </div>
     </div>
     <div class="px-2 divide-y">
       <div class="py-1 flex flex-col items-center">
-        <div class="text-base font-bold">
-          Tronçon
-        </div>
+        <div class="text-sm font-bold">Tronçon</div>
         <div class="text-sm text-center">
           {{ feature.properties.name }}
         </div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Statut
-        </div>
+        <div class="text-base font-bold">Statut</div>
         <div>
           <div class="text-sm" :class="getStatus(feature.properties).class">
             {{ getStatus(feature.properties).label }}
@@ -38,33 +36,29 @@
         </div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Longueur
-        </div>
-        <div class="text-sm">
-          {{ Math.round(getDistance({ features: [feature] }) / 25) * 25 }}m
-        </div>
+        <div class="text-base font-bold">Longueur</div>
+        <div class="text-sm">{{ Math.round(getDistance({ features: [feature] }) / 25) * 25 }}m</div>
       </div>
       <div class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Type
-        </div>
+        <div class="text-base font-bold">Type</div>
         <div class="text-sm text-right">
           {{ typologyNames[feature.properties.type] ?? 'Inconnu' }}
         </div>
       </div>
       <div v-if="displayQuality() && feature.properties.quality" class="py-1 flex items-center justify-between">
-        <div class="text-base font-bold">
-          Qualité
-        </div>
-        <div class="text-xs" :class=" getQuality(feature.properties.quality).class">
-          <Icon :name="getQuality(feature.properties.quality).icon" class="h-4 w-4 align-middle" :class="getQuality(feature.properties.quality).classIcon" />
+        <div class="text-base font-bold">Qualité</div>
+        <div class="text-xs" :class="getQuality(feature.properties.quality).class">
+          <Icon
+            :name="getQuality(feature.properties.quality).icon"
+            class="h-4 w-4 align-middle"
+            :class="getQuality(feature.properties.quality).classIcon"
+          />
           {{ getQuality(feature.properties.quality).label }}
         </div>
       </div>
     </div>
-    <div class="bg-lvv-blue-600 flex justify-center">
-      <a class="p-1 text-white text-base italic hover:underline" :href="getSectionDetailsUrl(feature.properties)" target="_blank">
+    <div v-if="!hasDetailsPanel" class="bg-lvv-blue-600 flex justify-center">
+      <a class="p-1 text-white text-base italic hover:underline" :href="getSectionDetailsUrl(feature.properties)">
         voir le détail <Icon name="mdi:link-variant" class="h-4 w-4 text-white" />
       </a>
     </div>
@@ -77,23 +71,17 @@ import type { LaneQuality, LineStringFeature } from '~/types';
 const { getLineColor } = useColors();
 const { getRevName, displayQuality } = useConfig();
 const { getDistance, typologyNames, qualityNames } = useStats();
-const { getVoieCyclablePath } = useUrl();
+const { getSectionDetailsUrl } = useUrl();
 
-const { feature, lines } = defineProps<{
+const { feature, lines, hasDetailsPanel } = defineProps<{
   feature: LineStringFeature;
   lines: number[];
+  hasDetailsPanel: boolean;
 }>();
 
 const title = computed(() => {
   return lines.length > 1 ? getRevName() : getRevName('singular');
 });
-
-function getSectionDetailsUrl(properties: LineStringFeature['properties']): string {
-  if (properties.link) {
-    return properties.link;
-  }
-  return getVoieCyclablePath(properties.line);
-}
 
 function getDoneAtText(doneAt: string): string {
   const [day, month, year] = doneAt.split('/');
@@ -105,67 +93,62 @@ function getDoneAtText(doneAt: string): string {
   return `le ${doneAt}`;
 }
 
-function getStatus(properties: LineStringFeature['properties']): { label: string, class: string; date?: string } {
+function getStatus(properties: LineStringFeature['properties']): { label: string; class: string; date?: string } {
   const statusMapping = {
     done: {
       label: 'terminé',
       date: properties.doneAt && getDoneAtText(properties.doneAt),
-      class: 'text-white bg-lvv-blue-600 rounded-xl px-2 w-fit'
+      class: 'text-white bg-lvv-blue-600 rounded-xl px-2 w-fit',
     },
     wip: {
       label: 'en travaux',
-      class: 'text-lvv-blue-600 rounded-xl px-2 border border-dashed border-lvv-blue-600'
+      class: 'text-lvv-blue-600 rounded-xl px-2 border border-dashed border-lvv-blue-600',
     },
     planned: {
       label: 'prévu',
-      class: 'text-lvv-blue-600 rounded-xl px-2 border border-lvv-blue-600'
+      class: 'text-lvv-blue-600 rounded-xl px-2 border border-lvv-blue-600',
     },
     tested: {
       label: 'en test',
-      class: 'text-lvv-blue-600 rounded-xl px-2 border border-dashed border-lvv-blue-600'
+      class: 'text-lvv-blue-600 rounded-xl px-2 border border-dashed border-lvv-blue-600',
     },
     postponed: {
       label: 'reporté',
       date: 'après 2026',
-      class: 'text-white bg-lvv-pink rounded-xl px-2'
+      class: 'text-white bg-lvv-pink rounded-xl px-2',
     },
     variante: {
       label: 'variante',
-      class: ''
+      class: '',
     },
     'variante-postponed': {
       label: 'variante reportée',
       date: 'après 2026',
-      class: 'text-white bg-lvv-pink rounded-xl px-2'
+      class: 'text-white bg-lvv-pink rounded-xl px-2',
     },
     unknown: {
       label: 'à définir',
-      class: 'text-gray-900 bg-gray-200 rounded-xl px-2'
+      class: 'text-gray-900 bg-gray-200 rounded-xl px-2',
     },
-    wished: {
-      label: 'souhaits pour futur plan vélo',
-      class: 'text-white bg-lvv-orange rounded-xl px-2'
-    }
   };
   return statusMapping[properties.status];
 }
 
-function getQuality(quality: LaneQuality): { label: string, class: string, icon: string, classIcon: string } {
+function getQuality(quality: LaneQuality): { label: string; class: string; icon: string; classIcon: string } {
   const statusMapping = {
     unsatisfactory: {
       label: qualityNames.unsatisfactory,
       class: 'rounded-xl px-1 border border-red-600',
       classIcon: 'text-red-600',
-      icon: 'mdi:close'
+      icon: 'mdi:close',
     },
     satisfactory: {
       label: qualityNames.satisfactory,
       class: 'rounded-xl px-1 border border-green-600',
       classIcon: 'text-green-600',
-      icon: 'mdi:check'
-    }
+      icon: 'mdi:check',
+    },
   };
   return statusMapping[quality];
 }
-
 </script>

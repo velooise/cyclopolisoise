@@ -2,37 +2,45 @@
   <div class="bg-white pt-12 sm:pt-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-          Les {{ getRevName() }}, c'est quoi ?
-        </h2>
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Les {{ getRevName() }}, c'est quoi ?</h2>
+        <p class="mt-3 text-xl text-gray-500 sm:mt-4">
+          C'est le nom donné au projet de réseau cyclable porté par la Métropole de Lyon.<br />Concrètement, une
+          {{ getRevName('singular') }} est une voie cyclable large (3 à 4m), souvent sous forme de piste
+          bidirectionnelle et séparée des voitures. L'ensemble doit créer un maillage cyclable sans discontinuités qui
+          connecte les quartiers lyonnais aux communes de la périphérie de la métropole.
+        </p>
       </div>
-
-      <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-        Plusieurs communes et communautés de communes du Sud de l'Oise ont réalisé un schéma cyclable, VélOOise a participé à la plupart de ces concertations. Un schéma c'est une projection pour les dix années à venir environ qui identifie les liaisons cyclables souhaitées, leur type et une estimation du coût.  L'ensemble doit créer un maillage cyclable sans discontinuités.
-      </p>
-      <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-        Les schémas cyclables qui sont incorporés dans CycloPolis de VélOOise :
-      </p>
-      <ul class="mt-3 text-xl text-gray-500 sm:mt-4">
-        <li> - Schéma de la Communauté de Communes de l'Aire Cantilienne (intègré TR) lignes 1 à 39 - 2021 - <a href=https://nuage.velooise.fr/index.php/s/iTc7NrdKcF6p47G>Programme</a> </li>
-        <li> - Schéma de la ville de Senlis (intègré TR) lignes 40 à 59 - Septembre 2022 - <a href=https://nuage.velooise.fr/index.php/s/kfCECc6bbQyBZPq>Programme</a> </li>
-        <li> - Schéma de l'ARC & Plan Vélo (Agglomération de Compiègne)  (intègré TR) lignes 100-199 <a href=https://geo.compiegnois.fr/adws/app/9f32f5a7-1f4a-11eb-9fe5-85eb52a29e6a/index.html>Plan Vélo 2021-2026</a> </li>
-        <li> - Schéma de la CCSSO (Communauté de Communes Senlis Sud Oise)  (intégré NH+TR) lignes 200-299 - 2020 <a href=https://nuage.velooise.fr/index.php/s/7J8ECTzccJ5dgmL>Programme</a> </li>
-        <li> - Schéma de la ville de Chantilly (0%) lignes 300 - 399 - Mars 2022 - <a href=https://nuage.velooise.fr/index.php/s/487T6HwCcsYtoQF>Programme</a> </li>
-        <li> - Schéma du Clermontois (10%) lignes 400-499 - 2022 - <a href=https://nuage.velooise.fr/index.php/s/5psYyQNQz9T9jf2>Programme</a></li>
-        <li> - Schéma de la CCPOH (Communauté de Communes du Pays d'Oise et d'Halatte) - 2021 (intègré TR) lignes 500-599 <a href=https://nuage.au5v.fr/index.php/s/Tr7gjdXyYPnPa8p>Scénario Retenu</a> </li>
-        <li> - Schéma de la Communauté de Communes du Liancourtois et de la Vallée Dorée (100%) lignes 600-799 - 2022 - <a href=https://nuage.au5v.fr/index.php/s/4yjttrmBdQsZdZX>Programme</a></li>
-        <li> - Schéma de l'ACSO (10%) lignes 800-999 - 2019 - 2025 <a href=https://nuage.velooise.fr/index.php/s/XbaPero22LJQHGz>Programme 2019</a> - <a href=https://nuage.au5v.fr/index.php/s/sjBtDgk7JscnHmM>Programme 2025</a></li>
-      </ul>
-
-      <p class="mt-3 text-xl text-gray-500 sm:mt-4">
-        D'autres schémas viendront s'adjoindre à cet outil. L'objectif de l'outil est de suivre le déploiement des différents plans et de constituer un historique des différents aménagements. C'est un travail un peu fastidieux à réaliser et <b>tous les volontaires sont invités à participer</b>. Il suffit de manipuler un peu en informatique, nous pouvons vous former, si vous connaissez github, les formats json et markdown, c'est un plus.
-      </p>
+    </div>
+    <div class="mt-10 bg-white">
+      <div class="relative">
+        <div class="absolute inset-0 h-1/2 bg-white" />
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-4xl mx-auto">
+            <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+              <div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+                <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Lignes</dt>
+                <dd class="order-1 text-5xl font-extrabold text-lvv-blue-600">
+                  {{ getNbVoiesCyclables() }}
+                </dd>
+              </div>
+              <div
+                class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r"
+              >
+                <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Distance</dt>
+                <dd class="order-1 text-5xl font-extrabold text-lvv-blue-600">260km</dd>
+              </div>
+              <div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+                <dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Budget</dt>
+                <dd class="order-1 text-5xl font-extrabold text-lvv-blue-600">280M€</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-   
 </template>
+
 <script setup lang="ts">
 const { getRevName, getNbVoiesCyclables } = useConfig();
-
 </script>

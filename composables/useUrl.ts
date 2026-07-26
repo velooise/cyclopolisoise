@@ -1,4 +1,5 @@
 import config from '~/config.json';
+import type { LineStringFeature } from '~/types';
 
 export const useUrl = () => {
   function withoutTrailingSlash(path: string): string {
@@ -10,8 +11,32 @@ export const useUrl = () => {
   }
 
   function getVoieCyclableRegex() {
-     return new RegExp(`${config.slug}-(\\d+)\\b`);
+    return new RegExp(`${config.slug}-(1[0-2]|[1-9])\\b`);
   }
 
-  return { withoutTrailingSlash, getVoieCyclablePath, getVoieCyclableRegex };
+  function extractLineAndAnchorFromPath(path: string) {
+    // Example path: /voie-lyonnaise-11#section-2
+    const [pathNoAnchor, anchor] = path.split('#');
+    const match = pathNoAnchor?.match(getVoieCyclableRegex());
+    if (match) {
+      const line = match[1];
+      return { line, anchor };
+    }
+    return { anchor };
+  }
+
+  function getSectionDetailsUrl(properties: LineStringFeature['properties']): string {
+    if (properties.link) {
+      return properties.link;
+    }
+    return getVoieCyclablePath(properties.line);
+  }
+
+  return {
+    withoutTrailingSlash,
+    getVoieCyclablePath,
+    getSectionDetailsUrl,
+    getVoieCyclableRegex,
+    extractLineAndAnchorFromPath,
+  };
 };

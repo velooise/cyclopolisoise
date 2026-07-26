@@ -1,4 +1,5 @@
-import { defineCollection, defineContentConfig, z } from '@nuxt/content';
+import { defineCollection, defineContentConfig } from '@nuxt/content';
+import { z } from 'zod';
 
 export default defineContentConfig({
   collections: {
@@ -8,7 +9,7 @@ export default defineContentConfig({
       schema: z.object({
         date: z.string(),
         newsBannerText: z.string(),
-      })
+      }),
     }),
     blog: defineCollection({
       source: 'blog/*.md',
@@ -17,7 +18,7 @@ export default defineContentConfig({
         title: z.string(),
         description: z.string(),
         imageUrl: z.string().url(),
-      })
+      }),
     }),
     voiesCyclablesPage: defineCollection({
       source: 'voies-cyclables/*.md',
@@ -30,7 +31,26 @@ export default defineContentConfig({
         description: z.string(),
         trafic: z.string(),
         cover: z.string(),
-      })
+        videos: z
+          .array(
+            z.object({
+              url: z.string().url(),
+              title: z.string().optional(),
+              credit: z.string().optional(),
+            }),
+          )
+          .optional(),
+        photos: z
+          .array(
+            z.object({
+              url: z.string().url(),
+              title: z.string().optional(),
+              credit: z.string().optional(),
+              coordinates: z.tuple([z.number(), z.number()]).optional(),
+            }),
+          )
+          .optional(),
+      }),
     }),
     voiesCyclablesGeojson: defineCollection({
       source: 'voies-cyclables/*.json',
@@ -40,60 +60,65 @@ export default defineContentConfig({
         features: z.array(
           z.union([
             z.object({
-              type: z.enum(["Feature"]),
+              type: z.enum(['Feature']),
               properties: z.object({
                 id: z.string().optional(),
                 line: z.number(),
                 name: z.string(),
-                status: z.enum(["planned", "postponed", "variante-postponed", "done", "wip", "variante", "tested", "unknown", "wished"]),
+                status: z.enum([
+                  'planned',
+                  'postponed',
+                  'variante-postponed',
+                  'done',
+                  'wip',
+                  'variante',
+                  'tested',
+                  'unknown',
+				  'wished',
+                ]),
                 type: z.enum([
-                  "bidirectionnelle",
-                  "bilaterale",
-                  "voie-bus",
-                  "voie-bus-elargie",
-                  "velorue",
-                  "voie-verte",
-                  "bandes-cyclables",
-                  "zone-de-rencontre",
-                  "zone-30",
-                  "piste-cyclable",
-                  "imp+debouche-cyclable",
-                  "piste-sur-trottoir",
-                  "chaucidou",
-                  "jalonnement",
-                  "pictogramme",
-                  "jalonnement-picto",
-                  "voie-riverains",
-                  "unidirectionnelle",
-                  "aucun",
-                  "autre",
-                  "inconnu"
+                  'bidirectionnelle',
+                  'bilaterale',
+                  'voie-bus',
+                  'voie-bus-elargie',
+                  'velorue',
+                  'voie-verte',
+                  'bandes-cyclables',
+                  'zone-de-rencontre',
+                  'aucun',
+                  'inconnu',
+				  'zone-30',
+				  'piste-cyclable',
+				  'imp+debouche-cyclable',
+				  'piste-sur-trottoir',
+				  'chaucidou',
+				  'autre',
                 ]),
                 link: z.string().optional(),
-                quality: z.enum(["satisfactory", "unsatisfactory"]),
+                quality: z.enum(['satisfactory', 'unsatisfactory']),
                 text: z.string().optional(),
                 doneAt: z.string().optional(),
               }),
               geometry: z.object({
-                type: z.enum(["LineString"]),
+                type: z.enum(['LineString']),
                 coordinates: z.array(z.tuple([z.number(), z.number()])),
               }),
             }),
             z.object({
-              type: z.enum(["Feature"]),
+              type: z.enum(['Feature']),
               properties: z.object({
-                type: z.enum(["perspective"]),
+                type: z.enum(['perspective']),
                 name: z.string(),
                 line: z.number(),
                 imgUrl: z.string().url(),
               }),
               geometry: z.object({
                 type: z.enum(['Point']),
-                coordinates: z.tuple([z.number(), z.number()])
+                coordinates: z.tuple([z.number(), z.number()]),
               }),
             }),
             z.object({
-              type: z.enum(["Feature"]),
+              type: z.enum(['Feature']),
               properties: z.object({
                 type: z.enum(['danger']),
                 name: z.string(),
@@ -104,10 +129,10 @@ export default defineContentConfig({
                 type: z.enum(['Point']),
                 coordinates: z.tuple([z.number(), z.number()]),
               }),
-            })
-          ])
-        )
-      })
+            }),
+          ]),
+        ),
+      }),
     }),
     compteurs: defineCollection({
       source: 'compteurs/**/*.json',
@@ -124,9 +149,9 @@ export default defineContentConfig({
           z.object({
             month: z.string(),
             count: z.number(),
-          })
-        )
-      })
+          }),
+        ),
+      }),
     }),
     sitesPartenaires: defineCollection({
       source: 'sites-partenaires/**/*.md',
@@ -138,7 +163,7 @@ export default defineContentConfig({
         city: z.string(),
         link: z.string().url(),
         index: z.number(),
-      })
+      }),
     }),
     cartesMinutes: defineCollection({
       source: 'cartes-minutes/**/*.md',
@@ -149,7 +174,7 @@ export default defineContentConfig({
         description: z.string(),
         link: z.string().url(),
         index: z.number(),
-      })
-    })
-  }
+      }),
+    }),
+  },
 });

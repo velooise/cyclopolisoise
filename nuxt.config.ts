@@ -1,12 +1,13 @@
 import config from './config.json';
 
 const TITLE = `Cyclopolis - Suivi des ${config.revName.plural} par ${config.assoName}`;
-const DESCRIPTION =
-  `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé lyonnais`;
+const DESCRIPTION = `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé lyonnais`;
 const BASE_URL = 'https://cyclopolis.fr';
 const COVER_IMAGE_URL = 'https://cyclopolis.lavilleavelo.org/cyclopolis.png';
 
 export default defineNuxtConfig({
+  srcDir: '.',
+  css: ['~/assets/main.css'],
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
@@ -21,7 +22,7 @@ export default defineNuxtConfig({
         {
           hid: 'og:description',
           property: 'og:description',
-          content: DESCRIPTION
+          content: DESCRIPTION,
         },
         { hid: 'og:image', property: 'og:image', content: COVER_IMAGE_URL },
         { property: 'og:image:width', content: '640' },
@@ -33,54 +34,71 @@ export default defineNuxtConfig({
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: DESCRIPTION
+          content: DESCRIPTION,
         },
-        { hid: 'twitter:image', name: 'twitter:image', content: COVER_IMAGE_URL }
+        { hid: 'twitter:image', name: 'twitter:image', content: COVER_IMAGE_URL },
       ],
-      script: [
-        {
-          src: 'https://beamanalytics.b-cdn.net/beam.min.js',
-          'data-token': process.env.BEAM_ANALYTICS_TOKEN,
-          async: true
-        }
-      ]
-    }
+    },
   },
 
   runtimeConfig: {
     public: {
-      maptilerKey: process.env.MAPTILER_KEY
-    }
+      maptilerKey: process.env.MAPTILER_KEY,
+    },
   },
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/icon', '@nuxt/eslint'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/icon', '@nuxt/eslint', 'nuxt-umami'],
 
   content: {
     markdown: {
-      tags: { h1: 'h1', h5: 'h5', h6: 'h6' }
-    }
+      tags: { h1: 'h1', h5: 'h5', h6: 'h6' },
+    },
   },
 
   icon: {
     customCollections: [
       {
         prefix: 'cyclopolis',
-        dir: './assets/icons'
-      }
-    ]
+        dir: './assets/icons',
+      },
+    ],
   },
 
   tailwindcss: { viewer: false },
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml']
-    }
+      routes: ['/sitemap.xml'],
+      ignore: ['/carte-interactive?'],
+    },
   },
 
   build: {
-    transpile: ['@headlessui/vue']
+    transpile: ['@headlessui/vue'],
   },
 
-  compatibilityDate: '2024-08-11'
+  vite: {
+    optimizeDeps: {
+      include: ['highcharts-vue', '@vueuse/core'],
+      exclude: ['@panoramax/web-viewer'],
+    },
+  },
+
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag.includes('pnx-'),
+    },
+  },
+
+  compatibilityDate: '2024-08-11',
+
+  umami: {
+    id: 'b9a30c67-3c47-465f-9629-632badd7632a',
+    host: 'https://umami.nimbus.lavilleavelo.org',
+    autoTrack: true,
+    ignoreLocalhost: true,
+    excludeQueryParams: true,
+    enabled: true,
+    logErrors: true,
+  },
 });

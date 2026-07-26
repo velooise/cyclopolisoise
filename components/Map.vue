@@ -3,44 +3,76 @@
     <LegendModal ref="legendModalComponent" />
 
     <div class="flex rounded-lg h-full w-full">
-      <div id="map" class="rounded-lg h-full w-full" />
-      <FilterModal
+      <div ref="mapContainer" :class="[options.roundedCorners ? 'rounded-lg' : '', 'h-full w-full']" />
+      <FilterPanel
+        :open="route.query.modal === 'filters' && mapReady"
         :show-line-filters="options.showLineFilters"
+        :show-date-filter="options.showDateFilter"
+        :show-counters="options.showCounters"
         :can-use-side-panel="options.canUseSidePanel"
-        @update="handleUpdate"
+        :filters="filters"
+        :actions="actions"
+        :filter-style="options.filterStyle"
+        @close="closeFilterPanel"
+      />
+      <DetailPanel
+        v-if="options.showDetailsPanel"
+        :open="route.query.modal === 'details' && mapReady"
+        :line="route.query.line ? +route.query.line : null"
+        :voies="voies"
+        @close="closeSidebar"
+      />
+      <CounterPanel
+        v-if="options.showDetailsPanel"
+        :open="route.query.modal === 'counter' && mapReady"
+        :counter-link="(route.query.counterLink as string) || null"
+        @close="closeSidebar"
       />
     </div>
 
     <div
       v-if="totalDistance"
-      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow">
-      Réseau affiché: {{ displayDistanceInKm(filteredDistance || 0) }} ({{ displayPercent(Math.round((filteredDistance || 0) / totalDistance * 100)) }})
-    </div>
-
-    <img
-      v-if="options.logo"
-      class="my-0 absolute bottom-0 right-0 z-10"
-      src="https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-header-velooise.png"
-      width="75"
-      height="75"
-      :alt="`logo ${config.assoName}`"
+      class="absolute top-3 left-12 bg-white p-1 text-sm rounded-md shadow cursor-pointer select-none"
+      @click="toggleFilterSidebar"
     >
+      Réseau affiché: {{ displayDistanceInKm(filteredDistance || 0, 1) }} ({{
+        displayPercent(Math.round(((filteredDistance || 0) / totalDistance) * 100))
+      }})
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import type { Collections } from '@nuxt/content';
-import { Map, AttributionControl, GeolocateControl, NavigationControl, type StyleSpecification, type LngLatLike } from 'maplibre-gl';
+import {
+  AttributionControl,
+  GeolocateControl,
+  LngLat,
+  type LngLatLike,
+  Map as MaplibreMap,
+  NavigationControl,
+} from 'maplibre-gl';
+import * as maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import style from '@/assets/style.json';
+import { getMapStyle } from '~/helpers/mapStyles';
 import LegendControl from '@/maplibre/LegendControl';
+import LegendInlineControl from '@/maplibre/LegendInlineControl';
 import FilterControl from '@/maplibre/FilterControl';
 import FullscreenControl from '@/maplibre/FullscreenControl';
 import ShrinkControl from '@/maplibre/ShrinkControl';
+import DetailPanel from '~/components/DetailPanel.vue';
+import LogoControl from '@/maplibre/LogoControl';
 
-import type { CompteurFeature, } from '~/types';
+import type { CompteurFeature, FilterActions, FiltersState } from '~/types';
 import config from '~/config.json';
+import FilterPanel from '~/components/FilterPanel.vue';
+import LegendInline from '~/components/LegendInline.vue';
+import MaplibreGeocoder, { type MaplibreGeocoderFeatureResults } from '@maplibre/maplibre-gl-geocoder';
+import '~/assets/geocoder-style.css';
+
 const { displayDistanceInKm, displayPercent } = useStats();
+
+const MAP_BOUNDS = config.bounds as [[number, number], [number, number]];
 
 const defaultOptions = {
   logo: true,
@@ -48,65 +80,170 @@ const defaultOptions = {
   filter: true,
   geolocation: false,
   fullscreen: false,
-  onFullscreenControlClick: () => { },
+  onFullscreenControlClick: () => {},
   shrink: false,
+  showGeocoder: false,
+  showDetailsPanel: false,
   showLineFilters: false,
+  showDateFilter: false,
+  showCounters: false,
   canUseSidePanel: false,
-  onShrinkControlClick: () => { }
+  onShrinkControlClick: () => {},
+  filterStyle: 'height: calc(100vh - 100px)',
+  roundedCorners: false,
+  cooperativeGestures: false,
+  updateUrlOnFeatureClick: false,
 };
 
 const props = defineProps<{
-  features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[]
+  features: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[];
   options?: Partial<typeof defaultOptions>;
   totalDistance?: number;
   filteredDistance?: number;
+  geojsons?: Collections['voiesCyclablesGeojson'][];
+  filters?: FiltersState;
+  actions?: FilterActions;
+  voies?: Collections['voiesCyclablesPage'][];
+  highlightedCounter?: string | null;
+  highlightedSections?: Array<{ line: number; sectionName: string }> | null;
+  fitBoundsFeatures?: Collections['voiesCyclablesGeojson']['features'] | CompteurFeature[];
 }>();
 
 const options = { ...defaultOptions, ...props.options };
 
 const legendModalComponent = ref<{ openModal: () => void } | null>(null);
-
-const emit = defineEmits(['update']);
-function handleUpdate(payload: { lines: number[]; years: number[] }) {
-  emit('update', payload);
-}
+const filterControl = ref<FilterControl | null>(null);
 
 const {
   loadImages,
   plotFeatures,
   fitBounds,
-  handleMapClick
-} = useMap();
+  handleMapClick,
+  handleMapHover,
+  highlightLines,
+  highlightCounter,
+  showFeatureTooltip,
+} = useMap({
+  updateUrlOnFeatureClick: options.updateUrlOnFeatureClick,
+});
 
 const router = useRouter();
 const route = useRoute();
 
+function closeSidebar() {
+  const query = { ...route.query };
+  delete query.sectionAnchor;
+  delete query.modal;
+  delete query.counterLink;
+  router.replace({ query });
+}
+
+const getHighlightSection = () => route.query.sectionName as string | undefined;
+
+function closeFilterPanel() {
+  const query = { ...route.query };
+  delete query.modal;
+  sessionStorage.removeItem('wasFiltersOpen');
+  router.replace({ query });
+}
+
 function toggleFilterSidebar() {
+  if (!props.filters || !props.actions) {
+    return;
+  }
+
   const query = { ...route.query };
   if (query.modal === 'filters') {
     delete query.modal;
+    sessionStorage.removeItem('wasFiltersOpen');
   } else {
     query.modal = 'filters';
+    sessionStorage.setItem('wasFiltersOpen', 'true');
   }
   router.replace({ query });
 }
 
+const mapContainer = ref<HTMLElement | null>(null);
+const mapReady = ref(false);
+
+const { mapStyle } = useSettings();
+
 onMounted(() => {
-  const map = new Map({
-    container: 'map',
-    style: style as StyleSpecification,
-    // style: `https://api.maptiler.com/maps/dataviz/style.json?key=${maptilerKey}`,
+  const map = new MaplibreMap({
+    container: mapContainer.value!,
+    style: getMapStyle(mapStyle.value),
     center: config.center as LngLatLike,
     zoom: config.zoom,
-    attributionControl: false
+    attributionControl: false,
+    cooperativeGestures: options.cooperativeGestures,
   });
 
   map.addControl(new NavigationControl({ showCompass: false }), 'top-left');
   map.addControl(new AttributionControl({ compact: false }), 'bottom-left');
 
+  if (options.showGeocoder) {
+    const geocoder = new MaplibreGeocoder(
+      {
+        forwardGeocode: async ({ query }) => {
+          if (!query || query.length < 3) {
+            return { features: [] };
+          }
+
+          const features = [];
+          try {
+            const endpoint = `https://photon.komoot.io/api/?q=${encodeURIComponent(query)}&limit=5&lang=fr&lat=${config.center[1]}&lon=${config.center[0]}`;
+            const response = await fetch(endpoint);
+            const data = await response.json();
+            for (const f of data.features) {
+              const center = f.geometry.coordinates;
+              if (
+                center[0] < MAP_BOUNDS[0][0] ||
+                center[0] > MAP_BOUNDS[1][0] ||
+                center[1] < MAP_BOUNDS[0][1] ||
+                center[1] > MAP_BOUNDS[1][1]
+              ) {
+                continue;
+              }
+
+              const { name, city } = f.properties;
+
+              features.push({
+                type: 'Feature',
+                center: center,
+                geometry: f.geometry,
+                place_name: [name, city].filter(Boolean).join(', '),
+                text: name,
+                properties: f.properties,
+                place_type: ['place'],
+              } satisfies MaplibreGeocoderFeatureResults['features'][0]);
+            }
+          } catch (e) {
+            console.error(`Error fetching geocoder results`, e);
+          }
+
+          return { features: Array.from(new Map(features.map((f) => [f.place_name, f])).values()) };
+        },
+      },
+      {
+        language: 'fr-FR',
+        placeholder: 'Rechercher...',
+        showResultsWhileTyping: true,
+        countries: 'fr',
+        showResultMarkers: false,
+        clearOnBlur: true,
+        collapsed: true,
+        debounceSearch: 500,
+        popup: true,
+        maplibregl: maplibregl,
+        bbox: [MAP_BOUNDS[0][0], MAP_BOUNDS[0][1], MAP_BOUNDS[1][0], MAP_BOUNDS[1][1]],
+      },
+    );
+    map.addControl(geocoder, 'top-right');
+  }
+
   if (options.fullscreen) {
     const fullscreenControl = new FullscreenControl({
-      onClick: () => options.onFullscreenControlClick()
+      onClick: () => options.onFullscreenControlClick(),
     });
     map.addControl(fullscreenControl, 'top-right');
   }
@@ -116,55 +253,333 @@ onMounted(() => {
       new GeolocateControl({
         positionOptions: { enableHighAccuracy: true },
         // When active the map will receive updates to the device's location as it changes.
-        trackUserLocation: true
+        trackUserLocation: true,
       }),
-      'top-right'
+      'top-right',
     );
   }
 
   if (options.shrink) {
     const shrinkControl = new ShrinkControl({
-      onClick: () => options.onShrinkControlClick()
+      onClick: () => options.onShrinkControlClick(),
     });
     map.addControl(shrinkControl, 'top-right');
   }
 
   if (options.legend) {
-    const legendControl = new LegendControl({
-      onClick: () => {
-        if (legendModalComponent.value) {
-          (legendModalComponent.value).openModal();
-        }
-      }
-    });
-    map.addControl(legendControl, 'top-right');
+    const legendInlineBreakpoint = 1024;
+    const isLargeMap = window.innerWidth >= legendInlineBreakpoint && !options.fullscreen;
+
+    if (isLargeMap) {
+      const legendInlineControl = new LegendInlineControl(LegendInline);
+      map.addControl(legendInlineControl, 'bottom-left');
+    } else {
+      const legendControl = new LegendControl({
+        onClick: () => {
+          if (legendModalComponent.value) {
+            legendModalComponent.value.openModal();
+          }
+        },
+      });
+      map.addControl(legendControl, 'top-right');
+    }
   }
 
   if (options.filter) {
-    const filterControl = new FilterControl({
+    filterControl.value = new FilterControl({
       onClick: () => {
         toggleFilterSidebar();
-      }
+      },
     });
-    map.addControl(filterControl, 'top-right');
+    map.addControl(filterControl.value, 'top-right');
   }
 
-  map.on('load', async() => {
-    await loadImages({ map });
-    plotFeatures({ map, features: props.features });
+  if (options.logo) {
+    const logoControl = new LogoControl({
+      src: 'https://cyclopolis.lavilleavelo.org/logo-lvv-carte.png',
+      alt: `logo ${config.assoName}`,
+      width: 75,
+      height: 75,
+    });
+    map.addControl(logoControl, 'bottom-right');
+  }
 
-    const tailwindMdBreakpoint = 768;
-    if (window.innerWidth > tailwindMdBreakpoint) {
-      fitBounds({ map, features: props.features });
+  async function onMapLoaded() {
+    await loadImages({ map, features: props.features });
+    plotFeatures({ map, features: props.features });
+    highlightLines({ map, selections: null });
+
+    if (route.query.modal === 'counter' && route.query.counterLink) {
+      const counterFeature = props.features.find(
+        (f) => f.geometry.type === 'Point' && 'link' in f.properties && f.properties.link === route.query.counterLink,
+      );
+      if (counterFeature && counterFeature.geometry.type === 'Point') {
+        highlightCounter({ map, counterName: counterFeature.properties.name });
+        const coords = counterFeature.geometry.coordinates as [number, number];
+        return new Promise<void>((resolve) => {
+          map.once('moveend', () => {
+            map.once('idle', () => {
+              const point = map.project(coords);
+              handleMapClick({
+                map,
+                features: props.features,
+                hasDetailsPanel: options.showDetailsPanel,
+                clickEvent: {
+                  lngLat: new LngLat(coords[0], coords[1]),
+                  point,
+                  originalEvent: new MouseEvent('click'),
+                  target: map,
+                  type: 'click',
+                  preventDefault: () => {},
+                  defaultPrevented: false,
+                  _defaultPrevented: false,
+                },
+              });
+              resolve();
+            });
+          });
+          fitBounds({ map, features: [counterFeature] });
+        });
+      }
+      return;
+    }
+
+    const highlightSection = getHighlightSection();
+    if (!+(route.query.line || -1) || !highlightSection) {
+      fitBounds({ map, features: props.fitBoundsFeatures ?? props.features });
+      return;
+    }
+
+    const section = props.features.find((f) => {
+      if (f.geometry.type !== 'LineString') {
+        return false;
+      }
+      if (!('line' in f.properties) || f.properties.line !== +(route.query.line || -1)) {
+        return false;
+      }
+      return 'name' in f.properties && f.properties.name === highlightSection;
+    });
+    if (section?.geometry?.type !== 'LineString') {
+      return;
+    }
+
+    return new Promise<void>((resolve) => {
+      map.once('moveend', () => {
+        const coordinates = structuredClone(section.geometry.coordinates);
+        const midPoint = coordinates[Math.floor(coordinates.length / 2)] as [number, number];
+        if (coordinates.length == 2 && Array.isArray(coordinates[0]) && Array.isArray(coordinates[1])) {
+          midPoint[0] = (coordinates[0][0] + coordinates[1][0]) / 2;
+          midPoint[1] = (coordinates[0][1] + coordinates[1][1]) / 2;
+        }
+
+        const point = map.project(midPoint);
+
+        if (!midPoint || midPoint?.length !== 2) {
+          return resolve();
+        }
+
+        // small hack: simulate a click event to open the popup
+        handleMapClick({
+          map,
+          features: props.features,
+          hasDetailsPanel: options.showDetailsPanel,
+          clickEvent: {
+            lngLat: new LngLat(midPoint[0], midPoint[1]),
+            point,
+            originalEvent: new MouseEvent('click'),
+            target: map,
+            type: 'click',
+            preventDefault: () => {},
+            defaultPrevented: false,
+            _defaultPrevented: false,
+          },
+        });
+        resolve();
+      });
+
+      fitBounds({
+        map,
+        features: [section],
+        padding:
+          window.innerWidth < 1024
+            ? {
+                bottom: window.innerHeight * 0.75,
+                top: 0,
+                left: 20,
+                right: 20,
+              }
+            : 20,
+      });
+    });
+  }
+
+  map.on('load', async () => {
+    try {
+      await onMapLoaded();
+    } catch (e) {
+      console.error('Error during map load', e);
+    } finally {
+      mapReady.value = true;
     }
   });
 
-  watch(() => props.features, newFeatures => {
-    plotFeatures({ map, features: newFeatures });
+  watch(
+    () => props.features,
+    (newFeatures) => {
+      try {
+        plotFeatures({ map, features: newFeatures });
+      } catch (e) {
+        console.warn('not able to plot features', e);
+      }
+    },
+  );
+
+  watch(
+    () => [props.totalDistance, props.filteredDistance],
+    ([totalDistance, filteredDistance]) => {
+      if (filterControl.value && totalDistance && filteredDistance !== undefined) {
+        filterControl.value.setActive(totalDistance - filteredDistance > 0);
+      }
+    },
+    { immediate: true },
+  );
+
+  const { palette, customColors } = useSettings();
+  watch(
+    [palette, customColors],
+    async () => {
+      await loadImages({ map, features: props.features, force: true });
+      plotFeatures({ map, features: props.features });
+    },
+    { deep: true },
+  );
+
+  watch(mapStyle, (newStyleKey) => {
+    map.setStyle(getMapStyle(newStyleKey), { diff: false });
+    map.once('styledata', async () => {
+      try {
+        await loadImages({ map, features: props.features, force: true });
+        plotFeatures({ map, features: props.features });
+        highlightLines({ map, selections: props.highlightedSections ?? null });
+        if (props.highlightedCounter) {
+          highlightCounter({ map, counterName: props.highlightedCounter });
+        }
+      } catch (e) {
+        console.error('Error reloading features after style change', e);
+      }
+    });
   });
 
-  map.on('click', clickEvent => {
-    handleMapClick({ map, features: props.features, clickEvent });
+  map.on('click', (clickEvent) => {
+    handleMapClick({
+      map,
+      features: props.features,
+      clickEvent,
+      hasDetailsPanel: options.showDetailsPanel,
+    });
+  });
+
+  map.on('mousemove', (hoverEvent) => {
+    handleMapHover({
+      map,
+      features: props.features,
+      hoverEvent,
+      hasDetailsPanel: options.showDetailsPanel,
+    });
+  });
+
+  watch(
+    () => props.highlightedCounter,
+    (counterName) => {
+      highlightCounter({ map, counterName: counterName ?? null });
+    },
+  );
+
+  watch(
+    () => props.highlightedSections,
+    (sections) => {
+      highlightLines({ map, selections: sections ?? null });
+    },
+  );
+
+  // From search dialog fromSearch=1
+  watch(
+    () =>
+      [
+        route.query.modal,
+        route.query.line,
+        route.query.sectionName,
+        route.query.counterLink,
+        route.query.fromSearch,
+      ] as const,
+    ([modal, line, sectionName, counterLink, fromSearch], [_oldModal, _oldLine, _oldSectionName, oldCounterLink]) => {
+      if (!mapReady.value || !fromSearch) {
+        return;
+      }
+
+      const cleanQuery = { ...route.query };
+      delete cleanQuery.fromSearch;
+      void router.replace({ query: cleanQuery });
+
+      const isSectionChange = modal === 'details' && !!sectionName;
+      const isCounterChange = modal === 'counter' && counterLink && counterLink !== oldCounterLink;
+
+      if (!isSectionChange && !isCounterChange) {
+        return;
+      }
+
+      const existingPopups = document.querySelectorAll('.maplibregl-popup');
+      existingPopups.forEach((p) => p.remove());
+
+      if (isSectionChange) {
+        const lineNum = +(line || -1);
+        const section = props.features.find((f) => {
+          if (f.geometry.type !== 'LineString') return false;
+          if (!('line' in f.properties) || f.properties.line !== lineNum) {
+            return false;
+          }
+
+          return 'name' in f.properties && f.properties.name === sectionName;
+        });
+
+        if (section?.geometry?.type === 'LineString' && 'status' in section.properties) {
+          highlightLines({
+            map,
+            selections: [{ line: lineNum, sectionName: sectionName as string }],
+          });
+
+          fitBounds({
+            map,
+            features: [section],
+            padding: window.innerWidth < 1024 ? { bottom: window.innerHeight * 0.75, top: 0, left: 20, right: 20 } : 20,
+          });
+
+          map.once('idle', () => {
+            showFeatureTooltip({
+              map,
+              feature: section,
+              allFeatures: props.features,
+              hasDetailsPanel: options.showDetailsPanel,
+            });
+          });
+        }
+      }
+
+      if (isCounterChange) {
+        const counterFeature = props.features.find(
+          (f) => f.geometry.type === 'Point' && 'link' in f.properties && f.properties.link === counterLink,
+        );
+
+        if (counterFeature && counterFeature.geometry.type === 'Point') {
+          highlightCounter({ map, counterName: counterFeature.properties.name });
+          fitBounds({ map, features: [counterFeature] });
+        }
+      }
+    },
+  );
+
+  onUnmounted(() => {
+    map.remove();
   });
 });
 </script>
@@ -172,6 +587,18 @@ onMounted(() => {
 <style>
 .maplibregl-popup-content {
   @apply p-0 rounded-lg overflow-hidden;
+  background: unset !important;
+  transition: box-shadow 0.3s ease-in-out;
+  animation: popup-shadow 0.3s ease-in-out;
+}
+
+@keyframes popup-shadow {
+  from {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    box-shadow: 0 1px 2px #0000001a;
+  }
 }
 
 .maplibregl-info {
@@ -222,5 +649,18 @@ onMounted(() => {
 
 .maplibregl-popup-anchor-right .maplibregl-popup-tip {
   border-left-color: transparent;
+}
+
+.maplibregl-logo-control {
+  box-shadow: none;
+  background: transparent;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.maplibregl-logo-control img {
+  display: block;
+  margin: 0;
+  pointer-events: auto;
 }
 </style>

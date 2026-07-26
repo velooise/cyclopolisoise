@@ -5,11 +5,11 @@
     <div class="max-w-7xl mx-auto mt-14 px-4 sm:px-6 lg:px-8 lg:mt-24">
       <div class="space-y-8 sm:space-y-12">
         <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Où en est le projet ?
-          </h2>
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Où en est le projet ?</h2>
           <p class="text-xl text-gray-500">
-            Les études des schémas cyclables ont débuté autour de 2020. Le déploiement se réalise à des vitesses différentes selon les villes ou comunautés de communes.
+            Après une phase d'étude et de concertation en 2022 et 2023, le projet est maintenant en phase de
+            réalisation.<br />
+            Malgré de nombreux reports, les travaux se multiplient entre l'été 2024 et l'été 2026.
           </p>
         </div>
       </div>
@@ -18,19 +18,89 @@
       <StatsQuality v-if="displayQuality() && displayQualityOnHomePage()" :voies="voies" class="mt-8" />
       <Typology :voies="voies" class="mt-8 max-w-2xl mx-auto" />
     </div>
+    <div>
+      <NuxtLink href="/tableau-de-bord" class="flex items-center justify-center text-lvv-blue-600 hover:underline">
+        Voir le tableau de bord complet
+        <Icon name="heroicons:arrow-right" class="ml-1 h-5 w-5" />
+      </NuxtLink>
+    </div>
     <div class="max-w-7xl mx-auto mt-14 px-4 sm:px-6 lg:px-8 lg:mt-24">
       <div class="space-y-8 sm:space-y-12">
         <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
-          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Avancement par ligne
-          </h2>
+          <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Avancement par ligne</h2>
           <p class="text-xl text-gray-500">
-            Choisissez une liaison pour connaitre le détail du projet et voir son niveau d'avancement.
+            Choisissez une {{ getRevName('singular') }} pour connaitre le détail du projet et voir son niveau
+            d'avancement.
           </p>
         </div>
         <HomeLinesSection class="mt-5" />
+        <div class="text-center">
+          <NuxtLink
+            to="/chronologie"
+            class="inline-flex items-center gap-1 text-sm text-lvv-blue-600 hover:underline font-medium"
+          >
+            Voir la chronologie des réalisations
+            <Icon name="mdi:arrow-right" class="h-4 w-4" />
+          </NuxtLink>
+        </div>
       </div>
     </div>
+
+    <div v-if="displayCounters()" class="max-w-7xl mx-auto mt-14 px-4 sm:px-6 lg:px-8 lg:mt-24">
+      <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Compteurs de passages</h2>
+        <p class="text-xl text-gray-500">
+          Suivez l'évolution de la fréquentation cycliste grâce aux {{ counterCount }} compteurs de l'agglomération
+          lyonnaise.
+        </p>
+      </div>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <NuxtLink
+          to="/compteurs/velo"
+          class="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-lvv-blue-600 hover:shadow-md transition-all group w-full sm:w-auto sm:min-w-[250px]"
+        >
+          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center">
+            <Icon name="game-icons:dutch-bike" class="text-2xl text-pink-600" />
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900 group-hover:text-lvv-blue-600">Compteurs vélo</div>
+            <div class="text-sm text-gray-500">Fréquentation cycliste</div>
+          </div>
+        </NuxtLink>
+        <NuxtLink
+          to="/compteurs/comparaison"
+          class="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-lvv-blue-600 hover:shadow-md transition-all group w-full sm:w-auto sm:min-w-[250px]"
+        >
+          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+            <Icon name="mdi:compare-horizontal" class="text-2xl text-purple-600" />
+          </div>
+          <div>
+            <div class="font-semibold text-gray-900 group-hover:text-lvv-blue-600">Comparaison</div>
+            <div class="text-sm text-gray-500">Vélo vs voiture</div>
+          </div>
+        </NuxtLink>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:mt-10 rounded-2xl py-8">
+      <div class="relative flex flex-col sm:flex-row justify-between items-center gap-6">
+        <div class="max-w-2xl">
+          <p class="mt-2 text-lg text-gray-500">
+            Découvrez d'autres observatoires à travers le pays, dont certains sont basés sur
+            <NuxtLink class="text-lvv-blue-600 hover:text-lvv-blue-800 font-medium underline" to="/blog/open-source"
+              >notre travail en Open Source.</NuxtLink
+            >
+          </p>
+        </div>
+        <NuxtLink
+          to="/sites-partenaires"
+          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-lvv-blue-600 hover:bg-lvv-blue-700 md:text-lg w-full sm:w-auto"
+        >
+          Voir les sites partenaires
+        </NuxtLink>
+      </div>
+    </div>
+
     <div class="py-16">
       <LvvCta />
     </div>
@@ -40,11 +110,18 @@
 <script setup lang="ts">
 import type { Collections } from '@nuxt/content';
 
-const { getRevName, displayQuality, displayQualityOnHomePage } = useConfig();
+const { getRevName, displayQuality, displayQualityOnHomePage, displayCounters } = useConfig();
 
-const { data } = await useAsyncData(() => {
-  return queryCollection('voiesCyclablesGeojson').all();
-});
+const { geojsons } = await useVoiesCyclablesGeojson();
+const voies: Ref<Collections['voiesCyclablesGeojson'][]> = computed(() => geojsons.value || []);
 
-const voies: Ref<Collections['voiesCyclablesGeojson'][]> = computed(() => data.value || []);
+const { data: counterData } = await useAsyncData(
+  'home-counter-count',
+  () => {
+    if (!displayCounters()) return Promise.resolve(null);
+    return queryCollection('compteurs').where('path', 'LIKE', '/compteurs/velo%').all();
+  },
+  { deep: false },
+);
+const counterCount = computed(() => counterData.value?.length ?? 0);
 </script>

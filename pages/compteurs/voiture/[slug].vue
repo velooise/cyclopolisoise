@@ -3,19 +3,65 @@
     v-if="counter"
     header="compteur voiture"
     :title="counter.name"
+    :sub-title="counter.arrondissement"
     :description="counter.description"
     :image-url="counter.imageUrl"
   >
-    <ClientOnly>
-      <Map :features="features" :options="{ legend: false, filter: false }" class="mt-12" style="height: 40vh" />
+    <ClientOnly fallback-tag="div">
+      <template #fallback>
+        <MapPlaceholder style="height: 40vh" additional-class="mt-6" />
+      </template>
+      <Map
+        :features="features"
+        :options="{ roundedCorners: true, legend: false, filter: false, cooperativeGestures: true }"
+        class="mt-6"
+        style="height: 40vh"
+      />
     </ClientOnly>
+
+    <CounterMaintenanceBanner :counts="counter.counts" />
+
+    <div v-if="matchingVeloCounter" class="mt-4 flex flex-wrap justify-center gap-3">
+      <NuxtLink
+        :to="matchingVeloCounter.path"
+        class="flex items-center gap-2 px-4 py-2 bg-pink-50 hover:bg-pink-100 rounded-lg transition-colors text-lvv-pink font-medium text-sm no-underline"
+      >
+        <Icon name="fluent:vehicle-bicycle-16-regular" class="text-lg" />
+        Voir le compteur vélo
+      </NuxtLink>
+      <NuxtLink
+        :to="`/compteurs/comparaison/${counter.cyclopolisId}`"
+        class="flex items-center gap-2 px-4 py-2 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors text-lvv-blue-600 font-medium text-sm no-underline"
+      >
+        <Icon name="fluent:vehicle-car-profile-ltr-16-regular" class="text-lg" />
+        Comparaison vélo / voiture
+      </NuxtLink>
+    </div>
+    <CounterStatsSummary v-if="counterStats" :stats="counterStats" />
+
     <h2>Total des passages par année</h2>
     <p>Ce premier diagramme représente le nombre total de passages détecté par le compteur voiture chaque année.</p>
     <ChartTotalByYear :title="graphTitles.totalByYear" :data="counter" class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md" />
 
-    <h2>Comparaison des passages pour un mois donné</h2>
-    <p>Choisissez un mois dans le menu déroulant ci-dessous pour visualiser l'évolution de la fréquentation voiture pour le même mois de chaque année.</p>
-    <ChartMonthComparison :title="graphTitles.monthComparison" :data="counter" class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md" />
+    <h2>Historique mensuel</h2>
+    <p>Nombre de passages détecté chaque mois depuis la mise en service du compteur.</p>
+    <ChartMonthlyHistogram
+      :title="graphTitles.monthlyHistogram"
+      :data="counter"
+      :color="'#7B1F3D'"
+      class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md"
+    />
+
+    <h2>Comparaison des passages</h2>
+    <p>
+      Comparez la fréquentation voiture pour un mois donné à travers les années, ou visualisez l'évolution mois par mois
+      sur plusieurs années.
+    </p>
+    <ChartMonthComparison
+      :title="graphTitles.monthComparison"
+      :data="counter"
+      class="mt-8 lg:p-4 lg:rounded-lg lg:shadow-md"
+    />
 
     <template v-if="counter.limitation">
       <h2>Limitation</h2>
@@ -23,19 +69,25 @@
     </template>
 
     <h2>Source des données</h2>
-    <p>Les données proviennent du <a href="https://avatar.cerema.fr/cartographie" target="_blank">Cerema</a>.</p>
+    <p>
+      Les données proviennent de <a href="https://avatar.cerema.fr/cartographie" target="_blank">avatar.cerema.fr</a>.
+    </p>
+    <a href="https://avatar.cerema.fr/cartographie" target="_blank">
+      <img src="https://cyclopolis.lavilleavelo.org/avatar_cerema.png" alt="Logo Cerema" class="h-12" />
+    </a>
   </ContentFrame>
 </template>
 
 <script setup>
+import MapPlaceholder from '~/components/MapPlaceholder.vue';
+import { buildCounterStats } from '~/composables/useCounterStats';
+
 const { path } = useRoute();
 const { withoutTrailingSlash } = useUrl();
 const { getCompteursFeatures } = useMap();
 
-const { data: counter } = await useAsyncData(`compteur-${path}`, () => {
-  return queryCollection('compteurs')
-    .path(withoutTrailingSlash(path))
-    .first();
+const { data: counter } = await useAsyncData(path, () => {
+  return queryCollection('compteurs').path(withoutTrailingSlash(path)).first();
 });
 
 if (!counter.value) {
@@ -43,24 +95,39 @@ if (!counter.value) {
   router.push({ path: '/404' });
 }
 
+const { data: matchingVeloCounter } = await useAsyncData(`velo-match-${path}`, () => {
+  if (!counter.value?.cyclopolisId) return Promise.resolve(null);
+  return queryCollection('compteurs')
+    .where('path', 'LIKE', '/compteurs/velo%')
+    .where('cyclopolisId', '=', counter.value.cyclopolisId)
+    .first();
+});
+
 const graphTitles = {
   totalByYear: `Fréquentation voiture annuelle - ${counter.value.name}`,
-  monthComparison: `Fréquentation voiture - ${counter.value.name}`
+  monthlyHistogram: `Fréquentation voiture mensuelle - ${counter.value.name}`,
+  monthComparison: `Fréquentation voiture - ${counter.value.name}`,
 };
 
 const features = getCompteursFeatures({ counters: [counter.value], type: 'compteur-voiture' });
 
-const DESCRIPTION = `Compteur voiture ${counter.value.name}`;
+const counterStats = computed(() => buildCounterStats(counter.value?.counts ?? [], 'voitures'));
+
+const PAGE_TITLE = `Compteur voiture ${counter.value.name}${counter.value.arrondissement ? ` (${counter.value.arrondissement})` : ''} | Cyclopolis`;
+const DESCRIPTION = `Compteur voiture ${counter.value.name}${counter.value.arrondissement ? ` à ${counter.value.arrondissement}` : ''}. ${counterStats.value.summarySentence} Suivez l'évolution du trafic automobile mois par mois et année par année.`;
 const IMAGE_URL = counter.value.imageUrl;
 useHead({
+  title: PAGE_TITLE,
   meta: [
-    // description
     { hid: 'description', name: 'description', content: DESCRIPTION },
-    { hid: 'og:description', property: 'og:description', DESCRIPTION },
-    { hid: 'twitter:description', name: 'twitter:description', DESCRIPTION },
-    // cover image
+    { hid: 'og:title', property: 'og:title', content: PAGE_TITLE },
+    { hid: 'og:description', property: 'og:description', content: DESCRIPTION },
+    { hid: 'og:type', property: 'og:type', content: 'article' },
     { hid: 'og:image', property: 'og:image', content: IMAGE_URL },
-    { hid: 'twitter:image', name: 'twitter:image', content: IMAGE_URL }
-  ]
+    { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+    { hid: 'twitter:title', name: 'twitter:title', content: PAGE_TITLE },
+    { hid: 'twitter:description', name: 'twitter:description', content: DESCRIPTION },
+    { hid: 'twitter:image', name: 'twitter:image', content: IMAGE_URL },
+  ],
 });
 </script>
