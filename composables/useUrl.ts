@@ -11,7 +11,7 @@ export const useUrl = () => {
   }
 
   function getVoieCyclableRegex() {
-    return new RegExp(`${config.slug}-(1[0-2]|[1-9])\\b`);
+     return new RegExp(`${config.slug}-(\\d+)\\b`);
   }
 
   function extractLineAndAnchorFromPath(path: string) {
