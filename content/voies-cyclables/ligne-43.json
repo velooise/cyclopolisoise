@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a10bis---centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-paris)-A101",
+        "line": 43,
+        "name": "A10bis - CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE PARIS)",
+        "status": "planned",
+        "type": "piste-sur-trottoir",
+        "link": "/velo-oise-43"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.5883791019293896,
+            49.20560781640285
+          ],
+          [
+            2.5809645332907145,
+            49.20088241557541
+          ],
+          [
+            2.5807839074603898,
+            49.20076439286409
+          ]
+        ]
+      }
+    }
+  ]
+}
