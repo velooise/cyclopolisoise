@@ -10,9 +10,9 @@ export const useUrl = () => {
     return `/${config.slug}-${line}`;
   }
 
-    function getVoieCyclableRegex() {
-     return new RegExp(`${config.slug}-(\\d+)\\b`);
-  } 
+  function getVoieCyclableRegex() {
+    return new RegExp(`${config.slug}-(1[0-2]|[1-9])\\b`);
+  }
 
   function extractLineAndAnchorFromPath(path: string) {
     // Example path: /voie-lyonnaise-11#section-2
