@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pl-de-la-gare-89",
+        "line": 689,
+        "name": "89 - PL DE LA GARE",
+        "status": "planned",
+        "type": "voie-bus",
+        "link": "/velo-oise-689"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.448187817783065,
+            49.29327530474586
+          ],
+          [
+            2.4484301942244997,
+            49.2927929015313
+          ]
+        ]
+      }
+    }
+  ]
+}

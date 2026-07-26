@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chemin-du-marais-de-soutraine-33",
+        "line": 633,
+        "name": "Chemin du Marais de Soutraine",
+        "status": "planned",
+        "type": "jalonnement",
+        "link": "/velo-oise-633"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.442985236497833,
+            49.31461269460701
+          ],
+          [
+            2.4386722444014026,
+            49.31465465968216
+          ]
+        ]
+      }
+    }
+  ]
+}

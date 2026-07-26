@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rue-des-fortes-terres-17",
+        "line": 617,
+        "name": "Rue des Fortes Terres",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "/velo-oise-617"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.45768857669421,
+            49.345036137293704
+          ],
+          [
+            2.458976420902019,
+            49.34565142464106
+          ]
+        ]
+      }
+    }
+  ]
+}

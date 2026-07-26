@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "984-kml_185",
+        "line": 984,
+        "name": "kml_185",
+        "status": "done",
+        "type": "voie-verte",
+        "link": "/velo-oise-984"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.44704144218089,
+            49.2537505960348,
+            0
+          ],
+          [
+            2.44713451073514,
+            49.2537806895838,
+            0
+          ],
+          [
+            2.44725359563061,
+            49.253818094265,
+            0
+          ],
+          [
+            2.44740667742715,
+            49.2538871195218,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}
