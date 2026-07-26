@@ -12,6 +12,8 @@ Le code est directement disponible sur [GitHub](https://github.com/lavilleavelo/
 
 Une association (ou même un particulier) peut donc tout à fait copier le code de la plateforme, le modifier, l'adapter à sa ville, et le publier sous un autre nom.
 
+Vous pouvez voir plusieurs exemples de villes qui ont déjà fait cela dans la section [Sites Partenaires](/sites-partenaires/).
+
 ## Combien ça coûte d'avoir son propre Cyclopolis ?
 
 La version actuelle de Cyclopolis demande peu de ressources et coûte donc très peu cher à faire tourner.
@@ -25,12 +27,11 @@ Aujourd'hui, le seul coût financier est le nom de domaine (~10€/an).
 
 Voici la liste des outils tiers utilisés :
 - [GitHub](https://github.com) pour le stockage des données et du code. Gratuit.
-- [Netlify](https://www.netlify.com) pour l'hébergement du site. Gratuit (free tier très largement suffisant).
-- [Etalab](https://openmaptiles.geo.data.gouv.fr/) pour les cartes. Gratuit.
-- [Geojson.io](https://geojson.io) pour le tracé des pistes cyclables. Gratuit.
-- [Beam Analytics](https://beamanalytics.io/) pour le suivi d'audience. Gratuit (free tier très largement suffisant).
-- ~[Cloudinary](https://cloudinary.com/) pour le stockage des images. Gratuit.~
-- Serveur d'image de La Ville à Vélo pour le stockage des images. Payant mais mutualisé avec les autres besoins de l'association.
+- [Netlify](https://www.netlify.com) pour l'hébergement du site. Gratuit ("free tier" très largement suffisant). Nous avons depuis migré vers notre propre serveur, mais Netlify reste une excellente option pour démarrer rapidement.
+- [openmaptiles.geo.data.gouv.fr](https://openmaptiles.geo.data.gouv.fr/) pour les cartes. Gratuit.
+- [Geojson.io](https://geojson.io) ou [placemark](https://play.placemark.io/) pour le tracé des pistes cyclables. Gratuit.
+- [Beam Analytics](https://beamanalytics.io/) ou [Umami](https://umami.is/) pour le suivi d'audience. Gratuit (free tier très largement suffisant).
+- Serveur de La Ville à Vélo pour le stockage des images. Payant, mais mutualisé avec les autres besoins de l'association. Vous pouvez également stocker les images directement dans votre dépôt GitHub.
 
 ## Comment créer ma version de Cyclopolis ?
 
@@ -96,16 +97,17 @@ Le plus intéressant ici, c'est donc le dossier **/content/voies-cyclables**. Il
 
 Il va donc vous falloir éditer tous ces fichiers pour les adapter à votre ville et à vos infrastructures cyclables.
 
-Pour modifier les tracés des pistes cyclables, vous pouvez utiliser un outil comme [geojson.io](https://geojson.io). À noter que c'est assez long et laborieux, il y a peut-être des outils plus adaptés qui existent ...
+Pour modifier les tracés des pistes cyclables, vous pouvez utiliser un outil comme [geojson.io](https://geojson.io) our [placemark](https://play.placemark.io/). À noter que c'est assez long et laborieux, il y a peut-être des outils plus adaptés qui existent…
 
 #### Déployez votre toute nouvelle plateforme
 
 Une fois que vous avez adapté les données à votre ville, vous pouvez déployer votre plateforme.
 
-On recommande d'utiliser [Netlify](https://www.netlify.com) ou [Vercel](https://vercel.com/) pour l'hébergement. L'offre gratuite de ces 2 plateformes est très généreuse et suffira largement pour ce genre de projet.
-Par ailleurs, elles offrent une excellente intégration avec Github. Ainsi, à chaque modification de vos données (ou commit), les changements seront "live" en 30-40 secondes.
+Vous pouvez utiliser une des solutions listées ici : https://nuxt.com/deploy pour l'hébergement. La plupart ont une offre gratuite largement suffisante pour faire tourner Cyclopolis.
 
-Voici par exemple la configuration de Cyclopolis sur Netlify (section Build & Deploy):
+Nous avons longtemps utilisé [Netlify](https://www.netlify.com) qui une offre une bonne intégration avec Github. Ainsi, à chaque modification de vos données (ou commit), les changements seront visibles après environ 1min.
+
+Voici par exemple une configuration possible sur Netlify (section Build & Deploy) :
 ```
 Build command : npm run generate
 Publish directory : dist
@@ -115,16 +117,9 @@ Et voilà!
 
 Vous pouvez ensuite :
 - acheter un nom de domaine pour votre plateforme.
-- configurer un outil de suivi d'audience (on utilise Beam Analytics, mais il y a plein d'autres solutions).
-
+- configurer un outil de suivi d'audience (on utilise Umami, mais il y a plein d'autres solutions).
 
 ## Conclusion
 
 On vous souhaite tout le meilleur pour votre projet ! 🎉
-
-
-
-
-
-
 
