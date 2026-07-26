@@ -12,7 +12,7 @@ export const useUrl = () => {
 
     function getVoieCyclableRegex() {
      return new RegExp(`${config.slug}-(\\d+)\\b`);
-  }
+  } 
 
   function extractLineAndAnchorFromPath(path: string) {
     // Example path: /voie-lyonnaise-11#section-2
