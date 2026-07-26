@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-douchet-rube-91",
+        "line": 691,
+        "name": "91 R DOUCHET RUBE",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "/velo-oise-691"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.444195275781169,
+            49.29262292664214
+          ],
+          [
+            2.4458475165335756,
+            49.29305325896499
+          ]
+        ]
+      }
+    }
+  ]
+}

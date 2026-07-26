@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-011",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-011",
+        "status": "planned",
+        "type": "piste-sur-trottoir",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.60241217501391,
+            49.11135859984125
+          ],
+          [
+            2.604482885894157,
+            49.11110106013601
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-012",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-012",
+        "status": "planned",
+        "type": "bidirectionnele",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.604524300111251,
+            49.111087505377355
+          ],
+          [
+            2.6071333958200853,
+            49.11057242181491
+          ],
+          [
+            2.610032702119355,
+            49.110448567272385
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-00",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-00",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.597829508239215,
+            49.11313628834748
+          ],
+          [
+            2.5979485169251575,
+            49.11304186496318
+          ],
+          [
+            2.5979701548682783,
+            49.112895508361845
+          ],
+          [
+            2.598179321649013,
+            49.11266416962829
+          ],
+          [
+            2.5987779671039846,
+            49.11226522770741
+          ],
+          [
+            2.598835668284522,
+            49.11221565458226
+          ],
+          [
+            2.600327691322761,
+            49.11181502230828
+          ],
+          [
+            2.6018398658677526,
+            49.11095052749767
+          ],
+          [
+            2.602358099189644,
+            49.11138728433613
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-05",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-05",
+        "status": "wip",
+        "type": "zone-30",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.5872263226111443,
+            49.10629028512409
+          ],
+          [
+            2.5881315530175186,
+            49.10688289775649
+          ],
+          [
+            2.588181843596743,
+            49.10764011470971
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-05",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-01",
+        "status": "wip",
+        "type": "voie-riverains",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.588220049759343,
+            49.10763056521253
+          ],
+          [
+            2.58916299809988,
+            49.10833838813767
+          ],
+          [
+            2.590558561643519,
+            49.10935895225367
+          ],
+          [
+            2.5925382699440433,
+            49.11072454268833
+          ],
+          [
+            2.593606944729089,
+            49.11150639076442
+          ],
+          [
+            2.594914499760847,
+            49.11251865996945
+          ],
+          [
+            2.5959203113243348,
+            49.11355559725101
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-08",
+        "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-08",
+        "status": "planned",
+        "type": "zone-30",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.582549298844185,
+            49.10421608517305
+          ],
+          [
+            2.587025160298367,
+            49.106224438839064
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mortefontaine-collège-lycée-plailly-30-012",
+           "line": 23,
+        "name": "MORTEFONTAINE collège lycée - PLAILLY 30-012",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "/velo-oise-23"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.595971160430139,
+            49.11355311931149
+          ],
+          [
+            2.5966845211485463,
+            49.113523187326905
+          ],
+          [
+            2.5976173774720053,
+            49.11319992074223
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": 6
+    }
+  ]
+}

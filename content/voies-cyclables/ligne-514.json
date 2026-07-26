@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sacy-le-grand->-za-la-motte",
+        "line": 514,
+        "name": "SACY-LE-GRAND > ZA LA MOTTE",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "/velo-oise-514"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.6129573,
+            49.3587408
+          ],
+          [
+            2.6285167,
+            49.4040714
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

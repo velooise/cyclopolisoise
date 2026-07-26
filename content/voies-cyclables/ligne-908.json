@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "908-kml_109",
+        "line": 908,
+        "name": "kml_109",
+        "status": "done",
+        "doneAt": "01/07/2023",
+        "type": "bilaterale",
+        "link": "/velo-oise-908"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.47525680517304,
+            49.2597893168985,
+            0
+          ],
+          [
+            2.47491856714716,
+            49.2603640983164,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

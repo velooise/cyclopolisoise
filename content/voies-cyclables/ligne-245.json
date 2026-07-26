@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "245-Liaison 45-04-08",
+        "line": 245,
+        "name": "Liaison 45-04-08 - Montepilloy – Senlis",
+        "status": "planned",
+        "type": "voie-verte",
+        "link": "/velo-oise-245"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6161416289542103,
+            49.202470896219864
+          ],
+          [
+            2.6299389667042306,
+            49.20511093708723
+          ],
+          [
+            2.6503393269395588,
+            49.208952703580906
+          ],
+          [
+            2.665529753188764,
+            49.21173633033774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "245-Liaison 45-01-03",
+        "line": 245,
+        "name": "Liaison 45-01-03 - Montepilloy – Senlis",
+        "status": "planned",
+        "type": "voie-riverains",
+        "link": "/velo-oise-245"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.6658549094601085,
+            49.21174027041218
+          ],
+          [
+            2.6792253240898845,
+            49.214246833308835
+          ],
+          [
+            2.682627267809437,
+            49.214970354147965
+          ]
+        ]
+      }
+    }
+  ]
+}

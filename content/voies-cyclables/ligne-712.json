@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "avenue-du-général-de-gaulle-112",
+        "line": 712,
+        "name": "112-113- Avenue du Général de Gaulle",
+        "status": "done",
+        "doneAt": "01/09/2022",
+        "type": "voie-verte",
+        "link": "/velo-oise-712"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.463045464961141,
+            49.32566864754
+          ],
+          [
+            2.463179526845977,
+            49.325655205077055
+          ],
+          [
+            2.464066397776037,
+            49.32598454436837
+          ],
+          [
+            2.4643757713567993,
+            49.32607864090426
+          ],
+          [
+            2.467015759241434,
+            49.32674403270386
+          ]
+        ]
+      }
+    }
+  ]
+}
