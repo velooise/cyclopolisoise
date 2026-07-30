@@ -48,6 +48,21 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "perspective",
+        "line": 25,
+        "name": "RD1017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5396024,
+          49.1422116
+        ]
+      }
     }
   ]
 }
