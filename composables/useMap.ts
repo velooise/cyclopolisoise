@@ -938,7 +938,7 @@ export const useMap = ({ updateUrlOnFeatureClick }: { updateUrlOnFeatureClick?: 
       .filter(isPointFeature)
       .map((feature) => feature.geometry.coordinates);
 
-    if (allLineStringsCoordinates.length === 0 && allPointsCoordinates.length === 0) {
+    if (allLineStringsCoordinates.length === 0 ) {
       return;
     }
 
