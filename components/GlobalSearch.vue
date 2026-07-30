@@ -34,7 +34,7 @@
 
           <div v-else-if="query.length >= 2 && groupedResults.length === 0" class="px-4 py-8 text-center">
             <p class="text-gray-500">Aucun résultat pour « {{ query }} »</p>
-            <p class="text-sm text-gray-400 mt-1">Essayez un nom de rue, de compteur, de voie lyonnaise ou de page</p>
+            <p class="text-sm text-gray-400 mt-1">Essayez un nom de rue, de compteur, de voie ou de page</p>
           </div>
 
           <div v-else-if="groupedResults.length > 0" class="max-h-[50vh] overflow-y-auto py-2">
@@ -148,7 +148,7 @@ const groupedResults = computed(() => {
   }
 
   const order: [string, string][] = [
-    ['voie', 'Voies Lyonnaises'],
+    ['voie', 'Voies'],
     ['page', 'Pages'],
     ['section', 'Tronçons'],
     ['compteur-velo', 'Compteurs vélo'],

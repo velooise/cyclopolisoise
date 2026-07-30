@@ -1,7 +1,7 @@
 import config from './config.json';
 
 const TITLE = `Cyclopolis - Suivi des ${config.revName.plural} par ${config.assoName}`;
-const DESCRIPTION = `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable sécurisé lyonnais`;
+const DESCRIPTION = `Plateforme citoyenne et associative, par ${config.assoName}. État d'avancement, cartes interactives des itinéraires, détails, travaux : suivez le développement du réseau cyclable`;
 const BASE_URL = 'https://cyclopolisoise.netlify.app/';
 const COVER_IMAGE_URL = 'https://cyclopolisoise.netlify.app/cyclopolis.png';
 

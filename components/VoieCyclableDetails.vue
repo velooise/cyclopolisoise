@@ -25,7 +25,7 @@
         class="relative group cursor-pointer mb-6"
         @click="photoGallery?.open(0)"
       >
-        <img :src="voie.cover" :alt="`Voie Lyonnaise ${voie.line}`" class="w-full rounded-lg" loading="lazy" />
+        <img :src="voie.cover" :alt="`Voie ${voie.line}`" class="w-full rounded-lg" loading="lazy" />
         <div
           class="absolute inset-0 rounded-lg bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center"
         >

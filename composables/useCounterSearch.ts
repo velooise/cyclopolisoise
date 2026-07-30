@@ -5,13 +5,13 @@ import { useVoiesCyclablesGeojson } from '~/composables/useVoiesCyclables';
 
 function parseLineSearch(text: string): number | 'any' | null {
   const normalized = removeDiacritics(text.trim().toLowerCase());
-  const withNumber = normalized.match(/^(?:vl|voie[- ]?lyonnaise?)\s*(\d+)$/);
+  const withNumber = normalized.match(/^(?:vl|velo[- ]?oise?)\s*(\d+)$/);
 
   if (withNumber) {
     return Number(withNumber[1]);
   }
 
-  if (/^(?:vl|voie[- ]?lyonnaise?)$/.test(normalized)) {
+  if (/^(?:vl|velo[- ]?oise?)$/.test(normalized)) {
     return 'any';
   }
 
