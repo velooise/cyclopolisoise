@@ -31,7 +31,7 @@
         <span v-else>x x x x x</span>
       </div>
     </div>
-    <div class="my-auto">reporté après 2026</div>
+    <div class="my-auto">reporté</div>
   </div>
 </template>
 
