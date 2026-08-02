@@ -60,6 +60,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         borderColor: '#C84271',
         textColor: '#FFFFFF',
       },
+	 },  
     {
       label: 'Souhaitée',
       isEnabled: true,
