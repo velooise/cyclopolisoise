@@ -18,5 +18,5 @@ Statut : planned
 
 Budget  : 98042 
 
-Lineaire : Inconnu a ce jour
+Lineaire : Inconnu
 
