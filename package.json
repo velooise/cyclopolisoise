@@ -45,5 +45,13 @@
     "highcharts-vue": "^2.0.1",
     "maplibre-gl": "^5.22.0",
     "zod": "^4.3.6"
+  },
+  {
+  "allowScripts": {
+    "@parcel/watcher": true,
+	"better-sqlite3" : true,
+	"esbuild@" : true,
+	"unrs-resolver" : true
+  }
   }
 }
