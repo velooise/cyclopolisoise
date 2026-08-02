@@ -3,7 +3,7 @@ name: kml_204
 line: 4
 from: 
 to:  
-description: 1003 - schema cyclable de l'ACSO 2025 kml_204 
+description: 1003 - schema cyclable de l'ACSO 2025 kml_204 -
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-acso-1003.jpg
 ---
 Hierarchie : Reseau structurant
