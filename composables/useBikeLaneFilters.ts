@@ -42,7 +42,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
       },
     },
     {
-      label: 'Prévu pour 2026',
+      label: 'Prévu',
       isEnabled: true,
       statuses: ['planned'],
       customStyle: {
@@ -60,6 +60,15 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         borderColor: '#C84271',
         textColor: '#FFFFFF',
       },
+    {
+      label: 'Souhaitée',
+      isEnabled: true,
+      statuses: ['wished'],
+      customStyle: {
+        backgroundColor: '#C84271',
+        borderColor: '#C84271',
+        textColor: '#FFFFFF',
+      },	  
     },
     // { label: 'Inconnu', isEnabled: true, statuses: ['unknown'] },
   ]);
@@ -72,6 +81,11 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
     { label: 'Vélorue', isEnabled: true, types: ['velorue'] },
     { label: 'Bandes cyclables', isEnabled: true, types: ['bandes-cyclables'] },
     { label: 'Zone de rencontre', isEnabled: true, types: ['zone-de-rencontre'] },
+	{ label: 'Zone 30', isEnabled: true, types: ['zone-30'] },
+	{ label: 'Piste cyclable', isEnabled: true, types: ['piste-cyclable'] },
+	{ label: 'Impasse sauf vélos', isEnabled: true, types: ['imp+debouche-cyclable'] },
+	{ label: 'Piste sur trottoir', isEnabled: true, types: ['piste-sur-trottoir'] },
+	{ label: 'Chaucidou', isEnabled: true, types: ['chaucidou'] },
     // { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
     { label: 'Aucun', isEnabled: true, types: ['aucun'] },
   ]);
