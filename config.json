@@ -8,10 +8,7 @@
   "assoLink": "https://www.velooise.fr",
   "slug": "velo-oise",
   "center": [2.483333, 49.266667],
-  "bounds": [
-    [2.4, 48.4],
-    [3.2, 50.1]
-  ],
+ 
   "zoom": 10.331154971672706,
   "nbVoiesCyclables": 455,
   "colors": [
