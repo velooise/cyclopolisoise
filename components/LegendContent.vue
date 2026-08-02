@@ -22,7 +22,7 @@
         </div>
       </div>
     </div>
-    <div class="my-auto">prévu pour 2026</div>
+    <div class="my-auto">prévu</div>
 
     <div :class="['my-auto rounded-md border-gray-500 border relative', borderClass]">
       <div :class="['bg-white', lineHeightClass]" />
