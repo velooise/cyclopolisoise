@@ -52,5 +52,5 @@
 	"esbuild@" : true,
 	"unrs-resolver" : true
   }
-  }
+
 }
