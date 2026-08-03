@@ -36,7 +36,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a10-2--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10",
+        "id": "a10-2--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10-1",
         "line": 42,
         "name": "A10 -2- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
@@ -60,7 +60,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a10-3--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10",
+        "id": "a10-3--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10-2",
         "line": 42,
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
@@ -88,7 +88,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a10-4--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10",
+        "id": "a10-4--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10-3",
         "line": 42,
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",
@@ -116,7 +116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a10-4--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10",
+        "id": "a10-4--centre-ville---quartier-ordener---quartier-four-a-chaux-(par-rue-de-la-republique)-A10-4",
         "line": 42,
         "name": "A10 -3- CENTRE-VILLE - QUARTIER ORDENER - QUARTIER FOUR A CHAUX (PAR RUE DE LA REPUBLIQUE)",
         "status": "planned",

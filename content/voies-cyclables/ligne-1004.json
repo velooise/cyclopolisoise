@@ -7,8 +7,9 @@
         "id": "1004-kml_205",
         "line": 1004,
         "name": "kml_205",
-        "status": "planned",
-        "type": "aucun",
+        "status": "done",
+		"doneAT": "10/09/2020",
+        "type": "voie-verte",
         "link": "/velo-oise-1004"
       },
       "geometry": {

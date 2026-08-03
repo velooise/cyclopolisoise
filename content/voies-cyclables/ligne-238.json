@@ -36,7 +36,8 @@
         "id": "38-08",
         "line": 238,
         "name": "Liaisons 38 du schéma cyclable de la CCSSO (modifié): Aumont - Fleurines - 38-08",
-        "status": "wip",
+        "status": "done",
+		"doneAt": "31/03/2026",
         "type": "voie-riverains",
         "link": "/velo-oise-238"
       },
