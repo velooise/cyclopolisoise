@@ -17,6 +17,8 @@ Le 27 janvier 26 en réunion, la CCSSO nous informe que la traversée de le RD 1
 Liaison 38 : Aumont / Fleurines – 4 km - Travaux prévus pour novembre 2023​​
 ## Informations complémentaires
 
+![Enregistrée dans Panoramax](https://panoramax.openstreetmap.fr/?s=fp;s2;p7e419bf8-d674-4a56-962a-6aa90a12d194;c282.46/-14.44/30;m18/49.243456/2.585028;vd;bs;udefault)
+
 Budget estimé : 274 633 €  (dont travaux : 238 117 € - Acquisitions foncières : 799 € - MOE et aléas : 35 718 €)
 
 Linéaire : 4 403 m
