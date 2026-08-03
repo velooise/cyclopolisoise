@@ -32,7 +32,7 @@
         "line": 23,
         "name": "MORTEFONTAINE collège lycée - PLAILLY 30-012",
         "status": "planned",
-        "type": "bidirectionnele",
+        "type": "bidirectionnelle",
         "link": "/velo-oise-23"
       },
       "geometry": {
@@ -140,7 +140,7 @@
         "line": 23,
         "name": "MORTEFONTAINE collège lycée - PLAILLY 30-01",
         "status": "wip",
-        "type": "voie-riverains",
+        "type": "autre",
         "link": "/velo-oise-23"
       },
       "geometry": {

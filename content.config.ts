@@ -95,7 +95,7 @@ export default defineContentConfig({
 				  'autre',
                 ]),
                 link: z.string().optional(),
-                quality: z.enum(['satisfactory', 'unsatisfactory']),
+                quality: z.enum(['satisfactory', 'unsatisfactory']).optional(),
                 text: z.string().optional(),
                 doneAt: z.string().optional(),
               }),

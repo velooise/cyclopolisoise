@@ -35,7 +35,7 @@
             {{ getStatus(feature.properties).label }} {{ getStatus(feature.properties).date }}
           </span>
         </div>
-        <div class="text-xs justify-center items-center flex">
+        <div v-if="quality" class="text-xs justify-center items-center flex">
           <div :class="quality.class">
             <Icon :name="quality.icon" class="h-4 w-4 align-middle" :class="quality.classIcon" />
             {{ quality.label }}
@@ -120,7 +120,7 @@ function getStatus(properties: LineStringFeature['properties']): { label: string
   return statusMapping[properties.status];
 }
 
-function getQuality(quality: LaneQuality): { label: string; class: string; icon: string; classIcon: string } {
+function getQuality(quality?: LaneQuality): { label: string; class: string; icon: string; classIcon: string } | undefined {
   const statusMapping = {
     unsatisfactory: {
       label: qualityNames.unsatisfactory,

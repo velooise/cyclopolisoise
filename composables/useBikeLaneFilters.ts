@@ -87,6 +87,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
 	{ label: 'Impasse sauf vélos', isEnabled: true, types: ['imp+debouche-cyclable'] },
 	{ label: 'Piste sur trottoir', isEnabled: true, types: ['piste-sur-trottoir'] },
 	{ label: 'Chaucidou', isEnabled: true, types: ['chaucidou'] },
+    { label: 'Autre', isEnabled: true, types: ['autre'] },
     // { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
     { label: 'Aucun', isEnabled: true, types: ['aucun'] },
   ]);
@@ -383,7 +384,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         return (
           visibleStatuses.value.includes(feature.properties.status) &&
           visibleTypes.value.includes(feature.properties.type) &&
-          visibleQualities.value.includes(feature.properties.quality)
+          (!feature.properties.quality || visibleQualities.value.includes(feature.properties.quality))
         );
       }
 
