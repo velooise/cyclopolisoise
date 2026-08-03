@@ -71,7 +71,7 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
         textColor: '#FFFFFF',
       },	  
     },
-    // { label: 'Inconnu', isEnabled: true, statuses: ['unknown'] },
+    { label: 'Inconnu', isEnabled: true, statuses: ['unknown'] },
   ]);
 
   const typeFilters = ref([
@@ -87,8 +87,12 @@ export function useBikeLaneFilters({ allFeatures, allGeojsons, allLines }: UseBi
 	{ label: 'Impasse sauf vélos', isEnabled: true, types: ['imp+debouche-cyclable'] },
 	{ label: 'Piste sur trottoir', isEnabled: true, types: ['piste-sur-trottoir'] },
 	{ label: 'Chaucidou', isEnabled: true, types: ['chaucidou'] },
+    { label: 'Jalonnement', isEnabled: true, types: ['jalonnement'] },
+    { label: 'Jalonnement (pictogramme)', isEnabled: true, types: ['jalonnement-picto'] },
+    { label: 'Pictogramme', isEnabled: true, types: ['pictogramme'] },
+    { label: 'Voie réservée aux riverains', isEnabled: true, types: ['voie-riverains'] },
     { label: 'Autre', isEnabled: true, types: ['autre'] },
-    // { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
+    { label: 'Inconnu', isEnabled: true, types: ['inconnu'] },
     { label: 'Aucun', isEnabled: true, types: ['aucun'] },
   ]);
 

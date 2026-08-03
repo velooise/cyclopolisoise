@@ -241,6 +241,17 @@ export const useStats = () => {
     'zone-de-rencontre': 'Zone de rencontre',
     aucun: 'Aucun',
     inconnu: 'Inconnu',
+    'zone-30': 'Zone 30',
+    'piste-cyclable': 'Piste cyclable',
+    'imp+debouche-cyclable': 'Impasse sauf vélos',
+    'piste-sur-trottoir': 'Piste sur trottoir',
+    chaucidou: 'Chaucidou',
+    autre: 'Autre',
+    jalonnement: 'Jalonnement',
+    pictogramme: 'Pictogramme',
+    'jalonnement-picto': 'Jalonnement (pictogramme)',
+    'voie-riverains': 'Voie réservée aux riverains',
+    unidirectionnelle: 'Piste unidirectionnelle',
   };
 
   const qualityNames: Record<LaneQuality, string> = {

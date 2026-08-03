@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "966-kml_167",
+        "line": 966,
+        "name": "kml_167",
+        "status": "planned",
+        "type": "bilaterale",
+        "link": "/velo-oise-966"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.46807716001104,
+            49.2553968570925,
+            0
+          ],
+          [
+            2.4679737340593,
+            49.2558378077421,
+            0
+          ],
+          [
+            2.46795937481717,
+            49.2560319273585,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

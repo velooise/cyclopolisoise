@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "810-kml_11",
+        "line": 810,
+        "name": "kml_11",
+        "status": "done",
+        "type": "pictogramme",
+        "link": "/velo-oise-810"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            2.46893833656467,
+            49.2441442639534,
+            0
+          ],
+          [
+            2.4688763978848,
+            49.2442053191618,
+            0
+          ],
+          [
+            2.46884428710218,
+            49.2442310525958,
+            0
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}

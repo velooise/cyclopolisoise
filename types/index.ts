@@ -21,8 +21,7 @@ export type LaneType =
   | 'pictogramme'
   | 'jalonnement-picto'
   | 'voie-riverains'
-  | 'unidirectionnelle'
-  | 'inconnu';
+  | 'unidirectionnelle';
   
 export type LaneStatus =
   | 'done'
