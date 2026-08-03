@@ -426,6 +426,7 @@ onMounted(() => {
   watch(
     () => props.features,
     (newFeatures) => {
+      if (!mapReady.value) return;
       try {
         plotFeatures({ map, features: newFeatures });
       } catch (e) {

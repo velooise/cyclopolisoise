@@ -3,7 +3,7 @@ import type { MapStyleKey } from '~/helpers/mapStyles';
 
 const palette = useLocalStorage<'default' | 'accessible'>('cyclopolis-palette', 'default');
 const customColors = useLocalStorage<Record<number, string>>('cyclopolis-custom-colors', {});
-const reduceMotion = useLocalStorage<boolean>('cyclopolis-reduce-motion', true);
+const reduceMotion = useLocalStorage<boolean>('cyclopolis-reduce-motion', false);
 const mapStyle = useLocalStorage<MapStyleKey>('cyclopolis-map-style', 'default');
 
 export const useSettings = () => {
