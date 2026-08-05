@@ -12,7 +12,7 @@
             />
             <img
               class="h-8 w-auto sm:h-10"
-              src="https://cyclopolis.lavilleavelo.org/logo-cyclopolis-header.png"
+              src="https://www.velooise.fr/wp-content/uploads/2026/08/cyclopolis-logo-header-velooise.png"
               alt="logo cyclopolis"
             />
           </NuxtLink>
@@ -76,24 +76,7 @@
                     >
                       Évolution du réseau
                     </NuxtLink>
-                    <NuxtLink
-                      to="/plan-officiel"
-                      class="text-base font-medium text-gray-500 hover:text-lvv-blue-600"
-                      @click="close()"
-                    >
-                      Plan officiel
-                    </NuxtLink>
-                    <NuxtLink
-                      :to="barometreVeloLink"
-                      target="_blank"
-                      class="flex align-center space-x-2 text-base font-medium text-gray-500 hover:text-lvv-blue-600"
-                      @click="close()"
-                    >
-                      <span>Baromètre FUB Lyon</span>
-                      <div class="flex items-center">
-                        <Icon name="mdi:launch" class="h-4 w-4" aria-hidden="true" />
-                      </div>
-                    </NuxtLink>
+                    
                   </div>
                 </div>
               </PopoverPanel>
