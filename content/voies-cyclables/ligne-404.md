@@ -11,7 +11,7 @@ cover: https://www.velooise.fr/wp-content/uploads/2026/08/cyclopolis-s1-zoom-agn
 ## Informations complementaires 
 
 (source [cc Clermontois](http://https://pays-clermontois.fr/actualites/future-voie-verte-clermont-agnetz-un-nouvel-itineraire-securise-pour-les-mobilites-du-quotidien/ "cc Clermontois"))
-Cette future voie verte d’environ 1 kilomètre, d’une largeur de 3 mètres, reliera Clermont et Agnetz en longeant la RD 931. Elle prolongera la continuité de la Trans’Oise et constituera l’un des premiers aménagements majeurs du Schéma Directeur des Modes Actifs de la Communauté de communes.  
+Cette future voie verte d’environ 1 kilomètre, d’une largeur de 3 mètres, reliera Clermont et Agnetz en longeant la RD 931. Elle prolongera la continuité de la Trans’Oise et constituera l’un des premiers aménagements majeurs du Schéma Directeur des Modes Actifs de la Communauté de communes adopté en 2022.  
 L’itinéraire desservira de nombreux lieux de vie et d’activité : 
 
 * les collèges ; 
