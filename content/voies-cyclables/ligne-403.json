@@ -8,7 +8,8 @@
         "line": 403,
         "name": "nointel",
         "status": "planned",
-        "type": "voie-verte"
+        "type": "voie-verte",
+		"link": "/velo-oise-403"
       },
       "geometry": {
         "type": "LineString",
@@ -41,6 +42,11 @@
       "properties": {
         "id": "ccc-catenoy",
         "line": 403
+        "name": "Catenoy",
+        "status": "planned",
+        "type": "voie-verte",
+		"link": "/velo-oise-403"
+
       },
       "geometry": {
         "type": "LineString",
@@ -84,7 +90,12 @@
       "type": "Feature",
       "properties": {
         "id": "ccc-bas-de-nointel",
-        "line": 403
+        "line": 403,
+        "name": "Bas de Nointel",
+        "status": "planned",
+        "type": "voie-verte",
+		"link": "/velo-oise-403"
+	
       },
       "geometry": {
         "type": "LineString",
@@ -112,7 +123,12 @@
       "type": "Feature",
       "properties": {
         "id": "ccc-breuil-le-sec",
-        "line": 403
+        "line": 403,
+        "name": "Breuil le Sec",
+        "status": "planned",
+        "type": "voie-verte",
+		"link": "/velo-oise-403"
+		
       },
       "geometry": {
         "type": "LineString",
@@ -140,7 +156,12 @@
       "type": "Feature",
       "properties": {
         "id": "ccc-weldom",
-        "line": 403
+        "line": 403,
+        "name": "Weldom",
+        "status": "planned",
+        "type": "voie-verte",
+		"link": "/velo-oise-403"
+		
       },
       "geometry": {
         "type": "LineString",
