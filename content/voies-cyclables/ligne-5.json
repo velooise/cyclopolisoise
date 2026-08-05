@@ -282,7 +282,7 @@
         "railway": "abandoned",
         "segregated": "no",
         "source": "P147-0663",
-        "surface": "paved"
+        "surface": "paved",
 		"status": "done",
 		"doneAt": "01/10/2016",
 		"quality": "satisfactory",
@@ -497,7 +497,7 @@
         "segregated": "no",
         "surface": "asphalt",
         "wheelchair": "yes",
-        "width": "2.5"
+        "width": "2.5",
 		"status": "done",
 		"doneAt": "01/01/2012",
 		"quality": "satisfactory",
@@ -1935,8 +1935,7 @@
       "id": "way/253724272"
     },
   
-      "id": "way/254539829"
-    },
+  
     {
       "type": "Feature",
       "properties": {
@@ -2981,7 +2980,7 @@
 		"doneAt": "01/10/2016",
 		"quality": "satisfactory",
         "type": "voie-verte",
-		"link": "/velo-oise-5,
+		"link": "/velo-oise-5",
 		"line": 5
       },
       "geometry": {
