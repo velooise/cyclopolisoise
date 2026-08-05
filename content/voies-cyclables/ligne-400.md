@@ -3,7 +3,7 @@ name: Piste Mouy Burry
 line: 400
 from: Mouy
 to:  Bury
-description: Schema cyclable du Clermontois
+description: Schema cyclable du Clermontois - scenario 1
 cover: https://www.velooise.fr/wp-content/uploads/2025/08/cyclopolis-ccc-400.jpg
 ---
 
