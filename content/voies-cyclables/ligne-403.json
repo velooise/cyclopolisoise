@@ -41,7 +41,7 @@
       "type": "Feature",
       "properties": {
         "id": "ccc-catenoy",
-        "line": 403
+        "line": 403,
         "name": "Catenoy",
         "status": "planned",
         "type": "voie-verte",
