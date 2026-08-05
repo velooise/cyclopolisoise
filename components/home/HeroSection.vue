@@ -48,7 +48,7 @@
                 class="text-lvv-blue-600 font-medium hover:underline"
                 ><strong>{{ assoName }}</strong></a
               >
-              pour suivre le développement du nouveau réseau vélo sécurisé Lyonnais.
+              pour suivre le déploiement des schémas cyclables.
             </p>
             <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
@@ -67,12 +67,7 @@
                     Carte interactive
                   </NuxtLink>
                 </ClientOnly>
-                <NuxtLink
-                  to="/plan-officiel"
-                  class="flex items-center justify-center px-4 py-3 text-base font-medium rounded-md shadow-sm text-lvv-blue-600 border border-lvv-blue-600 hover:shadow-lg sm:px-8 transition duration-300 transform hover:scale-105"
-                >
-                  Plan officiel
-                </NuxtLink>
+              
               </div>
             </div>
           </div>

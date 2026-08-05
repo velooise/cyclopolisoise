@@ -45,9 +45,8 @@ const staticPages: SearchResult[] = [
   },
   { type: 'page', label: 'Évolution du réseau', sublabel: "Suivre l'avancement au fil du temps", href: '/evolution' },
   { type: 'page', label: 'Chronologie', sublabel: 'Les tronçons livrés mois par mois', href: '/chronologie' },
-  { type: 'page', label: 'Plan officiel', sublabel: 'Le plan publié par la Métropole', href: '/plan-officiel' },
   { type: 'page', label: 'Tableau de bord', sublabel: 'Indicateurs globaux du réseau', href: '/tableau-de-bord' },
-  { type: 'page', label: 'Compteurs vélo', sublabel: 'Données de fréquentation vélo', href: '/compteurs/velo' },
+
   {
     type: 'page',
     label: 'Compteurs voiture',
