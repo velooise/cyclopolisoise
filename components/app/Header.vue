@@ -5,11 +5,7 @@
         <div class="flex justify-start items-center lg:w-0 lg:flex-1">
           <NuxtLink to="/" class="flex space-x-2">
             <span class="sr-only">Cyclopolis</span>
-            <img
-              class="h-7 w-auto sm:h-8"
-              src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
-              :alt="`logo ${getAssoName()}`"
-            />
+            
             <img
               class="h-8 w-auto sm:h-10"
               src="https://www.velooise.fr/wp-content/uploads/2026/08/cyclopolis-logo-header-velooise.png"
@@ -196,13 +192,7 @@
         >
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
-              <NuxtLink to="/" @click="close()">
-                <img
-                  class="h-8 w-auto"
-                  src="https://cyclopolis.lavilleavelo.org/logo-la-ville-a-velo.png"
-                  :alt="`logo ${getAssoName()}`"
-                />
-              </NuxtLink>
+			
               <div class="-mr-2 flex items-center">
                 <SettingsPopover />
                 <PopoverButton
@@ -315,9 +305,7 @@ const linkToMap = computed(() => {
 
 const navItems = computed(() => [
   { name: 'Carte interactive', path: linkToMap.value, target: '_self' },
-  { name: 'Plan officiel', path: '/plan-officiel', target: '_self' },
   { name: 'Évolution du réseau', path: '/evolution', target: '_self' },
-  { name: 'Baromètre FUB Lyon', path: barometreVeloLink, target: '_blank' },
 ]);
 
 const { voies } = await useGetVoiesCyclablesNums();
