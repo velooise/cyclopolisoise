@@ -495,7 +495,10 @@
         "id": "compiegne-roye-vignemont",
         "line": 102,
         "name": "Compiegne-Roye-Villers-Coudun-Vignemont",
-        "status": "planned",
+        "status": "done",
+		"doneAt": "07/09/2024",
+		"budget": "852800",
+		"who":"CCPS",
         "type": "voie-verte",
         "link": "/velo-oise-102"
       },
@@ -619,8 +622,10 @@
         "id": "compiegne-roye-vignemont-b",
         "line": 102,
         "name": "Compiegne-Roye-Villers-Coudun-Vignemont-b",
-        "status": "planned",
+        "status": "wip",
+		"who" : "CCPS",
         "type": "voie-verte",
+		"budget": "1047030",
         "link": "/velo-oise-102"
       },
       "geometry": {
