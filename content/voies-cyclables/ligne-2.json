@@ -24,6 +24,8 @@
         "line": 2,
         "name": "La Chapelle-en-Serval - Fosses",
         "status": "done",
+		"who": "CCAC",
+		"budget": "1913000",
 		"doneAt": "22/11/2025",
         "type": "voie-verte",
         "link": "/velo-oise-2#lces-fosses",

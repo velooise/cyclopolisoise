@@ -6,6 +6,7 @@
       "properties": {
         "id": "258-Liaison58-01-02",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-01-02 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "voie-riverains",
@@ -38,6 +39,7 @@
       "properties": {
         "id": "258-Liaison58-04-05",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-04-05 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "bidirectionnelle",
@@ -78,6 +80,7 @@
       "properties": {
         "id": "258-Liaison58-06",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-06 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "chaucidou",
@@ -102,6 +105,7 @@
       "properties": {
         "id": "258-Liaison58-07-08",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-07-08 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "zone-30",
@@ -142,6 +146,7 @@
       "properties": {
         "id": "258-Liaison58-09",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-09 - Senlis – Plateforme Logistique- Chamant",
         "status": "planned",
         "type": "bidirectionnelle",
@@ -166,8 +171,9 @@
       "properties": {
         "id": "258-Liaison58-10",
         "line": 258,
+		"who": "CCSSO",
         "name": "Liaison 58-10 - Senlis – Plateforme Logistique- Chamant",
-        "status": "done",
+        "status": "wip",
         "doneAt": "01/09/2024",
         "type": "voie-verte",
         "link": "/velo-oise-258"
