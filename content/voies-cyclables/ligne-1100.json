@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1100-laboiss-st-gene",
+        "line": 1100,
+        "name": "Laboissiere En Thelle-Sainte Genevieve",
+        "status": "done",
+		"doneAT": "23/09/2026",
+        "type": "voie-verte",
+        "link": "/velo-oise-1100,
+		"budget": "280000",
+		"who": "Pays-de-Thelle;Sablons"
+      },
+      "geometry": {
+        "coordinates": [
+           [
+            2.1674315,
+            49.2968846
+          ],
+          [
+            2.1688983,
+            49.2971326
+          ],
+          [
+            2.1713565,
+            49.2974869
+          ],
+          [
+            2.1720899,
+            49.2974958
+          ],
+          [
+            2.1743988,
+            49.2972124
+          ],
+          [
+            2.1754174,
+            49.2969112
+          ],
+          [
+            2.1771966,
+            49.2962204
+          ],
+          [
+            2.1771966,
+            49.2962204
+          ],
+          [
+            2.1772373,
+            49.2962115
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ]
+}
